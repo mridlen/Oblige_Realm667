@@ -1,0 +1,211 @@
+-- CONFIG FILE : OBLIGE 7.70
+-- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
+-- http://oblige.sourceforge.net/
+
+seed = 400588793
+
+---- Game Settings ----
+
+game = doom2
+engine = zdoom
+length = game
+theme = mostly_epi
+
+---- Architecture ----
+
+size = small
+outdoors = mixed
+caves = mixed
+liquids = mixed
+hallways = mixed
+teleporters = mixed
+steepness = mixed
+
+---- Monsters ----
+
+mons = normal
+strength = medium
+ramp_up = medium
+bosses = medium
+traps = mixed
+cages = mixed
+
+---- Pickups ----
+
+health = heaps
+ammo = heaps
+weapons = very_soon
+items = heaps
+secrets = heaps
+
+---- Other Modules ----
+
+@OVERLORD = 0
+
+@REALM667 = 1
+
+@doom_mon_control = 0
+  Spiderdemon = default
+  caco = less
+  gunner = more
+  skull = default
+  demon = default
+  knight = heaps
+  vile = none
+  zombie = default
+  Cyberdemon = scarce
+  ss_nazi = default
+  baron = plenty
+  spectre = default
+  arach = plenty
+  mancubus = default
+  revenant = default
+  pain = default
+  imp = insane
+  shooter = default
+
+@doom_weapon_control = 0
+  super = default
+  chain = default
+  launch = default
+  bfg = default
+  plasma = default
+  shotty = default
+
+@export_map = 0
+
+@heretic_mon_control = 0
+  warrior = default
+  Ironlich = default
+  warrior_ghost = default
+  sabreclaw = default
+  gargoyle = default
+  nitro = default
+  ophidian = default
+  golem = default
+  weredragon = default
+  fire_garg = default
+  Maulotaur = default
+  D_Sparil = default
+  golem_ghost = default
+  nitro_ghost = default
+  disciple = default
+
+@heretic_weapon_control = 0
+  crossbow = default
+  gauntlets = default
+  hellstaff = default
+  claw = default
+  firemace = default
+  phoenix = default
+
+@misc = 0
+  pistol_starts = no
+  alt_starts = no
+  big_rooms = mixed
+  parks = mixed
+  windows = mixed
+  symmetry = mixed
+  darkness = mixed
+  mon_variety = mixed
+  barrels = mixed
+  doors = mixed
+  keys = mixed
+  switches = mixed
+
+@music_swapper = 1
+
+@quake2_mon_control = 0
+  Huge_flyer = default
+  parasite = default
+  beserker = default
+  brain = default
+  enforcer = default
+  grenader = default
+  medic = default
+  guard = default
+  guard_mg = default
+  Super_tank = default
+  tank_cmdr = default
+  flyer = default
+  shark = default
+  tank = default
+  gladiator = default
+  maiden = default
+  mutant = default
+  icarus = default
+  guard_sg = default
+  technician = default
+
+@quake2_weapon_control = 0
+  rocket = default
+  rail = default
+  machine = default
+  shotty = default
+  chain = default
+  ssg = default
+  bfg = default
+  hyper = default
+  grenade = default
+
+@quake_mon_control = 0
+  grunt = default
+  fiend = default
+  Shambler = default
+  ogre = default
+  enforcer = default
+  fish = default
+  dog = default
+  knight = default
+  tarbaby = default
+  dth_knight = default
+  Vore = default
+  scrag = default
+  zombie = default
+
+@quake_weapon_control = 0
+  rocket = default
+  nailgun = default
+  ssg = default
+  nailgun2 = default
+  zapper = default
+  grenade = default
+
+@sky_generator = 1
+
+@small_spiderdemon = 1
+
+@stealth_mon_control = 0
+  stealth_demon = default
+  stealth_baron = default
+  stealth_zombie = default
+  stealth_caco = default
+  stealth_imp = default
+  stealth_mancubus = default
+  stealth_arach = default
+  stealth_revenant = default
+  stealth_shooter = default
+  stealth_vile = default
+  stealth_knight = default
+  stealth_gunner = default
+
+@stealth_mons = 0
+  qty = normal
+
+@zdoom_marine_control = 0
+  marine_bfg = default
+  marine_chain = default
+  marine_pistol = default
+  marine_ssg = default
+  marine_rail = default
+  marine_berserk = default
+  marine_plasma = default
+  marine_rocket = default
+  marine_fist = default
+  marine_saw = default
+  marine_shotty = default
+
+@zdoom_marines = 0
+  qty = plenty
+
+-- END --
