@@ -1,9 +1,0 @@
-OB_MODULES["REALM667"] =
-{
-  label = "REALM667"
-
-  tables =
-  {
-    REALM667
-  }
-}

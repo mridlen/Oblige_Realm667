@@ -4,25 +4,29 @@
 
 language = AUTO
 
-font_size      = 0
+font_size      = 2
 alternate_look = 0
 wheel_can_bump = 1
 
 create_backups = 1
 overwrite_warning = 1
-debug_messages = 0
+debug_messages = 1
 
-last_directory = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20
+last_directory = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70
 
 ---- Enabled Addons ----
 
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20\domain_of_blood.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20\citadel_of_the_destroyer.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20\realm667test.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20\night_of_blood.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20\realm667_test4.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20\realm667_the_evil_twilight.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20\test_monsters_included.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\the_menacing_facility.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\vengeance_forever.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\evil_magic.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\the_sinful_ruins.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\extreme_heroes.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\burning_agony.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\lonely_shores.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\knowledge_of_vengeance.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\doomed_shadows.wad
 

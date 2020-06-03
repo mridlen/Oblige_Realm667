@@ -50,7 +50,7 @@
 -- but actually a Lost Soul.  It spawns at least three (when
 -- killed), and often more, hence the health is much higher.
 --
-REALM667 = { }
+REALM667 = {}
 
 REALM667.MONSTERS =
 {
@@ -2419,10 +2419,296 @@ REALM667.MONSTERS =
 
 }
 
+REALM667.MON_CHOICES =
+{
+  "default", _("DEFAULT"),
+  "none",    _("None at all"),
+  "scarce",  _("Scarce"),
+  "less",    _("Less"),
+  "plenty",  _("Plenty"),
+  "more",    _("More"),
+  "heaps",   _("Heaps"),
+  "insane",  _("INSANE"),
+}
+
+REALM667.MON_PROBS =
+{
+  none   = 0
+  scarce = 2
+  less   = 15
+  plenty = 50
+  more   = 120
+  heaps  = 300
+  insane = 2000
+}
+
+REALM667.DENSITIES =
+{
+  none   = 0.1
+  scarce = 0.2
+  less   = 0.4
+  plenty = 0.7
+  more   = 1.2
+  heaps  = 3.3
+  insane = 9.9
+}
+
+function REALM667.monster_setup(self)
+  for name,opt in pairs(self.options) do
+    local M = GAME.MONSTERS[name]
+
+    if M and opt.value != "default" then
+      M.prob    =  REALM667.MON_PROBS[opt.value]
+      M.density = REALM667.DENSITIES[opt.value]
+
+      -- allow Spectres to be controlled individually
+      M.replaces = nil
+
+      -- loosen some of the normal restrictions
+      M.skip_prob = nil
+      M.crazy_prob = nil
+
+      if M.prob > 40 then
+        M.level = 1
+        M.weap_min_damage = nil
+      end
+
+      if M.prob > 200 then
+        M.boss_type = nil
+      end
+    end
+  end -- for opt
+end
+
+
 OB_MODULES["REALM667"] =
 {
-  label = "REALM667"
+  label = "REALM667 Monster Control"
 
+  game = "doomish"
+
+  hooks =
+  {
+    setup = REALM667.monster_setup
+  }
+  
+  options =
+  {
+  
+	Afrit                    =  {  label=_("Afrit"),                    choices=REALM667.MON_CHOICES  }
+	Agathodemon              =  {  label=_("Agathodemon"),              choices=REALM667.MON_CHOICES  }
+	Agaures                  =  {  label=_("Agaures"),                  choices=REALM667.MON_CHOICES  }
+	Annihilator              =  {  label=_("Annihilator"),              choices=REALM667.MON_CHOICES  }
+	Arachnobaron             =  {  label=_("Arachnobaron"),             choices=REALM667.MON_CHOICES  }
+	Arachnophyte             =  {  label=_("Arachnophyte"),             choices=REALM667.MON_CHOICES  }
+	ArachnotronMK2           =  {  label=_("ArachnotronMK2"),           choices=REALM667.MON_CHOICES  }
+	Aracnorb                 =  {  label=_("Aracnorb"),                 choices=REALM667.MON_CHOICES  }
+	AracnorbQueen            =  {  label=_("AracnorbQueen"),            choices=REALM667.MON_CHOICES  }
+	ArchonOfHell             =  {  label=_("ArchonOfHell"),             choices=REALM667.MON_CHOICES  }
+	ASGGuy                   =  {  label=_("ASGGuy"),                   choices=REALM667.MON_CHOICES  }
+	Azazel                   =  {  label=_("Azazel"),                   choices=REALM667.MON_CHOICES  }
+	BabyCaco                 =  {  label=_("BabyCaco"),                 choices=REALM667.MON_CHOICES  }
+	Bad                      =  {  label=_("Bad"),                      choices=REALM667.MON_CHOICES  }
+	BeamRevenant             =  {  label=_("BeamRevenant"),             choices=REALM667.MON_CHOICES  }
+	BeamGuy                  =  {  label=_("BeamGuy"),                  choices=REALM667.MON_CHOICES  }
+	KamikaziGuy              =  {  label=_("KamikaziGuy"),              choices=REALM667.MON_CHOICES  }
+	BelphegorClone           =  {  label=_("BelphegorClone"),           choices=REALM667.MON_CHOICES  }
+	BFGGuy                   =  {  label=_("BFGGuy"),                   choices=REALM667.MON_CHOICES  }
+	BlindPinky               =  {  label=_("BlindPinky"),               choices=REALM667.MON_CHOICES  }
+	BloodDemonClone          =  {  label=_("BloodDemonClone"),          choices=REALM667.MON_CHOICES  }
+	Bloodfiend               =  {  label=_("Bloodfiend"),               choices=REALM667.MON_CHOICES  }
+	BloodSkull               =  {  label=_("BloodSkull"),               choices=REALM667.MON_CHOICES  }
+	Blot                     =  {  label=_("Blot"),                     choices=REALM667.MON_CHOICES  }
+	BruiserDemon             =  {  label=_("BruiserDemon"),             choices=REALM667.MON_CHOICES  }
+	CacolanternClone         =  {  label=_("CacolanternClone"),         choices=REALM667.MON_CHOICES  }
+	CacoLich1                =  {  label=_("CacoLich1"),                choices=REALM667.MON_CHOICES  }
+	Catharsi                 =  {  label=_("Catharsi"),                 choices=REALM667.MON_CHOICES  }
+	ChaingunDemon            =  {  label=_("ChaingunDemon"),            choices=REALM667.MON_CHOICES  }
+	ChaingunMajor            =  {  label=_("ChaingunMajor"),            choices=REALM667.MON_CHOICES  }
+	CGunSpider               =  {  label=_("CGunSpider"),               choices=REALM667.MON_CHOICES  }
+	ChainsawZombie           =  {  label=_("ChainsawZombie"),           choices=REALM667.MON_CHOICES  }
+	Tentacle1                =  {  label=_("Tentacle1"),                choices=REALM667.MON_CHOICES  }
+	CrackoDemon              =  {  label=_("CrackoDemon"),              choices=REALM667.MON_CHOICES  }
+	Crash2                   =  {  label=_("Crash2"),                   choices=REALM667.MON_CHOICES  }
+	Cyberbaron               =  {  label=_("Cyberbaron"),               choices=REALM667.MON_CHOICES  }
+	CyberFiend               =  {  label=_("CyberFiend"),               choices=REALM667.MON_CHOICES  }
+	cyberImp                 =  {  label=_("cyberImp"),                 choices=REALM667.MON_CHOICES  }
+	CyberMastermind          =  {  label=_("CyberMastermind"),          choices=REALM667.MON_CHOICES  }
+	Cybruiser                =  {  label=_("Cybruiser"),                choices=REALM667.MON_CHOICES  }
+	Cardinal                 =  {  label=_("Cardinal"),                 choices=REALM667.MON_CHOICES  }
+	DarkDevil                =  {  label=_("DarkDevil"),                choices=REALM667.MON_CHOICES  }
+	NamiDarkImp              =  {  label=_("NamiDarkImp"),              choices=REALM667.MON_CHOICES  }
+	NetherDarkImp            =  {  label=_("NetherDarkImp"),            choices=REALM667.MON_CHOICES  }
+	STDarkImp                =  {  label=_("STDarkImp"),                choices=REALM667.MON_CHOICES  }
+	VoidDarkImp              =  {  label=_("VoidDarkImp"),              choices=REALM667.MON_CHOICES  }
+	DarknessRift             =  {  label=_("DarknessRift"),             choices=REALM667.MON_CHOICES  }
+	Incarnate                =  {  label=_("Incarnate"),                choices=REALM667.MON_CHOICES  }
+	DeepOne                  =  {  label=_("DeepOne"),                  choices=REALM667.MON_CHOICES  }
+	Defiler                  =  {  label=_("Defiler"),                  choices=REALM667.MON_CHOICES  }
+	Demolisher               =  {  label=_("Demolisher"),               choices=REALM667.MON_CHOICES  }
+	DevastatorZombie         =  {  label=_("DevastatorZombie"),         choices=REALM667.MON_CHOICES  }
+	Devil                    =  {  label=_("Devil"),                    choices=REALM667.MON_CHOICES  }
+	Diabloist                =  {  label=_("Diabloist"),                choices=REALM667.MON_CHOICES  }
+	DivineShadow             =  {  label=_("DivineShadow"),             choices=REALM667.MON_CHOICES  }
+	ChaingunGuy2             =  {  label=_("ChaingunGuy2"),             choices=REALM667.MON_CHOICES  }
+	RevGhoul                 =  {  label=_("RevGhoul"),                 choices=REALM667.MON_CHOICES  }
+	DuneWarrior              =  {  label=_("DuneWarrior"),              choices=REALM667.MON_CHOICES  }
+	EnhancedCacodemon        =  {  label=_("EnhancedCacodemon"),        choices=REALM667.MON_CHOICES  }
+	Exterminator             =  {  label=_("Exterminator"),             choices=REALM667.MON_CHOICES  }
+	Fallen                   =  {  label=_("Fallen"),                   choices=REALM667.MON_CHOICES  }
+	FemalePlasma             =  {  label=_("FemalePlasma"),             choices=REALM667.MON_CHOICES  }
+	FemaleRail               =  {  label=_("FemaleRail"),               choices=REALM667.MON_CHOICES  }
+	FemaleScientist1         =  {  label=_("FemaleScientist1"),         choices=REALM667.MON_CHOICES  }
+	FemaleScientist2         =  {  label=_("FemaleScientist2"),         choices=REALM667.MON_CHOICES  }
+	FemaleScientist3         =  {  label=_("FemaleScientist3"),         choices=REALM667.MON_CHOICES  }
+	FemaleScientist4         =  {  label=_("FemaleScientist4"),         choices=REALM667.MON_CHOICES  }
+	FemaleSergeant           =  {  label=_("FemaleSergeant"),           choices=REALM667.MON_CHOICES  }
+	FemaleZombie             =  {  label=_("FemaleZombie"),             choices=REALM667.MON_CHOICES  }
+	FlamerZombie             =  {  label=_("FlamerZombie"),             choices=REALM667.MON_CHOICES  }
+	Fleshspawn               =  {  label=_("Fleshspawn"),               choices=REALM667.MON_CHOICES  }
+	XWizard                  =  {  label=_("XWizard"),                  choices=REALM667.MON_CHOICES  }
+	FlyingImp                =  {  label=_("FlyingImp"),                choices=REALM667.MON_CHOICES  }
+	ForgottenOne             =  {  label=_("ForgottenOne"),             choices=REALM667.MON_CHOICES  }
+	FormerRanger             =  {  label=_("FormerRanger"),             choices=REALM667.MON_CHOICES  }
+	FreezeRifleGuy           =  {  label=_("FreezeRifleGuy"),           choices=REALM667.MON_CHOICES  }
+	FusionSpider             =  {  label=_("FusionSpider"),             choices=REALM667.MON_CHOICES  }
+	GhostRevenant            =  {  label=_("GhostRevenant"),            choices=REALM667.MON_CHOICES  }
+	Grell                    =  {  label=_("Grell"),                    choices=REALM667.MON_CHOICES  }
+	Guardian                 =  {  label=_("Guardian"),                 choices=REALM667.MON_CHOICES  }
+	HS3                      =  {  label=_("HS3"),                      choices=REALM667.MON_CHOICES  }
+	Haedexebus               =  {  label=_("Haedexebus"),               choices=REALM667.MON_CHOICES  }
+	Hangman                  =  {  label=_("Hangman"),                  choices=REALM667.MON_CHOICES  }
+	HazmatZombie             =  {  label=_("HazmatZombie"),             choices=REALM667.MON_CHOICES  }
+	HeavenGuard              =  {  label=_("HeavenGuard"),              choices=REALM667.MON_CHOICES  }
+	HeavyCarbineGuy          =  {  label=_("HeavyCarbineGuy"),          choices=REALM667.MON_CHOICES  }
+	HectebusClone            =  {  label=_("HectebusClone"),            choices=REALM667.MON_CHOICES  }
+	Helemental               =  {  label=_("Helemental"),               choices=REALM667.MON_CHOICES  }
+	Hellion                  =  {  label=_("Hellion"),                  choices=REALM667.MON_CHOICES  }
+	HellsFury                =  {  label=_("HellsFury"),                choices=REALM667.MON_CHOICES  }
+	HellstormArchon          =  {  label=_("HellstormArchon"),          choices=REALM667.MON_CHOICES  }
+	HellWarrior              =  {  label=_("HellWarrior"),              choices=REALM667.MON_CHOICES  }
+	Hierophant               =  {  label=_("Hierophant"),               choices=REALM667.MON_CHOICES  }
+	HornedImp                =  {  label=_("HornedImp"),                choices=REALM667.MON_CHOICES  }
+	Illus                    =  {  label=_("Illus"),                    choices=REALM667.MON_CHOICES  }
+	ImpAbomination           =  {  label=_("ImpAbomination"),           choices=REALM667.MON_CHOICES  }
+	STImp                    =  {  label=_("STImp"),                    choices=REALM667.MON_CHOICES  }
+	SpiderImpHead            =  {  label=_("SpiderImpHead"),            choices=REALM667.MON_CHOICES  }
+	VoidImp                  =  {  label=_("VoidImp"),                  choices=REALM667.MON_CHOICES  }
+	Inferno                  =  {  label=_("Inferno"),                  choices=REALM667.MON_CHOICES  }
+	JetpackZombie            =  {  label=_("JetpackZombie"),            choices=REALM667.MON_CHOICES  }
+	KarasawaGuy              =  {  label=_("KarasawaGuy"),              choices=REALM667.MON_CHOICES  }
+	LesserMutant             =  {  label=_("LesserMutant"),             choices=REALM667.MON_CHOICES  }
+	LordofHeresy             =  {  label=_("LordofHeresy"),             choices=REALM667.MON_CHOICES  }
+	Machinegunguy            =  {  label=_("Machinegunguy"),            choices=REALM667.MON_CHOICES  }
+	MaulerDemon              =  {  label=_("MaulerDemon"),              choices=REALM667.MON_CHOICES  }
+	MeleeRevenant            =  {  label=_("MeleeRevenant"),            choices=REALM667.MON_CHOICES  }
+	Minigunner               =  {  label=_("Minigunner"),               choices=REALM667.MON_CHOICES  }
+	NailBorg                 =  {  label=_("NailBorg"),                 choices=REALM667.MON_CHOICES  }
+	NailBorgCommando         =  {  label=_("NailBorgCommando"),         choices=REALM667.MON_CHOICES  }
+	KDiZDNightmare           =  {  label=_("KDiZDNightmare"),           choices=REALM667.MON_CHOICES  }
+	NightmareDemon           =  {  label=_("NightmareDemon"),           choices=REALM667.MON_CHOICES  }
+	Nightshade               =  {  label=_("Nightshade"),               choices=REALM667.MON_CHOICES  }
+	ObsidianStatue           =  {  label=_("ObsidianStatue"),           choices=REALM667.MON_CHOICES  }
+	OverLord                 =  {  label=_("OverLord"),                 choices=REALM667.MON_CHOICES  }
+	Phantasm                 =  {  label=_("Phantasm"),                 choices=REALM667.MON_CHOICES  }
+	Phantom                  =  {  label=_("Phantom"),                  choices=REALM667.MON_CHOICES  }
+	PhaseImp                 =  {  label=_("PhaseImp"),                 choices=REALM667.MON_CHOICES  }
+	PlasmaDemon              =  {  label=_("PlasmaDemon"),              choices=REALM667.MON_CHOICES  }
+	PlasmaElemental          =  {  label=_("PlasmaElemental"),          choices=REALM667.MON_CHOICES  }
+	PlasmaZombie             =  {  label=_("PlasmaZombie"),             choices=REALM667.MON_CHOICES  }
+	Poe                      =  {  label=_("Poe"),                      choices=REALM667.MON_CHOICES  }
+	PoisonSoul               =  {  label=_("PoisonSoul"),               choices=REALM667.MON_CHOICES  }
+	Poltergeist1             =  {  label=_("Poltergeist1"),             choices=REALM667.MON_CHOICES  }
+	ProfaneOne               =  {  label=_("ProfaneOne"),               choices=REALM667.MON_CHOICES  }
+	PsychicSoul              =  {  label=_("PsychicSoul"),              choices=REALM667.MON_CHOICES  }
+	PNZombie                 =  {  label=_("PNZombie"),                 choices=REALM667.MON_CHOICES  }
+	PyroDemon                =  {  label=_("PyroDemon"),                choices=REALM667.MON_CHOICES  }
+	PyroImp                  =  {  label=_("PyroImp"),                  choices=REALM667.MON_CHOICES  }
+	PyroZombie               =  {  label=_("PyroZombie"),               choices=REALM667.MON_CHOICES  }
+	QuadShotgunZombie        =  {  label=_("QuadShotgunZombie"),        choices=REALM667.MON_CHOICES  }
+	RailArachnotron          =  {  label=_("RailArachnotron"),          choices=REALM667.MON_CHOICES  }
+	RailBot                  =  {  label=_("RailBot"),                  choices=REALM667.MON_CHOICES  }
+	RapidFireTrooper         =  {  label=_("RapidFireTrooper"),         choices=REALM667.MON_CHOICES  }
+	RepeaterZombie           =  {  label=_("RepeaterZombie"),           choices=REALM667.MON_CHOICES  }
+	Rictus                   =  {  label=_("Rictus"),                   choices=REALM667.MON_CHOICES  }
+	RifleCommando            =  {  label=_("RifleCommando"),            choices=REALM667.MON_CHOICES  }
+	RifleGuy                 =  {  label=_("RifleGuy"),                 choices=REALM667.MON_CHOICES  }
+	Roach                    =  {  label=_("Roach"),                    choices=REALM667.MON_CHOICES  }
+	RocketImp                =  {  label=_("RocketImp"),                choices=REALM667.MON_CHOICES  }
+	RocketGuy                =  {  label=_("RocketGuy"),                choices=REALM667.MON_CHOICES  }
+	XimRocketGuy             =  {  label=_("XimRocketGuy"),             choices=REALM667.MON_CHOICES  }
+	DemonDog                 =  {  label=_("DemonDog"),                 choices=REALM667.MON_CHOICES  }
+	Satyr                    =  {  label=_("Satyr"),                    choices=REALM667.MON_CHOICES  }
+	SawedOffShotgunGuy       =  {  label=_("SawedOffShotgunGuy"),       choices=REALM667.MON_CHOICES  }
+	SegwayZombie             =  {  label=_("SegwayZombie"),             choices=REALM667.MON_CHOICES  }
+	Shade                    =  {  label=_("Shade"),                    choices=REALM667.MON_CHOICES  }
+	Shadow                   =  {  label=_("Shadow"),                   choices=REALM667.MON_CHOICES  }
+	ShadowHunter             =  {  label=_("ShadowHunter"),             choices=REALM667.MON_CHOICES  }
+	ShadowTrooper            =  {  label=_("ShadowTrooper"),            choices=REALM667.MON_CHOICES  }
+	SlimeImp                 =  {  label=_("SlimeImp"),                 choices=REALM667.MON_CHOICES  }
+	SlimeWorm                =  {  label=_("SlimeWorm"),                choices=REALM667.MON_CHOICES  }
+	SmallRat                 =  {  label=_("SmallRat"),                 choices=REALM667.MON_CHOICES  }
+	SMGGuy                   =  {  label=_("SMGGuy"),                   choices=REALM667.MON_CHOICES  }
+	SmokeMonster             =  {  label=_("SmokeMonster"),             choices=REALM667.MON_CHOICES  }
+	SnakeImp                 =  {  label=_("SnakeImp"),                 choices=REALM667.MON_CHOICES  }
+	SniperRifleGuy           =  {  label=_("SniperRifleGuy"),           choices=REALM667.MON_CHOICES  }
+	SonicRailgunZombie       =  {  label=_("SonicRailgunZombie"),       choices=REALM667.MON_CHOICES  }
+	SoulHarvester            =  {  label=_("SoulHarvester"),            choices=REALM667.MON_CHOICES  }
+	SpiritImp                =  {  label=_("SpiritImp"),                choices=REALM667.MON_CHOICES  }
+	Squire                   =  {  label=_("Squire"),                   choices=REALM667.MON_CHOICES  }
+	OutcastStalker           =  {  label=_("OutcastStalker"),           choices=REALM667.MON_CHOICES  }
+	StealthFighter           =  {  label=_("StealthFighter"),           choices=REALM667.MON_CHOICES  }
+	StoneDemon               =  {  label=_("StoneDemon"),               choices=REALM667.MON_CHOICES  }
+	StoneImp                 =  {  label=_("StoneImp"),                 choices=REALM667.MON_CHOICES  }
+	Morphed                  =  {  label=_("Morphed"),                  choices=REALM667.MON_CHOICES  }
+	SuicideBomber            =  {  label=_("SuicideBomber"),            choices=REALM667.MON_CHOICES  }
+	Superdemon               =  {  label=_("Superdemon"),               choices=REALM667.MON_CHOICES  }
+	SuperFlyingImp           =  {  label=_("SuperFlyingImp"),           choices=REALM667.MON_CHOICES  }
+	SuperImp                 =  {  label=_("SuperImp"),                 choices=REALM667.MON_CHOICES  }
+	SSGZombie                =  {  label=_("SSGZombie"),                choices=REALM667.MON_CHOICES  }
+	SupremeFiend             =  {  label=_("SupremeFiend"),             choices=REALM667.MON_CHOICES  }
+	Swarm                    =  {  label=_("Swarm"),                    choices=REALM667.MON_CHOICES  }
+	TentacledCommando        =  {  label=_("TentacledCommando"),        choices=REALM667.MON_CHOICES  }
+	Terminator               =  {  label=_("Terminator"),               choices=REALM667.MON_CHOICES  }
+	Terror                   =  {  label=_("Terror"),                   choices=REALM667.MON_CHOICES  }
+	TeslaCoil                =  {  label=_("TeslaCoil"),                choices=REALM667.MON_CHOICES  }
+	Thamuz                   =  {  label=_("Thamuz"),                   choices=REALM667.MON_CHOICES  }
+	TimeImp                  =  {  label=_("TimeImp"),                  choices=REALM667.MON_CHOICES  }
+	TornadoDemon             =  {  label=_("TornadoDemon"),             choices=REALM667.MON_CHOICES  }
+	TorturedSoul             =  {  label=_("TorturedSoul"),             choices=REALM667.MON_CHOICES  }
+	Trite                    =  {  label=_("Trite"),                    choices=REALM667.MON_CHOICES  }
+	UACBot                   =  {  label=_("UACBot"),                   choices=REALM667.MON_CHOICES  }
+	Uberchain                =  {  label=_("Uberchain"),                choices=REALM667.MON_CHOICES  }
+	UndeadHunter             =  {  label=_("UndeadHunter"),             choices=REALM667.MON_CHOICES  }
+	UnmakerGuy               =  {  label=_("UnmakerGuy"),               choices=REALM667.MON_CHOICES  }
+	FlyingFatso              =  {  label=_("FlyingFatso"),              choices=REALM667.MON_CHOICES  }
+	Vulgar                   =  {  label=_("Vulgar"),                   choices=REALM667.MON_CHOICES  }
+	WarlordOfHell            =  {  label=_("WarlordOfHell"),            choices=REALM667.MON_CHOICES  }
+	Watcher                  =  {  label=_("Watcher"),                  choices=REALM667.MON_CHOICES  }
+	Weakener                 =  {  label=_("Weakener"),                 choices=REALM667.MON_CHOICES  }
+	Wicked                   =  {  label=_("Wicked"),                   choices=REALM667.MON_CHOICES  }
+	D3Wraith                 =  {  label=_("D3Wraith"),                 choices=REALM667.MON_CHOICES  }
+	ZombieFodder             =  {  label=_("ZombieFodder"),             choices=REALM667.MON_CHOICES  }
+	ZombieHenchman           =  {  label=_("ZombieHenchman"),           choices=REALM667.MON_CHOICES  }
+	ZombieMarine             =  {  label=_("ZombieMarine"),             choices=REALM667.MON_CHOICES  }
+	ZombieMissileTank        =  {  label=_("ZombieMissileTank"),        choices=REALM667.MON_CHOICES  }
+	ZombiePlasmaTank         =  {  label=_("ZombiePlasmaTank"),         choices=REALM667.MON_CHOICES  }
+	ZombieRailgunner         =  {  label=_("ZombieRailgunner"),         choices=REALM667.MON_CHOICES  }
+	ZombieScientist          =  {  label=_("ZombieScientist"),          choices=REALM667.MON_CHOICES  }
+	ZombieScientist2         =  {  label=_("ZombieScientist2"),         choices=REALM667.MON_CHOICES  }
+	ZombieScientist3         =  {  label=_("ZombieScientist3"),         choices=REALM667.MON_CHOICES  }
+	ZombieScientist4         =  {  label=_("ZombieScientist4"),         choices=REALM667.MON_CHOICES  }
+	ZombieScientist5         =  {  label=_("ZombieScientist5"),         choices=REALM667.MON_CHOICES  }
+	ZombieScientistHeadless  =  {  label=_("ZombieScientistHeadless"),  choices=REALM667.MON_CHOICES  }
+	ZombieScientistPlasma    =  {  label=_("ZombieScientistPlasma"),    choices=REALM667.MON_CHOICES  }
+	ZombieTank               =  {  label=_("ZombieTank"),               choices=REALM667.MON_CHOICES  }
+	ZSec                     =  {  label=_("ZSec"),                     choices=REALM667.MON_CHOICES  }
+	ZSpecOpsMachinegun       =  {  label=_("ZSpecOpsMachinegun"),       choices=REALM667.MON_CHOICES  }
+	ZSpecOpsRailgun          =  {  label=_("ZSpecOpsRailgun"),          choices=REALM667.MON_CHOICES  }
+	ZSpecOpsShotgun          =  {  label=_("ZSpecOpsShotgun"),          choices=REALM667.MON_CHOICES  }
+  
+  }
+  
   tables =
   {
     REALM667
