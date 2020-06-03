@@ -2,13 +2,13 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
-seed = 2132833261
+seed = 1864433101
 
 ---- Game Settings ----
 
 game = doom2
 engine = zdoom
-length = single
+length = game
 theme = mostly_epi
 
 ---- Architecture ----
@@ -23,7 +23,7 @@ steepness = mixed
 
 ---- Monsters ----
 
-mons = scarce
+mons = normal
 strength = medium
 ramp_up = slow
 bosses = easier

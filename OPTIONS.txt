@@ -19,8 +19,6 @@ last_directory = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\oblige-620-win\Oblige-6.20\test_monsters_included.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\the_menacing_facility.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\vengeance_forever.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\evil_magic.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\the_sinful_ruins.wad
@@ -29,4 +27,6 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\burning_agony.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\lonely_shores.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\knowledge_of_vengeance.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\doomed_shadows.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\domain_of_silence.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\caverns_of_the_devil.wad
 
