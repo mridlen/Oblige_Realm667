@@ -62,7 +62,7 @@ REALM667.MONSTERS =
 	 h = 72
 	 prob = 30
 	 health = 800
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -73,7 +73,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 650
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -84,7 +84,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -98,7 +98,7 @@ REALM667.MONSTERS =
 	 h = 110
 	 prob = 30
 	 health = 7000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -109,7 +109,7 @@ REALM667.MONSTERS =
 	 h = 70
 	 prob = 30
 	 health = 1200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -120,7 +120,7 @@ REALM667.MONSTERS =
 	 h = 100
 	 prob = 30
 	 health = 500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -131,7 +131,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -142,7 +142,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 170
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -153,7 +153,7 @@ REALM667.MONSTERS =
 	 h = 76
 	 prob = 30
 	 health = 2500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -164,7 +164,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -175,7 +175,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 90
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -186,7 +186,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -197,7 +197,7 @@ REALM667.MONSTERS =
 	 h = 36
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -208,7 +208,7 @@ REALM667.MONSTERS =
 	 h = 16
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -219,7 +219,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 10
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -230,7 +230,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -241,7 +241,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 20
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -252,7 +252,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -263,7 +263,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -274,7 +274,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -285,7 +285,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -296,7 +296,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 250
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -307,7 +307,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -318,7 +318,7 @@ REALM667.MONSTERS =
 	 h = 24
 	 prob = 30
 	 health = 20
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -329,7 +329,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -340,7 +340,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 800
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -351,7 +351,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -362,7 +362,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -373,7 +373,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -384,7 +384,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -395,7 +395,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 450
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -406,7 +406,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 30
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -417,7 +417,7 @@ REALM667.MONSTERS =
 	 h = 112
 	 prob = 30
 	 health = 400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -428,7 +428,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 1200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -439,7 +439,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -450,7 +450,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -461,7 +461,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -472,7 +472,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -483,7 +483,7 @@ REALM667.MONSTERS =
 	 h = 100
 	 prob = 30
 	 health = 5000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -494,7 +494,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -505,7 +505,7 @@ REALM667.MONSTERS =
 	 h = 112
 	 prob = 30
 	 health = 4500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -516,7 +516,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 160
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -527,7 +527,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 105
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -538,7 +538,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 300
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -549,7 +549,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 110
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -560,7 +560,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 130
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -571,7 +571,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 1500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -582,7 +582,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -593,7 +593,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -604,7 +604,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 1000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -615,7 +615,7 @@ REALM667.MONSTERS =
 	 h = 100
 	 prob = 30
 	 health = 6000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -626,7 +626,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -637,7 +637,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -648,7 +648,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 1400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -659,7 +659,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 3500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -670,7 +670,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -681,7 +681,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -692,7 +692,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -703,7 +703,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -714,7 +714,7 @@ REALM667.MONSTERS =
 	 --h = 32
 	 --prob = 30
 	 --health = 180
-	 --damage = 10
+	 --damage = 100
 	 --attack = "missile"
 	 --density = 0.9
 	--}
@@ -725,7 +725,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -739,7 +739,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -750,7 +750,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -761,7 +761,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -772,7 +772,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 15
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -783,7 +783,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 15
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -794,7 +794,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 15
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -805,7 +805,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 30
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -816,7 +816,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -827,7 +827,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 15
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -838,7 +838,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -849,7 +849,7 @@ REALM667.MONSTERS =
 	 h = 30
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -860,7 +860,7 @@ REALM667.MONSTERS =
 	 h = 80
 	 prob = 30
 	 health = 180
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -871,7 +871,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -882,7 +882,7 @@ REALM667.MONSTERS =
 	 h = 30
 	 prob = 30
 	 health = 40
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -893,7 +893,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -904,7 +904,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -915,7 +915,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 600
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -926,7 +926,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 350
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -937,7 +937,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -948,7 +948,7 @@ REALM667.MONSTERS =
 	 h = 32
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -959,7 +959,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 35
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -970,7 +970,7 @@ REALM667.MONSTERS =
 	 h = 88
 	 prob = 30
 	 health = 750
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -981,7 +981,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -992,7 +992,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1003,7 +1003,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1014,7 +1014,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1025,7 +1025,7 @@ REALM667.MONSTERS =
 	 h = 80
 	 prob = 30
 	 health = 1500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1036,7 +1036,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1600
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1047,7 +1047,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 70
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1058,7 +1058,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1069,7 +1069,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1080,7 +1080,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1091,7 +1091,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 1800
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1102,7 +1102,7 @@ REALM667.MONSTERS =
 	 h = 38
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1113,7 +1113,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1124,7 +1124,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 90
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1135,7 +1135,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 55
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1146,7 +1146,7 @@ REALM667.MONSTERS =
 	 h = 24
 	 prob = 30
 	 health = 15
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1157,7 +1157,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 65
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1168,7 +1168,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1179,7 +1179,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1190,7 +1190,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1201,7 +1201,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 240
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1212,7 +1212,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 1250
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1223,7 +1223,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1234,7 +1234,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1245,7 +1245,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1256,7 +1256,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 70
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1267,7 +1267,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1278,7 +1278,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 230
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1294,7 +1294,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1305,7 +1305,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 260
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1316,7 +1316,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1327,7 +1327,7 @@ REALM667.MONSTERS =
 	 h = 75
 	 prob = 30
 	 health = 800
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1338,7 +1338,7 @@ REALM667.MONSTERS =
 	 h = 90
 	 prob = 30
 	 health = 4000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1352,7 +1352,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1363,7 +1363,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 850
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1374,7 +1374,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1385,7 +1385,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1396,7 +1396,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 450
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1407,7 +1407,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1418,7 +1418,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 900
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1429,7 +1429,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1440,7 +1440,7 @@ REALM667.MONSTERS =
 	 h = 14
 	 prob = 30
 	 health = 1
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1451,7 +1451,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1462,7 +1462,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1473,7 +1473,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1484,7 +1484,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1495,7 +1495,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1506,7 +1506,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1517,7 +1517,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 140
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1528,7 +1528,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1539,7 +1539,7 @@ REALM667.MONSTERS =
 	 h = 16
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1550,7 +1550,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 30
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1561,7 +1561,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1572,7 +1572,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1583,7 +1583,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 70
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1594,7 +1594,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 45
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1605,7 +1605,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1616,7 +1616,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 75
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1627,7 +1627,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1638,7 +1638,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1649,7 +1649,7 @@ REALM667.MONSTERS =
 	 h = 32
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1660,7 +1660,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1671,7 +1671,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1682,7 +1682,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1693,7 +1693,7 @@ REALM667.MONSTERS =
 	 h = 63
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1704,7 +1704,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1715,7 +1715,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1726,7 +1726,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1737,7 +1737,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 90
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1748,7 +1748,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 250
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1759,7 +1759,7 @@ REALM667.MONSTERS =
 	 h = 28
 	 prob = 30
 	 health = 15
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1770,7 +1770,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1781,7 +1781,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 3000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1792,7 +1792,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1803,7 +1803,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1814,7 +1814,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1825,7 +1825,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1836,7 +1836,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1847,7 +1847,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 225
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1858,7 +1858,7 @@ REALM667.MONSTERS =
 	 h = 40
 	 prob = 30
 	 health = 200
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1869,7 +1869,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1880,7 +1880,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1891,7 +1891,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1902,7 +1902,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1913,7 +1913,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1924,7 +1924,7 @@ REALM667.MONSTERS =
 	 h = 110
 	 prob = 30
 	 health = 3500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1935,7 +1935,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1946,7 +1946,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1957,7 +1957,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1968,7 +1968,7 @@ REALM667.MONSTERS =
 	 h = 95
 	 prob = 30
 	 health = 3500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1979,7 +1979,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 10
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1990,7 +1990,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2001,7 +2001,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 7000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2012,7 +2012,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2023,7 +2023,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 250
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2034,7 +2034,7 @@ REALM667.MONSTERS =
 	 h = 110
 	 prob = 30
 	 health = 4800
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2045,7 +2045,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2056,7 +2056,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 1500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2067,7 +2067,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 700
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2078,7 +2078,7 @@ REALM667.MONSTERS =
 	 h = 25
 	 prob = 30
 	 health = 30
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2089,7 +2089,7 @@ REALM667.MONSTERS =
 	 h = 110
 	 prob = 30
 	 health = 3000
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2100,7 +2100,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2111,7 +2111,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2122,7 +2122,7 @@ REALM667.MONSTERS =
 	-- h = 56
 	-- prob = 30
 	-- health = 200
-	-- damage = 10
+	-- damage = 100
 	-- attack = "missile"
 	-- density = 0.9
 	--}
@@ -2133,7 +2133,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2144,7 +2144,7 @@ REALM667.MONSTERS =
 	 h = 76
 	 prob = 30
 	 health = 400
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2155,7 +2155,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 70
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2166,7 +2166,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 1500
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2177,7 +2177,7 @@ REALM667.MONSTERS =
 	 h = 40
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2188,7 +2188,7 @@ REALM667.MONSTERS =
 	 h = 44
 	 prob = 30
 	 health = 300
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2199,7 +2199,7 @@ REALM667.MONSTERS =
 	 h = 88
 	 prob = 30
 	 health = 275
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2210,7 +2210,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2224,7 +2224,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 15
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2235,7 +2235,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2246,7 +2246,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2257,7 +2257,7 @@ REALM667.MONSTERS =
 	 h = 72
 	 prob = 30
 	 health = 575
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2268,7 +2268,7 @@ REALM667.MONSTERS =
 	 h = 72
 	 prob = 30
 	 health = 450
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2279,7 +2279,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 45
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2290,7 +2290,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2301,7 +2301,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2312,7 +2312,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2323,7 +2323,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 40
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2334,7 +2334,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2345,7 +2345,7 @@ REALM667.MONSTERS =
 	 h = 44
 	 prob = 30
 	 health = 40
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2356,7 +2356,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 50
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2367,7 +2367,7 @@ REALM667.MONSTERS =
 	 h = 72
 	 prob = 30
 	 health = 450
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2378,7 +2378,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2389,7 +2389,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2400,7 +2400,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2411,7 +2411,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 10
+	 damage = 100
 	 attack = "missile"
 	 density = 0.9
 	}
