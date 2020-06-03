@@ -1,3 +1,14 @@
+# Oblige with Realm 667 monsters
+
+# Installation
+1) Download the files and run the oblige.exe
+2) Verify the REALM667 box is checked
+3) Generate your level(s)
+4) Run the generated wad and Realm667.pk3 with your desired sourceport (only GZDoom was tested)
+Note: I'm not sure any of the monster quantity settings will be affected yet - this is still VERY VERY alpha
+
+
+Here is the original readme:
 
 OBLIGE 7.70
 ===========
