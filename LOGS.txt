@@ -43,18 +43,3 @@ Loading all modules...
 Loading config file: C:\Users\mridlen\Documents\GitHub\Oblige_Realm667/CONFIG.txt
 DONE.
 
-
-Quit......
-
-Saving options file...
-DONE.
-
-Saving config file...
-DONE.
-
-
---- CLOSED LUA VM ---
-
-
-====== END OF OBLIGE LOGS ======
-

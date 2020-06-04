@@ -650,7 +650,7 @@ REALM667.MONSTERS =
 	 health = 1400
 	 damage = 800
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	}
 	DivineShadow =
 	{
@@ -1049,7 +1049,7 @@ REALM667.MONSTERS =
 	 health = 70
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	}
 	HellsFury =
 	{
@@ -1269,7 +1269,7 @@ REALM667.MONSTERS =
 	 health = 180
 	 damage = 100
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
 	}
 	NailBorgCommando =
 	{
@@ -1280,7 +1280,7 @@ REALM667.MONSTERS =
 	 health = 230
 	 damage = 100
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
 	}
 
 	-- Nightmare Spectre goes here --
@@ -2003,7 +2003,7 @@ REALM667.MONSTERS =
 	 health = 10000
 	 damage = 2000
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	}
 	Terror =
 	{
