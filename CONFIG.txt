@@ -2,7 +2,7 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
-seed = 1206926573
+seed = 397425917
 
 ---- Game Settings ----
 
@@ -23,10 +23,10 @@ steepness = mixed
 
 ---- Monsters ----
 
-mons = nuts
-strength = crazy
+mons = less
+strength = tough
 ramp_up = fast
-bosses = harder
+bosses = medium
 traps = none
 cages = none
 

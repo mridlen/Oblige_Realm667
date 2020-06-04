@@ -42,551 +42,17 @@ Loading all modules...
 ~~ Completed Lua initialization ~~
 
 Loading config file: C:\Users\mridlen\Documents\GitHub\Oblige_Realm667/CONFIG.txt
-WARNING: invalid choice: micro (for option ui_arch.size)
-Ignoring unknown module: armaetus_epic_textures
-Ignoring unknown module: armaetus_epic_textures
-Ignoring unknown module: armaetus_epic_textures
-Ignoring unknown module: armaetus_epic_textures
-Ignoring unknown module: armaetus_epic_textures
-Ignoring unknown module: debugger
-Ignoring unknown module: debugger
-Ignoring unknown module: debugger
-Ignoring unknown module: debugger
-Ignoring unknown module: debugger
-Ignoring unknown module: debugger
-Ignoring unknown module: debugger
-Ignoring unknown option: doom_weapon_control.weapon_prefs
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: gzdoom_boss_gen
-Ignoring unknown module: harder_enemy
-Ignoring unknown module: jokewad_module
-Ignoring unknown module: jokewad_module
-Ignoring unknown module: jokewad_module
-Ignoring unknown module: level_control
-Ignoring unknown module: level_control
-Ignoring unknown module: level_control
-Ignoring unknown module: level_control
-Ignoring unknown module: level_control
-Ignoring unknown module: megawad_swapper
-Ignoring unknown option: misc.big_outdoor_rooms
-Ignoring unknown option: misc.room_heights
-Ignoring unknown option: misc.natural_parks
-Ignoring unknown option: misc.park_detail
-Ignoring unknown option: misc.passable_windows
-Ignoring unknown option: misc.beams
-Ignoring unknown option: misc.fences
-Ignoring unknown option: misc.porches
-Ignoring unknown option: misc.scenics
-Ignoring unknown option: misc.corner_style
-Ignoring unknown option: misc.liquid_sinks
-Ignoring unknown option: misc.brightness_offset
-Ignoring unknown option: misc.trikeys
-Ignoring unknown option: misc.road_markings
-Ignoring unknown option: misc.street_traffic
-Ignoring unknown option: misc.exit_signs
-Ignoring unknown option: misc.linear_start
-Ignoring unknown option: misc.dead_ends
-Ignoring unknown option: misc.live_minimap
-Ignoring unknown module: modded_game_extras
-Ignoring unknown module: modded_game_extras
-Ignoring unknown module: modded_game_extras
-Ignoring unknown module: modded_game_extras
-Ignoring unknown module: modded_game_extras
-Ignoring unknown module: modded_game_extras
-Ignoring unknown module: prefab_control
-Ignoring unknown module: prefab_control
-Ignoring unknown module: prefab_control
-Ignoring unknown module: prefab_control
-Ignoring unknown module: procedural_gotcha
-Ignoring unknown module: procedural_gotcha
-Ignoring unknown module: procedural_gotcha
-Ignoring unknown module: procedural_gotcha
-Ignoring unknown module: procedural_gotcha
-Ignoring unknown option: sky_generator.force_hill_params
-Ignoring unknown option: sky_generator.influence_map_darkness
-Ignoring unknown option: sky_generator.force_hills
-Ignoring unknown option: sky_generator.force_sky
-Ignoring unknown module: zdoom_ambient_sound
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
-Ignoring unknown module: zdoom_specials
 DONE.
 
 Saving config file...
 DONE.
 
-Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\forgotten_magic.wad
+Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\valley_of_dreams.wad
 
 
 ~~~~~~~ Making Levels ~~~~~~~
 
-seed = 1735538941
-
----- Game Settings ----
-
-game = doom2
-engine = zdoom
-length = game
-theme = original
-
----- Architecture ----
-
-size = epi
-outdoors = mixed
-caves = mixed
-liquids = mixed
-hallways = none
-teleporters = none
-steepness = mixed
-
----- Monsters ----
-
-mons = nuts
-strength = crazy
-ramp_up = fast
-bosses = harder
-traps = none
-cages = none
-
----- Pickups ----
-
-health = heaps
-ammo = heaps
-weapons = very_soon
-items = heaps
-secrets = none
-
----- Other Modules ----
-
-@REALM667 = 1
-  HellsFury = default
-  Shadow = default
-  ZombieMarine = default
-  Hierophant = default
-  ShadowTrooper = default
-  HS3 = default
-  Fallen = default
-  HeavenGuard = default
-  cyberImp = default
-  PlasmaDemon = default
-  Inferno = default
-  FemaleScientist4 = default
-  Incarnate = default
-  GhostRevenant = default
-  Cybruiser = default
-  Crash2 = default
-  Diabloist = default
-  ProfaneOne = default
-  SuperImp = default
-  TeslaCoil = default
-  Aracnorb = default
-  ZSpecOpsShotgun = default
-  BloodSkull = default
-  ChaingunMajor = default
-  Arachnophyte = default
-  FemaleRail = default
-  JetpackZombie = default
-  ZombieScientistPlasma = default
-  STImp = default
-  CacoLich1 = default
-  NetherDarkImp = default
-  Agathodemon = default
-  ZombieScientist4 = default
-  Swarm = default
-  ZombieMissileTank = default
-  CrackoDemon = default
-  NailBorg = default
-  Satyr = default
-  ArchonOfHell = default
-  PlasmaElemental = default
-  Arachnobaron = default
-  FemaleScientist2 = default
-  Poltergeist1 = default
-  FlyingImp = default
-  Defiler = default
-  Shade = default
-  BelphegorClone = default
-  HectebusClone = default
-  Azazel = default
-  Haedexebus = default
-  VoidDarkImp = default
-  CyberFiend = default
-  OutcastStalker = default
-  SoulHarvester = default
-  SnakeImp = default
-  ObsidianStatue = default
-  ZSpecOpsRailgun = default
-  LesserMutant = default
-  Cardinal = default
-  FemaleScientist3 = default
-  Morphed = default
-  ASGGuy = default
-  NailBorgCommando = default
-  DarknessRift = default
-  Terminator = default
-  Tentacle1 = default
-  ZSpecOpsMachinegun = default
-  ZombieScientist3 = default
-  Thamuz = default
-  KamikaziGuy = default
-  StealthFighter = default
-  Wicked = default
-  Devil = default
-  ZombieScientistHeadless = default
-  Minigunner = default
-  Helemental = default
-  SmokeMonster = default
-  ZSec = default
-  ZombieHenchman = default
-  RepeaterZombie = default
-  ChainsawZombie = default
-  DevastatorZombie = default
-  Bloodfiend = default
-  ZombieScientist2 = default
-  Agaures = default
-  BeamGuy = default
-  ZombieScientist = default
-  ForgottenOne = default
-  AracnorbQueen = default
-  FemaleSergeant = default
-  ZombiePlasmaTank = default
-  PNZombie = default
-  FemaleZombie = default
-  D3Wraith = default
-  DuneWarrior = default
-  Weakener = default
-  SmallRat = default
-  BlindPinky = default
-  WarlordOfHell = default
-  ArachnotronMK2 = default
-  PhaseImp = default
-  HellstormArchon = default
-  FlyingFatso = default
-  UnmakerGuy = default
-  HornedImp = default
-  STDarkImp = default
-  UndeadHunter = default
-  CyberMastermind = default
-  Uberchain = default
-  TornadoDemon = default
-  SniperRifleGuy = default
-  Trite = default
-  TorturedSoul = default
-  TentacledCommando = default
-  DemonDog = default
-  RapidFireTrooper = default
-  KarasawaGuy = default
-  ZombieTank = default
-  Terror = default
-  PyroDemon = default
-  SSGZombie = default
-  SuperFlyingImp = default
-  DeepOne = default
-  NamiDarkImp = default
-  SuicideBomber = default
-  OverLord = default
-  StoneImp = default
-  StoneDemon = default
-  Illus = default
-  Squire = default
-  SpiritImp = default
-  RifleCommando = default
-  Hangman = default
-  SonicRailgunZombie = default
-  UACBot = default
-  SMGGuy = default
-  Catharsi = default
-  SlimeWorm = default
-  ShadowHunter = default
-  SlimeImp = default
-  VoidImp = default
-  SawedOffShotgunGuy = default
-  XimRocketGuy = default
-  RocketGuy = default
-  ZombieRailgunner = default
-  Roach = default
-  PyroImp = default
-  HazmatZombie = default
-  RifleGuy = default
-  Afrit = default
-  Rictus = default
-  ChaingunDemon = default
-  CGunSpider = default
-  RailBot = default
-  SpiderImpHead = default
-  BabyCaco = default
-  FlamerZombie = default
-  Hellion = default
-  Nightshade = default
-  QuadShotgunZombie = default
-  BeamRevenant = default
-  ZombieScientist5 = default
-  SupremeFiend = default
-  Cyberbaron = default
-  BloodDemonClone = default
-  PsychicSoul = default
-  PoisonSoul = default
-  MeleeRevenant = default
-  FemalePlasma = default
-  Exterminator = default
-  RocketImp = default
-  Vulgar = default
-  Phantom = default
-  Superdemon = default
-  NightmareDemon = default
-  HeavyCarbineGuy = default
-  Annihilator = default
-  PyroZombie = default
-  Poe = default
-  Blot = default
-  PlasmaZombie = default
-  LordofHeresy = default
-  TimeImp = default
-  SegwayZombie = default
-  DivineShadow = default
-  ImpAbomination = default
-  HellWarrior = default
-  KDiZDNightmare = default
-  Guardian = default
-  FormerRanger = default
-  Grell = default
-  Fleshspawn = default
-  FreezeRifleGuy = default
-  FusionSpider = default
-  XWizard = default
-  ZombieFodder = default
-  Machinegunguy = default
-  BFGGuy = default
-  FemaleScientist1 = default
-  Demolisher = default
-  EnhancedCacodemon = default
-  RevGhoul = default
-  ChaingunGuy2 = default
-  Phantasm = default
-  DarkDevil = default
-  Bad = default
-  CacolanternClone = default
-  BruiserDemon = default
-  MaulerDemon = default
-  Watcher = default
-  RailArachnotron = default
-
-@doom_mon_control = 0
-
-@doom_weapon_control = 0
-
-@export_map = 0
-
-@misc = 0
-
-@music_swapper = 1
-
-@sky_generator = 1
-
-@small_spiderdemon = 1
-
-@stealth_mons = 0
-
-@zdoom_marines = 0
-
--- END --
-Loading prefabs from: 'games/doom/fabs'
-OK
-
-Sky generator:
-  1 = RED_NEBULA
-  1 = STARS
-  2 = BROWN_NEBULA
-  2 = STARS
-  3 = ORANGE_CLOUDS
-    + BLACK_HILLS
-
-
-Theme for level MAP01 = tech
-Theme for level MAP02 = tech
-Theme for level MAP03 = tech
-Theme for level MAP04 = tech
-Theme for level MAP05 = tech
-Theme for level MAP06 = tech
-Theme for level MAP07 = tech
-Theme for level MAP08 = tech
-Theme for level MAP09 = tech
-Theme for level MAP10 = tech
-Theme for level MAP11 = tech
-Theme for level MAP12 = urban
-Theme for level MAP13 = urban
-Theme for level MAP14 = urban
-Theme for level MAP15 = urban
-Theme for level MAP16 = urban
-Theme for level MAP17 = urban
-Theme for level MAP18 = urban
-Theme for level MAP19 = urban
-Theme for level MAP20 = urban
-Theme for level MAP21 = hell
-Theme for level MAP22 = hell
-Theme for level MAP23 = hell
-Theme for level MAP24 = hell
-Theme for level MAP25 = hell
-Theme for level MAP26 = hell
-Theme for level MAP27 = hell
-Theme for level MAP28 = hell
-Theme for level MAP29 = hell
-Theme for level MAP30 = hell
-Theme for level MAP31 = hell
-Theme for level MAP32 = hell
-
-Special levels:
-  none
-Game title: Forgotten Magic
-
-Game sub-title: Where It All Began
-
-Episode 1 title: Shore of No Return
-
-Episode 2 title: Vengeance Denied
-
-Episode 3 title: The Evil Domain
-
-
-
-~~~~~~| MAP01 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
-  barrels = few
-  big_rooms = heaps
-  cages = none
-  caves = few
-  cycles = none
-  doors = few
-  ex_floors = some
-  fences = few
-  hallways = none
-  islands = few
-  keys = heaps
-  lakes = few
-  liquids = some
-  outdoors = heaps
-  parks = some
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = none
-  windows = some
-}
-
-Liquid: skipped for level (by style).
-
-Darkness falls across the land...
-
-
---==| Creating Rooms |==--
-
-Map size target: 24x20 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                              FFF
-                                             FFFFFF
-                                          FFFFFFFFF
-                                          FFFFFFFF
-                                 DD DD   FFFFFFFFF
-                         DDD     DD DD   FFFFFFFFFFF
-                         DDD  DDDDDDDDDDDFFFFFFFFFFF
-                       DDDDDDDDDDDDDDDDDD FFFFF FF
-                       DDDDDDDDD DDDDD FFFFFFeeeFF   eee
-                          DDDDDDDDDDDDDFFFFFFeee eee eee
-                      DDDDDDDDDDDDDDDDDFFFFFFeee/eeeeeee\
-                      DDDDDD DDDDDDDDD FFFFF/eeeeeeeeeeeee
-                        DDDD DDccc DD  FFFFFeeeeeeeeeeeeee
-                      DDDDDD  cccc ccceeeeeeeeeeeeeeeeeeee
-                      DDDDDD  cccc ccceeeeeeeeeeeeeeeeeee
-                        DD    ccccccc\eeebbbeeeeeeeeeeeee
-                           cc /ccccccceeebbbeeeeaaa \eeee
-                           ccccccccccc bbbbbeeeeaaa  \ee
-                           cccccccccccbbbbbb\eeeaaaaa
-                           cccccccccccbbbbbbbaaaaaaaa
-                            cc\cccccccbbbbbbbaaaaaaaa
-                            cc cc/ccccbbbbbb//aaaa/
-                                  cc   bbbbbaaaaaa
-                                         bbbaaaaaa
-                                         bbb aaaaa\
-                                               aaaa
-                                               aaaa
-                                                aa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-~~~~~~~ Build Aborted! ~~~~~~~
-
-Writing WAD directory
-Closed WAD file
-Saving config file...
-DONE.
-
-Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\savage_agony.wad
-
-
-~~~~~~~ Making Levels ~~~~~~~
-
-seed = 1206926573
+seed = 2008166637
 
 ---- Game Settings ----
 
@@ -608,7 +74,7 @@ steepness = mixed
 ---- Monsters ----
 
 mons = nuts
-strength = crazy
+strength = medium
 ramp_up = fast
 bosses = harder
 traps = none
@@ -860,22 +326,22 @@ Loading prefabs from: 'games/doom/fabs'
 OK
 
 Sky generator:
-  1 = SKY_CLOUDS
-    + DARKBROWN_HILLS
-  2 = GREY_CLOUDS
-  3 = DARKRED_CLOUDS
-    + BLACK_HILLS
+  1 = BLUE_CLOUDS
+    + TAN_HILLS
+  2 = DARK_CLOUDS
+    + BROWN_HILLS
+  3 = STARS
 
 
 Theme for level MAP01 = tech
 
 Special levels:
   none
-Game title: Savage Agony
+Game title: Valley of Dreams
 
-Game sub-title: The Resurrection
+Game sub-title: XII
 
-Episode 1 title: A Dark Quarter
+Episode 1 title: Gore Zone
 
 
 
@@ -883,28 +349,28 @@ Episode 1 title: A Dark Quarter
 
 Styles = 
 {
-  ambushes = some
+  ambushes = heaps
   barrels = few
-  big_rooms = few
+  big_rooms = some
   cages = none
   caves = none
   cycles = some
-  doors = none
-  ex_floors = some
-  fences = heaps
+  doors = some
+  ex_floors = few
+  fences = none
   hallways = none
   islands = few
   keys = heaps
   lakes = few
   liquids = heaps
   outdoors = few
-  parks = few
-  pictures = some
+  parks = some
+  pictures = heaps
   porches = some
   secrets = none
-  steepness = heaps
-  switches = some
-  symmetry = none
+  steepness = some
+  switches = few
+  symmetry = some
   teleporters = none
   traps = none
   windows = some
@@ -927,50 +393,50 @@ Seed Map:
 
 
 
-                                EE BB         FF
-                             EEEEE BB         FFFFFFF
-                             EEEEE BBBB     FFFFFFFFF
-                             EEEEEBBBBB     FFFFFFFFF
-                             EEEEEBBBBB     FFFFFFF
-                            EEEEEEBBBBB       FFFFF FF   IIII
-                            EEEEEEBBBBB       FFFFF FF   IIII
-                            EEEEEEEBBBB       FFFFF FF   IIII
-                            EEEEEEEBBBBB    FFFFFFFFFFF\ IIIII
-                            EEEEEEEE BBB    FFFFFFFFFFFFFIIIII
-                         DD   EEEEEEEBBBBBB  FFFFFFFFFFFFIIIIII
-                         DD    EEEEEEBBBBBB  FFFFFFFFFF/ IIIIII
-                        DDDD   EEE EE/BB\ CCCFFFFFFF    II II
-                        DDDD   EE   BBBBBBCCCFFFFFFF   IIIIIII
-                      DDDDDD  DDDDDDBBBBBBCCCFFFFFFFF  IIIIIII
-                      DDDDDDDDDDDDDD AAAAACCCFFFFFFFF  IIIIIII
-                        DDDDDDDDDDDD AAAAACCCFFFFFFFFFIIIIIIII
-                         DDD DDDDDDDAAAAAACCC FFFFFFFFIIIIII
-                         DDD DDDDDDDAAAAAACCCC  FF FF II  HHHH
-                                AADD AAAA CCCCCHHHHHHHHHHHHHHH
-                                AADDAAAAAACCCCCHHHHHHHHHHHHHHH
-                                AAA AAAAAACCCCCHHHHHHHHHH HH     MM
-                                AAAAAAAAAACCCCCHHHHHHHHHHMMMMMMMMMM
-                                AAAAAAAAAA CCCCHHHHHHHH  MMMMMMMMMM
-                                AAAAAAA/nn\CCCCCHH jjjjMMMMM MMMMMM
-                                 AAnnnnnnnnCCCCCHH jjjjMMMMMMMMMMMM
-                                 AAnnnnnnnnCCCCjjjjjj  MMMMMMMMMMMM
-                                 AAnn \nnn/CCCCjjjjjj  MMMMM
-                                   nn  nnnKKKK  jjjjj  MMMM
-                                       nnnKKKKKKjjjjj  MM
-                                       nnnKKKKKKjjjjj  LL
-                                       nnnKKKKKKjjjjjjjLLLLL
-                                       nnnKKKKKKjjjjjjjLLLLL
-                                       nnnKKKKKKK\jj/ LLLLLLLLLLL
-                                       nnnKKKKKKK jj LLLLLLLLLLLL
-                                       \nnKKKKKjjjjj LLLLLLLLLLLLL
-                                   nnnnnnnKKKKKjjjjjjj    LLLLLLLL
-                                   nnnnnnnKKKKKjjjjjjj    LLLLLLLL
-                                   nnnnnnnKKKKKjjjjj       LLLLLLL
-                                     nnnnn KKKKjjjjj       LLLLL
-                                       nnn KKKK  jjj       LLLLL
-
-
-
+                                               dddd\
+                                               ddddddd
+                            /fff\              ddddddddd
+                            fffff               \ddddddd
+                            fffff                ddddddd
+                           ffffff                ddddddd
+                           ffffff\                    dd
+                           fffffff ff                dddddd
+                               ffffff                dddddd
+                               ffffff                ddd/   dd
+                             CCffffffaaa     BB      ddd    dd
+                             CC\fffffaaa     BB      ddd    dd
+                          CCCCCCfff /aaa\    BB      ddd/dd/dd dd
+                          CCCCCCfffaa/a\aaaaaBB     ddddddddddddddd
+                             CCCaaaaaaaaaaaaaBBBB  /ddddddddddddddd
+                          CCCCCCaaaaa\a/aa   BBBBdddddddddddddd
+                         CCCCCCHHHH \aaa/    BBB dddddddd/ddddd
+                         CCCCCCHHHH  aaa     BBBBBBBBBB    ddd
+                         CCCCCCHHHH  aaa      BBBBBBBBBBB  ddd
+                       CCCCCCCCHHHHHGGG       BBBBBBBBBBB
+                       CCCCC CCHHHHHGGGGG     BBBBBBBBBBB
+                     CCCCCCCEEEEEEHHGGGGG   BBBBBBBB oo
+                     CCCCCCCEEEEEEHHGGGGG   BBBBLLBB oo
+                       CCCCC EEEEEHHGG      BBBBLLoo/oo\oo
+                       CCC   EEEEEHHGGGG GG   BBLLoooooooo
+                             EEE\EEEGGGG GG   BBLLoooooooo
+                             EEEEEEEGGGGGGGG ii LLoooooooo
+                             E\E/EEEGGGGGGGG ii\iioooooooo
+                             \EEE/EEGGGG GGGiiiiiioooooooo
+                         NNNNNNNN EEGGJJGGGGiiiiiioooooooo
+                         NNNNNNNN   GGJJGGGGiiiiiiooooooooMM
+                      NNNNN NNNNN   KKJJGGGGGiiiiiiiiMMMMMMM   MM
+                    NNNNNNNNNNNNNKKKKKJJJJGGGiiiiiiiiMMMMMMMMMMMM
+                    NNNNNNNNNNNNNKKKKKJJJJGG iiiii/  MMMMMMMMMMMMMM
+                      NNNNN NNNNN KKKKJJJJJJJiiiiiii MMMMMMMMMMMMMM
+                         NNNNNNNNKKKKKJJJJJJJiiiiiii MMMMMMMMMM
+                         NNNNNNNNKKKKKJJJJJJJiiiiiii  MMM MMMM
+                                 KKKJJJJJJJJ \iii/        MMMM
+                                 KKKJJJJJJJJ  ii/
+                                 KKK JJJJ JJ
+                              KKKKKKJJJJJ
+                              KKKKKKJJJJJ
+                            KKKKKKKK JJ
+                            KKKKKKKK
 
 
 
@@ -985,25 +451,27 @@ Seed Map:
 
 --==| Make Quests |==--
 
-Exit room: ROOM_12
+Exit room: ROOM_4
 Maximum of 3 key goals.
-Dividing QUEST_1 @ CONN_10 (ROOM_10 -- ROOM_12)
-Dividing QUEST_2 @ CONN_1 (ROOM_1 -- ROOM_2)
-Dividing QUEST_3 @ CONN_3 (ROOM_1 -- ROOM_4)
+Dividing QUEST_1 @ CONN_1 (ROOM_1 -- ROOM_2)
+Added triple-key quest.
+Maximum of 2 switch goals.
+Dividing QUEST_2 @ CONN_10 (ROOM_7 -- ROOM_11)
+Dividing QUEST_3 @ CONN_8 (ROOM_7 -- ROOM_9)
 Start room: ROOM_1
 Quest list:
-  QUEST_4 : svolume:741
-  QUEST_3 : svolume:74
-  QUEST_2 : svolume:143
-  QUEST_1 : svolume:81
+  QUEST_4 : svolume:425
+  QUEST_3 : svolume:222
+  QUEST_2 : svolume:141
+  QUEST_1 : svolume:229
 Zone quota: 4
 Zone list:
-  ZONE_2 : rooms:9 areas:130
-  ZONE_3 : rooms:1 areas:14
-  ZONE_4 : rooms:2 areas:26
-  ZONE_1 : rooms:1 areas:16
+  ZONE_2 : rooms:7 areas:70
+  ZONE_3 : rooms:4 areas:29
+  ZONE_1 : rooms:3 areas:48
+  ZONE_4 : rooms:1 areas:15
 Secrets: NONE (by style)
-Other Item quota : 6.00
+Other Item quota : 5.00
 
 --==|  Build Rooms |==--
 
@@ -1011,22 +479,22 @@ Other Item quota : 6.00
 --==| Make Battles |==--
 
 Giving weapon: chain
+Giving weapon: launch
 Giving weapon: shotty
 Giving weapon: plasma
-Giving weapon: launch
 Giving weapon: bfg
 Giving weapon: super
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 36586 dead regions (of 53141)
-Swallowed 7823 brushes (of 36723)
-Filled 0 gaps (of 10585 total)
+Removed 49216 dead regions (of 70537)
+Swallowed 8081 brushes (of 49405)
+Filled 0 gaps (of 16577 total)
 Lighting level...
-Merged 4272 colinear lines
-Rounded 7 square corners
-Aligned 7679 textures
+Merged 5159 colinear lines
+Rounded 15 square corners
+Aligned 8443 textures
 Merging WAD sections from: games/doom/data/doom_falls.wad
 Opened WAD file: games/doom/data/doom_falls.wad
 Closed WAD file
@@ -1052,11 +520,11 @@ Closed WAD file
 Writing WAD directory
 Closed WAD file
 
-GLBSP: Opened PWAD file : C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\savage_agony.tmp
+GLBSP: Opened PWAD file : C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\valley_of_dreams.tmp
 GLBSP: 
 GLBSP: Building normal and GL nodes on MAP01
 GLBSP: 
-GLBSP: Saving WAD as C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\savage_agony.wad
+GLBSP: Saving WAD as C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\valley_of_dreams.wad
 GLBSP: 
 GLBSP: Total serious warnings: 0
 GLBSP: Total minor warnings: 0
@@ -1066,5 +534,1000 @@ Saving options file...
 DONE.
 
 
-TOTAL TIME: 11.40 seconds
+TOTAL TIME: 13.60 seconds
+
+Saving config file...
+DONE.
+
+Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_fear.wad
+
+
+~~~~~~~ Making Levels ~~~~~~~
+
+seed = 1471295709
+
+---- Game Settings ----
+
+game = doom2
+engine = zdoom
+length = single
+theme = original
+
+---- Architecture ----
+
+size = regular
+outdoors = mixed
+caves = mixed
+liquids = mixed
+hallways = none
+teleporters = none
+steepness = mixed
+
+---- Monsters ----
+
+mons = less
+strength = crazy
+ramp_up = fast
+bosses = harder
+traps = none
+cages = none
+
+---- Pickups ----
+
+health = heaps
+ammo = heaps
+weapons = very_soon
+items = heaps
+secrets = none
+
+---- Other Modules ----
+
+@REALM667 = 1
+  HellsFury = default
+  Shadow = default
+  ZombieMarine = default
+  Hierophant = default
+  ShadowTrooper = default
+  HS3 = default
+  Fallen = default
+  HeavenGuard = default
+  cyberImp = default
+  PlasmaDemon = default
+  Inferno = default
+  FemaleScientist4 = default
+  Incarnate = default
+  GhostRevenant = default
+  Cybruiser = default
+  Crash2 = default
+  Diabloist = default
+  ProfaneOne = default
+  SuperImp = default
+  TeslaCoil = default
+  Aracnorb = default
+  ZSpecOpsShotgun = default
+  BloodSkull = default
+  ChaingunMajor = default
+  Arachnophyte = default
+  FemaleRail = default
+  JetpackZombie = default
+  ZombieScientistPlasma = default
+  STImp = default
+  CacoLich1 = default
+  NetherDarkImp = default
+  Agathodemon = default
+  ZombieScientist4 = default
+  Swarm = default
+  ZombieMissileTank = default
+  CrackoDemon = default
+  NailBorg = default
+  Satyr = default
+  ArchonOfHell = default
+  PlasmaElemental = default
+  Arachnobaron = default
+  FemaleScientist2 = default
+  Poltergeist1 = default
+  FlyingImp = default
+  Defiler = default
+  Shade = default
+  BelphegorClone = default
+  HectebusClone = default
+  Azazel = default
+  Haedexebus = default
+  VoidDarkImp = default
+  CyberFiend = default
+  OutcastStalker = default
+  SoulHarvester = default
+  SnakeImp = default
+  ObsidianStatue = default
+  ZSpecOpsRailgun = default
+  LesserMutant = default
+  Cardinal = default
+  FemaleScientist3 = default
+  Morphed = default
+  ASGGuy = default
+  NailBorgCommando = default
+  DarknessRift = default
+  Terminator = default
+  Tentacle1 = default
+  ZSpecOpsMachinegun = default
+  ZombieScientist3 = default
+  Thamuz = default
+  KamikaziGuy = default
+  StealthFighter = default
+  Wicked = default
+  Devil = default
+  ZombieScientistHeadless = default
+  Minigunner = default
+  Helemental = default
+  SmokeMonster = default
+  ZSec = default
+  ZombieHenchman = default
+  RepeaterZombie = default
+  ChainsawZombie = default
+  DevastatorZombie = default
+  Bloodfiend = default
+  ZombieScientist2 = default
+  Agaures = default
+  BeamGuy = default
+  ZombieScientist = default
+  ForgottenOne = default
+  AracnorbQueen = default
+  FemaleSergeant = default
+  ZombiePlasmaTank = default
+  PNZombie = default
+  FemaleZombie = default
+  D3Wraith = default
+  DuneWarrior = default
+  Weakener = default
+  SmallRat = default
+  BlindPinky = default
+  WarlordOfHell = default
+  ArachnotronMK2 = default
+  PhaseImp = default
+  HellstormArchon = default
+  FlyingFatso = default
+  UnmakerGuy = default
+  HornedImp = default
+  STDarkImp = default
+  UndeadHunter = default
+  CyberMastermind = default
+  Uberchain = default
+  TornadoDemon = default
+  SniperRifleGuy = default
+  Trite = default
+  TorturedSoul = default
+  TentacledCommando = default
+  DemonDog = default
+  RapidFireTrooper = default
+  KarasawaGuy = default
+  ZombieTank = default
+  Terror = default
+  PyroDemon = default
+  SSGZombie = default
+  SuperFlyingImp = default
+  DeepOne = default
+  NamiDarkImp = default
+  SuicideBomber = default
+  OverLord = default
+  StoneImp = default
+  StoneDemon = default
+  Illus = default
+  Squire = default
+  SpiritImp = default
+  RifleCommando = default
+  Hangman = default
+  SonicRailgunZombie = default
+  UACBot = default
+  SMGGuy = default
+  Catharsi = default
+  SlimeWorm = default
+  ShadowHunter = default
+  SlimeImp = default
+  VoidImp = default
+  SawedOffShotgunGuy = default
+  XimRocketGuy = default
+  RocketGuy = default
+  ZombieRailgunner = default
+  Roach = default
+  PyroImp = default
+  HazmatZombie = default
+  RifleGuy = default
+  Afrit = default
+  Rictus = default
+  ChaingunDemon = default
+  CGunSpider = default
+  RailBot = default
+  SpiderImpHead = default
+  BabyCaco = default
+  FlamerZombie = default
+  Hellion = default
+  Nightshade = default
+  QuadShotgunZombie = default
+  BeamRevenant = default
+  ZombieScientist5 = default
+  SupremeFiend = default
+  Cyberbaron = default
+  BloodDemonClone = default
+  PsychicSoul = default
+  PoisonSoul = default
+  MeleeRevenant = default
+  FemalePlasma = default
+  Exterminator = default
+  RocketImp = default
+  Vulgar = default
+  Phantom = default
+  Superdemon = default
+  NightmareDemon = default
+  HeavyCarbineGuy = default
+  Annihilator = default
+  PyroZombie = default
+  Poe = default
+  Blot = default
+  PlasmaZombie = default
+  LordofHeresy = default
+  TimeImp = default
+  SegwayZombie = default
+  DivineShadow = default
+  ImpAbomination = default
+  HellWarrior = default
+  KDiZDNightmare = default
+  Guardian = default
+  FormerRanger = default
+  Grell = default
+  Fleshspawn = default
+  FreezeRifleGuy = default
+  FusionSpider = default
+  XWizard = default
+  ZombieFodder = default
+  Machinegunguy = default
+  BFGGuy = default
+  FemaleScientist1 = default
+  Demolisher = default
+  EnhancedCacodemon = default
+  RevGhoul = default
+  ChaingunGuy2 = default
+  Phantasm = default
+  DarkDevil = default
+  Bad = default
+  CacolanternClone = default
+  BruiserDemon = default
+  MaulerDemon = default
+  Watcher = default
+  RailArachnotron = default
+
+@doom_mon_control = 0
+
+@doom_weapon_control = 0
+
+@export_map = 0
+
+@misc = 0
+
+@music_swapper = 1
+
+@sky_generator = 1
+
+@small_spiderdemon = 1
+
+@stealth_mons = 0
+
+@zdoom_marines = 0
+
+-- END --
+Loading prefabs from: 'games/doom/fabs'
+OK
+
+Sky generator:
+  1 = DARK_CLOUDS
+    + BROWN_HILLS
+  2 = STARS
+    + DARKGREEN_HILLS
+  3 = DARKRED_CLOUDS
+    + BLACK_HILLS
+
+
+Theme for level MAP01 = tech
+
+Special levels:
+  none
+Game title: Gateway of Fear
+
+Game sub-title: What Lurks Beneath
+
+Episode 1 title: The Cold City
+
+
+
+~~~~~~| MAP01 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  big_rooms = some
+  cages = none
+  caves = none
+  cycles = some
+  doors = few
+  ex_floors = heaps
+  fences = none
+  hallways = none
+  islands = heaps
+  keys = some
+  lakes = few
+  liquids = heaps
+  outdoors = some
+  parks = few
+  pictures = some
+  porches = some
+  secrets = none
+  steepness = some
+  switches = few
+  symmetry = none
+  teleporters = none
+  traps = none
+  windows = some
+}
+
+Liquid: lava (usage 90%)
+
+Darkness falls across the land...
+
+
+--==| Creating Rooms |==--
+
+Map size target: 34x28 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+                                                    QQ
+                                                    QQ
+                                           QQ       QQ
+                                          QQQQQ    /QQ
+                                          QQQQQQ/QQ\/
+                                             QQQQQQQQ
+                                III      QQQQQQQQQQQQ
+                                III      QQQQQQQQQQQQ
+                              IIIIII ggg QQQQQQQQQQQQ
+                       mm  mm IIIIII ggg\  QQQQQQQ
+                       mm /mmmmIIII  gggg DDQQDDDDD
+                       mm/mmmmmIIII\ \ggg DDDDDDDDD
+                   /ooommmmmmmmIIIIIgggg\ DDDDDDD
+                  /oooommmmmmmmIIIIIgggggDDDDDDDDDD
+                  ooooooommIIII III/gggggDDDDDDDDDD
+                  oooooooIIIIIIIIIgggggggggDDDDDD
+                  oooooooIIIIIIIIIggggggggg DDDD
+                  oo ooooIII IIIIIgggggggJJJJJDD
+                    oooooooooIIIIIgggggggJJJJJDD
+                    oooooooooII IIHHHHgggJJJJ DDDD
+                     ooooooKK    HHHHHHHHJJJJ DDDDDDDD
+                  ss oooKKKKK HHHHHHHHHHHHJJJJDDDDDDDD
+                  sssss KKKKKHHHHHHHHHHHHHJJJJaaa ee    CC
+                 ssssssKKKKKKHHHHHHHHHHHaa\JJ/aaa eeee CCCCC
+                 ssssssKKKKKKKKKHHH/aaHHaa\JJ/a/CeeeeeCCCCCC
+                   ss ssKK/KKKKKHHHaaaaaaaaaaaaCCeeeeeCCCCCCC
+                  ssssssKKKKKKK  HHaaaaaaaaaaaaCCCCCCCCCCCCCC
+                  ssssssKKKKKKKKKHH/aa \aa/ aaa\CCCCCCCCCCCCC
+                  ss/ sss \KKKKKKaaaaaa\    aaaaaCCCCFFCCCCC
+                 ssss sssKKKKKKK aaaaaaaaa  aaaaaCCCCFFCCCCC
+                 ssssssssKKKKKKK aaaaaaaaa    aaaCCCCFFCCC
+                  sssssssnnnnnnn   aaaa          CCCCFFFCC
+                  ss/  ssnnnnnnn\  BBBB          CCC FFFFFF
+                          nnnnnnn BBBBBB          CC  FFFFFFF
+                          nnnnnnn BBBBBB           FFFFFFF FF
+                          nnnnnnn BBBBBB        FFFFFFFFFFFFFF
+                            nnnnn BBBBBBB       FFFFFFFFFFFFFF
+                            nnnnn/\BB/BBBB         FF\FF/  FF
+                               BBB/BBBBBBBB        FF FF
+                             BBBBB BBBBBBBB         FFFFFF
+                         BBBBBBBBBB  BBBBBB         FFFFFF
+                         BBBBBBBBBB  BBBBBB           FF
+                             BBBBBBBBBBBBBB           FF
+                               BBBBBBBBBB
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_2
+Maximum of 3 key goals.
+Dividing QUEST_1 @ CONN_1 (ROOM_1 -- ROOM_2)
+Dividing QUEST_2 @ CONN_2 (ROOM_1 -- ROOM_3)
+Dividing QUEST_2 @ CONN_5 (ROOM_3 -- ROOM_6)
+Maximum of 1 switch goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_3 : svolume:760
+  QUEST_4 : svolume:103
+  QUEST_2 : svolume:86
+  QUEST_1 : svolume:117
+Zone quota: 5
+Zone list:
+  ZONE_2 : rooms:12 areas:117
+  ZONE_3 : rooms:2 areas:20
+  ZONE_4 : rooms:1 areas:20
+  ZONE_1 : rooms:1 areas:22
+Secrets: NONE (by style)
+Other Item quota : 5.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: plasma
+Giving weapon: shotty
+Giving weapon: launch
+Giving weapon: bfg
+Giving weapon: super
+Giving weapon: chain
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 54170 dead regions (of 76510)
+Swallowed 10180 brushes (of 54276)
+Filled 0 gaps (of 16867 total)
+Lighting level...
+Merged 5911 colinear lines
+Rounded 30 square corners
+Aligned 7244 textures
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+Merging WAD sections from: games/doom/data/doom_falls.wad
+Opened WAD file: games/doom/data/doom_falls.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/lift_flat.wad
+Opened WAD file: games/doom/data/lift_flat.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/metal_step.wad
+Opened WAD file: games/doom/data/metal_step.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/vine_dude.wad
+Opened WAD file: games/doom/data/vine_dude.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/logos.wad
+Opened WAD file: games/doom/data/logos.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/hang_lamp.wad
+Opened WAD file: games/doom/data/hang_lamp.wad
+Closed WAD file
+
+
+~~~~~~ Finished Making Levels ~~~~~~
+
+Writing WAD directory
+Closed WAD file
+
+GLBSP: Opened PWAD file : C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_fear.tmp
+GLBSP: 
+GLBSP: Building normal and GL nodes on MAP01
+GLBSP: 
+GLBSP: Saving WAD as C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_fear.wad
+GLBSP: 
+GLBSP: Total serious warnings: 0
+GLBSP: Total minor warnings: 0
+GLBSP: 
+GLBSP: All levels were built successfully.
+Saving options file...
+DONE.
+
+
+TOTAL TIME: 12.37 seconds
+
+Saving config file...
+DONE.
+
+Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_slime.wad
+
+
+~~~~~~~ Making Levels ~~~~~~~
+
+seed = 397425917
+
+---- Game Settings ----
+
+game = doom2
+engine = zdoom
+length = single
+theme = original
+
+---- Architecture ----
+
+size = regular
+outdoors = mixed
+caves = mixed
+liquids = mixed
+hallways = none
+teleporters = none
+steepness = mixed
+
+---- Monsters ----
+
+mons = less
+strength = tough
+ramp_up = fast
+bosses = medium
+traps = none
+cages = none
+
+---- Pickups ----
+
+health = heaps
+ammo = heaps
+weapons = very_soon
+items = heaps
+secrets = none
+
+---- Other Modules ----
+
+@REALM667 = 1
+  HellsFury = default
+  Shadow = default
+  ZombieMarine = default
+  Hierophant = default
+  ShadowTrooper = default
+  HS3 = default
+  Fallen = default
+  HeavenGuard = default
+  cyberImp = default
+  PlasmaDemon = default
+  Inferno = default
+  FemaleScientist4 = default
+  Incarnate = default
+  GhostRevenant = default
+  Cybruiser = default
+  Crash2 = default
+  Diabloist = default
+  ProfaneOne = default
+  SuperImp = default
+  TeslaCoil = default
+  Aracnorb = default
+  ZSpecOpsShotgun = default
+  BloodSkull = default
+  ChaingunMajor = default
+  Arachnophyte = default
+  FemaleRail = default
+  JetpackZombie = default
+  ZombieScientistPlasma = default
+  STImp = default
+  CacoLich1 = default
+  NetherDarkImp = default
+  Agathodemon = default
+  ZombieScientist4 = default
+  Swarm = default
+  ZombieMissileTank = default
+  CrackoDemon = default
+  NailBorg = default
+  Satyr = default
+  ArchonOfHell = default
+  PlasmaElemental = default
+  Arachnobaron = default
+  FemaleScientist2 = default
+  Poltergeist1 = default
+  FlyingImp = default
+  Defiler = default
+  Shade = default
+  BelphegorClone = default
+  HectebusClone = default
+  Azazel = default
+  Haedexebus = default
+  VoidDarkImp = default
+  CyberFiend = default
+  OutcastStalker = default
+  SoulHarvester = default
+  SnakeImp = default
+  ObsidianStatue = default
+  ZSpecOpsRailgun = default
+  LesserMutant = default
+  Cardinal = default
+  FemaleScientist3 = default
+  Morphed = default
+  ASGGuy = default
+  NailBorgCommando = default
+  DarknessRift = default
+  Terminator = default
+  Tentacle1 = default
+  ZSpecOpsMachinegun = default
+  ZombieScientist3 = default
+  Thamuz = default
+  KamikaziGuy = default
+  StealthFighter = default
+  Wicked = default
+  Devil = default
+  ZombieScientistHeadless = default
+  Minigunner = default
+  Helemental = default
+  SmokeMonster = default
+  ZSec = default
+  ZombieHenchman = default
+  RepeaterZombie = default
+  ChainsawZombie = default
+  DevastatorZombie = default
+  Bloodfiend = default
+  ZombieScientist2 = default
+  Agaures = default
+  BeamGuy = default
+  ZombieScientist = default
+  ForgottenOne = default
+  AracnorbQueen = default
+  FemaleSergeant = default
+  ZombiePlasmaTank = default
+  PNZombie = default
+  FemaleZombie = default
+  D3Wraith = default
+  DuneWarrior = default
+  Weakener = default
+  SmallRat = default
+  BlindPinky = default
+  WarlordOfHell = default
+  ArachnotronMK2 = default
+  PhaseImp = default
+  HellstormArchon = default
+  FlyingFatso = default
+  UnmakerGuy = default
+  HornedImp = default
+  STDarkImp = default
+  UndeadHunter = default
+  CyberMastermind = default
+  Uberchain = default
+  TornadoDemon = default
+  SniperRifleGuy = default
+  Trite = default
+  TorturedSoul = default
+  TentacledCommando = default
+  DemonDog = default
+  RapidFireTrooper = default
+  KarasawaGuy = default
+  ZombieTank = default
+  Terror = default
+  PyroDemon = default
+  SSGZombie = default
+  SuperFlyingImp = default
+  DeepOne = default
+  NamiDarkImp = default
+  SuicideBomber = default
+  OverLord = default
+  StoneImp = default
+  StoneDemon = default
+  Illus = default
+  Squire = default
+  SpiritImp = default
+  RifleCommando = default
+  Hangman = default
+  SonicRailgunZombie = default
+  UACBot = default
+  SMGGuy = default
+  Catharsi = default
+  SlimeWorm = default
+  ShadowHunter = default
+  SlimeImp = default
+  VoidImp = default
+  SawedOffShotgunGuy = default
+  XimRocketGuy = default
+  RocketGuy = default
+  ZombieRailgunner = default
+  Roach = default
+  PyroImp = default
+  HazmatZombie = default
+  RifleGuy = default
+  Afrit = default
+  Rictus = default
+  ChaingunDemon = default
+  CGunSpider = default
+  RailBot = default
+  SpiderImpHead = default
+  BabyCaco = default
+  FlamerZombie = default
+  Hellion = default
+  Nightshade = default
+  QuadShotgunZombie = default
+  BeamRevenant = default
+  ZombieScientist5 = default
+  SupremeFiend = default
+  Cyberbaron = default
+  BloodDemonClone = default
+  PsychicSoul = default
+  PoisonSoul = default
+  MeleeRevenant = default
+  FemalePlasma = default
+  Exterminator = default
+  RocketImp = default
+  Vulgar = default
+  Phantom = default
+  Superdemon = default
+  NightmareDemon = default
+  HeavyCarbineGuy = default
+  Annihilator = default
+  PyroZombie = default
+  Poe = default
+  Blot = default
+  PlasmaZombie = default
+  LordofHeresy = default
+  TimeImp = default
+  SegwayZombie = default
+  DivineShadow = default
+  ImpAbomination = default
+  HellWarrior = default
+  KDiZDNightmare = default
+  Guardian = default
+  FormerRanger = default
+  Grell = default
+  Fleshspawn = default
+  FreezeRifleGuy = default
+  FusionSpider = default
+  XWizard = default
+  ZombieFodder = default
+  Machinegunguy = default
+  BFGGuy = default
+  FemaleScientist1 = default
+  Demolisher = default
+  EnhancedCacodemon = default
+  RevGhoul = default
+  ChaingunGuy2 = default
+  Phantasm = default
+  DarkDevil = default
+  Bad = default
+  CacolanternClone = default
+  BruiserDemon = default
+  MaulerDemon = default
+  Watcher = default
+  RailArachnotron = default
+
+@doom_mon_control = 0
+
+@doom_weapon_control = 0
+
+@export_map = 0
+
+@misc = 0
+
+@music_swapper = 1
+
+@sky_generator = 1
+
+@small_spiderdemon = 1
+
+@stealth_mons = 0
+
+@zdoom_marines = 0
+
+-- END --
+Loading prefabs from: 'games/doom/fabs'
+OK
+
+Sky generator:
+  1 = STARS
+    + DARKGREEN_HILLS
+  2 = GREY_CLOUDS
+  3 = DARKRED_CLOUDS
+    + DARKBROWN_HILLS
+
+
+Theme for level MAP01 = tech
+
+Special levels:
+  none
+Game title: Gateway of Slime
+
+Game sub-title: Evil Unleashed
+
+Episode 1 title: A Savage Tower
+
+
+
+~~~~~~| MAP01 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  big_rooms = some
+  cages = none
+  caves = none
+  cycles = heaps
+  doors = few
+  ex_floors = heaps
+  fences = heaps
+  hallways = none
+  islands = heaps
+  keys = some
+  lakes = few
+  liquids = some
+  outdoors = heaps
+  parks = some
+  pictures = some
+  porches = some
+  secrets = none
+  steepness = few
+  switches = some
+  symmetry = few
+  teleporters = none
+  traps = none
+  windows = some
+}
+
+Liquid: nukage (usage 50%)
+
+Darkness falls across the land...
+
+
+--==| Creating Rooms |==--
+
+Map size target: 34x28 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+                            PP        oo
+                            PPPP      oo
+                            PPPP     /oo\
+                          PPPPPPP   /oooooo
+                          PPPPPPP   ooooooo
+                          PPPPPP    ooooo
+                            PPPP   /ooooo nnn\
+                         PPPPPP    oooooo nnnn\
+                       PPPPPPPP    ooooo/ nnnnnnnn\ nnn
+                      PPPPPPPPP ooooooGGGGnnnnnnnnnnnnnnn
+                      PPPPPPPPP oooooGGGGGnnnnnnnnnnnnnnn
+                         PPPPPPPoo ooGGGGGnnnnnnnnnn/
+                         PP  PPPoooooo GGGGGGGGnnn
+                             mmmooooooGGGGGGGGGnnn  /ccc\
+                             mmmoo/GGGGGGGGGGGGnn  /ccccc\
+                             mmmm\ GGGGGbbbbbbbb  ccccccccc
+                             mmmmmGGGGGGbbbbbbbb  ccccccccc
+                             \mmmmGGGGGGbbbbbbaaaaaaacccccccc
+                            mm mmm GGGGGbbbbbbaaaaaaaccccccccccc
+                            mmmmmmHH  bbbbbbbbaaaaaaaccccccccccc
+                          mmmmmmmmHHH bbbbbbbbaaaaaaaccccccccccccc
+                          mmmmmmmmHHHbbbbbbbbbaaaaaaaccccc ccccccc
+                            /mm mm HHbbbbbb\bbaaaaaaaccccc \cccccc
+                          mmmmmmmmHHHbbbbbb DD /aaa\ ccccc  cccccc
+                          mmmmmmmmHHHFFFFFDDDDaaaaaa  \ccc  cccccc
+                             \mmFFHH FFFFFDDDDaaaaaa ccccc      cc
+                                FF FFFFFFF DDDD aaaIIccccc
+                           FFFFFFFFFFFFFFFDDDDDDDDDIIccccc
+                           FFFFFFFFFF/kkDDDDDDDDDDDIIccccc
+                          FFFFFFFF FFkkkDDDDDDDDDDIIIccccc   jj
+                          FFFFFFFF/llkkk  DDDDDDDDIIIjjjjjjj jj
+                             FFFFllllkkk  DDDDDDDD IIjjjjjjj/jj
+                             FFFFllllkkk     DDDDDIII\jj jj jjjj
+                               FFllllkkk     DD DDIIIIjjjjjjjjjj
+                               FFllllkkk     DD DD IIII jjjjjj/
+                                  /ll\kkkk\kkkk     III IIjjjj
+                        lllll\ llllll kkkkkkkkk IIII II IIjjjj
+                        lllllllllllll kkkkkkkkk IIIIIIIIIIjjjj
+                       llllllllllllll kkkk/kk   IIIIIIIIII
+                       llllllllllllll kkkk      IIIIIIIIIIII
+                           \lllll/   kkkkkk         IIIIIIII
+                              ll     kkkkkk
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_12
+Maximum of 2 key goals.
+Dividing QUEST_1 @ CONN_10 (ROOM_6 -- ROOM_12)
+Dividing QUEST_2 @ CONN_1 (ROOM_1 -- ROOM_2)
+Maximum of 2 switch goals.
+Dividing QUEST_2 @ CONN_11 (ROOM_6 -- ROOM_13)
+Start room: ROOM_1
+Quest list:
+  QUEST_3 : svolume:481
+  QUEST_4 : svolume:366
+  QUEST_2 : svolume:148
+  QUEST_1 : svolume:81
+Zone quota: 4
+Zone list:
+  ZONE_2 : rooms:6 areas:57
+  ZONE_4 : rooms:6 areas:43
+  ZONE_3 : rooms:2 areas:22
+  ZONE_1 : rooms:1 areas:6
+Secrets: NONE (by style)
+Other Item quota : 8.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: shotty
+Giving weapon: chain
+Giving weapon: plasma
+Giving weapon: super
+Giving weapon: bfg
+Giving weapon: launch
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 49841 dead regions (of 70923)
+Swallowed 8039 brushes (of 49983)
+Filled 0 gaps (of 16147 total)
+Lighting level...
+Merged 4876 colinear lines
+Rounded 16 square corners
+Aligned 6671 textures
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+Merging WAD sections from: games/doom/data/doom_falls.wad
+Opened WAD file: games/doom/data/doom_falls.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/lift_flat.wad
+Opened WAD file: games/doom/data/lift_flat.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/metal_step.wad
+Opened WAD file: games/doom/data/metal_step.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/vine_dude.wad
+Opened WAD file: games/doom/data/vine_dude.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/logos.wad
+Opened WAD file: games/doom/data/logos.wad
+Closed WAD file
+Merging WAD sections from: games/doom/data/hang_lamp.wad
+Opened WAD file: games/doom/data/hang_lamp.wad
+Closed WAD file
+
+
+~~~~~~ Finished Making Levels ~~~~~~
+
+Writing WAD directory
+Closed WAD file
+
+GLBSP: Opened PWAD file : C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_slime.tmp
+GLBSP: 
+GLBSP: Building normal and GL nodes on MAP01
+GLBSP: 
+GLBSP: Saving WAD as C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_slime.wad
+GLBSP: 
+GLBSP: Total serious warnings: 0
+GLBSP: Total minor warnings: 0
+GLBSP: 
+GLBSP: All levels were built successfully.
+Saving options file...
+DONE.
+
+
+TOTAL TIME: 14.48 seconds
 

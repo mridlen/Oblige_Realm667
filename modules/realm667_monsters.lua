@@ -1595,10 +1595,11 @@ REALM667.MONSTERS =
 	 r = 20
 	 h = 56
 	 prob = 30
-	 health = 100
-	 damage = 100
+	 health = 200
+	 damage = 200
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 
 	}
 	Rictus =
 	{
