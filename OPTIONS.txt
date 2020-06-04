@@ -16,10 +16,10 @@ last_directory = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70
 
 ---- Enabled Addons ----
 
+addon = ObAddon.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\evil_magic.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\the_sinful_ruins.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\extreme_heroes.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\burning_agony.wad
@@ -29,4 +29,5 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\doomed_shadows.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\domain_of_silence.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\caverns_of_the_devil.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\shores_of_the_titans.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-4-1145_armaetuss_warzone.wad
 

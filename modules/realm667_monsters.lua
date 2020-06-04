@@ -2081,7 +2081,8 @@ REALM667.MONSTERS =
 	 health = 500
 	 damage = 100
 	 attack = "missile"
-	 density = 0.3
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	TornadoDemon =
 	{
