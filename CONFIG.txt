@@ -2,73 +2,41 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
--- ObAddon (C) 2018-2020
--- MsrSgtShooterPerson
--- Armaetus
--- Garrett
--- Caligari87
--- Frozsoul
--- Simon-v
--- Beed28
--- Craneo
--- MogWaltz
--- EpicTyphlosion
--- Tapwave
--- Swedra
--- Demios
--- https://github.com/caligari87/ObAddon/
-
-seed = 387168453
+seed = 1206926573
 
 ---- Game Settings ----
 
 game = doom2
 engine = zdoom
-length = game
+length = single
 theme = original
 
 ---- Architecture ----
 
-size = micro
-streets_mode = 13
-linear_mode = 5
+size = regular
 outdoors = mixed
 caves = mixed
 liquids = mixed
-hallways = mixed
-teleporters = mixed
+hallways = none
+teleporters = none
 steepness = mixed
-prebuilt_levels = no
-procedural_gotchas = epi
-layout_absurdity = none
-zdoom_vista = disable
-zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = normal
-mix_it_up_upper_range = nuts
-mix_it_up_lower_range = scarce
-strength = medium
-ramp_up = medium
-mon_variety = mixed
-bosses = medium
+mons = nuts
+strength = crazy
+ramp_up = fast
+bosses = harder
 traps = none
-trap_style = default
-trap_qty = default
-cage_qty = default
 cages = none
-secret_monsters = no
-quiet_start = no
 
 ---- Pickups ----
 
-health = normal
-ammo = normal
-weapons = normal
-items = normal
+health = heaps
+ammo = heaps
+weapons = very_soon
+items = heaps
 secrets = none
-secrets_bonus = none
 
 ---- Other Modules ----
 
@@ -285,20 +253,6 @@ secrets_bonus = none
   Watcher = default
   RailArachnotron = default
 
-@armaetus_epic_textures = 0
-  include_package = yes
-  custom_liquids = yes
-  custom_trees = zs
-  environment_themes = random
-
-@debugger = 0
-  name_gen_test = none
-  build_levels = all
-  shape_rule_stats = no
-  print_prefab_use = yes
-  print_story_strings = yes
-  print_shape_steps = show
-
 @doom_mon_control = 0
   Spiderdemon = default
   caco = less
@@ -322,27 +276,12 @@ secrets_bonus = none
 @doom_weapon_control = 0
   super = default
   chain = default
-  weapon_prefs = normal
   launch = default
   bfg = default
   plasma = default
   shotty = default
 
 @export_map = 0
-
-@gzdoom_boss_gen = 1
-  boss_gen_types = no
-  boss_gen_hpbar = yes
-  boss_gen_diff = default
-  boss_gen_hitscan = default
-  boss_gen_music = yes
-  boss_gen_health = default
-  boss_gen_reinforce = default
-  boss_gen_weap = scatter
-  boss_gen_exit = default
-  boss_gen_steepness = none
-
-@harder_enemy = 0
 
 @heretic_mon_control = 0
   warrior = default
@@ -369,69 +308,21 @@ secrets_bonus = none
   firemace = default
   phoenix = default
 
-@jokewad_module = 0
-  fireblu_mode = disable
-  pandemic_mode = disable
-
-@level_control = 0
-  mixin_type = normal
-  level_upper_bound = micro
-  level_lower_bound = micro
-  level_size_ramp_factor = 0.66
-
-@megawad_swapper = 1
-
 @misc = 0
   pistol_starts = no
   alt_starts = no
   big_rooms = mixed
-  big_outdoor_rooms = mixed
-  room_heights = normal
   parks = mixed
-  natural_parks = none
-  park_detail = mixed
   windows = mixed
-  passable_windows = not_on_vistas
   symmetry = mixed
-  beams = mixed
-  fences = mixed
-  porches = mixed
-  scenics = mixed
-  corner_style = random
-  liquid_sinks = yes
   darkness = mixed
-  brightness_offset = none
+  mon_variety = mixed
   barrels = mixed
   doors = mixed
   keys = mixed
-  trikeys = mixed
   switches = mixed
-  road_markings = yes
-  street_traffic = mixed
-  exit_signs = yes
-  linear_start = default
-  dead_ends = heaps
-  live_minimap = step
-
-@modded_game_extras = 0
-  qcde_lootboxes = disable
-  hn_markers = none
-  hd_cover_walls = disable
-  d4t_ents = disable
-  custom_actor_names = none
 
 @music_swapper = 1
-
-@prefab_control = 0
-  autodetail = on
-  point_prob = fab_default
-  wall_prob = fab_default
-
-@procedural_gotcha = 0
-  gotcha_map_size = small
-  gotcha_strength = harder
-  gotcha_boss_fight = yes
-  gotcha_qty = lots
 
 @quake2_mon_control = 0
   Huge_flyer = default
@@ -490,10 +381,6 @@ secrets_bonus = none
   grenade = default
 
 @sky_generator = 1
-  force_hill_params = hp_random
-  influence_map_darkness = no
-  force_hills = hs_random
-  force_sky = sky_default
 
 @small_spiderdemon = 1
 
@@ -514,8 +401,6 @@ secrets_bonus = none
 @stealth_mons = 0
   qty = normal
 
-@zdoom_ambient_sound = 0
-
 @zdoom_marine_control = 0
   marine_bfg = default
   marine_chain = default
@@ -531,18 +416,5 @@ secrets_bonus = none
 
 @zdoom_marines = 0
   qty = plenty
-
-@zdoom_specials = 0
-  generic_intermusic = $MUSIC_READ_M
-  fog_generator = no
-  dynamic_lights = yes
-  fog_env = all
-  custom_quit_messages = yes
-  no_intermission = no
-  episode_selection = no
-  fog_affects_sky = yes
-  story_generator = proc
-  mapinfo_music_shuffler = no
-  fog_intensity = subtle
 
 -- END --

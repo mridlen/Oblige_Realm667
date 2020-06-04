@@ -273,7 +273,8 @@ REALM667.MONSTERS =
 	 health = 200
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	BlindPinky =
 	{
@@ -782,7 +783,8 @@ REALM667.MONSTERS =
 	 health = 40
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "nasty"
 	}
 	FemaleScientist1 =
 	{
@@ -859,7 +861,8 @@ REALM667.MONSTERS =
 	 health = 50
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
+	 boss_type = "minor"
 	}
 	Fleshspawn =
 	{
@@ -1525,7 +1528,8 @@ REALM667.MONSTERS =
 	 health = 150
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	PyroZombie =
 	{
@@ -1559,7 +1563,8 @@ REALM667.MONSTERS =
 	 health = 500
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "nasty"
 	}
 	RailBot =
 	{
@@ -1570,7 +1575,8 @@ REALM667.MONSTERS =
 	 health = 150
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "nasty"
 	}
 	RapidFireTrooper =
 	{
@@ -1846,7 +1852,8 @@ REALM667.MONSTERS =
 	 health = 80
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "nasty"
 	}
 	SoulHarvester =
 	{
@@ -2172,7 +2179,8 @@ REALM667.MONSTERS =
 	 health = 60
 	 damage = 100
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	FlyingFatso =
 	{
@@ -2309,7 +2317,8 @@ REALM667.MONSTERS =
 	 health = 450
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "minor"
 	}
 	ZombieRailgunner =
 	{
@@ -2320,7 +2329,8 @@ REALM667.MONSTERS =
 	 health = 45
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "nasty"
 	}
 	ZombieScientist =
 	{
@@ -2408,7 +2418,8 @@ REALM667.MONSTERS =
 	 health = 450
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "minor"
 	}
 	ZSec =
 	{
@@ -2441,7 +2452,8 @@ REALM667.MONSTERS =
 	 health = 150
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "nasty"
 	}
 	ZSpecOpsShotgun =
 	{
