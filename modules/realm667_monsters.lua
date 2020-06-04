@@ -65,6 +65,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Agathodemon =
 	{
@@ -112,7 +113,8 @@ REALM667.MONSTERS =
 	 health = 1200
 	 damage = 800
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
+	 boss_type = "minor"
 	}
 	Arachnophyte =
 	{
@@ -135,6 +137,7 @@ REALM667.MONSTERS =
 	 damage = 320
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Aracnorb =
 	{
@@ -157,6 +160,7 @@ REALM667.MONSTERS =
 	 damage = 100
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	ArchonOfHell =
 	{
@@ -168,6 +172,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	ASGGuy =
 	{
@@ -190,6 +195,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	BabyCaco =
 	{
@@ -256,6 +262,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	BFGGuy =
 	{
@@ -333,6 +340,7 @@ REALM667.MONSTERS =
 	 damage = 100
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	CacolanternClone =
 	{
@@ -432,6 +440,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Crash2 =
 	{
@@ -487,6 +496,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "nasty"
 	}
 	Cybruiser =
 	{
@@ -498,6 +508,7 @@ REALM667.MONSTERS =
 	 damage = 320
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	Cardinal =
 	{
@@ -509,6 +520,7 @@ REALM667.MONSTERS =
 	 damage = 320
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "nasty"
 	}
 	DarkDevil =
 	{
@@ -575,6 +587,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Incarnate =
 	{
@@ -597,6 +610,7 @@ REALM667.MONSTERS =
 	 damage = 200
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	Defiler =
 	{
@@ -608,6 +622,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	Demolisher =
 	{
@@ -618,7 +633,8 @@ REALM667.MONSTERS =
 	 health = 6000
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	DevastatorZombie =
 	{
@@ -652,6 +668,7 @@ REALM667.MONSTERS =
 	 damage = 800
 	 attack = "missile"
 	 density = 0.1
+	 boss_type = "nasty"
 	}
 	DivineShadow =
 	{
@@ -662,7 +679,8 @@ REALM667.MONSTERS =
 	 health = 3500
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	ChaingunGuy2 =
 	{
@@ -974,6 +992,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Hangman =
 	{
@@ -1040,6 +1059,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	Hellion =
 	{
@@ -1062,6 +1082,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	HellstormArchon =
 	{
@@ -1072,7 +1093,8 @@ REALM667.MONSTERS =
 	 health = 2000
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
+	 boss_type = "tough"
 	}
 	HellWarrior =
 	{
@@ -1095,6 +1117,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	HornedImp =
 	{
@@ -1216,6 +1239,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Machinegunguy =
 	{
@@ -1338,10 +1362,10 @@ REALM667.MONSTERS =
 	 r = 43
 	 h = 90
 	 prob = 30
-	 health = 4000
-	 damage = 200
+	 health = 10000
+	 damage = 2000
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	 boss_type = "nasty"
 	}
 
@@ -1456,6 +1480,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	PsychicSoul =
 	{
@@ -1488,7 +1513,8 @@ REALM667.MONSTERS =
 	 health = 2500
 	 damage = 100
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	PyroImp =
 	{
@@ -1510,7 +1536,8 @@ REALM667.MONSTERS =
 	 health = 200
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	QuadShotgunZombie =
 	{
@@ -1929,7 +1956,8 @@ REALM667.MONSTERS =
 	 health = 3500
 	 damage = 400
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	SuperFlyingImp =
 	{
@@ -1973,7 +2001,8 @@ REALM667.MONSTERS =
 	 health = 3500
 	 damage = 1000
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	Swarm =
 	{
@@ -2064,6 +2093,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	TorturedSoul =
 	{
@@ -2097,6 +2127,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	Uberchain =
 	{
@@ -2173,7 +2204,8 @@ REALM667.MONSTERS =
 	 health = 1500
 	 damage = 100
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.4
+	 boss_type = "minor"
 	}
 	Watcher =
 	{
@@ -2264,7 +2296,8 @@ REALM667.MONSTERS =
 	 health = 575
 	 damage = 300
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "nasty"
 	}
 	ZombiePlasmaTank =
 	{
