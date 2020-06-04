@@ -7,6 +7,7 @@
 4) Run the generated wad and Realm667.pk3 with your desired sourceport (only GZDoom was tested)
 Note: I'm not sure any of the monster quantity settings will be affected yet - this is still VERY VERY alpha
 
+Note: I've included ObAddon into the addons. I did not develop it, nor am I associated with it. I am not going to try to keep an updated copy, but I might update it from time to time when I feel like it. Visit: https://github.com/caligari87/ObAddon
 
 Here is the original readme:
 
