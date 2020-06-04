@@ -100,7 +100,8 @@ REALM667.MONSTERS =
 	 health = 7000
 	 damage = 800
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	Arachnobaron =
 	{
@@ -1341,6 +1342,7 @@ REALM667.MONSTERS =
 	 damage = 200
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "nasty"
 	}
 
 	-- Phantasm Classic goes here ?? --
@@ -1784,6 +1786,7 @@ REALM667.MONSTERS =
 	 damage = 200
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "nasty"
 	}
 	SnakeImp =
 	{
@@ -2004,6 +2007,7 @@ REALM667.MONSTERS =
 	 damage = 2000
 	 attack = "missile"
 	 density = 0.1
+	 boss_type = "nasty"
 	}
 	Terror =
 	{
@@ -2037,6 +2041,7 @@ REALM667.MONSTERS =
 	 damage = 400
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "nasty"
 	}
 	TimeImp =
 	{
@@ -2047,7 +2052,7 @@ REALM667.MONSTERS =
 	 health = 500
 	 damage = 100
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
 	}
 	TornadoDemon =
 	{

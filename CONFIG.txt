@@ -2,7 +2,7 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
-seed = 1864433101
+seed = 124992745
 
 ---- Game Settings ----
 
@@ -25,18 +25,18 @@ steepness = mixed
 
 mons = normal
 strength = medium
-ramp_up = slow
-bosses = easier
+ramp_up = medium
+bosses = medium
 traps = none
 cages = none
 
 ---- Pickups ----
 
-health = heaps
-ammo = heaps
+health = bit_more
+ammo = bit_more
 weapons = very_soon
 items = heaps
-secrets = heaps
+secrets = none
 
 ---- Other Modules ----
 
@@ -57,7 +57,7 @@ secrets = heaps
   GhostRevenant = default
   Cybruiser = default
   Crash2 = default
-  Diabloist = scarce
+  Diabloist = default
   ProfaneOne = default
   SuperImp = default
   TeslaCoil = default
@@ -77,7 +77,7 @@ secrets = heaps
   Swarm = default
   ZombieMissileTank = default
   CrackoDemon = default
-  NailBorg = less
+  NailBorg = default
   Satyr = default
   ArchonOfHell = default
   PlasmaElemental = default
@@ -103,9 +103,9 @@ secrets = heaps
   FemaleScientist3 = default
   Morphed = default
   ASGGuy = default
-  NailBorgCommando = less
+  NailBorgCommando = default
   DarknessRift = default
-  Terminator = scarce
+  Terminator = default
   Tentacle1 = default
   ZSpecOpsMachinegun = default
   ZombieScientist3 = default
@@ -198,7 +198,7 @@ secrets = heaps
   SpiderImpHead = default
   BabyCaco = default
   FlamerZombie = default
-  Hellion = scarce
+  Hellion = default
   Nightshade = default
   QuadShotgunZombie = default
   BeamRevenant = default
