@@ -1,13 +1,28 @@
 # Oblige with Realm 667 monsters
 
-# Installation
+# Installation - Windows
 1) Download the files and run the oblige.exe
 2) Verify the REALM667 box is checked
 3) Generate your level(s)
 4) Run the generated wad and Realm667.pk3 with your desired sourceport (only GZDoom was tested)
-Note: I'm not sure any of the monster quantity settings will be affected yet - this is still VERY VERY alpha
 
-Note: I've included ObAddon into the addons. I did not develop it, nor am I associated with it. I am not going to try to keep an updated copy, but I might update it from time to time when I feel like it. Visit: https://github.com/caligari87/ObAddon
+# Installation - Linux (or other)
+1) Don't clone/download this one. Go to the Oblige home and download the "source" package (you'll need to compile it... good luck). http://oblige.sourceforge.net/ 
+2) Just grab the realm667_monsters.lua from the modules folder and the Realm667.pk3 file.
+3) Put the realm667_monsters.lua in your modules folder
+4) Verify the REALM667 box is checked
+5) Run the generated wad and Realm667.pk3 with your desired sourceport (only GZDoom was tested)
+
+
+# Other Notes
+I've included ObAddon into the addons. I did not develop it, nor am I associated with it. I am not going to try to keep an updated copy, but I might update it from time to time when I feel like it. Visit: https://github.com/caligari87/ObAddon
+
+Tested versions:
+GZDoom 3.2.1
+GZDoom 4.3.3
+
+Incompatible versions:
+GZDoom 2.2.0
 
 Here is the original readme:
 
