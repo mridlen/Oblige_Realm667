@@ -63,7 +63,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 800
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	 boss_type = "minor"
 	}
@@ -249,7 +249,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 20
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	BelphegorClone =
@@ -295,7 +295,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 300
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	Bloodfiend =
@@ -1263,7 +1263,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 150
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	MeleeRevenant =
@@ -1334,7 +1334,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 260
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	Nightshade =
@@ -1576,7 +1576,6 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.2
-	 boss_type = "nasty"
 	}
 	RapidFireTrooper =
 	{
@@ -1686,7 +1685,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 50
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	Satyr =
@@ -1697,7 +1696,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 400
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	SawedOffShotgunGuy =
@@ -1719,7 +1718,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 60
 	 damage = 50
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	Shade =
@@ -1796,7 +1795,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 15
 	 damage = 10
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	SMGGuy =
@@ -2020,7 +2019,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 10
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	TentacledCommando =
@@ -2054,7 +2053,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 100
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 	TeslaCoil =
@@ -2066,7 +2065,7 @@ REALM667.MONSTERS =
 	 health = 250
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
 	}
 	Thamuz =
 	{
@@ -2179,7 +2178,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 60
 	 damage = 100
-	 attack = "missile"
+	 attack = "hitscan"
 	 density = 0.1
 	 boss_type = "nasty"
 	}
@@ -2258,7 +2257,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 150
 	 damage = 32
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
 	}
 
