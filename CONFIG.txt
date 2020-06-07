@@ -2,7 +2,7 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
-seed = 1462843645
+seed = 663943897
 
 ---- Game Settings ----
 
@@ -32,10 +32,10 @@ cages = some
 
 ---- Pickups ----
 
-health = more
+health = normal
 ammo = heaps
-weapons = very_soon
-items = heaps
+weapons = normal
+items = normal
 secrets = none
 
 ---- Other Modules ----
@@ -308,19 +308,19 @@ secrets = none
   firemace = default
   phoenix = default
 
-@misc = 0
-  pistol_starts = no
+@misc = 1
+  pistol_starts = yes
   alt_starts = no
-  big_rooms = mixed
-  parks = mixed
+  big_rooms = some
+  parks = rare
   windows = mixed
   symmetry = mixed
-  darkness = mixed
+  darkness = rare
   mon_variety = mixed
   barrels = mixed
   doors = mixed
-  keys = mixed
-  switches = mixed
+  keys = none
+  switches = none
 
 @music_swapper = 1
 

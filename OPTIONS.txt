@@ -19,14 +19,14 @@ last_directory = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\doomed_shadows.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\domain_of_silence.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\caverns_of_the_devil.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\shores_of_the_titans.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-4-1145_armaetuss_warzone.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\savage_agony.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\valley_of_dreams.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_fear.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_slime.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\sinful_blood.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\evil_rage.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\dreams_forever.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_horror.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\death_in_the_city.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\magic_in_the_citadel.wad
 
