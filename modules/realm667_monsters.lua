@@ -646,7 +646,8 @@ REALM667.MONSTERS =
 	 health = 200
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	Devil =
 	{
