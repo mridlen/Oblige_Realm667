@@ -1,17 +1,16 @@
-# Oblige with Realm 667 monsters
+# Oblige with Realm 667 monsters and weapons
 
 # Installation - Windows
 1) Download the files and run the oblige.exe
-2) Verify the REALM667 box is checked
+2) Verify the REALM667 box is checked (there are 2 of them now)
 3) Generate your level(s)
-4) Run the generated wad and Realm667.pk3 with your desired sourceport (only GZDoom was tested)
+4) Run the generated wad and Realm667.pk3 and/or Realm667_weapons.zip with your desired sourceport (only GZDoom was tested)
 
 # Installation - Linux (or other)
 1) Don't clone/download this one. Go to the Oblige home and download the "source" package (you'll need to compile it... good luck). http://oblige.sourceforge.net/ 
 2) Just grab the realm667_monsters.lua from the modules folder and the Realm667.pk3 file.
 3) Put the realm667_monsters.lua in your modules folder
-4) Verify the REALM667 box is checked
-5) Run the generated wad and Realm667.pk3 with your desired sourceport (only GZDoom was tested)
+4) Go to step 2 on the Windows install
 
 
 # Other Notes
