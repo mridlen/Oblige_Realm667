@@ -1253,13 +1253,187 @@ REALM667W.WEAPONS =
 	}
 }
 
+
+
+
+
+
+REALM667W.WEAPON_CHOICES =
+{
+  "default", _("DEFAULT"),
+  "none",    _("None at all"),
+  "scarce",  _("Scarce"),
+  "less",    _("Less"),
+  "plenty",  _("Plenty"),
+  "more",    _("More"),
+  "heaps",   _("Heaps"),
+  "loveit",  _("I LOVE IT"),
+}
+
+REALM667W.WEAPON_PROBS =
+{
+  none   = 0
+  scarce = 2
+  less   = 15
+  plenty = 50
+  more   = 120
+  heaps  = 300
+  loveit = 1000
+}
+
+REALM667W.WEAPON_PREFS =
+{
+  none   = 1
+  scarce = 10
+  less   = 25
+  plenty = 40
+  more   = 70
+  heaps  = 100
+  loveit = 170
+}
+
+
+function REALM667W.weapon_setup(self)
+  for name,opt in pairs(self.options) do
+    local W = GAME.WEAPONS[name]
+
+    if W and opt.value != "default" then
+      W.add_prob = REALM667W.WEAPON_PROBS[opt.value]
+      W.pref     = REALM667W.WEAPON_PREFS[opt.value]
+
+      -- loosen some of the normal restrictions
+      W.level = 1
+    end
+  end -- for opt
+end
+
+
+
+
+
 OB_MODULES["REALM667W"] =
 {
   label = "Realm667 Weapons"
+
+  game = "doomish"
+
+  hooks =
+  {
+    --setup = REALM667W.weapon_setup
+  }
 
   tables =
   {
     REALM667W
   }
-}
 
+  options =
+  {
+
+GrenadeLauncher40mm     =  {  label=_("GrenadeLauncher40mm"),     choices=REALM667W.WEAPON_CHOICES  }
+AA12                    =  {  label=_("AA12"),                    choices=REALM667W.WEAPON_CHOICES  }
+ActionMachineGun        =  {  label=_("ActionMachineGun"),        choices=REALM667W.WEAPON_CHOICES  }
+AK47                    =  {  label=_("AK47"),                    choices=REALM667W.WEAPON_CHOICES  }
+AlphaUnmaker            =  {  label=_("AlphaUnmaker"),            choices=REALM667W.WEAPON_CHOICES  }
+AlphaUnmaker            =  {  label=_("AlphaUnmaker"),            choices=REALM667W.WEAPON_CHOICES  }
+AngledPistol            =  {  label=_("AngledPistol"),            choices=REALM667W.WEAPON_CHOICES  }
+Autogun                 =  {  label=_("Autogun"),                 choices=REALM667W.WEAPON_CHOICES  }
+AutoShot                =  {  label=_("AutoShot"),                choices=REALM667W.WEAPON_CHOICES  }
+Axe                     =  {  label=_("Axe"),                     choices=REALM667W.WEAPON_CHOICES  }
+BayonetRifle            =  {  label=_("BayonetRifle"),            choices=REALM667W.WEAPON_CHOICES  }
+BFG2704                 =  {  label=_("BFG2704"),                 choices=REALM667W.WEAPON_CHOICES  }
+BHGen                   =  {  label=_("BHGen"),                   choices=REALM667W.WEAPON_CHOICES  }
+BioPipebombLauncher     =  {  label=_("BioPipebombLauncher"),     choices=REALM667W.WEAPON_CHOICES  }
+Butchergun              =  {  label=_("Butchergun"),              choices=REALM667W.WEAPON_CHOICES  }
+Channeler               =  {  label=_("Channeler"),               choices=REALM667W.WEAPON_CHOICES  }
+ClaymoreMine            =  {  label=_("ClaymoreMine"),            choices=REALM667W.WEAPON_CHOICES  }
+Coachgun                =  {  label=_("Coachgun"),                choices=REALM667W.WEAPON_CHOICES  }
+Colt45                  =  {  label=_("Colt45"),                  choices=REALM667W.WEAPON_CHOICES  }
+CryoBow                 =  {  label=_("CryoBow"),                 choices=REALM667W.WEAPON_CHOICES  }
+D2C_Pipebomb            =  {  label=_("D2C_Pipebomb"),            choices=REALM667W.WEAPON_CHOICES  }
+DemonicLeech            =  {  label=_("DemonicLeech"),            choices=REALM667W.WEAPON_CHOICES  }
+DGL                     =  {  label=_("DGL"),                     choices=REALM667W.WEAPON_CHOICES  }
+DoubleBladedChainsaw    =  {  label=_("DoubleBladedChainsaw"),    choices=REALM667W.WEAPON_CHOICES  }
+DualLaser               =  {  label=_("DualLaser"),               choices=REALM667W.WEAPON_CHOICES  }
+DukeShotgun             =  {  label=_("DukeShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
+EgoSmasher              =  {  label=_("EgoSmasher"),              choices=REALM667W.WEAPON_CHOICES  }
+ElectroGun              =  {  label=_("ElectroGun"),              choices=REALM667W.WEAPON_CHOICES  }
+FistRedux               =  {  label=_("FistRedux"),               choices=REALM667W.WEAPON_CHOICES  }
+FlashLightAngled        =  {  label=_("FlashLightAngled"),        choices=REALM667W.WEAPON_CHOICES  }
+FragGrenade             =  {  label=_("FragGrenade"),             choices=REALM667W.WEAPON_CHOICES  }
+FreezeRifle             =  {  label=_("FreezeRifle"),             choices=REALM667W.WEAPON_CHOICES  }
+GasGun                  =  {  label=_("GasGun"),                  choices=REALM667W.WEAPON_CHOICES  }
+GatLaser                =  {  label=_("GatLaser"),                choices=REALM667W.WEAPON_CHOICES  }
+Glock18                 =  {  label=_("Glock18"),                 choices=REALM667W.WEAPON_CHOICES  }
+HandGrenade             =  {  label=_("HandGrenade"),             choices=REALM667W.WEAPON_CHOICES  }
+HeavyCarbine            =  {  label=_("HeavyCarbine"),            choices=REALM667W.WEAPON_CHOICES  }
+HeavyRifle              =  {  label=_("HeavyRifle"),              choices=REALM667W.WEAPON_CHOICES  }
+HellstormCannon         =  {  label=_("HellstormCannon"),         choices=REALM667W.WEAPON_CHOICES  }
+iGun                    =  {  label=_("iGun"),                    choices=REALM667W.WEAPON_CHOICES  }
+Ionspray                =  {  label=_("Ionspray"),                choices=REALM667W.WEAPON_CHOICES  }
+Karasawa                =  {  label=_("Karasawa"),                choices=REALM667W.WEAPON_CHOICES  }
+KDiZDGrenadeLauncher    =  {  label=_("KDiZDGrenadeLauncher"),    choices=REALM667W.WEAPON_CHOICES  }
+KDiZDSuperShotgun       =  {  label=_("KDiZDSuperShotgun"),       choices=REALM667W.WEAPON_CHOICES  }
+Knife                   =  {  label=_("Knife"),                   choices=REALM667W.WEAPON_CHOICES  }
+LandMineLayer           =  {  label=_("LandMineLayer"),           choices=REALM667W.WEAPON_CHOICES  }
+LaserCannon             =  {  label=_("LaserCannon"),             choices=REALM667W.WEAPON_CHOICES  }
+M16                     =  {  label=_("M16"),                     choices=REALM667W.WEAPON_CHOICES  }
+M40Rifle                =  {  label=_("M40Rifle"),                choices=REALM667W.WEAPON_CHOICES  }
+M79                     =  {  label=_("M79"),                     choices=REALM667W.WEAPON_CHOICES  }
+Machete                 =  {  label=_("Machete"),                 choices=REALM667W.WEAPON_CHOICES  }
+Machinegun              =  {  label=_("Machinegun"),              choices=REALM667W.WEAPON_CHOICES  }
+Mag60                   =  {  label=_("Mag60"),                   choices=REALM667W.WEAPON_CHOICES  }
+MancubusArm             =  {  label=_("MancubusArm"),             choices=REALM667W.WEAPON_CHOICES  }
+MicroUzi                =  {  label=_("MicroUzi"),                choices=REALM667W.WEAPON_CHOICES  }
+model1887               =  {  label=_("model1887"),               choices=REALM667W.WEAPON_CHOICES  }
+MP40                    =  {  label=_("MP40"),                    choices=REALM667W.WEAPON_CHOICES  }
+MP5                     =  {  label=_("MP5"),                     choices=REALM667W.WEAPON_CHOICES  }
+NailGunMG               =  {  label=_("NailGunMG"),               choices=REALM667W.WEAPON_CHOICES  }
+NailgunSG               =  {  label=_("NailgunSG"),               choices=REALM667W.WEAPON_CHOICES  }
+NuclearMissileLauncher  =  {  label=_("NuclearMissileLauncher"),  choices=REALM667W.WEAPON_CHOICES  }
+PlasmaBallista          =  {  label=_("PlasmaBallista"),          choices=REALM667W.WEAPON_CHOICES  }
+PlasmaBeam              =  {  label=_("PlasmaBeam"),              choices=REALM667W.WEAPON_CHOICES  }
+PlasmaBolter            =  {  label=_("PlasmaBolter"),            choices=REALM667W.WEAPON_CHOICES  }
+PlasmaPistol            =  {  label=_("PlasmaPistol"),            choices=REALM667W.WEAPON_CHOICES  }
+PlasmaRepeater          =  {  label=_("PlasmaRepeater"),          choices=REALM667W.WEAPON_CHOICES  }
+PlasmaShotgun           =  {  label=_("PlasmaShotgun"),           choices=REALM667W.WEAPON_CHOICES  }
+PulseNailgun            =  {  label=_("PulseNailgun"),            choices=REALM667W.WEAPON_CHOICES  }
+PulseRifle              =  {  label=_("PulseRifle"),              choices=REALM667W.WEAPON_CHOICES  }
+PumpActionShotgun       =  {  label=_("PumpActionShotgun"),       choices=REALM667W.WEAPON_CHOICES  }
+QuadShotgun             =  {  label=_("QuadShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
+Raptor                  =  {  label=_("Raptor"),                  choices=REALM667W.WEAPON_CHOICES  }
+Raygun                  =  {  label=_("Raygun"),                  choices=REALM667W.WEAPON_CHOICES  }
+Reaper                  =  {  label=_("Reaper"),                  choices=REALM667W.WEAPON_CHOICES  }
+Repeater                =  {  label=_("Repeater"),                choices=REALM667W.WEAPON_CHOICES  }
+Rifle                   =  {  label=_("Rifle"),                   choices=REALM667W.WEAPON_CHOICES  }
+Rifle                   =  {  label=_("Rifle"),                   choices=REALM667W.WEAPON_CHOICES  }
+RivetGun                =  {  label=_("RivetGun"),                choices=REALM667W.WEAPON_CHOICES  }
+ScatterPistol           =  {  label=_("ScatterPistol"),           choices=REALM667W.WEAPON_CHOICES  }
+ShieldGun               =  {  label=_("ShieldGun"),               choices=REALM667W.WEAPON_CHOICES  }
+SidebySide              =  {  label=_("SidebySide"),              choices=REALM667W.WEAPON_CHOICES  }
+SilencedPistol          =  {  label=_("SilencedPistol"),          choices=REALM667W.WEAPON_CHOICES  }
+SingleShot              =  {  label=_("SingleShot"),              choices=REALM667W.WEAPON_CHOICES  }
+SkeletalRevenge         =  {  label=_("SkeletalRevenge"),         choices=REALM667W.WEAPON_CHOICES  }
+Smartgun                =  {  label=_("Smartgun"),                choices=REALM667W.WEAPON_CHOICES  }
+Smasher                 =  {  label=_("Smasher"),                 choices=REALM667W.WEAPON_CHOICES  }
+SniperRifle             =  {  label=_("SniperRifle"),             choices=REALM667W.WEAPON_CHOICES  }
+SPAS12                  =  {  label=_("SPAS12"),                  choices=REALM667W.WEAPON_CHOICES  }
+SprayCannon             =  {  label=_("SprayCannon"),             choices=REALM667W.WEAPON_CHOICES  }
+STBFG10K                =  {  label=_("STBFG10K"),                choices=REALM667W.WEAPON_CHOICES  }
+STGrenadeLauncher       =  {  label=_("STGrenadeLauncher"),       choices=REALM667W.WEAPON_CHOICES  }
+STMinigun               =  {  label=_("STMinigun"),               choices=REALM667W.WEAPON_CHOICES  }
+STRailgun               =  {  label=_("STRailgun"),               choices=REALM667W.WEAPON_CHOICES  }
+SuppressedMP5           =  {  label=_("SuppressedMP5"),           choices=REALM667W.WEAPON_CHOICES  }
+SwatShotgun             =  {  label=_("SwatShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
+Thompson                =  {  label=_("Thompson"),                choices=REALM667W.WEAPON_CHOICES  }
+Toaster                 =  {  label=_("Toaster"),                 choices=REALM667W.WEAPON_CHOICES  }
+UACPlasmaticRifle       =  {  label=_("UACPlasmaticRifle"),       choices=REALM667W.WEAPON_CHOICES  }
+UberMinigun             =  {  label=_("UberMinigun"),             choices=REALM667W.WEAPON_CHOICES  }
+UTNTFlamethrower        =  {  label=_("UTNTFlamethrower"),        choices=REALM667W.WEAPON_CHOICES  }
+UTNTPyroCannon          =  {  label=_("UTNTPyroCannon"),          choices=REALM667W.WEAPON_CHOICES  }
+Uzi                     =  {  label=_("Uzi"),                     choices=REALM667W.WEAPON_CHOICES  }
+WensternShotgun         =  {  label=_("WensternShotgun"),         choices=REALM667W.WEAPON_CHOICES  }
+Yellowboy               =  {  label=_("Yellowboy"),               choices=REALM667W.WEAPON_CHOICES  }
+
+  }
+}
