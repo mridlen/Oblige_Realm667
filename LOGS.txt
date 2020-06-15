@@ -47,12 +47,12 @@ DONE.
 Saving config file...
 DONE.
 
-Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\magic_in_the_citadel.wad
+Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\planet_of_the_overlord.wad
 
 
 ~~~~~~~ Making Levels ~~~~~~~
 
-seed = 663943897
+seed = 998470083
 
 ---- Game Settings ----
 
@@ -74,19 +74,19 @@ steepness = mixed
 ---- Monsters ----
 
 mons = normal
-strength = medium
-ramp_up = medium
-bosses = medium
+strength = harder
+ramp_up = fast
+bosses = harder
 traps = some
 cages = some
 
 ---- Pickups ----
 
 health = normal
-ammo = heaps
-weapons = normal
+ammo = normal
+weapons = very_late
 items = normal
-secrets = none
+secrets = some
 
 ---- Other Modules ----
 
@@ -303,14 +303,136 @@ secrets = none
   Watcher = default
   RailArachnotron = default
 
-@doom_mon_control = 0
+@REALM667W = 1
+  Ionspray = default
+  PlasmaBolter = default
+  SwatShotgun = default
+  Thompson = default
+  Repeater = default
+  model1887 = default
+  GatLaser = default
+  M40Rifle = default
+  BHGen = default
+  Smasher = default
+  Machinegun = default
+  CryoBow = default
+  ClaymoreMine = default
+  Butchergun = default
+  Axe = default
+  BayonetRifle = default
+  D2C_Pipebomb = default
+  FlashLightAngled = default
+  BFG2704 = default
+  Channeler = default
+  PulseNailgun = default
+  Glock18 = default
+  AngledPistol = default
+  Yellowboy = default
+  DoubleBladedChainsaw = default
+  FistRedux = default
+  ScatterPistol = default
+  SingleShot = default
+  MP5 = default
+  Uzi = default
+  UTNTPyroCannon = default
+  WensternShotgun = default
+  ActionMachineGun = default
+  PlasmaBeam = default
+  NailGunMG = default
+  Raptor = default
+  UberMinigun = default
+  NailgunSG = default
+  SniperRifle = default
+  MicroUzi = default
+  GasGun = default
+  ShieldGun = default
+  Reaper = default
+  STMinigun = default
+  KDiZDSuperShotgun = default
+  DemonicLeech = default
+  UACPlasmaticRifle = default
+  FreezeRifle = default
+  Toaster = default
+  SuppressedMP5 = default
+  STRailgun = default
+  STGrenadeLauncher = default
+  STBFG10K = default
+  HeavyCarbine = default
+  Autogun = default
+  ElectroGun = default
+  SPAS12 = default
+  PlasmaRepeater = default
+  SkeletalRevenge = default
+  LaserCannon = default
+  HellstormCannon = default
+  SidebySide = default
+  UTNTFlamethrower = default
+  EgoSmasher = default
+  Rifle = default
+  Raygun = default
+  AutoShot = default
+  Colt45 = default
+  AlphaUnmaker = default
+  QuadShotgun = default
+  GrenadeLauncher40mm = default
+  PumpActionShotgun = default
+  Karasawa = default
+  PlasmaShotgun = default
+  PulseRifle = default
+  AK47 = default
+  iGun = default
+  Smartgun = default
+  Coachgun = default
+  M79 = default
+  HeavyRifle = default
+  Machete = default
+  Knife = default
+  SprayCannon = default
+  NuclearMissileLauncher = default
+  LandMineLayer = default
+  DualLaser = default
+  MP40 = default
+  MancubusArm = default
+  Mag60 = default
+  PlasmaPistol = default
+  M16 = default
+  SilencedPistol = default
+  KDiZDGrenadeLauncher = default
+  DukeShotgun = default
+  AA12 = default
+  BioPipebombLauncher = default
+  PlasmaBallista = default
+  HandGrenade = default
+  FragGrenade = default
+  RivetGun = default
+  DGL = default
+
+@doom_mon_control = 1
+  Spiderdemon = default
+  caco = less
+  gunner = more
+  skull = default
+  demon = default
+  knight = heaps
+  vile = none
+  zombie = default
+  Cyberdemon = scarce
+  ss_nazi = default
+  baron = plenty
+  spectre = default
+  arach = plenty
+  mancubus = default
+  revenant = default
+  pain = default
+  imp = insane
+  shooter = default
 
 @doom_weapon_control = 0
 
 @export_map = 0
 
 @misc = 1
-  pistol_starts = yes
+  pistol_starts = no
   alt_starts = no
   big_rooms = some
   parks = rare
@@ -325,7 +447,7 @@ secrets = none
 
 @music_swapper = 1
 
-@sky_generator = 1
+@sky_generator = 0
 
 @small_spiderdemon = 1
 
@@ -336,15 +458,6 @@ secrets = none
 -- END --
 Loading prefabs from: 'games/doom/fabs'
 OK
-
-Sky generator:
-  1 = GREEN_CLOUDS
-    + DARKBROWN_HILLS
-  2 = PEACH_CLOUDS
-    + BROWN_HILLS
-  3 = YELLOW_CLOUDS
-    + HELL_HILLS
-
 
 Theme for level MAP01 = tech
 Theme for level MAP02 = tech
@@ -381,15 +494,15 @@ Theme for level MAP32 = hell
 
 Special levels:
   none
-Game title: Magic in the Citadel
+Game title: Planet of the Overlord
 
-Game sub-title: G E N E S I S
+Game sub-title: II
 
-Episode 1 title: Highway to Hell
+Episode 1 title: An Evil Domain
 
-Episode 2 title: Shores of Blood
+Episode 2 title: The Realm of Destruction
 
-Episode 3 title: Underworld of Ash
+Episode 3 title: Halls of Lamentation
 
 
 
@@ -397,26 +510,26 @@ Episode 3 title: Underworld of Ash
 
 Styles = 
 {
-  ambushes = heaps
-  barrels = some
+  ambushes = some
+  barrels = heaps
   big_rooms = some
   cages = some
   caves = none
   cycles = some
   darkness = rare
   doors = some
-  ex_floors = some
-  fences = few
+  ex_floors = few
+  fences = none
   hallways = none
   islands = few
   keys = none
   lakes = few
   liquids = heaps
-  outdoors = few
+  outdoors = some
   parks = rare
   pictures = some
-  porches = some
-  secrets = none
+  porches = heaps
+  secrets = some
   steepness = some
   switches = none
   symmetry = few
@@ -450,35 +563,35 @@ Seed Map:
 
 
 
-                                            ggg
-                                         gg ggg
-                                        ggggggg
-                                       /ggggggg
-                                       gggggggggg
-                                       gggggggggg
-                                       gggggggggg
-                                       \gggBBBBBB
-                                AAAAAAA \ggBBBBBB\
-                                AAAAAAA  BBBBBBBBBBB
-                             AAAAAAAAAAAABBBBBBBBBBB
-                             AAAAAAAAAAAABBBBBBBB/
-                             AAAAAAAAAAAABBBBB
-                             AAAAAAAAAADDDDDBBEE
-                               AAAAAA DDDDDDEEEEEEE
-                               AA CAA DDCCDDEEEEEEEEE
-                               HHHCCCCCCCCCCEEEEEEEEEEE
-                          HHHHHHHHCCCCCCCCCCFFEEEEEEEEE
-                          HHHHHHHH CC  CCCCFFFEEEEEEE
-                           HHHHHH  CC  CCCCFFFEE EE
-                           HHHHHH  CC    FFFF EE EE
-                          HHHHHHH       FFFFF EE
-                         HHHHHHHH      FFFFFF
-                         HHHHHHHH      FFFFFF
-                            HHHH         FFFFF
-                            HHHH        FFFFF
-                                        FFFFF
-                                         FF
-                                         FF
+                                                 CCCC
+                                                 CCCC
+                                               CCCCCCC
+                                           CCC CCCCCCC
+                                      DD  CCCC    CCC
+                           DD       DDDD  CCCC\  /CCC
+                           DDDDD    DDDDDDD  \/CC\/
+                         DDDDDDD DD  DDDDDDAACCCCCCCC
+                         DDDDDDD\DDDDDDD   AACCCCCCCC
+                         DDDD  \/DDDDDDDDD AA CCCCCCC
+                           DD DDDDDDDDDDDD AA   AA
+                           DD DDDDDDDDD   /AA\  AA
+                        DDDDD  /\DD DDDAAAAAAAAAAAAAAAA
+                        DDDDDDDD/ DDDDDAAAAAAAAAAAAAAAA
+                        DDDDDDDD DDDDDD  AAAAAAAAbbbb
+                           DD    DDDDD FFAAbbbbbbbbbb
+                           FF  FF FFDD FF  bbbbbbbb
+                          FFFFFFFFFFFFFFFFFFFbbbbbb
+                          FFFFFFFFFFFFFFFFFFFbbbbbb
+                          FFF FFF   FF FF FF bbbbb
+                           F/ FFFFFFFFFFFF   bbbbbbb
+                              FFFFFFFFFFFF   bb bbbb
+                                   FFFF         bbbb
+                                   FF           bbbb
+                                   FF
+
+
+
+
 
 
 
@@ -500,174 +613,49 @@ Seed Map:
 
 --==| Make Quests |==--
 
-Exit room: ROOM_7
+Exit room: ROOM_6
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:395
+  QUEST_1 : svolume:415
 Zone quota: 2
 Zone list:
-  ZONE_1 : rooms:8 areas:75
-Secrets: NONE (by style)
-Other Item quota : 1.00
+  ZONE_1 : rooms:5 areas:90
+Other Item quota : 2.00
 
 --==|  Build Rooms |==--
 
 
 --==| Make Battles |==--
 
-Giving weapon: shotty
+Giving weapon: SingleShot
+Giving weapon: LandMineLayer
+Giving weapon: BayonetRifle
+Giving weapon: Rifle
+Giving weapon: Knife
+Giving weapon: DemonicLeech
+Giving weapon: AA12
+Giving weapon: FlashLightAngled
+Giving weapon: HandGrenade
+Giving weapon: FistRedux
+Giving weapon: FragGrenade
+Giving weapon: Axe
+Giving weapon: D2C_Pipebomb
+Giving weapon: DoubleBladedChainsaw
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 16071 dead regions (of 23727)
-Swallowed 3361 brushes (of 16135)
-Filled 0 gaps (of 4603 total)
+Removed 19890 dead regions (of 29330)
+Swallowed 3657 brushes (of 19937)
+Filled 18 gaps (of 5916 total)
 Lighting level...
-Merged 1588 colinear lines
-Rounded 2 square corners
-Aligned 3027 textures
+Merged 2086 colinear lines
+Rounded 1 square corners
+Aligned 4134 textures
 
 
 ~~~~~~| MAP02 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
-  barrels = none
-  big_rooms = some
-  cages = some
-  caves = few
-  cycles = heaps
-  darkness = rare
-  doors = few
-  ex_floors = heaps
-  fences = none
-  hallways = none
-  islands = heaps
-  keys = none
-  lakes = few
-  liquids = some
-  outdoors = few
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = few
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = few
-}
-
-Liquid: water (usage 50%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                      CC
-                                      CC
-                                    CCCCCC
-                                    CCCCCC
-                                    CCCC CC   BB
-                              HH      CCCCC BBBB
-                              HH      CCCCC BBBBB
-                            HHHHH    CCCCCCCBBBBB
-                            HHHHH CCCCCCCCCCBBBBBBBBB
-                           HHHHHH CCCCCCCCCBBBBBBBBBB
-                           HHHHHHHCCCCC AA BBBBBBBBBB
-                             HHHHHCCCCCAAA  BB   DD
-                            HHHHHHCC   AAA  BB\  DD  DD
-                            HHHHHH AA  AAAAABBBBDDDD DD
-                        HHHHHHHHHH/AA\ AAAAABBBBDDDD DD
-                        HHHHHHHHHHAAAAAAAAAABB/ DDDDDDD
-                        HHHHHHHHHHAAAAAAA   BBDDDDDDDDD
-                        HHHHHHHHHH\AA/AA    BBDDDDDD DD
-                            HHHHHH AAGGGG   BBDD DD
-                            HHHHHH AAGGGG  DDDDDDDDDDD
-                             HHHHH GGGGGGGGDDDDDDDDDDD
-                           HHHHHHH GG GG GGDDDDDDDDDDD
-                           HHHHHHGGGGGGGGGGGGDD   DDDD
-                            HHHHHGGGGGGGGGGGG     DD
-                            HHHHHG GG GG GG G
-                              HH      GG
-                              HH
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_8
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:456
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:6 areas:77
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: shotty
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 12996 dead regions (of 19389)
-Swallowed 3497 brushes (of 13101)
-Filled 0 gaps (of 2821 total)
-Lighting level...
-Merged 1397 colinear lines
-Rounded 0 square corners
-Aligned 2194 textures
-
-
-~~~~~~| MAP03 |~~~~~~
 
 Styles = 
 {
@@ -676,24 +664,24 @@ Styles =
   big_rooms = some
   cages = some
   caves = none
-  cycles = none
+  cycles = heaps
   darkness = rare
   doors = some
   ex_floors = some
-  fences = some
+  fences = few
   hallways = none
-  islands = heaps
+  islands = few
   keys = none
   lakes = few
   liquids = heaps
-  outdoors = some
+  outdoors = few
   parks = rare
   pictures = some
   porches = few
-  secrets = none
+  secrets = some
   steepness = some
   switches = none
-  symmetry = few
+  symmetry = some
   teleporters = none
   traps = some
   windows = some
@@ -724,174 +712,34 @@ Seed Map:
 
 
 
-                                      ffff
-                                     ffffffff
-                                     \fffffff
-                                      fffffff\
-                                       fffffff
-                                       fffffff
-                                       fff ff\
-                                     aafff/ffff    fff
-                                     aaffffffff    fff
-                                     aa   ffff/ff /fff\
-                                    /aaa\  fff ffffffff
-                                   /a/a\aaafffffffff/ff
-                                aaaaaaaaaaaffffffffff/f
-                                aaaaa\a/aaa CC CCfffff/
-                                dddd\aaa/  CCCCCCfff
-                                dddddaabbbbbCCCCCfff
-                                dddddaabbbbbCCCCCfff
-                               dddbb/bbbbbbbCCC CC\
-                               dddbbbbbbbbbbCCCCCCCCC
-                             dddddbbbbbbbbbbCCCCCCCCC
-                             dddddbbbbbHHHHHCC  CC/
-                               dddbbbbbHHHHCCCCCCC
-                               ddd  \bb HH CCCCCCC
-                                \d   HHHHHHHHC
-                                     HHHHHHHH
-                                      HHHH
-                                      HHHHHHH
-                                      HHHHHHH
-                                        HH
-                                       HHHH
-                                        HH
 
 
+                                      DDDDDDDDD
+                                      DDDDDDDDD
+                        BBBBBB  BB   DDDDDDDDDDD
+                        BBBBBBB/BB\  DDDDDDDDDDD          CC
+                        BBBBBBBBBBBBB DDDDDDDDD           CC
+                        BBBBBBBBBBBBB DDDDDDDDD         CCCC
+                        BBBBBBBBBBBBB  DDDDDDD          CCCC
+                        BBBBBB BBBBBB   DDDDD          CCCCC
+                               BBBBBB BBDDDDD CC  CC   CCCCC
+                             BBBBBBBB BB DDD  CCCCCC     CC
+                             BBBBBBBB BB DDD  CCCCCCCCCCCCC
+                               BBBBBBBBBAAAAACCCCCCCCCCCCCCC
+                               BBBBBBBBBAAAAACCCCCCCCCCCCCCC
+                               BBBBBB BB AAA  CCCCCCCCCCCCC
+                                BBBB   AAAAAAACCCCCC     CC
+                                BBBB   AAAAAAACC  CC   CCCCC
+                                  BB   AAAAAAA         CCCCC
+                                        AAAAA           CCCC
+                                        AAAAA           CCCC
+                                        AAAAA             CC
+                                        AAAAA             CC
+                                         AAA
+                                         AAA
+                                         AAA
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_6
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:381
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:6 areas:70
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: chain
-Giving weapon: shotty
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 22169 dead regions (of 32382)
-Swallowed 2367 brushes (of 22224)
-Filled 0 gaps (of 8098 total)
-Lighting level...
-Merged 2020 colinear lines
-Rounded 4 square corners
-Aligned 2369 textures
-
-
-~~~~~~| MAP04 |~~~~~~
-
-Styles = 
-{
-  ambushes = none
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = some
-  darkness = rare
-  doors = few
-  ex_floors = some
-  fences = heaps
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = some
-  parks = rare
-  pictures = some
-  porches = heaps
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = few
-}
-
-Liquid: nukage (usage 90%)
-
-Darkness falls across the land...
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                 CCC
-                                 CCC
-                                CCCC
-                               /CCCC\
-                               CCCCCC
-                               \CCCC/
-                              CCCCCCCC
-                              CCCCCCCC         AA
-                               CCCCCCC AAAAAA  AA
-                             CCCCCCCCC AAAAAA AAA
-                             CCCCCCCCCAAAAAAAAAAA
-                                  CCCCAAAAAAAAAAA
-                               DDDCCCCEE\AA/  AAA
-                              DDDDCCCCEE AA    AAAAA
-                              \DDDDDEEEEEEE  EEAAAAA
-                               DDDDDEEEEEEEEEEEAAAAA
-                               DDDDDDDEEEEEEEEEAAAAAA
-                               DDDDDDD  EEEEEEEAAAAAA
-                                DDDDDDEEEEEEEEBBBBB
-                              DDD/DDD EEEEEEB BBBBB B
-                              DDDDDDD   EE\EBBBBBBBBB
-                              DDD\D/D   E\EEBBBBBBBBB
-                                \DDD/ BB\EEEBBBBBBBBB    BB
-                                 DD   BBBBBBBBBBBBBBBBBBBBB
-                                 DD  BBBBBBBBBBB BBBBBBBBBBB
-                                     BBBBBBB         BBBBBBB
-                                       BBBBBB       BBBBBB
-                                       BBBBB         BBBBB
-                                          BB         BB
-                                          BB         BB
 
 
 
@@ -918,11 +766,10 @@ Exit room: ROOM_2
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:417
-Zone quota: 2
+  QUEST_1 : svolume:401
+Zone quota: 1
 Zone list:
-  ZONE_1 : rooms:5 areas:73
-Secrets: NONE (by style)
+  ZONE_1 : rooms:4 areas:78
 Other Item quota : 1.00
 
 --==|  Build Rooms |==--
@@ -930,51 +777,346 @@ Other Item quota : 1.00
 
 --==| Make Battles |==--
 
+Giving weapon: ShieldGun
+Giving weapon: WensternShotgun
+Giving weapon: chain
 Giving weapon: shotty
-Giving weapon: super
+Giving weapon: LandMineLayer
+Giving weapon: AngledPistol
+Giving weapon: Autogun
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 12263 dead regions (of 18404)
-Swallowed 2890 brushes (of 12369)
-Filled 0 gaps (of 2815 total)
+Removed 11527 dead regions (of 17659)
+Swallowed 2802 brushes (of 11581)
+Filled 9 gaps (of 2575 total)
 Lighting level...
-Merged 1339 colinear lines
+Merged 1155 colinear lines
 Rounded 0 square corners
-Aligned 3044 textures
+Aligned 2829 textures
+
+
+~~~~~~| MAP03 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = few
+  big_rooms = some
+  cages = some
+  caves = some
+  cycles = some
+  darkness = rare
+  doors = few
+  ex_floors = few
+  fences = none
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = few
+  liquids = few
+  outdoors = some
+  parks = rare
+  pictures = few
+  porches = some
+  secrets = some
+  steepness = heaps
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: nukage (usage 25%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       /DDDD DDDD\
+                                       D/DDD DDD\D
+                                       DD/DD DD\DD
+                                     DDDDDDD DDDDDDD
+                                     DDDDDDD DDDDDDD
+                                    DDDDDDD   DDDDDDD
+                                    DDDDDDDDDDDDDDDDD
+                                    DDDDDDDDDDDDDDDDD
+                                       DDDDDDDDDDDccc
+                                    BB DDDDDDDDDDDccc
+                                    BB DDDDDDDDDDDcccccc
+                                   BBBBBBDDDDDDD  cccccc
+                                   BBBBBBDDaaaDD  ccccc
+                                   BBBBBBaaaaaaa  ccccc
+                                    BBBBBaaaaaaa  ccccc
+                                     BBBBaaaaaaa cccccccc\
+                                     BBBBB aaa  /ccccccc\c
+                                      BBBaaaaaaaccccccc\cc
+                                      BBBaaaaaaacccccccccc
+                                      BBBaaaaaaaccc/  ccc
+                                     BBBBB      cc    ccc
+                                     BBBB     cccc
+                                    BBBBB   cccccc
+                                   BBBBBB   cccccc
+                                   BBBBBB   cccccc
+                                   BBBBBB     cccc
+                                    BB        \cc/
+                                    BB         cc
+                                               cc
+                                               cc
+                                               cc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_4
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:397
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:4 areas:69
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: ClaymoreMine
+Giving weapon: AK47
+Giving weapon: PumpActionShotgun
+Giving weapon: Raptor
+Giving weapon: Raygun
+Giving weapon: Yellowboy
+Giving weapon: MancubusArm
+Giving weapon: Reaper
+Giving weapon: chain
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 24255 dead regions (of 35245)
+Swallowed 2552 brushes (of 24377)
+WARNING: entity '43' is inside solid @ (5184,2368,64)
+Filled 0 gaps (of 8837 total)
+WARNING: entity '43' is inside solid @ (5184,2368,64)
+Lighting level...
+Merged 2257 colinear lines
+Rounded 9 square corners
+Aligned 3250 textures
+
+
+~~~~~~| MAP04 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = none
+  big_rooms = some
+  cages = some
+  caves = heaps
+  cycles = none
+  darkness = rare
+  doors = some
+  ex_floors = few
+  fences = few
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = few
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = few
+  teleporters = none
+  traps = some
+  windows = heaps
+}
+
+Liquid: nukage (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              /BBBBBBB
+                              B/BBBBBB             CC
+                              BB/BBB               CC
+                            BBBBBB             CC  CC
+                            BBBBBBBB           CCCCCCCC
+                              BBBBBB           CCCCCCCC
+                              BBBBBB          CCCCCC
+                              BBBBBB          CCCCCC
+                               BBBB  BB       CCCCCC
+                                BB BBBBBB     CCCCCC
+                          BBBBBBBBBBBBBBBBB    CCCC
+                          BBBBBBBBBBBBBBBBB   CCCC
+                           BBBBBBB BBBBBBAAA  CCCC
+                           BBBBBBBBAA  BBAAA    AA
+                           BBBBBBBBAA  AAAAAAA  AA
+                            BBBB   AAAAAAAAAAAAAAADD
+                                   AAAAAAAAAAAAAAADD
+                                   AA    AAA  DDAADDDDD
+                                          /DDDDDDDDDDDD
+                                          D/DDDDDDDDDD
+                                        DDDDDDDDDDDDDD
+                                        DDD\D/DDDDDD
+                                        DD\DDDDD
+                                          DDDDDD
+                                         DDDDDD
+                                         DDDDDDD
+                                          DDDDDD
+                                          DDDDDD
+                                          DDDDDD
+                                           DDDDD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_2
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:365
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:4 areas:62
+Other Item quota : 2.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: Reaper
+Giving weapon: PlasmaRepeater
+Giving weapon: Coachgun
+Giving weapon: ScatterPistol
+Giving weapon: Autogun
+Giving weapon: AK47
+Giving weapon: iGun
+Giving weapon: SilencedPistol
+Giving weapon: ActionMachineGun
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 10969 dead regions (of 16856)
+Swallowed 2481 brushes (of 11074)
+Filled 0 gaps (of 2417 total)
+Lighting level...
+Merged 1172 colinear lines
+Rounded 0 square corners
+Aligned 2553 textures
 
 
 ~~~~~~| MAP05 |~~~~~~
 
 Styles = 
 {
-  ambushes = none
+  ambushes = some
   barrels = some
   big_rooms = some
   cages = some
-  caves = few
+  caves = none
   cycles = some
   darkness = rare
-  doors = some
-  ex_floors = some
-  fences = none
+  doors = heaps
+  ex_floors = few
+  fences = few
   hallways = none
   islands = few
   keys = none
   lakes = few
   liquids = heaps
-  outdoors = some
+  outdoors = few
   parks = rare
   pictures = some
   porches = some
-  secrets = none
+  secrets = some
   steepness = some
   switches = none
   symmetry = some
   teleporters = none
   traps = some
-  windows = some
+  windows = heaps
 }
 
 Liquid: nukage (usage 90%)
@@ -1003,36 +1145,36 @@ Seed Map:
 
 
 
-
-
-
-
-
-
-                                 ddd
-                                 ddd
-                                /ddd\
-                               /dddddd       CCC
-                              /dddddddAAA CCCCCCC
-                           dddddddddddAAA CCCCCCCCC
-                           dddddddAA /AAA\CCCCCCCCC
-                           dddddddAA A/A\ACCCCCCCCC
-                             dddddAAAAAAAACCCCCCC
-                             dd AAAAAA\A/ACCCCCCC
-                                AAAA \AAA/CCCCCC
-                                  AAEEEAAECCCCCCCCCC
-                                  bbbEEEEECCCCCCCCCC
-                                  bbbEEEEECCCCCCCCCC
-                                /bbbbEEEEECCCCCCCCCC
-                           bbbbbbbbbbEEEEEECCCCCCC
-                           bbbbbbbbbEEEEEEEEECCCCC
-                           bb bbbbbbEEEEEE EECCC
-                           bbbbbbbbbEEEEE  EEE
-                          bbbbbbbbbbEEEEEEEEEE
-                          bbb       EEEEEEEEEE
-                                    EEEEEE EEE
-                                   EEEEEEE EEEE
-                                   EEEEE   EEEE
+                               GG
+                               GG
+                            GG/GG\GGAAA
+                            GGGGGGGGAAA
+                            GGGGGGG/AAA\
+                            GGGGGAAAAAAAA
+                            GGGGGAAAAAAAA
+                            GGGGG  \AAA/
+                              GGGGAAAAAAA
+                              GGGGAAAAAAA
+                             DDGBBAAAAAAABB
+                             DD BBB AAA BBB
+                            DDDBBBBBBBBBBBBB
+                             DDBBBBBBBBBBBBB FFF
+                            /DD DBBDBBBCBBCFFFFFFF
+                          DDDDDDDDDDBBBCCCCFFFFFFF
+                          DDDDDDDDDDBBBCCCCFFFFFF
+                            \DDEEDDBBBBBCCFFFFFFF
+                             DDEEEBBBBBBBFFFFFFF
+                             DDEEEBBBBBBBFFF FFF\
+                              EEEEBBBBBBBFFFFFFFF
+                            EEEEEEBBBBBBBFFFFFFF
+                            EEEEEEBBBBBBBFFFFF
+                               EE BBBBBBBFFF
+                             EEEEEEEEB   FFF
+                             EEEEEEEE    FFF
+                               EEEEE     FFF
+                               EEE
+                               EEE
+                               EEE
 
 
 
@@ -1052,15 +1194,14 @@ Seed Map:
 
 --==| Make Quests |==--
 
-Exit room: ROOM_5
+Exit room: ROOM_6
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:375
+  QUEST_1 : svolume:386
 Zone quota: 2
 Zone list:
-  ZONE_1 : rooms:5 areas:52
-Secrets: NONE (by style)
+  ZONE_1 : rooms:7 areas:70
 Other Item quota : 1.00
 
 --==|  Build Rooms |==--
@@ -1068,193 +1209,62 @@ Other Item quota : 1.00
 
 --==| Make Battles |==--
 
-Giving weapon: chain
-Giving weapon: shotty
-WARNING: Cannot place boss monster: FlyingFatso
+Giving weapon: FistRedux
+WARNING: Cannot place boss monster: STDarkImp
+Giving weapon: ActionMachineGun
+Giving weapon: Colt45
+Giving weapon: MP40
+Giving weapon: UTNTFlamethrower
+Giving weapon: SniperRifle
+Giving weapon: HeavyRifle
+Giving weapon: RivetGun
+Giving weapon: DukeShotgun
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 18476 dead regions (of 27539)
-Swallowed 2288 brushes (of 18530)
-Filled 0 gaps (of 6101 total)
+Removed 14386 dead regions (of 21448)
+Swallowed 3789 brushes (of 14440)
+Filled 0 gaps (of 3186 total)
 Lighting level...
-Merged 1575 colinear lines
-Rounded 8 square corners
-Aligned 2560 textures
+Merged 1582 colinear lines
+Rounded 0 square corners
+Aligned 2948 textures
 
 
 ~~~~~~| MAP06 |~~~~~~
 
 Styles = 
 {
-  ambushes = some
+  ambushes = heaps
   barrels = none
   big_rooms = some
   cages = some
-  caves = few
-  cycles = some
+  caves = none
+  cycles = none
   darkness = rare
-  doors = heaps
+  doors = some
   ex_floors = few
-  fences = none
+  fences = few
   hallways = none
   islands = few
   keys = none
   lakes = few
-  liquids = some
+  liquids = heaps
   outdoors = few
   parks = rare
   pictures = some
   porches = some
-  secrets = none
+  secrets = some
   steepness = some
   switches = none
-  symmetry = few
+  symmetry = some
   teleporters = none
   traps = some
   windows = some
 }
 
-Liquid: nukage (usage 50%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            C
-                                          CCCC
-                                  AA      CCCC
-                                  AAAA  AA CC
-                                AAAAAAAAAA CCC
-                                AAAAAAAAAACCCCCCCCCC
-                                AAAAAAAAAA CCCCCCCCC
-                             BB AAAAAA AAA CCCCCCCCC
-                         BB  BB BBBBBB AAA CC CC CCC
-                         BBBBBBBBBBBBBBBAACCCCCCCCCC
-                        BBBBBBBBBBBBBBBBAACCCCCCCCCC
-                        BBBBBBB BBFFFFBBAA CC CC CCC
-                        BBBBEEFFFFFFFFBBdddCCCCCCCCC
-                          B/EEFFFFFFEEBBdddCCCCCCCCC
-                          EEEEEEEEEEEEEEddCCCCCCCCCC
-                          EEEEEEEEEEEEEEdddCCC
-                           \EEEE EE EEEEdddCC
-                            EE   EE ddEEddCCCC
-                            EE      ddddddCCCC
-                                    ddddddddC
-                                      \ddddd
-                                       \dd/
-                                        dd
-                                        dd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_3
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:353
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:6 areas:80
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: shotty
-Giving weapon: launch
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 15840 dead regions (of 23333)
-Swallowed 3260 brushes (of 15945)
-Filled 0 gaps (of 4098 total)
-Lighting level...
-Merged 1601 colinear lines
-Rounded 3 square corners
-Aligned 3166 textures
-
-
-~~~~~~| MAP07 |~~~~~~
-
-Styles = 
-{
-  ambushes = none
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = heaps
-  darkness = rare
-  doors = few
-  ex_floors = some
-  fences = few
-  hallways = none
-  islands = heaps
-  keys = none
-  lakes = heaps
-  liquids = some
-  outdoors = few
-  parks = rare
-  pictures = few
-  porches = some
-  secrets = none
-  steepness = few
-  switches = none
-  symmetry = few
-  teleporters = none
-  traps = some
-  windows = heaps
-}
-
-Liquid: skipped for level (by style).
+Liquid: water (usage 90%)
 
 Darkness falls across the land...
 
@@ -1280,34 +1290,180 @@ Seed Map:
 
 
 
-                                            FF
-                                            FF
-                                      FF    FF
-                                      FF FFFFFFFF FFFFFF
-                                     /FF\FFFFFFFFFFFFFFF
-                                   FFFFFFFFFFFFFFFFFFFFF
-                                   FFFFFFFFFFFFFFFFFFFFF
-                                  /CC\FFFFFFFF FFFFFFFFFF
-                                 CCCCCFFFFFFBBBFF FFFFFFF
-                                 CCCCCCCFFFFBBBBBB
-                                CCCCCCCCFFBBBBBBBB
-                                CCCC CC  /BBBBBBBB
-                                  CCCCCBBBBBBBBBBBBB
-                                   CCCCBBBBBBBBBBBBB
-                                CCCCCCCC \BB BBAA
-                             EE CCCCCCCCDDBBDBBAAAA
-                             EE  EEEEEEDDDDDDAAAAAA
-                             EE /EEEEEEDDDDDDAAAAAAAAAAA
-                            EEEEEEEEEE  DDDD AAAAAAAAAAA
-                            EEEEEEEEEEDDDDDDD  AAAAAAAAA
-                             EE \EE EEDDDDDDD  AAAAA
-                             EE  DDDEEDDDDD      AAA
-                             EE  DDDDDDDD        AA
-                                 DDDDDDDD     AAAAAAAA
-                                  DD \DD/     AAAAAAAA
-                                                 AA
+
+                                  DD
+                                  DD       GG
+                                 DDD       GG
+                                  DDDDD    GG
+                                 DDDDDD    GG
+                                 DDDDD   G GG
+                                 DDDDDDGGGGGGGGG
+                                 DDDDDDGGGGGGGGG
+                                 DD/AA\   GGGGG
+                                 AAAAAAAAAGGGGGGGGG
+                                 AAAAAAAAAGGGGGGGGG
+                                  /\AA/\ GGGGG
+                              AAAAA/AA\AAAAA
+                            AAAAAAA AA AAAAAAA
+                            AAAAAAA    AAAAAAA
+                            AAAAAAA    AAAAAAA
+                               ccccbbbbbbbbb
+                               ccccbbbbbbbbb   F
+                                cccbbbbbbbbbbFFFFFF
+                                ccccbbbbbbbbbFFFFFFEEEEEE
+                                cccccbb\bb/ EEEFEEEEEEEEE
+                                cccccbbbbbbEEEEEEEEEEEEEE
+                                 \cccbbbbbbEEEEEEEEEEEEEE
+                                 /ccc  bbb  EEE EEEEEEEEE
+                                cccccc             EEEEEE
+                                cccccc
+                                ccccc
+                                ccccc
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_5
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:366
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:7 areas:69
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: chain
+Giving weapon: ElectroGun
+Giving weapon: BioPipebombLauncher
+Giving weapon: Machete
+Giving weapon: Uzi
+Giving weapon: MicroUzi
+Giving weapon: CryoBow
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 17054 dead regions (of 25115)
+Swallowed 3327 brushes (of 17159)
+Filled 0 gaps (of 4674 total)
+Lighting level...
+Merged 1961 colinear lines
+Rounded 2 square corners
+Aligned 3565 textures
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+
+
+~~~~~~| MAP07 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = few
+  big_rooms = some
+  cages = some
+  caves = few
+  cycles = some
+  darkness = rare
+  doors = few
+  ex_floors = some
+  fences = heaps
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = heaps
+  liquids = few
+  outdoors = few
+  parks = rare
+  pictures = some
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = none
+  teleporters = none
+  traps = some
+  windows = few
+}
+
+Liquid: nukage (usage 25%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  /ff\     BBB
+                             ffffffffffffffBBBBB
+                          fffffffffffffffffBBBBB
+                        ffffffffffffffffffBBBBBB
+                        ffffffffffffffffffBBBBBB
+                           fffffffffffffffBBBBBB
+                           fffffffffffffffBBBBBB
+                           ffffffffffffffffBBBB
+                                EEEEEfffffffBB
+                               EEEEEEfffffffBB
+                            EEEEEEEEEffDDDBBBBBB
+                            EEEEEEEEEffDDDBBBBBB
+                            EEEEEEEEEEEDDDBBBBBB
+                              EEEEEEEEEDDDBBBBBBBB
+                              EEEEEEEccDDDBBBBBBBB  BB
+                                   EEccDDDBBBBBBBB  BB
+                                  EEEccDDDBBBBBBBBBBBBB
+                                  EEcccDDDBBBBBBBBBBBBB
+                                    cccDDDAAAA  BBBBBBB
+                                  cccccDDDAAAAAABBBBB
+                               ccccccccAAAAAAAAAAAABB
+                               ccccccccAAAAAAAAAAAA
+                                   ccccAAAAAAA AAAA
+                                  /cccccccAAAA AA
+                                  ccccccccAAAA AA
+                                   cccc
+                                     cc
+                                     cc
+                                     cc
 
 
 
@@ -1335,32 +1491,56 @@ Exit room: ROOM_6
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:421
+  QUEST_1 : svolume:477
 Zone quota: 2
 Zone list:
-  ZONE_1 : rooms:6 areas:74
-Secrets: NONE (by style)
-Other Item quota : 2.00
+  ZONE_1 : rooms:6 areas:72
+Other Item quota : 1.00
 
 --==|  Build Rooms |==--
 
 
 --==| Make Battles |==--
 
-Giving weapon: super
+Giving weapon: SilencedPistol
 Giving weapon: shotty
-Giving weapon: chain
+WARNING: Cannot place boss monster: DemonDog
+Giving weapon: PlasmaBolter
+Giving weapon: DualLaser
+Giving weapon: SPAS12
+Giving weapon: PlasmaPistol
+Giving weapon: KDiZDSuperShotgun
+Giving weapon: PlasmaBeam
+Giving weapon: KDiZDGrenadeLauncher
+Giving weapon: EgoSmasher
+Giving weapon: Karasawa
+Giving weapon: SidebySide
+Giving weapon: Butchergun
+Giving weapon: MP5
+Giving weapon: Toaster
+Giving weapon: super
+Giving weapon: Uzi
+Giving weapon: PulseNailgun
+Giving weapon: LaserCannon
+Giving weapon: launch
+Giving weapon: Smartgun
+Giving weapon: UACPlasmaticRifle
+Giving weapon: UTNTFlamethrower
+Giving weapon: DGL
+Giving weapon: SprayCannon
+Giving weapon: SprayCannon
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 13450 dead regions (of 20102)
-Swallowed 3692 brushes (of 13555)
-Filled 0 gaps (of 2920 total)
+Removed 23841 dead regions (of 34804)
+Swallowed 3138 brushes (of 23895)
+Filled 4 gaps (of 7988 total)
 Lighting level...
-Merged 1280 colinear lines
-Rounded 0 square corners
-Aligned 2565 textures
+Merged 2395 colinear lines
+Rounded 11 square corners
+Aligned 4587 textures
+WARNING: bad doom entity number: ''
 WARNING: bad doom entity number: ''
 
 
@@ -1372,31 +1552,31 @@ Styles =
   barrels = few
   big_rooms = some
   cages = some
-  caves = few
-  cycles = none
+  caves = none
+  cycles = some
   darkness = rare
   doors = some
   ex_floors = some
-  fences = some
+  fences = few
   hallways = none
   islands = few
   keys = none
   lakes = few
   liquids = heaps
-  outdoors = few
+  outdoors = heaps
   parks = rare
-  pictures = few
+  pictures = some
   porches = some
-  secrets = none
-  steepness = few
+  secrets = some
+  steepness = some
   switches = none
   symmetry = some
   teleporters = none
   traps = some
-  windows = some
+  windows = few
 }
 
-Liquid: water (usage 90%)
+Liquid: nukage (usage 90%)
 
 
 --==| Creating Rooms |==--
@@ -1423,35 +1603,35 @@ Seed Map:
 
 
 
-                                     DDD                 GG
-                                     DDDDD             GGGG
-                                   DDDDDDD     EEEE    GGGGG
-                                   DDDDDDD   EEEEEE    GGGGG
-                                      DDDD AAEEEEEEEEE   GGG
-                                  DDDDDDDDAAAAAEEEEEEE  /GG
-                                  DDDDDDDDAAAAAEEEGE  GG\/
-                                   DDDDDCCCCAAAEEGGGGGGGGGG
-                                   DDDDDCCCCAAAAAGGGGGGGGGG
-                                   DDDDDDCC/AAAAABB/B\GG/\
-                                   DDDDDAAA\/ BBBBBBBBB \GGG
-                                 HHDDDDAAAAAABBBBBBBBBBBBGGG
-                                 HHDDDDAAAAAABBBBBBBBBBBBGGG
-                                HHHHHHHHAAA/  BBBBBBBBB
-                                HHHHHHHHAAA      BB\B/
-                                  \HH/ HAAA  FFFFFFFFFF
-                                   HH        FFFFFFFFFF
-                                HHHHHHHH  FFFFFF FF FFFFFF
-                                HHHHHHHH  FFFFFFFFFFFFFFFF
-                                HHHH      FFFFFFFFFFFFFFFF
-                                  HH          FFFFFFFF
-                                  HH          FFF  FFF
-                                  HH
 
-
-
-
-
-
+                                                 ff
+                                         aaaa    ffffffff
+                                         aaaa   /ffffffffff
+                                         aaaaaaffffffffffff
+                                     aaaaaaaaaaffffffffffff
+                                   aaaaaaaaaaabb\ffffffffff
+                                   aaaaaaaaaaabbbffffffff
+                                   aaaaabbbbbbbbbff
+                                      aabbbbbbbbb
+                                      aaDDbbbbb
+                                     DDDDDbbbbb
+                                      DDD bbbbb
+                                 ccccDDDDcc bbb
+                                 cccc\DD/cc bbb
+                                   cccccccc bb
+                                   cc\cc/   ccc
+                                eeeeeecc/cccccc
+                               /eeeeeeccccccccccc
+                               eeeeeeeccccccccccc
+                               eeeeee gg\ccccc
+                               eeegggggg \cc/    gg
+                               eeegggggg  cc     gg
+                              /eeee\ggggggcc   ggggg
+                              eeeeeegggggg ggggggggg gg
+                             eeeeeeeggggggggggg\ gg /gg\
+                             eeeeeeegggggggggggggggggggggg
+                             eeeeeeegggggggggggggggggggggg
+                                 ee  \gg/gg \gg/    \gg/
 
 
 
@@ -1471,36 +1651,42 @@ Seed Map:
 
 --==| Make Quests |==--
 
-Exit room: ROOM_6
+Exit room: ROOM_7
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:405
+  QUEST_1 : svolume:438
 Zone quota: 2
 Zone list:
-  ZONE_1 : rooms:8 areas:68
-Secrets: NONE (by style)
-Other Item quota : 1.00
+  ZONE_1 : rooms:7 areas:72
+Other Item quota : 2.00
 
 --==|  Build Rooms |==--
 
 
 --==| Make Battles |==--
 
-Giving weapon: chain
+Giving weapon: model1887
 Giving weapon: super
-Giving weapon: plasma
+Giving weapon: SwatShotgun
+Giving weapon: Glock18
+Giving weapon: GrenadeLauncher40mm
+Giving weapon: Repeater
+Giving weapon: Ionspray
+Giving weapon: PulseNailgun
+Giving weapon: FreezeRifle
+Giving weapon: M16
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 13686 dead regions (of 20306)
-Swallowed 3582 brushes (of 13791)
-Filled 0 gaps (of 3134 total)
+Removed 27336 dead regions (of 39470)
+Swallowed 2360 brushes (of 27480)
+Filled 3 gaps (of 10903 total)
 Lighting level...
-Merged 1556 colinear lines
-Rounded 0 square corners
-Aligned 2891 textures
+Merged 2530 colinear lines
+Rounded 8 square corners
+Aligned 3703 textures
 
 
 ~~~~~~| MAP09 |~~~~~~
@@ -1508,34 +1694,34 @@ Aligned 2891 textures
 Styles = 
 {
   ambushes = some
-  barrels = few
+  barrels = some
   big_rooms = some
   cages = some
-  caves = none
-  cycles = none
+  caves = some
+  cycles = some
   darkness = rare
   doors = few
-  ex_floors = heaps
-  fences = few
+  ex_floors = few
+  fences = none
   hallways = none
   islands = heaps
   keys = none
   lakes = few
-  liquids = some
-  outdoors = few
+  liquids = heaps
+  outdoors = some
   parks = rare
   pictures = some
-  porches = some
-  secrets = none
+  porches = heaps
+  secrets = some
   steepness = some
   switches = none
-  symmetry = few
+  symmetry = some
   teleporters = none
   traps = some
   windows = some
 }
 
-Liquid: nukage (usage 50%)
+Liquid: slime (usage 90%)
 
 
 --==| Creating Rooms |==--
@@ -1560,6 +1746,28 @@ Seed Map:
 
 
 
+                                       BBB
+                                       BBBBB
+                                      BBBBBB
+                                      BBBBBBB
+                                      BBBBBBB
+                               EE   BBBBBBB
+                               EEEEEBBBBBBAA
+                              EEEEEEEBBBBBAAAAAA
+                             /EEEEEE BBBBBAAAAAAA
+                             EEEEEEE BBBBBAAAAAAAAAA
+                              EEEEEEBBBBBBB AAAAAAAA
+                              EEEEEEBBBBBBBAAAAAAAAA CCCCC
+                              EEEEEEBBBBBBBAAAAAAACCCCCCCC
+                              EEEEEEBBBBBBBCCCCCCCCCCCCCCCC
+                             EEEEEEE BBBBBBCCCCCCCCCCCCCCCC
+                             \EEEEEE BBBBB CCCDCCCCCCCCCCCC
+                              EEEEEEEBBBBBBBBDDCCCCC CC
+                               EEEEEBBBBBBBBBDDCC CC CC
+                               EE   BBBBBBBBBDDCC
+                                    BBBBBBBBBDDCC
+                                       BBB BBDD
+                                           BB D
 
 
 
@@ -1567,30 +1775,8 @@ Seed Map:
 
 
 
-                               B  BB aaa        CC
-                           BBBBBBBBB aaa   aa   CC
-                           BBBBBBBBBaaaaa  aa CCCCCC
-                           BBBBBBBBBaaaaa /aa\CCCCCC
-                           BBBBBBBBBaaaaaaaaaaaaCCCC
-                           BBB BBBBBaaaaaaaaaaaaCCCC
-                           BBBBBBBB    aa \aa/ CCCCCC
-                           BBBBBBB  DDDDDD aa  CCCCCC
-                            BBBBBBDDDDDDDD aa  CCCCCC
-                             BBBBBDDDDDDDD aa  CCCCCC
-                             BBBBBDDDDD gg     CC\CC/\
-                             BBBBBDDDDD gg  FFFFF CC\CCC\
-                             BBB  DDDDD/ggFFFFFFFFFF CCCC
-                             BBB  DDDDDgggFFFFFFFFFFFCCC
-                                DDDDDD/gggggFFFFF FFF
-                                DDDDD ggggggFFFFFFFF
-                                DDDDDDggggggFFFFFFFF
-                                DDDDDDD/gg    FF
-                              DDDDDDDDDggg gg FF
-                              DDDDDDDD gggggg
-                                DDDDDD gggggg
-                                DDDD   ggggg
-                                       ggggg
-                                       ggg
+
+
 
 
 
@@ -1610,15 +1796,14 @@ Seed Map:
 
 --==| Make Quests |==--
 
-Exit room: ROOM_4
+Exit room: ROOM_3
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:420
+  QUEST_1 : svolume:354
 Zone quota: 1
 Zone list:
-  ZONE_1 : rooms:6 areas:73
-Secrets: NONE (by style)
+  ZONE_1 : rooms:5 areas:45
 Other Item quota : 2.00
 
 --==|  Build Rooms |==--
@@ -1626,27 +1811,26 @@ Other Item quota : 2.00
 
 --==| Make Battles |==--
 
-Giving weapon: chain
-Giving weapon: shotty
 Giving weapon: launch
+Giving weapon: chain
+Giving weapon: STMinigun
+Giving weapon: HellstormCannon
+Giving weapon: Ionspray
+Giving weapon: GasGun
+Giving weapon: M79
+Giving weapon: KDiZDGrenadeLauncher
+Giving weapon: STGrenadeLauncher
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 15845 dead regions (of 23257)
-Swallowed 3206 brushes (of 15908)
-Filled 0 gaps (of 4145 total)
+Removed 11881 dead regions (of 18253)
+Swallowed 2377 brushes (of 11986)
+Filled 18 gaps (of 2756 total)
 Lighting level...
-Merged 1600 colinear lines
-Rounded 1 square corners
-Aligned 3243 textures
-WARNING: bad doom entity number: ''
-WARNING: bad doom entity number: ''
-WARNING: bad doom entity number: ''
-WARNING: bad doom entity number: ''
-WARNING: bad doom entity number: ''
-WARNING: bad doom entity number: ''
-WARNING: bad doom entity number: ''
+Merged 972 colinear lines
+Rounded 0 square corners
+Aligned 2419 textures
 
 
 ~~~~~~| MAP10 |~~~~~~
@@ -1654,34 +1838,34 @@ WARNING: bad doom entity number: ''
 Styles = 
 {
   ambushes = some
-  barrels = some
+  barrels = few
   big_rooms = some
   cages = some
-  caves = few
+  caves = none
   cycles = none
   darkness = rare
   doors = some
-  ex_floors = few
-  fences = heaps
+  ex_floors = some
+  fences = few
   hallways = none
   islands = few
   keys = none
-  lakes = few
+  lakes = heaps
   liquids = heaps
-  outdoors = few
+  outdoors = heaps
   parks = rare
   pictures = few
   porches = some
-  secrets = none
+  secrets = some
   steepness = some
   switches = none
-  symmetry = some
+  symmetry = none
   teleporters = none
   traps = some
-  windows = some
+  windows = few
 }
 
-Liquid: water (usage 90%)
+Liquid: nukage (usage 90%)
 
 
 --==| Creating Rooms |==--
@@ -1704,37 +1888,37 @@ Seed Map:
 
 
 
-                            HH
-                            HH
-                         HHHHHH
-                         HHHHHH
-                          HHHHH
-                          HHHHHH            DD
-                          HHHHHH            DDDDDDDDDD
-                             HH             DDDDDDDDDDDD
-                            HHHHH         DDDDDDDDDDDDDD
-                          HHHHHHHHHHHHHHH DDDDDDDDDDD
-                          HHHHHHHHHHHHHHHDDDDDDDDBBB
-                          HHHHHHHHHHHHHHHDDDDDBBBBBBB
-                          HHHHHHHHHHHHHHHAAAA BBBBBBB
-                            HHHHH      AAAAAAABBBBB
-                             HH        AAAAAAA  BBB
-                          HHHHHH       AAAAAAAAABBBBB
-                          HHHHHH       AAAAAAAAABBBBBBBBB
-                          HHHHH      GGG/GGAAAAABBBBBBBBB
-                         HHHHHH      GGGGGGAAAAABBBBB
-                         HHHHHH      GGGGGG\AA/ BBB
-                            HH         /\GG AABBBBB
-                            HHGGGGGGGGGG/GG CCBBBBBBB
-                            GGGGGGGGGGGG GG CCBBBBBBB
-                            GGGGGGGGGGGG CC CC CCBBB
-                            GGGGGGGGGGGGCCCCCCCCCC
-                                   GGGGGCCCCCCCCCC
-                                   GGGGG CCCCCCCC
-                                        CCCCCCCCCC
-                                         CCCCCCCC
-                                            CC
-
+                                                 /fffffffff
+                                                /ffffffffff
+                                               fffffffffffff
+                                     dd        fffff/ ffffff
+                                     dd    /ffffffff   fff
+                                    ddd\ ddf/fffffff
+                                    dddddddff/f ffff
+                                    dddddddffffffffff
+                                    dddddddfffffff/ff
+                                     ddddddffffffff/f
+                                    CCdddd/ ff fffff/
+                                    CC dddddff aa aa
+                                    CCCdddddff/aa\aa
+                                   CCCCdddd aaaaaaaaaa
+                                 CCCCC dddd aaaaaaaaaa
+                                 CCCCC\ddeeeee\aa/
+                                 CCCCCCeeeeeee aaaaaa
+                                CCCCCCCeeeeCCaaaaaaaa
+                                CCCCCC/ CCeCCaaaaaaaa
+                                   CC CCCC CC  aa
+                                   CCCCCCCCCCCCaa
+                                   CCCCCCCCCCCCbb\
+                                   CCCCCCCCCCCbbbb
+                                   CCCCCCCCCCCbbbb  bbb
+                                   CCCCCCCCCCC bbbbbbbb
+                                   CCCCCCCCCC  bbbbbbbb
+                                    CCCCCCCCC  \bbbbbbb
+                                    CCCCC       bbbbbbb
+                                      CCC       bbbbb/
+                                                bbb/
+                                                bbb
 
 
 
@@ -1756,15 +1940,14 @@ Seed Map:
 
 --==| Make Quests |==--
 
-Exit room: ROOM_8
+Exit room: ROOM_6
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:470
+  QUEST_1 : svolume:445
 Zone quota: 2
 Zone list:
-  ZONE_1 : rooms:6 areas:91
-Secrets: NONE (by style)
+  ZONE_1 : rooms:6 areas:83
 Other Item quota : 1.00
 
 --==|  Build Rooms |==--
@@ -1772,887 +1955,52 @@ Other Item quota : 1.00
 
 --==| Make Battles |==--
 
+Giving weapon: super
 Giving weapon: shotty
 Giving weapon: plasma
-Giving weapon: super
+Giving weapon: SuppressedMP5
+Giving weapon: M79
+Giving weapon: Mag60
+Giving weapon: M40Rifle
+Giving weapon: Channeler
+Giving weapon: NailgunSG
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 13044 dead regions (of 19555)
-Swallowed 3332 brushes (of 13150)
-Filled 0 gaps (of 2761 total)
+Removed 26908 dead regions (of 38885)
+Swallowed 3103 brushes (of 27049)
+Filled 26 gaps (of 9537 total)
 Lighting level...
-Merged 1389 colinear lines
-Rounded 0 square corners
-Aligned 2768 textures
+Merged 2589 colinear lines
+Rounded 5 square corners
+Aligned 4555 textures
 
 
 ~~~~~~| MAP11 |~~~~~~
 
 Styles = 
 {
-  ambushes = some
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = few
-  cycles = none
-  darkness = rare
-  doors = some
-  ex_floors = some
-  fences = few
-  hallways = none
-  islands = heaps
-  keys = none
-  lakes = few
-  liquids = few
-  outdoors = heaps
-  parks = rare
-  pictures = heaps
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: skipped for level (by style).
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                   /bb ccc
-                                  /bbbbccc
-                               bbbbbbbbccc
-                               bbbbbbbbccc
-                               bbbbbbbbccccc
-                             bbbbbbbbb/ccccc
-                             bb bbbb   \cccc cc
-                           bbbbbbbbb    cccc cc
-                           bbbbbbbbbbb  ccccccc
-                          bbbbbbbbbbbbbbccccccc
-                         /bbbbbbbbbbbbbbcccc cc
-                        bbbbbb AAAAAAAAAccdddddddd
-                        bbbbbb AAAAAAAAAeedddddddd
-                         \bbbb AAAAAAAAAeedddddddd
-                          bbbb AAAAAAAAAeeeedddd
-                                  AAA   eeeedddd
-                                  AAA  eeeedddddd
-                                  AAA  eeeedddddd
-                                       eeeedddddd
-                                       eeeeFFFFFFF
-                                       eeeeFFFFFFF
-                                         ee FFFFF
-                                              FFFFF
-                                              FFFFF
-                                              FFF
-                                              FFFFFFF
-                                               FFFFFF
-                                               FFFFFF
-                                               FFFFF
-                                               FFFFF
-                                               FFF
-                                               FFF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_6
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:368
-Zone quota: 1
-Zone list:
-  ZONE_1 : rooms:6 areas:60
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: shotty
-WARNING: Cannot place boss monster: CyberFiend
-Giving weapon: super
-Giving weapon: chain
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 19278 dead regions (of 28311)
-Swallowed 2089 brushes (of 19385)
-Filled 0 gaps (of 7124 total)
-Lighting level...
-Merged 1718 colinear lines
-Rounded 10 square corners
-Aligned 1901 textures
-
-
-~~~~~~| MAP12 |~~~~~~
-
-Styles = 
-{
-  ambushes = none
-  barrels = few
-  big_rooms = some
-  cages = some
-  caves = some
-  cycles = none
-  darkness = rare
-  doors = some
-  ex_floors = some
-  fences = few
-  hallways = none
-  islands = heaps
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = heaps
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = none
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: lava (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                     eeeee
-                                                     eeeee
-                                                      eeee
-                                              AA    eeeeeeee
-                                            AAAAAAA eeeeeeee
-                                            AAAAAAA/eee\eeee
-                                              AA  /eeee ee
-                                             /AA\ eeeeeeee
-                                            AAAAAAeeeeeeee
-                                            AAAAAAbbbbeebb
-                                            AAAAAAbbbbbbbbbb
-                                            AAAAAAbbbbbbbbbb
-                                             AAAAbbbbbbbbbbb
-                                           DD AAAbbbbb/ bb
-                                           DD AAAbbb
-                                       DDDDDDDAAAbbb\
-                                       DDDDDDD /bbbbb\
-                                      DDDDDDDDbbbbbbbbb
-                                      DDDDDDDDbb/CC\bbb
-                                      DDDDDDDDbbCCCCbbb
-                                       DDDDDDDDD CC
-                                        DDDDDDDD CC
-                                        DDDDDDDDCCCC
-                                        DDDDDDDCCCCCC
-                                         DDDDDDCCCCCC
-                                          DDDDDCCCCCC
-                                           DDD CCCCCC
-                                              CCCCCCC
-                                              CCCCCCC
-                                                CCC
-                                                CCC
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_5
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:344
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:5 areas:42
-Secrets: NONE (by style)
-Other Item quota : 2.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: chain
-Giving weapon: plasma
-Giving weapon: super
-Giving weapon: bfg
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 16597 dead regions (of 24834)
-Swallowed 2507 brushes (of 16656)
-Filled 0 gaps (of 4829 total)
-Lighting level...
-Merged 1503 colinear lines
-Rounded 4 square corners
-Aligned 3097 textures
-
-
-~~~~~~| MAP13 |~~~~~~
-
-Styles = 
-{
   ambushes = heaps
-  barrels = none
-  big_rooms = some
-  cages = some
-  caves = some
-  cycles = some
-  darkness = rare
-  doors = some
-  ex_floors = some
-  fences = heaps
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = some
-  parks = rare
-  pictures = few
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = few
-  teleporters = none
-  traps = some
-  windows = few
-}
-
-Liquid: slime (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                       ddddd\
-                                       dddddd\
-                                 dd   /ddddddd
-                                 ddddddddddddddd
-                               ddddddddddddddddd
-                               ddddddddddddddd\
-                                 dddddddddddddddd
-                                 dddddddddddddddd
-                                 ddddddddddd/
-                                 dddddddddd/
-                                 cccccddddd
-                                 ccccc\dddd
-                                 cccccBBBBBB
-                               /ccccccBBBBBBBBB
-                               cccccccBBBBBBBBB
-                               cccccccBBBBBBBAAA
-                               \ccccccBBBBBBBAAA
-                                 cccccBBBBBB/AAA\
-                                 cccccBBBBBBA/A\AAAAA
-                                 cccccBBBBBBAAAAAAAAAAA
-                                    cc BBBBBA\A/AAAAAAA
-                              EEEEEEEEEBBBBB\AAA/AAAAAA
-                              EEEEEEEEEBBBBBBBAA AAAA
-                               EEEEEEEBBBBBBBBAA
-                               EEEEEEEBBBBB
-                                 EEEEE  BBB
-                                 EEEEE
-                                EEE
-                             EEEEEEEE
-                             EEEEEEEE
-                                EEEE
-                                 EEE
-                                 EE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_4
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:409
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:5 areas:46
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: bfg
-Giving weapon: chain
-Giving weapon: super
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 20259 dead regions (of 30091)
-Swallowed 2324 brushes (of 20346)
-Filled 0 gaps (of 7182 total)
-Lighting level...
-Merged 1660 colinear lines
-Rounded 5 square corners
-Aligned 3105 textures
-
-
-~~~~~~| MAP14 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
   barrels = few
   big_rooms = some
   cages = some
-  caves = some
-  cycles = some
-  darkness = rare
-  doors = some
-  ex_floors = few
-  fences = none
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = few
-  outdoors = few
-  parks = rare
-  pictures = few
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: water (usage 25%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            DD    DD
-                          DDDDD  DDDDD
-                          DDDDDDDDDDDD
-                          DDDDDDDDDDDD EEEEE EE
-                             DDDDDD    EEEEE EE
-                             DDDDDD    EE   EEEE
-                            DDDDDDDD   EE  EEEEEEE
-                            DDDDDDDD EEEEEEEEEEEEE
-                              DDDDAAAEEEEEEEEEEEEE
-                               AA AAA AAEEEEEEEEEE
-                               AA AAA AAEEE EEEEEE
-                         GG GGAAAAAAAAAAA     EE
-                         GG GGAAAAAAAAAAA     EE
-                        GGGGGGGGAAA AAA
-                        GGGGGGGGAAA AAA
-                         GGGGGGGAAAFAAA
-                        BBBBGGGGBBBFFFFBBBB
-                        BBBBGGGGBBBFFFFBBBB
-                        BBBBBBBBBBBBBBBBBBB
-                        BBBBBBBBBBBBBBBBBBB
-                         BBBBBBBB BBBBBBBB
-                         BBB   BB BB   BBB
-                            BBBBBBBBBBB
-                            BBBBBBBBBBB
-                              BBB BBB
-                              BBBBBBB
-                             BBBBBBBBB
-                             BBBB BBBB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_5
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:391
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:6 areas:62
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: plasma
-Giving weapon: super
-WARNING: Cannot place boss monster: cyberImp
-Giving weapon: bfg
-Giving weapon: chain
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 13544 dead regions (of 20182)
-Swallowed 3409 brushes (of 13649)
-Filled 0 gaps (of 3125 total)
-Lighting level...
-Merged 1467 colinear lines
-Rounded 0 square corners
-Aligned 2321 textures
-
-
-~~~~~~| MAP15 |~~~~~~
-
-Styles = 
-{
-  ambushes = none
-  barrels = some
-  big_rooms = some
-  cages = some
   caves = none
-  cycles = heaps
+  cycles = none
   darkness = rare
-  doors = some
-  ex_floors = some
-  fences = none
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = some
-  parks = rare
-  pictures = some
-  porches = few
-  secrets = heaps
-  steepness = few
-  switches = none
-  symmetry = none
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: blood (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                       FF
-                                                       FF
-                                                    FFFFF
-                                                  FFFFFFF
-                                                  \FFFFFFFF
-                                                      FFFFF
-                                                     FFFFFFF
-                                              BB     FFFFFFF
-                                         BB   BB     FFFFFFF
-                                         BB BBBBBB FFFFFFFFF
-                                         BB BBBBBBBFFFFFFFFF
-                                      BBBBBBBBBBBBBFFFFFFFFF
-                                      BBBBBBBBBBBBB FF FF FF
-                                       AAAAABBBBBBBFF  FF FF
-                                       AAAAABB BBBBFFFFFFFFF
-                                        AAAAdddBBBBFFFFFFFFF
-                                       AAAAdddcccFFFFFFFFFFF
-                                       AAAAdddcccFFFFFFFFFFF
-                                      AAAAAAAAccccccccccc FF
-                                      AAAAAAAAccccccccccc FF
-                                      AAAAAEEcccc/ccccccc
-                                       AAAEEEcccc ccccc
-                                       AAAEEEEccc ccccc
-                                        AA EEEccc ccccc
-                                        AA EE ccc cc
-                                    /EEEEEEEEEccc
-                                    E/EEEEEEEEccc
-                                    EE/EEEEEEEccc
-                                    EEEEEEEEE
-                                    EEEEEEEEE
-                                          EEE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_6
-Secret Exit: ROOM_4
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:404
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:6 areas:77
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: shotty
-Giving weapon: bfg
-Giving weapon: launch
-Giving weapon: chain
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 14848 dead regions (of 21962)
-Swallowed 2863 brushes (of 14953)
-Filled 20 gaps (of 3803 total)
-Lighting level...
-Merged 1700 colinear lines
-Rounded 2 square corners
-Aligned 2855 textures
-
-
-~~~~~~| MAP16 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
-  barrels = heaps
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = heaps
-  darkness = rare
-  doors = some
+  doors = none
   ex_floors = heaps
-  fences = few
+  fences = none
   hallways = none
   islands = few
   keys = none
   lakes = few
   liquids = heaps
-  outdoors = some
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = few
-  switches = none
-  symmetry = few
-  teleporters = none
-  traps = some
-  windows = heaps
-}
-
-Liquid: slime (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                   FFFFFF
-                                                 FFFFFFFFF
-                                                 FFFFFFFFF
-                                             ddddddFFFFFFF
-                                           ddddddddFFFFFF
-                                           ddddddddFFFFF
-                                         ddddddd/ddFFFFF
-                                         dddddddd/dFFFFF
-                                 BB       \ddddddd/FFFFF
-                               BBBBBB  BBB dd  FF  FFFFFF
-                               BBBBBB BBBBBddddFFFFFFFFFF
-                             BBBBBBBB BBBBBddddFFFFFF CCCC
-                             BBBBBBBBBBBB  CCCFFFFFFFCCCCC
-                             BBBBBBBBBBBBBCCCCFFFFFFFCCCCC
-                               BBBBAAA BBBCCCCCCFFFFFCCCCCC
-                               BBBBAAACCCCCCCCCCCCFFFCCCCCC
-                                   AAACCCCCCCCCCCCCCCCCCC
-                                 AAAAAAACCCCCCCCCCCCCCCCC
-                                 AAAAAAACCCCCCCCCCCCCCCCC
-                                 AAAAAAAEEEEEECCCCCCCC
-                                   AAA EEEEEEE CCCCCCC
-                                  AAAAA EEEEEECCC
-                                  AAAAAEEEEEEE CC
-                                   AAA EEEEEEEECC
-                                   AAA  EEEEEEE
-                                        EEEEEEE
-                                          EEEEE
-                                          EEE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_6
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:465
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:6 areas:80
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: shotty
-WARNING: Cannot place boss monster: FormerRanger
-Giving weapon: chain
-Giving weapon: super
-Giving weapon: launch
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 17223 dead regions (of 25018)
-Swallowed 4076 brushes (of 17285)
-Filled 0 gaps (of 4245 total)
-Lighting level...
-Merged 2088 colinear lines
-Rounded 0 square corners
-Aligned 3050 textures
-
-
-~~~~~~| MAP17 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
-  barrels = none
-  big_rooms = some
-  cages = some
-  caves = heaps
-  cycles = heaps
-  darkness = rare
-  doors = some
-  ex_floors = heaps
-  fences = heaps
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = heaps
+  outdoors = few
   parks = rare
   pictures = heaps
   porches = some
-  secrets = none
+  secrets = some
   steepness = some
   switches = none
   symmetry = some
@@ -2661,7 +2009,7 @@ Styles =
   windows = few
 }
 
-Liquid: water (usage 90%)
+Liquid: nukage (usage 90%)
 
 
 --==| Creating Rooms |==--
@@ -2689,1719 +2037,33 @@ Seed Map:
 
 
 
-                                      eeeeee
-                                      eeeeee
-                                     /eeeeeeeeee
-                                    /eeeeeeeeeee
-                                  eeeeeeeee/AA
-                                  eeeeeeeeAAAAAA
-                                  eeeeeee/AAAAAA
-                                   cc\eeeAAAAAAAA
-                                  /ccccccAAAAAAAA
-                                 /cccccccAAAAAAAA
-                                /ccccccccAAAAAAAA
-                              cccccccccccc\AAAA
-                              cccccccccccccAAAAbbbbbbbb
-                              cccccccccccccAAAAbbbbbbbb
-                               /ccccccccccc AA bbbbbbb
-                              /ccccccccccccddddbbbbbbb
-                            cccccccccccffffddddbbbbbb/
-                            cccccccccccffffddd \bbbbb
-                              ccccccccccfffddd  bbbbb
-                                ccc\ccccffdddd\ bbbbb
-                                ffffffffffdddddddbbb
-                               fffffffffff\dddddd
-                               ffffff/ffff dddddd
-                               ffffff ff   dddddd
-                                 fff       dddddd
-                                              ddd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_5
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:413
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:6 areas:39
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: chain
-Giving weapon: shotty
-WARNING: Cannot place boss monster: Squire
-Giving weapon: plasma
-Giving weapon: super
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 28978 dead regions (of 42118)
-Swallowed 2356 brushes (of 29123)
-Filled 0 gaps (of 11821 total)
-Lighting level...
-Merged 2312 colinear lines
-Rounded 13 square corners
-Aligned 3612 textures
-
-
-~~~~~~| MAP18 |~~~~~~
-
-Styles = 
-{
-  ambushes = heaps
-  barrels = few
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = none
-  darkness = rare
-  doors = some
-  ex_floors = few
-  fences = few
-  hallways = none
-  islands = heaps
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = some
-  parks = rare
-  pictures = heaps
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: water (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                              DD
-                              DDDDD
-                            DDDDDDDDD        CCCCCC
-                            DDDDDDDDD        CCCCCC
-                            DDDDDDDDD   BBCCCCCCCCCCCC
-                              DDDDDD BB BBCCCCCCCCCCCC
-                               DDDD BBBBBBBBCCCCCCCC
-                                DDD BBBBBBBBCCCCCCCC
-                                DDD  BBB BBCCCCCCCCCC
-                                DDDDDBBBBBBCCCCCCCCCC
-                                DDDDDBBBBBB    CC
-                              DDDDDDDBBBBBB CCCCCCCC
-                              DDDDDDDBBBBBBBCCCCCCCC
-                                 DDDDBBBBBBBAA CC
-                               EEEEEEEEE AA AA AA
-                              EEEEEEEEEEEAA AA AA
-                              EEEEEEEEEEEAA\AA/AA
-                               EE EEE EE  \/AA\/
-                              EEEEEEEEEEEAAAAAAAA
-                              EEEEEEEEEEEAAAAAAAA
-                              EEEEEEEEEEE  \AA/
-                               EEEEEEEEE    AA
-                               EE EEE EE    AA
-                               EEEEEEEEE
-                              EEEEEEEEEEE
-                              EEEEEEEEEEE
-                              EEEEE EEEEE
-                             EEEEEE EEEEEE
-                             EEEEEE EEEEEE
-                                EEE EEE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_5
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:436
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:5 areas:78
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: shotty
-Giving weapon: bfg
-Giving weapon: launch
-Giving weapon: super
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 15484 dead regions (of 22800)
-Swallowed 3851 brushes (of 15589)
-Filled 0 gaps (of 3694 total)
-Lighting level...
-Merged 1871 colinear lines
-Rounded 0 square corners
-Aligned 3697 textures
-
-
-~~~~~~| MAP19 |~~~~~~
-
-Styles = 
-{
-  ambushes = heaps
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = some
-  darkness = rare
-  doors = few
-  ex_floors = few
-  fences = none
-  hallways = none
-  islands = heaps
-  keys = none
-  lakes = few
-  liquids = some
-  outdoors = few
-  parks = rare
-  pictures = some
-  porches = heaps
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: blood (usage 50%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            FF    FF
-                                      FF    FF    FF    FF
-                                    FFFFF   FF    FF   FFFFF
-                                    FFFFF  FFFFFFFFFF  FFFFF
-                                    FFFFF FFFFFFFFFFFF FFFFF
-                                    FFFFFFFFFFFFFFFFFFFFFFFF
-                                    FFFFFFFFFFFFFFFFFFFFFFFF
-                                      FFFFFFFFFFFFFFFFFFFF
-                                      FFFF FFFFFFFFFF FFFF
-                                  CC    FaaaFFFFFFFF   F
-                                  CC     aaaFFFFFFFF
-                                CCCCC  aaaaaaaFFFF
-                              CCCCCCC  aaaaaaaDDDD
-                              CCCCCCCC  aaaaaaDDDD
-                                CCCCCCCCaaaaaaDDDDD
-                                 CCCCCCC aaaaaDDDDD
-                                  CCCCBBBBaaaa\DDDD
-                                CCCCCCBBBBaaaaaDDD
-                                CCCCCC BBBaaaaaDDD
-                                CCCCCC BB aaaa/ DDDD DD
-                                  CCCCBBB BBBBBBDDDDDDDD
-                                  CC  BBBBBBBBBBDDDDDDDD
-                                  CCBBBBBBBBB BBDDDDD DD
-                                    BBBBB BBBBBBDDDDDDDD
-                                BBBBBBBBB BBBBBB  DDDD
-                                BBBBBBBBB BBBBB   DD
-                                   BBBBBB  BBBB
-                                        BBBBBBBB
-                                        BBBBBBBB
-                                           BBBB
-                                           BBBB
-                                             BB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_6
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:491
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:5 areas:88
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: shotty
-Giving weapon: launch
-Giving weapon: super
-Giving weapon: chain
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 15896 dead regions (of 23236)
-Swallowed 4199 brushes (of 16001)
-Filled 0 gaps (of 3689 total)
-Lighting level...
-Merged 1770 colinear lines
-Rounded 0 square corners
-Aligned 4073 textures
-WARNING: bad doom entity number: ''
-WARNING: bad doom entity number: ''
-
-
-~~~~~~| MAP20 |~~~~~~
-
-Styles = 
-{
-  ambushes = none
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = some
-  cycles = some
-  darkness = rare
-  doors = some
-  ex_floors = few
-  fences = few
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = some
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = few
-  switches = none
-  symmetry = few
-  teleporters = none
-  traps = some
-  windows = few
-}
-
-Liquid: slime (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                          FF
-                                         /FF\
-                                       FFFFFFF
-                                       FFFFFFF
-                                     aaFFFFFFFF
-                                     aa  FFFFFF
-                                    aaaaFFFFFFFEE
-                                    aaaaFFFFFFFEE
-                                  aaaaaaaaFFFF/EE\
-                                  aaaaaaaaFFF EEEEEEE
-                                  aaaaaaaaFFFFEEEEEEE
-                                  aaaaaaaa FFF EEEEEEE
-                             /cc  aaaaaaaa  DD EEEEEEE
-                         ccc/ccc\ aaaaaaaaDDDD  DDEEEE
-                        ccccccccc\aaaaaaaaDDDDDDDDEE
-                        \cccccccccaa/BB\aaDDDDDDDDEE
-                         cc \cccccaaBBBBaaDDDDDDDDDDDD
-                           cccccc/aa BB aaDDDDDDDDDDD/
-                           cccccccccBBBBDDDDDDDDD DDD
-                         ggggg\cccccBBBBDDDDDDDDD
-                         ggggg ccccc BBBBDDDD  DD
-                         ggggg /ggBBBBBBBDD    DD
-                        ggggggggggBBBBBBBDDD
-                        ggggggggggggBBBBBDDD
-                        gggggg\gggggBBBBB
-                            gg ggg BBBBB
-                               \gg BBBBB
-                                gg  BB
-                                    BB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_7
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:451
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:7 areas:67
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: plasma
-Giving weapon: chain
-Giving weapon: shotty
-Giving weapon: bfg
-Giving weapon: super
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 18824 dead regions (of 27448)
-Swallowed 3193 brushes (of 18878)
-Filled 0 gaps (of 5660 total)
-Lighting level...
-Merged 1914 colinear lines
-Rounded 4 square corners
-Aligned 2608 textures
-
-
-~~~~~~| MAP21 |~~~~~~
-
-Styles = 
-{
-  ambushes = none
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = heaps
-  darkness = rare
-  doors = few
-  ex_floors = few
-  fences = heaps
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = some
-  parks = rare
-  pictures = heaps
-  porches = heaps
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: lava (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                         gg\ ggg
-                         ggg\ggg
-                        gggggggg        cc ccc
-                        gggggggg        cc ccc
-                        gggggggg     /cccc ccc
-                        /ggggggg\    ccccc\ccc\
-                        ggggggggg\   cccccccccc
-                        gggggggggg  bbbbccccccc
-                        ggggggggggFFbbbbccccAAA
-                        \gggggggggFFbbbcccccAAA
-                         gggggggbbFFbbbcccccAA
-                         gggggggbbFF/bbcc AAAAAA
-                        ggggggggbbbbbbbAAAAAAAAA
-                        ggggggg/bbbbbbbAAAAAAAAA
-                         ggggg/ bbbbbbbAAAAAAA
-                         \ggg/  bbee\bb  AAAAA
-                          ggg   bbeebbb  AAAAA
-                          gg/eeeeeeebbb  AAAAA
-                          eeeeeeeeeebbbb
-                          eeeeeeeeeebbbb
-                          eee  eeeee
-                               eeeee
-                               \eeee
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_7
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:359
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:6 areas:43
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: plasma
-Giving weapon: chain
-Giving weapon: launch
-Giving weapon: super
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 32120 dead regions (of 46287)
-Swallowed 2679 brushes (of 32264)
-Filled 0 gaps (of 12807 total)
-Lighting level...
-Merged 2618 colinear lines
-Rounded 9 square corners
-Aligned 3619 textures
-
-
-~~~~~~| MAP22 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
-  barrels = heaps
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = heaps
-  darkness = rare
-  doors = some
-  ex_floors = heaps
-  fences = some
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = few
-  parks = rare
-  pictures = heaps
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = few
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: slime (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                   BB  BB
-                                   BB  BB
-                                  /BB\ BBBB
-                                BBBBBBBBBBB
-                                BBBBBBBBBBBCC
-                                 BBBB  BBCCCC
-                                  /BB\ BBCCC CCC
-                                 BBBBBBBBCCCCCCC
-                                 BBBBBBBBCCCCCCC
-                               AAAAAAAAAACCCCCCC
-                               AAAAAAAAAACCCCCCC
-                               AAAAAAAAAACCCCCCC
-                               AAAAAAAAAA\CC/CC
-                                   AA     CCDCCD
-                                  /AA\    DDDDDDDD
-                                AAAAAAAA DDDDDDDDDD
-                                AAAAAAAA DDDDDDDDDD
-                                  \AA//eeDDDDDDDDDD
-                                   AAeeeee DDDDDD
-                                   AAeeeeeDDDDDDDD
-                               /eeeeeeeeeeDDDDDDDD
-                               e/eeeeeeDDDDDDDDDDDDDD
-                               ee/eeeeeDDDDDDDDDDDDDD
-                               eeeeeeeeDDDDDDDDDDDDDD
-                               eee\eeeeDDDDDD  DDDDDD
-                                   \ee/DDDDDD  DDDDDD
-                                    ee     DD  DD
-                                    ee
-                                    ee
-                                    ee
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_5
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:385
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:5 areas:62
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: chain
-Giving weapon: shotty
-Giving weapon: super
-Giving weapon: plasma
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 15224 dead regions (of 22455)
-Swallowed 3050 brushes (of 15329)
-Filled 0 gaps (of 4196 total)
-Lighting level...
-Merged 1546 colinear lines
-Rounded 2 square corners
-Aligned 2365 textures
-
-
-~~~~~~| MAP23 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
-  barrels = heaps
-  big_rooms = some
-  cages = some
-  caves = some
-  cycles = some
-  darkness = rare
-  doors = some
-  ex_floors = few
-  fences = none
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = few
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = few
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: lava (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                CCC    CCC
-                               CCCC    CCCC
-                               CCCC    CCCC
-                               CCCC    CCCC
-                              CCCCCCCCCCCCCC
-                            CCCCCCCCCCCCCCCCCC
-                            CCCCCCCCCCCCCCCCCC
-                              CCCCCCCCCCCCCC
-                             CCCCCCCCCCCCCCCC
-                             CCCCCCCCCCCCCCCC
-                               CCCCCCCCCCCCDDDDD
-                                  CCCCCCDDDDDDDDDDDDDDDD
-                                AA CCCC DDDDDDDDDDDDDDDD
-                                AA  CC  DDDDDDDDDDDDDDDD
-                                AAAAAA   DDDDDDDDDDDDD
-                                AAAAAA    DDDD DD
-                                AAAAAAAAABBBBB DD
-                              AAAAAAAAAAABBBBB
-                              AAAAAAAAAAABBBBBBBB
-                                AAAAAA   BBBBBBBBBBB
-                                AAAAAAAAABBBBBBBBBBB
-                                    AAAAABBBBBBBBB
-                                    AAAAABBBBBBBB
-                                    AAA  BBBBBB
-                                    AAA BBBBBB
-                                    AAA BBBBBBB
-                                        BBBBBBB
-                                        BBBBBBB
-                                       BBBBBBBB
-                                       BBBBBBBB
-                                         BBBBBB
-                                         BBBBBB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_3
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:423
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:4 areas:59
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: chain
-Giving weapon: shotty
-Giving weapon: plasma
-Giving weapon: launch
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 10541 dead regions (of 16511)
-Swallowed 1930 brushes (of 10648)
-Filled 0 gaps (of 2409 total)
-Lighting level...
-Merged 875 colinear lines
-Rounded 0 square corners
-Aligned 2199 textures
-
-
-~~~~~~| MAP24 |~~~~~~
-
-Styles = 
-{
-  ambushes = none
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = heaps
-  darkness = rare
-  doors = heaps
-  ex_floors = some
-  fences = some
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = some
-  outdoors = few
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: lava (usage 50%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                       EEEE
-                                       EEEEEEE
-                                     EEEEEEEEE
-                                     EEEEEEEEEEE
-                                        EEEEEEEE
-                                      EEEEEEEE
-                                      EEEEEEE
-                              dddd\dd EEEEE   BB
-                              dddddddddddEEE BBBB   B
-                              dddddddddddEEEBBBBB   BBBB
-                            ddddddddddddAAAABBBBBBBBBBBB
-                            ddddddddddddAAAABBBBBBBBBBBB
-                              ddddddFFdd AA BBBBBCCCBBBBC
-                                FFFFFFAAAAAAABBBBCCCBCCCCCC
-                                FFFFFFAAAAAAA BB CC CCCCCCC
-                             FFFFFFFFFAAAAAAAAACCCCCCCCCCCC
-                             FFFFFFFFFAAAAAAAAACCCCCCCCCCCC
-                                FF FFF  AAAAAgg  CC CCCCCCC
-                                FF FF   AAAAAggggCCC CCCCCC
-                                FF FF   AAAAAggggCCC    C
-                                        AA AAgg
-                                           AAgg/gg
-                                          ggggggggggg
-                                          ggggggggggg
-                                             ggggg
-                                             gggggg
-                                             gggggg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_3
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:413
-Zone quota: 1
-Zone list:
-  ZONE_1 : rooms:7 areas:76
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: plasma
-Giving weapon: launch
-Giving weapon: chain
-WARNING: Cannot place boss monster: ASGGuy
-Giving weapon: super
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 21966 dead regions (of 31734)
-Swallowed 3785 brushes (of 22032)
-Filled 0 gaps (of 6450 total)
-Lighting level...
-Merged 1943 colinear lines
-Rounded 9 square corners
-Aligned 3025 textures
-
-
-~~~~~~| MAP25 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = heaps
-  darkness = rare
-  doors = some
-  ex_floors = few
-  fences = few
-  hallways = none
-  islands = heaps
-  keys = none
-  lakes = few
-  liquids = some
-  outdoors = heaps
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = none
-  teleporters = none
-  traps = some
-  windows = heaps
-}
-
-Liquid: lava (usage 50%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                          dd\     CC
-                                        ddddd\    CC
-                                        dddddd    CC    CC
-                                          dddd   /CC\CC CC
-                                      dddddddd   CCCCCC CC
-                                      dddddddd   CCCCCCCCCCC
-                                      dddddddd CCCCCCCCCCCCC
-                                      ddd aaddCCCCCCCCCCCCCC
-                                      ddd/aaddCCCCCCC   CC
-                                         aaadd aaaaaaa  CC
-                                         aaaaa\aaaaaaa
-                                         aaaaaaaaaaaaa
-                                         aaaaaaaaaaaaa
-                                         \aaaa/aa     BB
-                                          aaaaBBBBBBBBBB
-                                          aaaaBBBBBBBBBBB
-                                          eeee\BBBBBB BBB
-                                      eeeeeeeeeBBBBBBBBBB
-                                      eeeeeeeeeeeBBBBBBBB
-                                      eeeeee\eeee     BBB
-                                     eeeeeee  BBBBBB  BBB
-                                   eeeeeeee/  BBBBBB BBBBBBB
-                                   eeee          BBBBBBBBBBB
-                                     ee         BBBBBBBBB
-                                     ee         BBBBBBBBB
-                                                BBBBBBBBB
-                                                     \BB/
-                                                      BB
-                                                    BBBBBBB
-                                                    BBBBBBB
-                                                     BBB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_3
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:387
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:5 areas:67
-Secrets: NONE (by style)
-Other Item quota : 0.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: launch
-Giving weapon: chain
-Giving weapon: shotty
-Giving weapon: plasma
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 21198 dead regions (of 30781)
-Swallowed 2727 brushes (of 21283)
-Filled 0 gaps (of 7544 total)
-Lighting level...
-Merged 1822 colinear lines
-Rounded 6 square corners
-Aligned 2401 textures
-
-
-~~~~~~| MAP26 |~~~~~~
-
-Styles = 
-{
-  ambushes = some
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = few
-  cycles = none
-  darkness = rare
-  doors = some
-  ex_floors = some
-  fences = none
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = heaps
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = few
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: lava (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                     /BBB
-                                     B/BBBB    ccc
-                                     BB/BBB    ccc
-                                     BBBBBB   /cccc
-                                    BBBBBBB  /ccccc
-                                    BBBBBBB /ccccc
-                                    BBBB   cccccc/
-                                    BBBBB  cccccccc
-                                  BBBBBBBBcccc cccc
-                                  BBBBBBBBcccccc ccccc\
-                                   BBBB aaccccccccccc\c
-                                 BBBBBBBaacccccccccc\cc
-                                 BBBBBBBaaacc ccccccccc
-                                     BB aaacccc ccc\ccccc
-                                     aaaaaacccc     ccccc
-                                     aaaaaaccccdd\
-                                     aaaaaaccccdddddd
-                                     aaaaaacceedddddddd
-                                     aaaaaaaeeedddddddd
-                                    aaaaaaaaeeedddddddd
-                                    aaaaaaaa eeeeddddddd
-                                       aaa eeeeeeedddddd
-                                       aaa eeeeeeeddd/
-                                       aaa  ee eeeddd
-                                            eeeee
-                                            eeeeeee
-                                             eeeeee
-                                             ee/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_2
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:374
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:5 areas:56
-Secrets: NONE (by style)
-Other Item quota : 2.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: plasma
-Giving weapon: launch
-Giving weapon: chain
-Giving weapon: shotty
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 25804 dead regions (of 37178)
-Swallowed 2764 brushes (of 25892)
-Filled 0 gaps (of 9341 total)
-Lighting level...
-Merged 2185 colinear lines
-Rounded 9 square corners
-Aligned 3362 textures
-
-
-~~~~~~| MAP27 |~~~~~~
-
-Styles = 
-{
-  ambushes = none
-  barrels = some
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = some
-  darkness = rare
-  doors = few
-  ex_floors = few
-  fences = none
-  hallways = none
-  islands = heaps
-  keys = none
-  lakes = few
-  liquids = some
-  outdoors = heaps
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = heaps
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: lava (usage 50%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                    aa
-                                    aa
-                                    aaaabb
-                                    aaaabb  /bbbb
-                                 aaaaaaabb /bbbbbbb
-                                 aaaaaaabbbbbbbbbbb
-                                   \aaaabbbbbbbbbbb
-                               ggg  aa bbbb\bbbbbbb
-                               gggaaaaabbbbccbbbb  ccc
-                               gggaaaaaa   cc /cc cccc\
-                            /gg ggaaaaaaaaacccccccccccccccc
-                           ggggggggggaaaaaacccccccccccccccc
-                           ggggggggggaa/DD cccccc  \cc/
-                             \gggg ggaa DDDccEEffff cc
-                               \gggDDDDDDDEEEEEffffff
-                              gggggDDDDDDDDEEEEffffff
-                              gggg/D DD DDDDDDEff ff
-                                gg       DDDDDDfffff\
-                                gg       DDDDDDffffffff
-                                         DDD   ffffffff
-                                        DDDD   ff ff/
-                                        DDDD  ffff
-                                          DD  ffff
-                                          DD    ff
-                                                ff
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_2
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:364
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:7 areas:73
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: launch
-Giving weapon: chain
-Giving weapon: plasma
-Giving weapon: super
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 30688 dead regions (of 44135)
-Swallowed 2981 brushes (of 30832)
-Filled 0 gaps (of 11660 total)
-Lighting level...
-Merged 2767 colinear lines
-Rounded 8 square corners
-Aligned 3974 textures
-
-
-~~~~~~| MAP28 |~~~~~~
-
-Styles = 
-{
-  ambushes = heaps
-  barrels = few
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = some
-  darkness = rare
-  doors = some
-  ex_floors = some
-  fences = few
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = few
-  outdoors = heaps
-  parks = rare
-  pictures = some
-  porches = few
-  secrets = none
-  steepness = few
-  switches = none
-  symmetry = none
-  teleporters = none
-  traps = some
-  windows = some
-}
-
-Liquid: lava (usage 25%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                          dd
-                                          dd
-                               ff    dd   dd
-                               ff    dd   ddd CC
-                               ff\ dddd\  ddd CC
-                               fff ddddddddddCCCC
-                           f   fff ffddddddddCCCC
-                         fffffffff/ffdddddddddCC
-                         ffffffffffffffffbbdddCCC CC
-                            \ffffffffffffbbddCCCC CC
-                            GGGGbbbbbbb\/bbddCCC  CC
-                          GGGGGGbbbbbbbbbbbddCCCCCCCCC
-                          GGGGGGbbbbbbbbbbbbbbCCCCCCCC
-                            GGGGbbbbbbb/\bbbbbCCCCCCCC
-                           GGGGGGGGGGbb aaaabbCCCCCCCC
-                           GGGGGGGGGGee\aaaaaa aa CC
-                             Geeeeeeeeeeeeaaaa aa\CC
-                              eeeeeeeeeeee/aa\ aaaaa
-                              eeeeeeeee/aaaaaaaaaaaa
-                               eeeeeeee aaaaaaaaa/
-                               eeeeee     \aaa/aa
-                                 eee       aaa
-                                 eee       aaa
-                                 \ee
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_3
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:394
-Zone quota: 1
-Zone list:
-  ZONE_1 : rooms:7 areas:60
-Secrets: NONE (by style)
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Make Battles |==--
-
-Giving weapon: plasma
-Giving weapon: launch
-Giving weapon: chain
-WARNING: Cannot place boss monster: PNZombie
-Giving weapon: super
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 25975 dead regions (of 37288)
-Swallowed 2808 brushes (of 26049)
-Filled 0 gaps (of 9214 total)
-Lighting level...
-Merged 2365 colinear lines
-Rounded 6 square corners
-Aligned 2822 textures
-
-
-~~~~~~| MAP29 |~~~~~~
-
-Styles = 
-{
-  ambushes = heaps
-  barrels = heaps
-  big_rooms = some
-  cages = some
-  caves = none
-  cycles = some
-  darkness = rare
-  doors = few
-  ex_floors = few
-  fences = few
-  hallways = none
-  islands = few
-  keys = none
-  lakes = few
-  liquids = heaps
-  outdoors = some
-  parks = rare
-  pictures = some
-  porches = some
-  secrets = none
-  steepness = some
-  switches = none
-  symmetry = few
-  teleporters = none
-  traps = some
-  windows = few
-}
-
-Liquid: lava (usage 90%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 20x17 seeds
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                              EE
-                                              EE
-                                           EEEEE
-                                       CC  EEEEEEEE
-                                       CC   EEEEEEE
-                                   CCC CC   EEEEEEE
-                                   CCCCCCCC EEEEEE
-                                   CCCCCCCC   EEEEE
-                                    CCCCCCCCC   EEE
-                                    DDCCCCCCCC  EEEEEEEEE
-                                    DDCCCCCCCC EEEEEEEEEE
-                              DD    DDCC AACC  EEEEEEEE
-                              DDDD DDDD  AACCC  BB   EE
-                        HH  DDDDDDDDDDDDDAACCC BBBBB
-                        HHH DDDDDDDDDDDDDAAAABBBBBBB
-                        HHH  DDDDDAAAA  /AAAABBBBBB
-                        HHHH DDDDDAAAAAAAAAAA  BBBB
-                        HHHHHHHHGGAAAAAAAAAAABBBBB
-                        HHHHHHHHGGAAAAA \AAAABBBBBBBBB
-                        HHHHGGGGGGAAAAA  AAAA BBBBBBBB
-                        HHHGGGGGGGAAAA   AA   BBBBBBBB
-                        HHHGGGGGG AAAA   AA     BBB
-                        HH    GGG        AA   BBBBB
-                         GG   GGG             BBBB
-                         GGGGGGGG               BB
-                        GGGGGGGGG               BB
-                        GGGGGGG
-                         GGGGGG
-                         GG  GG
+                                 bb  bb
+                                 bb  bb
+                               bbbb  bbbb
+                               bbbb  bbbb
+                               bbbbbbbbbb
+                               bbbbbbbbbb
+                              bbbbbbbbbbbb
+                              bbbbbAAbbbbbEEE
+                                 bbAAbb   EEE
+                                AAAAAAAA  EE
+                               AAAAAAAAA EEE           EE
+                               AAAAAAAAA EEEEEE        EE
+                         DD    AAAAAAA    EEEEE        EEEE
+                         DD  DDDDDAAAA  EEEE       EEEEEEEE
+                        DDD  DDDDDAAA   EEEEEEEEE EEEEEEEEE
+                        DDDDDDDDDDAAAAAEEEEEEEEEEEEEEEEEEEE
+                        DDDDDDDDDDAAAAAEEEEEEEEEEEEEEEEEEEE
+                        DDDDDDDCCCCCCCCCEEEEEEEEE EEEEEEEEE
+                        DDDDDDDCCCCCCCCCEEEE       EEEEEEEE
+                        DDDDDDDCCCCCCCCC  EEEEE        EEEE
+                        DDDDDDDCCCCCCCCC EEEEEE        EE
+                           DDDCCCCCCCCCCCEEE           EE
+                           DDDCCCCCCCCCCC EE
+                                CCCCCCC   EEE
+                               CCC   CCC  EEE
+                                CC   CC
+                                CC   CC
 
 
 
@@ -4429,8 +2091,7 @@ Quest list:
   QUEST_1 : svolume:434
 Zone quota: 2
 Zone list:
-  ZONE_1 : rooms:7 areas:72
-Secrets: NONE (by style)
+  ZONE_1 : rooms:5 areas:80
 Other Item quota : 1.00
 
 --==|  Build Rooms |==--
@@ -4438,52 +2099,50 @@ Other Item quota : 1.00
 
 --==| Make Battles |==--
 
-Giving weapon: plasma
-Giving weapon: launch
-Giving weapon: shotty
 Giving weapon: chain
+Giving weapon: shotty
+Giving weapon: ActionMachineGun
+Giving weapon: Channeler
+Giving weapon: PlasmaShotgun
+Giving weapon: Smasher
+Giving weapon: UTNTPyroCannon
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 12410 dead regions (of 18680)
-Swallowed 3399 brushes (of 12515)
-Filled 0 gaps (of 2729 total)
+Removed 21702 dead regions (of 31622)
+Swallowed 3981 brushes (of 21756)
+Filled 16 gaps (of 6691 total)
 Lighting level...
-Merged 1116 colinear lines
-Rounded 0 square corners
-Aligned 2287 textures
+Merged 2316 colinear lines
+Rounded 1 square corners
+Aligned 4335 textures
 
 
-~~~~~~| MAP30 |~~~~~~
-Opened WAD file: games/doom/data/boss2/icon3.wad
-Closed WAD file
-
-
-~~~~~~| MAP31 |~~~~~~
+~~~~~~| MAP12 |~~~~~~
 
 Styles = 
 {
-  ambushes = heaps
+  ambushes = some
   barrels = some
   big_rooms = some
   cages = some
   caves = none
   cycles = none
   darkness = rare
-  doors = few
-  ex_floors = some
+  doors = some
+  ex_floors = heaps
   fences = few
   hallways = none
-  islands = heaps
+  islands = few
   keys = none
   lakes = few
   liquids = heaps
-  outdoors = few
+  outdoors = some
   parks = rare
-  pictures = few
-  porches = some
-  secrets = heaps
+  pictures = some
+  porches = few
+  secrets = some
   steepness = some
   switches = none
   symmetry = some
@@ -4492,7 +2151,7 @@ Styles =
   windows = some
 }
 
-Liquid: lava (usage 90%)
+Liquid: water (usage 90%)
 
 
 --==| Creating Rooms |==--
@@ -4515,32 +2174,454 @@ Seed Map:
 
 
 
-                                             BB      gg gg
-                                          BBBBBBBB /ggg\gggg
-                                          BBBBBBBB g/g\ggggg
-                                         BBBBBBBBBBggggggg\
-                             EEEEE       BBBBBBBBBBggg/ggggg
-                            /EEEEEE        BBBBBBggggggggggg
-                            EEEEEEE        BBBBBBggggggggg/
-                            EEEEEEE        BBBBBBggggDDDgg
-                            EEEEEEE         BBBB ggggDDDgg
-                           EEEEEEEE          BB  ggggDDD
-                          EEEEEEE     AAAAAA AAAAAAggDDDDD
-                          EEEEEEEEE   AAAAAAAAAAAAAggDDDDDDD
-                           EE EEEEEEEEAAAAAAAAAAAAAggDDDDDDD
-                           EEEEEEEEEEEAAAAAAAAAAAAADDDDDDDD
-                           EEEEEEEEEEEAAAAAAAAAAAAADDDDDDDD
-                           EE EEEEEEEEAAAA AAA AAAADDDDDDD
-                          EEEEEEEEE                DDDDDDD
-                          EEEEEEE                    DD
-                           EEEEEEEE
-                            EEEEEEE
-                            EEEEEEE
-                            EEEEEEE
-                            \EEEEEE
-                             EEEEE
+                                          DDD
+                                          DDD
+                                          DDD
+                                    FFF DDDDDD    ee
+                                    FFFFDDDDDD  eeee
+                                    FFFF DDDDD  eeeee
+                             FF     FFF  DDD    eeeee
+                             FF   FFFFFFDDDDD   eeeee
+                          /F\FFFFFFFFFFFDDDDD    ee
+                        FFFFFFFFFFFFFFFF DDD /eeeeeeee
+                        FFFFFFFFFFFFFFFDDDDDDeeeeeeeee
+                        FFFFFFFFFFFFFFFDDDDDDeeeeeee
+                        FFFFFFFFFFFFFFFFDDDDDeeeeeee
+                          \F/FFFFFFFFFFF  DDDeeeeeeeee
+                             FF   FFFFFF  AAA\eeeeeeee
+                             FF  BBBFFF AAAAAAA  ee
+                                  BBFFFFAAAAAAA eeeee
+                                BBBBFFFFAAAAAAA eeeee
+                                BBBBFFFBB AAA CCeeeee
+                               BBBBBBBBBBAAAAACCeeee
+                               BBBBBBBBBBAAAAACCCCeeCC
+                               BBBBBBBBBBAA AACCCCCCCCC
+                                BBBB   BBAA AACCCCCCCCC
+                                BBBB        CCCC    CCC
+                                  BB        CCCC
+                                 BBB        CCCCC
+                                            CCCCCCC
+                                            CCCCCCC
+                                            CCCC
+                                            CCCC
+                                              CC
+                                              CC
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_6
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:468
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:6 areas:89
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: AK47
+Giving weapon: NailGunMG
+Giving weapon: HeavyCarbine
+Giving weapon: bfg
+Giving weapon: BFG2704
+Giving weapon: Thompson
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 21940 dead regions (of 31916)
+Swallowed 4475 brushes (of 21995)
+Filled 33 gaps (of 6516 total)
+Lighting level...
+Merged 2336 colinear lines
+Rounded 4 square corners
+Aligned 4929 textures
+
+
+~~~~~~| MAP13 |~~~~~~
+
+Styles = 
+{
+  ambushes = heaps
+  barrels = some
+  big_rooms = some
+  cages = some
+  caves = few
+  cycles = heaps
+  darkness = rare
+  doors = none
+  ex_floors = few
+  fences = none
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = some
+  outdoors = some
+  parks = rare
+  pictures = few
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: skipped for level (by style).
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    BB
+                                    BBB        GG  GG
+                                    BBB        GG  GG
+                                 BBBBBB       /GGGGGG\
+                                 BBBBBBBB  GGGGGGGGGGGGGG
+                                 BBBBBBBB  GGGGGGGGGGGGGG
+                                     BBBB     \GGGGGG/
+                                    BBBBB    CCGGGGGG
+                                    BBB    CCCCCGGGG
+                                  BBBBB   CCCCCCGddG
+                                BBBBBBB  CCCCCCCCdd\
+                                BBBBBBBBBCCCCCCCCddd
+                                 BBBBBBBBCCCCCCCCddd
+                                 BBBBBBB CCCCCCCCdddddd\
+                                  aaaaaa    CC ddddddddd
+                                  aaaaaa    CC dddddddd
+                                  aaaaa   CCCCCCdddd dd
+                                aaaaaaaaa CCCCCCdddd
+                                aaaaaaaaa aa\FFFdddddddd
+                                   aa  aaaaaaFFFdddddddd
+                                       aaaaaaFFFFddddddd
+                                       aa\aa/FFFFddd
+                                       aa FFFFFF ddd
+                                          FFFFFFFFFFF
+                                           FFFFFFFFFFF
+                                           FFFFFFFFFF/
+                                             FFFFF
+                                             FFFFF
+                                                FF
+                                                FF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_6
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:399
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:6 areas:66
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: LandMineLayer
+Giving weapon: AlphaUnmaker
+Giving weapon: BHGen
+Giving weapon: NailGunMG
+Giving weapon: NuclearMissileLauncher
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 19234 dead regions (of 28210)
+Swallowed 3006 brushes (of 19317)
+Filled 28 gaps (of 6052 total)
+Lighting level...
+Merged 1785 colinear lines
+Rounded 4 square corners
+Aligned 2956 textures
+
+
+~~~~~~| MAP14 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = none
+  darkness = rare
+  doors = some
+  ex_floors = some
+  fences = none
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = heaps
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = few
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: water (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            III     II
+                                         II III II III
+                                         IIIIII II III
+                                      IIIIIIIIIIII IIIII
+                                      IIIIIIIIIIIIIIIIII
+                                        II IIIIIIIIIII
+                                      IIIIIIIIIIEEIII
+                                      IIIIIIIII EEII
+                                        IIIIIIEEEEII
+                                        IIIIIIIEEE
+                                        IIIIIIIEEEEEEE
+                                       BBBB IIEEEEEEEEEE
+                                       BBBBBBBEEEEEEEEEE
+                                       BBBBBBBEBB  EEEE
+                                     BBBBBBBBBBBBEEEEEE ff
+                                     BBBBBBBBBBBBEEEEEffffff
+                                        AAAAAABBffEE/fffffff
+                                        AAAAAACCfffffffffff
+                                        AAAAAACCfffffffffff
+                                        AAAAAACCfffCCfffffHH
+                                         AAAA CCfffCCCffffHH
+                                        AAAAAACCCCCCCC  HHHH
+                                        AAAAAACCCCCCCC  HHHH
+                                         AAAACCCCC CCHH  HHH
+                                         AAAACCCCCCCHHHH HHH
+                                              CCCCCCHHHHHHHH
+                                              CCCCCCHHHHHHHH
+                                              CCCCCC  HHHHHH
+                                                CCCC      HH
+                                                          HH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_9
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:441
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:7 areas:78
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: DukeShotgun
+Giving weapon: ClaymoreMine
+Giving weapon: STRailgun
+Giving weapon: QuadShotgun
+Giving weapon: Machinegun
+Giving weapon: SkeletalRevenge
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 16888 dead regions (of 24660)
+Swallowed 4064 brushes (of 16969)
+Filled 18 gaps (of 4315 total)
+Lighting level...
+Merged 1939 colinear lines
+Rounded 0 square corners
+Aligned 3817 textures
+
+
+~~~~~~| MAP15 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = few
+  big_rooms = some
+  cages = some
+  caves = some
+  cycles = some
+  darkness = rare
+  doors = some
+  ex_floors = heaps
+  fences = some
+  hallways = none
+  islands = few
+  keys = none
+  lakes = heaps
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = heaps
+  porches = some
+  secrets = heaps
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: blood (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        DD
+                                                        DD
+                                                     DDDDDDD
+                                                     DDDDDDD
+                                                        DDDD
+                                 BBB                  DDDDDD
+                                /BBB              DD  DDDDDD
+                              BBBBBBBBBB   BBB    DDDDDDDDDD
+                              BBBBBBBBBBBBBBBB    DDDDDD\ DD
+                                \BB BBBBBBBBBBBBDDDDDDDDDDDD
+                                  BBBBBBB  BBBBBDDDDDDDDDDDD
+                                  BBBBBBBBB BBCCCCDDDDDD/ DD
+                              BBBBBBBBBBBBBBBBCCCCDDDDDDDDDD
+                              BBBBBBBBBBBBBBBBCCCCDD  DDDDDD
+                                BBBB BB  BB BBCCCCCCC DDDDDD
+                                BB  BBBBBBB   CCCCCCC   DDDD
+                                AAAABBBBBAAAACCCCCC  DDDDDDD
+                                AAAAAAAAAAAAACCCCCC  DDDDDDD
+                               AAAAAAAAAAAAAAACC        DD
+                               AAAAAAAAAAAAAAACC        DD
+                               AAAAAAAAAAAAAAA
+                                AAAA AAA AAAA
+                                 AA       AA
+                                 AA       AA
 
 
 
@@ -4567,15 +2648,15 @@ Seed Map:
 
 --==| Make Quests |==--
 
-Exit room: ROOM_5
-Secret Exit: ROOM_4
+Exit room: ROOM_4
+Secret Exit: ROOM_3
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:432
-Zone quota: 1
+  QUEST_1 : svolume:389
+Zone quota: 2
 Zone list:
-  ZONE_1 : rooms:5 areas:70
+  ZONE_1 : rooms:4 areas:63
 Other Item quota : 1.00
 
 --==|  Build Rooms |==--
@@ -4583,25 +2664,302 @@ Other Item quota : 1.00
 
 --==| Make Battles |==--
 
-Giving weapon: super
-Giving weapon: shotty
-Giving weapon: bfg
-Giving weapon: plasma
-Giving weapon: chain
+Giving weapon: MP40
+Giving weapon: QuadShotgun
+Giving weapon: UberMinigun
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 14153 dead regions (of 20943)
-Swallowed 2902 brushes (of 14199)
-Filled 15 gaps (of 3564 total)
+Removed 13700 dead regions (of 20150)
+Swallowed 3550 brushes (of 13805)
+Filled 22 gaps (of 3160 total)
 Lighting level...
-Merged 1462 colinear lines
-Rounded 1 square corners
-Aligned 2333 textures
+Merged 1477 colinear lines
+Rounded 0 square corners
+Aligned 2628 textures
 
 
-~~~~~~| MAP32 |~~~~~~
+~~~~~~| MAP16 |~~~~~~
+
+Styles = 
+{
+  ambushes = heaps
+  barrels = some
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = some
+  darkness = rare
+  doors = few
+  ex_floors = heaps
+  fences = few
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = few
+  outdoors = some
+  parks = rare
+  pictures = few
+  porches = some
+  secrets = some
+  steepness = few
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: blood (usage 25%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  FFF     FF     FFF
+                                 FFFF FF  FF  FF FFFF
+                                 \FFF\FF  FF  FF/FFF/
+                                    \/FF FFFF FF\/
+                                   FFFFFFFFFFFFFFFF
+                                   FFFFFFFFFFFFFFFF
+                                    /\FF  FF  FF/\
+                                 FFFF/FF FFFF FF\FFFF
+                                 FFFF   FFFFFF   FFFF
+                                   FF   FFFFFF   FF
+                                        FFFFFF
+                                        FFFFFF
+                                    aaaa FFFF    EE
+                                    aaaa  aa     EE
+                              aaaaaaaaaaaaaaaa  EEEEE
+                            aaaaaaaaaaaaaaaaaaaaEEEEE
+                            aaaaaaaaaaaaaaaaaaaaEEEEE
+                              aaaaaaaaaaaaaaaa  EEEE
+                            /dddddBBBBBBBBEEEEEEEEEEEE
+                         dddddddddBBBBBBBBEEEEEEEEEEEE
+                         dddddddBBBBBBBBBBBB    EEEE
+                         dddddddBBBBBBBBBBBB    EEEEE
+                         dd\ddd/ BB CCCC BB     EEEEE
+                         dd dddBBBBBCCCCBBBBB   EEEEE
+                            dddBBBBBCC  BBBBB    EE
+                            ddd B CCCCCC CCB     EE
+                            ddd   CCCCCCCCC
+                            ddd   CCCCCCCCC
+                                        CC
+                                        CC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_6
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:454
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:6 areas:67
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: PlasmaBallista
+Giving weapon: launch
+Giving weapon: GatLaser
+Giving weapon: AutoShot
+Giving weapon: bfg
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 18833 dead regions (of 27853)
+Swallowed 3468 brushes (of 18938)
+Filled 22 gaps (of 5394 total)
+Lighting level...
+Merged 2179 colinear lines
+Rounded 7 square corners
+Aligned 3118 textures
+
+
+~~~~~~| MAP17 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = none
+  big_rooms = some
+  cages = some
+  caves = some
+  cycles = heaps
+  darkness = rare
+  doors = some
+  ex_floors = few
+  fences = none
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = some
+  parks = rare
+  pictures = few
+  porches = some
+  secrets = some
+  steepness = few
+  switches = none
+  symmetry = none
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: slime (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  CC
+                                  CC
+                                CCCC
+                                CCCCC
+                                  CCC      aa
+                                CCCCCC     aa
+                                CCCCCC aaa/aa
+                                 /CC\ aaaaaaaa
+                                CCCCCCaaaaaaaa
+                                CCCCCC\aa/\aaa
+                                  CC   aa  aa
+                                  CC  /aa\BBBBB BB
+                                CCCCaaaaaaBBBBBBBB
+                              DDCCCCaaaaaaBBBBBBBBBB
+                              DD  CCaa\aa/BBBBBBBBBBBB
+                              DDDDDDDDDaa BBBBBBBBBBBB
+                            DDDDDDDDDDDaa BBBBBBBBBBBB
+                            DDDDDDDDDDDEE BBBBBBBBBB
+                           DDDDDDDDDDDDEEBBBBBBB BBB
+                           DDDDDDDDDDDDEEBBBBBBB BBB
+                            DDDDDDDDDDEEEBBBBBBBB
+                            DD DDDDDDDEEEBBBBBBBB
+                               DDDDDDDEEEEEEBBB
+                                DDD   EEEEEEEEE
+                                   EEEEEE EEEEE
+                                   EEEEEE EE
+                                     EEEEEEEEEE
+                                     EEEEEEEEEE
+                                       EEEEE
+                                         EEE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_5
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:389
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:5 areas:49
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: chain
+Giving weapon: AngledPistol
+Giving weapon: AutoShot
+Giving weapon: PulseRifle
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 15837 dead regions (of 23909)
+Swallowed 2692 brushes (of 15861)
+Filled 11 gaps (of 4380 total)
+Lighting level...
+Merged 1352 colinear lines
+Rounded 0 square corners
+Aligned 2617 textures
+
+
+~~~~~~| MAP18 |~~~~~~
 
 Styles = 
 {
@@ -4609,28 +2967,28 @@ Styles =
   barrels = few
   big_rooms = some
   cages = some
-  caves = few
-  cycles = none
+  caves = none
+  cycles = heaps
   darkness = rare
-  doors = some
-  ex_floors = few
-  fences = heaps
+  doors = few
+  ex_floors = some
+  fences = none
   hallways = none
   islands = few
   keys = none
-  lakes = few
+  lakes = heaps
   liquids = heaps
   outdoors = few
   parks = rare
-  pictures = few
+  pictures = some
   porches = some
-  secrets = none
-  steepness = some
+  secrets = some
+  steepness = few
   switches = none
-  symmetry = heaps
+  symmetry = some
   teleporters = none
   traps = some
-  windows = few
+  windows = some
 }
 
 Liquid: blood (usage 90%)
@@ -4656,31 +3014,728 @@ Seed Map:
 
 
 
-                              CCCCCC
-                             CCCCCCCC
-                              CCCCCC
-                              CCCCCC   DD
-                              CCCCCCDD DD DD
-                               CCCCDDD DD DDD
-                                CC DDDDDDDDDD
-                                CCDDDDDDDDDDDD
-                                CCDDD  DD  DDD
-                                CC BBB/DD\        GGG
-                               CCCCBBBDDDD        GGGGG
-                              BCCCCBBBDDDDB       GGGGG
-                            BBBBBB BBB BBBBBB FFGGGGG
-                            BBBBBBBBBBBBBBBBB FFGGGGGGGGG
-                                BBBBBBBBBFFFFFFFFGGGGGGGG
-                               EEEEBBBFFFFFFFFFFFGGGGGGGGGG
-                               EEEEBBBFFFFFFFFFFFGGGGGGGGGG
-                               EEEEAAAFFFFFFFFFFFGGGGGGGGGG
-                                EE/AAA\   FFFFFFFFGGGG GG
-                                AAA/A\AAA  FFFFFFFGGGG GG
-                                AAAAAAAAA     FF  GGGG
-                                AAA\A/AAA     FF  GGGG
-                                  \AAA/           GGG
-                                   AAA
-                                   AAA
+                                            EEEEEEEE
+                                            EEEEEEEE
+                                            EEEEEEEE
+                                            EEEEEEEE
+                                            EEEEEEEE
+                                      AA     AAEE
+                                    GGAA AAAAAAEE
+                               GGG  GGAAAAAAAAAEE
+                               GGGGGGGAAAAAAAAAEE
+                               GGGGGGGGG AA  EEEEEECC
+                               GGGGGGGGGAAAAAEEEEEECC
+                               GGGGGGGAAAAAAABBEE  CCCC
+                               GGGG GGAAAAAAABBCCCCCCCC
+                             GGGGGG BBBBBB BBBBCCCCCC
+                             GGGGG  BBBBBB BBBBCC CCCC
+                             GGGGG   BBBBBBBBBBCCCCCCC
+                               GGG   BBBBBBBBBBCCCCCCC
+                                       BBBBBBBBCC CCCC
+                                         BBBBBBCCCCCC
+                                         BBBBBBCCCCCCCC
+                                          DDDDDD   CCCC
+                                        DDDDDDDDDD CC
+                                        DD DDDD DD CC
+                                     DD DD  DD  DD DD
+                                     DDDDDDDDDDDDDDDD
+                                     DDDDDDDDDDDDDDDD
+                                     DD DD  DD  DD DD
+                                        DD DDDD DD
+                                        DDDDDDDDDD
+                                        DDDDDDDDDD
+                                          DDDDDD
+                                         DDDDDDDD
+                                         DDDDDDDD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_4
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:437
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:6 areas:72
+Other Item quota : 2.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: shotty
+Giving weapon: BayonetRifle
+Giving weapon: AutoShot
+Giving weapon: STBFG10K
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 14956 dead regions (of 22150)
+Swallowed 3534 brushes (of 15063)
+Filled 30 gaps (of 3706 total)
+Lighting level...
+Merged 1868 colinear lines
+Rounded 0 square corners
+Aligned 2962 textures
+
+
+~~~~~~| MAP19 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = heaps
+  darkness = rare
+  doors = some
+  ex_floors = few
+  fences = some
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = heaps
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = heaps
+}
+
+Liquid: water (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   BBBBB
+                                   BBBBB         FF
+                                  BBBBBBB        FF
+                                  BBBBBB         FFFF
+                                  BBBBBB        FFFFF
+                                  BBBBBB ddd    FFFFF
+                                   BBBBddddd\  FFFF FF
+                                    BB dddddd\ FFFFFFF
+                                AAA BBBBBBddddEEFFFFFF
+                              AAAAABBBBBBBddddEEFFFFF
+                              AAAAABBBBBB/dd\EEE FFF
+                               AAABBBBdddddddEEEEFFF
+                               AAA\BBBddddddd EEEEE
+                                 \/AA\AAAdddddEEEEEE
+                              AAAAAAAAAAAdddddEEEEEE
+                              AAAAAAAAAAAddddd EEEE
+                                AA\AA/AA \ddddEEEEE EE
+                                AA AACCCCEEEEEEEEEEEEEE
+                                   AACCCCEEEEEEE EEEEE/
+                                      CC EE EE   EEE
+                                    CCCCCC EEEEEEEEEEE
+                                   CCCCCCCCEEEEEE EEEE
+                                   CCCCCCCC EEE   EE
+                                  CCCCCCCCCCEEE   EE
+                                  CCCCCCCCCCEE
+                                   CC CC CC EE
+                                      CC    EE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_3
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:405
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:6 areas:69
+Other Item quota : 2.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: SuppressedMP5
+Giving weapon: shotty
+Giving weapon: PlasmaPistol
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 19216 dead regions (of 28197)
+Swallowed 4070 brushes (of 19262)
+Filled 25 gaps (of 5544 total)
+Lighting level...
+Merged 2130 colinear lines
+Rounded 0 square corners
+Aligned 3275 textures
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+
+
+~~~~~~| MAP20 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  big_rooms = some
+  cages = some
+  caves = heaps
+  cycles = none
+  darkness = rare
+  doors = few
+  ex_floors = heaps
+  fences = few
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = heaps
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = heaps
+  teleporters = none
+  traps = some
+  windows = few
+}
+
+Liquid: slime (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 CCCC
+                                  CC
+                                  CC
+                          FF     CCCC
+                          FFFFFFCCCCCC
+                        FFFFFFFFCCCCCC
+                        FFFFFFFFCCCCCC
+                          FFFF FCCCCCC
+                          FFFF CCCCCCCC
+                        FFFFFFFCC CC CC
+                        FFFFFFFCCCCCCCCAA
+                        FFFFFF CCCCCCCCAA
+                        FFFFFF CC CC CCAA
+                        FFFFFFFFFFCC   AAAA
+                        FFFFFFFFFFCC   AAAA
+                        FFFFFF   CCCC  AAAA
+                        FFFFFF    AA  /AAAA
+                        FFFFFFF AAAAAAAAAA
+                        FFFFFFF AAAAAAAAAA
+                          FFFF    AAdd\AAAA
+                          FFFF F  bbdd AAAA
+                        FFFFFFFF  bbddAAAAA
+                        FFFFFFFF  bbddAAAAA
+                          FFFFFFbbbbbb AA
+                          FF    bbbbbb AA
+                                 bbbb  AA
+                           bbbb bbbbbb bbbb
+                           bbbbbbbbbbbbbbbb
+                          bbbbbbbbbbbbbbbbbb
+                          bbbbb  bbbb  bbbbb
+                             bb  bbbb  bb
+                             bb   bb   bb
+                                  bb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_6
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:397
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:5 areas:84
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: FreezeRifle
+Giving weapon: shotty
+Giving weapon: Repeater
+Giving weapon: STBFG10K
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 23156 dead regions (of 33359)
+Swallowed 3971 brushes (of 23242)
+Filled 7 gaps (of 7125 total)
+Lighting level...
+Merged 2472 colinear lines
+Rounded 5 square corners
+Aligned 4328 textures
+
+
+~~~~~~| MAP21 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = none
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = none
+  darkness = rare
+  doors = few
+  ex_floors = some
+  fences = some
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = heaps
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: blood (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                           DD
+                                  FF  F    DDDDD
+                                  FFFFFFFDDDDDDDDD
+                               FFFFFFFFFFDDDDDDDDDD
+                              FFFFFFFFFFFFDDDDDDDDggggg\
+                              FFFFFFFFFFFFDDDDDDDDggggggg
+                               FFFFFFFFFFAADDDDDDDggggggg
+                                  FFFFFFFAAAABBDDD gggggggg
+                                  FF  F  AAAABBDDD gggggggg
+                                         AAAABBDDD   gggg
+                                     AAAAAAAABBDDD   gggg
+                                CC   AAAAAAAABBDD   gg/gg
+                              CCCC AAAAAAAABBBBB    ggg/g
+                              CCCC AAAAAAAABBBBBBBB  ggg/
+                            CCCCCC AAAAAAAA  BBBBBB
+                            CCCCCCCCCCAAAAA  BBBBBB
+                            CCCCCCCCCCAAAAAABBBBBBB
+                             CCCCCCCCAAAAAAABBBBBBB
+                             CCCCCCCCAAAAA   BBBBBB
+                            CCCCCCCCCCAAAA       BB
+                            CCCCCCCCCC           BB
+                            CCCCCC
+                              CCCC
+                              CCCC
+                                CC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_3
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:412
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:6 areas:78
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: chain
+Giving weapon: M40Rifle
+Giving weapon: PlasmaBeam
+Giving weapon: plasma
+Giving weapon: Raptor
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 15369 dead regions (of 23023)
+Swallowed 2827 brushes (of 15445)
+Filled 36 gaps (of 4600 total)
+Lighting level...
+Merged 1488 colinear lines
+Rounded 0 square corners
+Aligned 2841 textures
+
+
+~~~~~~| MAP22 |~~~~~~
+
+Styles = 
+{
+  ambushes = heaps
+  barrels = heaps
+  big_rooms = some
+  cages = some
+  caves = few
+  cycles = some
+  darkness = rare
+  doors = some
+  ex_floors = heaps
+  fences = none
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = heaps
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = heaps
+}
+
+Liquid: lava (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        AA
+                                        AA
+                                        AA AA
+                                     AAAAA AA
+                                   AAAAAAA/AA\
+                                   AAAAAAAAAAAA    JJ
+                                     AAAAAAAAAA    JJ
+                        I            AAAAA\AA/   JJJJJJ
+                        II        BBB  AAA AABBB JJJJJJ
+                        II II   IBBBB  BAABAABBBBJJJJJJ\ JJ
+                        IIIIIIIIIBBBBBBBBBBBBBBBBJJJJJJJJJJ
+                        IIIIIIIIIBBBBBBBBBBBBBBBBJJJJJJJJJJ
+                        II IIEEEICCBBCC BBDD BB  JJJJJJ/ JJ
+                        IIEE EEECCCCCCCCBBDDDDDDDJJJJJJ
+                        IEEEE EECCCCCCCCFFDDDDDDDJJJJJJ
+                        EEEEEEEEEECCCCFFFFDD DDDD  JJ
+                        EEEEEEEEEECCCCFFFFDD DDDD  JJ
+                         EEEE EEHHHCCGGGFFDD   DD
+                          EE EEEHHHCCGGGGG
+                             EEE HHCCGG GGG
+                             HHHHHHCCGGGGGG
+                             HHHHHHHHGGGGGG
+                               H HHHHGGGGG
+                                 HHHHGG
+                                 HHHHGG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_10
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:420
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:10 areas:64
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: shotty
+Giving weapon: FlashLightAngled
+Giving weapon: M40Rifle
+Giving weapon: Rifle
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 14391 dead regions (of 21308)
+Swallowed 3785 brushes (of 14445)
+Filled 22 gaps (of 3200 total)
+Lighting level...
+Merged 1461 colinear lines
+Rounded 0 square corners
+Aligned 2255 textures
+
+
+~~~~~~| MAP23 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = heaps
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = heaps
+  darkness = rare
+  doors = few
+  ex_floors = few
+  fences = few
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = few
+  liquids = some
+  outdoors = few
+  parks = rare
+  pictures = heaps
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = none
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: lava (usage 50%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     GG     DDDDDDDD
+                                     GG GG  DDDDDDDD
+                                   GGGG/GG\   /DD\
+                                   GGGGGGGG  DDDDDD
+                                     GGGGGG  DDDDDD
+                                   ccGGGGGG  DDDDDD
+                                   ccGGGGGGEEDDDDDD
+                                  /cc\GGGG EEEDDDD
+                                  cccccGGGGGEEEDD
+                                  cccccGGGGGEEEDD
+                                   cc  GGEEEEE/DD\
+                                  /ccccccEEEEEDDDDD
+                                 ccccccccccEEEDDDDDDDDDD
+                                 ccccccccccEEEEDDDDDDDDD
+                                  \ccAAcc/ DDEEDDDDDDDDD
+                                AA ccAAccDDDDDDDDDDDDDDD
+                                AA ccAAccDDDDDDDDDDDDDDD
+                              AAAA  /AAAA  BBB BBBBBDD
+                              AAAAAAAAAAAA BBBBBBBBBDD
+                              AAAAAAAAAAAAABBBBBBBBBB
+                                AA  \AAAAAABBBBBBBBBB
+                                AA   AA AA BB BBBBBB
+                                AA   AA AA BB  BBBBBB
+                                     AA    BB     BBB
+
 
 
 
@@ -4712,11 +3767,291 @@ Exit room: ROOM_4
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:377
+  QUEST_1 : svolume:390
 Zone quota: 2
 Zone list:
-  ZONE_1 : rooms:7 areas:55
-Secrets: NONE (by style)
+  ZONE_1 : rooms:6 areas:77
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: Raptor
+Giving weapon: Reaper
+Giving weapon: chain
+Giving weapon: Smartgun
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 14843 dead regions (of 21993)
+Swallowed 2993 brushes (of 14897)
+Filled 18 gaps (of 3773 total)
+Lighting level...
+Merged 1325 colinear lines
+Rounded 1 square corners
+Aligned 2722 textures
+
+
+~~~~~~| MAP24 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = few
+  big_rooms = some
+  cages = some
+  caves = few
+  cycles = heaps
+  darkness = rare
+  doors = some
+  ex_floors = some
+  fences = none
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = heaps
+  parks = rare
+  pictures = heaps
+  porches = few
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: blood (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             GGGGGGGG   CCC
+                             GGGGGGGG   CCC
+                             GGGGGGGG CCCCCC
+                             GGGGGGGG CCCCCC
+                             GGGGGGGG  CCCCCC
+                           GGGGGGGGGGGGCCCCCC  CCCC
+                           GGGGGGGGGGGG  CCCCCCCCCC
+                             GGGGGGGG  CCCCC CCCCC
+                             GGGGGGGG  CCCCC CCCCCCC\
+                               GGGGEE  CCCCCCCCCCCC\C
+                                ddEEECCCCCCCCCCCCC\CC
+                                ddEEECCCCCCC CCCCCCCC
+                                dd\EEfffCCC aaa  CC
+                              dddddddfff CC aaa  CC
+                              dddddddffCCCCCaaa\aaa
+                              ddddddbbbCCCCCaaaaaaaa
+                         dddddddd ddbbbbbbb aaaaaaaa
+                         dddddddddddbbbbbbb aaaaaaa
+                            ddddddddbbbbbbbaaaaaaaa
+                            ddbbbbbbbbbbbbbaaaaaaaa
+                              bbbbbbbbb bb/ \aa/
+                               bb       bb
+                                        bb
+                                        bb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_7
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:401
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:7 areas:70
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: plasma
+Giving weapon: super
+Giving weapon: chain
+Giving weapon: PlasmaBallista
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 26211 dead regions (of 37680)
+Swallowed 3470 brushes (of 26316)
+Filled 31 gaps (of 9170 total)
+Lighting level...
+Merged 2399 colinear lines
+Rounded 4 square corners
+Aligned 2853 textures
+WARNING: bad doom entity number: ''
+
+
+~~~~~~| MAP25 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = heaps
+  darkness = rare
+  doors = some
+  ex_floors = some
+  fences = some
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = heaps
+  liquids = few
+  outdoors = heaps
+  parks = rare
+  pictures = heaps
+  porches = few
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: lava (usage 25%)
+
+Darkness falls across the land...
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      AAA
+                                  AA  AAA  AA
+                                  AAAAAAAAAAA
+                                AAAAAAAAAAAAAAA
+                              AAAAAAAAAAAAAAAAAAA
+                              AAAAAAA AAA AAAAAAA
+                              AAAAAAA AAA AAAAAAA
+                                  AA  bbbddAAcc\
+                                  bbbbbbbddccccccccccc
+                                 bbbbbbbbddccccccccccccc
+                                 bbbbbbbbdd\cccccccccccccc
+                                  bbbbbbbdddcccccccccccccc
+                                   bbbbdddddccccc
+                                   bbbbddddcccccc
+                                 bbbbbbdd cccccccccccc
+                                 bbbbbbdddcccccccccccc
+                                   bbbbddd cccccccccc
+                             ddddd  bbbdd\ \ccccccccc
+                           dddddddd  /dddd\ ccccccccc
+                         dddddddddd  dddddd cc   cc
+                         dddddddddddddddddd\     cc
+                         dddddddddddddddddddd
+                           dddd    dddddddddd
+                           dd      dd/  \dd/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_4
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:402
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:4 areas:66
 Other Item quota : 2.00
 
 --==|  Build Rooms |==--
@@ -4724,21 +4059,866 @@ Other Item quota : 2.00
 
 --==| Make Battles |==--
 
-Giving weapon: chain
-Giving weapon: launch
+Giving weapon: QuadShotgun
 Giving weapon: shotty
+Giving weapon: AK47
+Giving weapon: plasma
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 23786 dead regions (of 34580)
+Swallowed 2400 brushes (of 23893)
+Filled 14 gaps (of 8496 total)
+Lighting level...
+Merged 2038 colinear lines
+Rounded 5 square corners
+Aligned 3204 textures
+
+
+~~~~~~| MAP26 |~~~~~~
+
+Styles = 
+{
+  ambushes = none
+  barrels = none
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = heaps
+  darkness = rare
+  doors = few
+  ex_floors = few
+  fences = heaps
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = some
+  parks = rare
+  pictures = some
+  porches = heaps
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: blood (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                       DD
+                                                 /DD\  DD
+                                 /ee\            DDDD  DD
+                              eeeeeeee\  AAA     DDDDDDDDDD
+                             /eeeeeeeeee AAA     DDDDDDDDDD
+                            /eeeeeeeeeeeAAAAA   DDDDD  DDDD
+                            eeeeeeeeeAAAAAAAAAAADDDDD    DD
+                            eeeeeeeeeAAAAAAAAAAADD/DD\ DDDD
+                            \eeeeeeeeAAAAA AAAAADDDDDDDDDDD
+                         eeeeeeeeeeeeAAAAA AAAAADDDDDDDDDDD
+                         eeeeeee \eeeAAAAA AAAAADDDDDDDDDDD
+                        eeeeeeee  eeebbb   CCCCCCCDDDD DDDDD
+                        eeeeeeee bbbbbbbbbbbCCCCC      DDDDD
+                         eeeeeeebbbbbbbbbbbbbCCC       DDDDD
+                         eeee/  bbbbbbbbbbbbbCCC       DDDDD
+                         eee/      \bbbbb/CCCCCCCCC    DDDDD
+                         ee         \bbb/CCCCCCCCCCC    DDD
+                         ee          bbb \CCCCCCCCC/    DDD
+                                           CC\C/CC
+                                           C\CCC/C
+                                           \CCCCC/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_4
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:430
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:5 areas:48
+Other Item quota : 2.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: KDiZDSuperShotgun
+Giving weapon: launch
+Giving weapon: STRailgun
 Giving weapon: super
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 10326 dead regions (of 16106)
-Swallowed 2179 brushes (of 10433)
-Filled 0 gaps (of 2171 total)
+Removed 20226 dead regions (of 29568)
+Swallowed 2797 brushes (of 20302)
+Filled 25 gaps (of 6984 total)
 Lighting level...
-Merged 750 colinear lines
-Rounded 0 square corners
-Aligned 1977 textures
+Merged 1718 colinear lines
+Rounded 9 square corners
+Aligned 2286 textures
+
+
+~~~~~~| MAP27 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = heaps
+  darkness = rare
+  doors = some
+  ex_floors = some
+  fences = few
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = some
+  outdoors = some
+  parks = rare
+  pictures = some
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: slime (usage 50%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          HHHHHHHHHHHHHHHH
+                                        H HHHHHHHHHHHHHHHH H
+                                        HHHHHHHHHHHHHHHHHHHH
+                                        HHHHHHHHHHHHHHHHHHHH
+                                        H HH  HH HH HH  HH H
+                                          HH   HHHHHH   HH
+                                           BBBBHHHHHH
+                                  AA      BBBBBddHH
+                                  AAAA    BBBBBddHH
+                                  AAAA   BBB /ddddd\
+                                AAAAAAABBBBBdddddddd\
+                                AAAAAAABBBBBdddddddddd
+                                   AA  CCBBB  \ddddddd
+                                 AAAAAACC BBBBB\dddddd
+                                 AAAAAACCCBBBBBddddddd   ff
+                                   AA  CCC BBBBddddddd   ff
+                                 /AAA  CCCCCCC\ fffff   /fff
+                               AAAAAAAACCCCCCCCCffffffffffff
+                               AAAAAAAACCCCCCCCCfffffffffff
+                                 \AAAAACCCCCCC/ \ff/ ffffff
+                                  AAACCCCCCCCC /ee\ /ff ff
+                                  AAACCCC eeeeeeeeeeffffff
+                                  AACCCCCCeeeeeeeeeeffff
+                                  AACCCCCC /eeeeeeeeff
+                                      CCCC eeeeeeeee
+                                      CCCC eeeee ee
+                                           ee    ee
+                                           ee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_8
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:472
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:7 areas:79
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: bfg
+Giving weapon: model1887
+Giving weapon: super
+Giving weapon: AngledPistol
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 21527 dead regions (of 31212)
+Swallowed 4250 brushes (of 21590)
+Filled 21 gaps (of 6169 total)
+Lighting level...
+Merged 1973 colinear lines
+Rounded 6 square corners
+Aligned 3437 textures
+
+
+~~~~~~| MAP28 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = few
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = heaps
+  darkness = rare
+  doors = few
+  ex_floors = some
+  fences = none
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = some
+  parks = rare
+  pictures = some
+  porches = few
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: lava (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                         ii\
+                                  iiiiiiiiii
+                                  iiiiiiiiii\
+                                  iiiiiiiiiii\  HHH
+                                    iiii  iiiiiiHHH
+                                cc /ccc   iiiiiiHHH
+                                cc/ccccFFFiiiiiiHHH
+                                ccccccccFFiiiHHHHHHHH
+                               /ccccccccFFFF HHHHHHHHHHH
+                               cccccccccFFFF  HHHHHHHHHH
+                             cccccccccccFFFFbbHHHHHHH
+                             cccccccc/  FFFFbbbbHHHHH
+                                cc AAA  FF bbbbbHH
+                                cc AAA FFF bbbbHHHH
+                               AAAAAAAAAAA/bbb//dddd
+                               AAAAAAAAAAAbbb ddddddddd/dd
+                               AAAAAAAAAAAbbb ddddddddddddd
+                                 AAAAAAAAAbbbbbdddddddddddd
+                                 AAAAAAA bbbbbbddddddd/\dd
+                                    AAAAAbbbb/ \dddddd
+                                     AAAAbbb/
+                                     AAAbbbb
+                                     AAAbbbb
+                                         bbb
+                                         bb
+                                         bb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_9
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:392
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:7 areas:61
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: plasma
+Giving weapon: launch
+Giving weapon: chain
+Giving weapon: M16
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 23008 dead regions (of 33324)
+Swallowed 3316 brushes (of 23100)
+Filled 25 gaps (of 7810 total)
+Lighting level...
+Merged 1968 colinear lines
+Rounded 7 square corners
+Aligned 3038 textures
+
+
+~~~~~~| MAP29 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = none
+  darkness = rare
+  doors = some
+  ex_floors = heaps
+  fences = none
+  hallways = none
+  islands = few
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = heaps
+  parks = rare
+  pictures = some
+  porches = some
+  secrets = some
+  steepness = few
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: lava (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        CCCC  ffff
+                                        CCCC fffffffff
+                                        CCCC fffffffff
+                                       CCCCCC ffffffff
+                                       CCCCCCCfffffff
+                                       CCCCCCCfffffff
+                               dd      CCCCCC fffff\
+                           dd  ddd     CCCCCC ffffff
+                           dd\ ddd  aaaCCCCCCfffffffffff
+                        ddddddddd\  aaaCCCCCCfffffffffff
+                        ddddddddddaaaaaaaCC  \ffffff/
+                        ddddddddddaaaaaaaCC   \ff/
+                        ddddddddd/ \aaaCCCCCC  ff
+                           dd/ ddd/aaaaCCCCCC
+                           dd  dddaaaaaCCCCCC
+                               ddaaaaaa  CC
+                                 aaa/bbb bb ee\
+                                  bbbbbbbbb\eeee
+                                bbbbbbbbbbbbeeeeee
+                                bbbbbbbbbbbbeeeeeeee
+                                bbbbbbbb bbbbeeeeeee
+                                  bb     bbbbeeeeeee
+                                  bb      bbb\eee/
+                                          bbb eee
+                                              eee
+                                              eee
+                                              \eee
+                                               eee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_6
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:395
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:6 areas:53
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: super
+Giving weapon: chain
+Giving weapon: shotty
+Giving weapon: D2C_Pipebomb
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 31676 dead regions (of 45468)
+Swallowed 3412 brushes (of 31820)
+Filled 14 gaps (of 12235 total)
+Lighting level...
+Merged 2807 colinear lines
+Rounded 21 square corners
+Aligned 3165 textures
+
+
+~~~~~~| MAP30 |~~~~~~
+Opened WAD file: games/doom/data/boss2/icon1.wad
+Closed WAD file
+
+
+~~~~~~| MAP31 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = few
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = some
+  darkness = rare
+  doors = some
+  ex_floors = some
+  fences = few
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = some
+  porches = some
+  secrets = heaps
+  steepness = few
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = heaps
+}
+
+Liquid: lava (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       F\
+                                     FFFF        EE
+                                     FFFFFFFF    EE
+                                    aaFFFFFFF FFEEE
+                                    aaFFF /FF\FFEEEE
+                                    aaFFFFFFFFFFEEEE
+                                   /aa\FFFFFFFFFEEE
+                                  aaaaaaaFFBBBFFFEEEEEE
+                                  aaaaaaaFFBBBFFFEEEEEE
+                                   \aa/BBFFBB FF/EE\EE
+                                  aaaaaBBBBBBBBBEEEEEEE
+                                  aaaaaBBBBBBBBBEEEEEEE
+                                   /aa\BB  BB   \EE/EE
+                                  aaaaaa   BBB   EEEEEE
+                                  aaaaaa   BBB   EEEEEE
+                                  aaaa/CC        EE
+                                  aaaaaCCCCC\    EEE
+                                  aaaaaCCCC\C   EEEE
+                                 CCCCCCCCC\CC   EEE
+                                 CCCCCCCCCCCC    EE
+                                 CCCC CCCCCCC    EE
+                               CC CCCCCCCCCCC
+                              /CC CCCC   CCC
+                            CCCCCCCCCCCCCCCCCC
+                            CCCCCCCCCCCCCCCCCC
+                              \CC  CCCCCCCCCC
+                               CC  CCCCCCCCCC
+                                     CCCCCC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_3
+Secret Exit: ROOM_6
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:386
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:5 areas:55
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: Knife
+Giving weapon: LandMineLayer
+Giving weapon: model1887
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 16516 dead regions (of 24184)
+Swallowed 3622 brushes (of 16621)
+Filled 23 gaps (of 4212 total)
+Lighting level...
+Merged 1468 colinear lines
+Rounded 2 square corners
+Aligned 1938 textures
+
+
+~~~~~~| MAP32 |~~~~~~
+
+Styles = 
+{
+  ambushes = some
+  barrels = none
+  big_rooms = some
+  cages = some
+  caves = none
+  cycles = heaps
+  darkness = rare
+  doors = some
+  ex_floors = some
+  fences = few
+  hallways = none
+  islands = heaps
+  keys = none
+  lakes = few
+  liquids = heaps
+  outdoors = few
+  parks = rare
+  pictures = some
+  porches = some
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  windows = some
+}
+
+Liquid: blood (usage 90%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 20x17 seeds
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               DDDDDD
+                                DDDD
+                                DDDD
+                               DDDDDD
+                               DDDDDD
+                                DDDD
+                                DDDD
+                                DDDD
+                                DDDD
+                                DDDD
+                             /DDDDDDDD\
+                             DDDDDDDDDD
+                              DDDCCDDD
+                                /CC CC CC
+                               CCCCCCC CC
+                               CCCCCCC\CCCC aa
+                                \CCFF\/CCCC aaaaaBBBB
+                             EEE FFFFFCCCCCCaaaaaBBBB
+                             EEEEFFFFFCCCCCCaaaaBBBBBggg
+                              EEEFFF /\CCCCCaaaaBBBBBggg
+                               EEFFFCC/CCCaaaaaaaBBgggggg
+                               EEFFCCC CC aaaaaaaBBgggggg
+                               EECCCCC    aaaaaaaBBBB\gg/
+                             EEEECCCCC     aaaaBBBBBBBgg\
+                             EEEECCCCC     aaaaBBBBBBBggg\
+                               EECCCC     aaaaa  BBBB ggggg
+                           EEEEEECCCC     aaaaa  BB   \gggg\
+                           EEEEEEEECC        aa  BB    \gggg
+                               EEEE             BBBBB   \ggg
+                             EEEE               BBBBB     gg
+                             EEEE                BBBB     gg
+                              EEE                BBBB
+                              EEE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_4
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:416
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:7 areas:66
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Make Battles |==--
+
+Giving weapon: launch
+Giving weapon: Butchergun
+Giving weapon: super
+Giving weapon: bfg
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 17663 dead regions (of 25869)
+Swallowed 3633 brushes (of 17767)
+Filled 0 gaps (of 5068 total)
+Lighting level...
+Merged 1677 colinear lines
+Rounded 9 square corners
+Aligned 2041 textures
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
+WARNING: bad doom entity number: ''
 Merging WAD sections from: games/doom/data/doom_falls.wad
 Opened WAD file: games/doom/data/doom_falls.wad
 Closed WAD file
@@ -4767,7 +4947,7 @@ Closed WAD file
 Writing WAD directory
 Closed WAD file
 
-GLBSP: Opened PWAD file : C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\magic_in_the_citadel.tmp
+GLBSP: Opened PWAD file : C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\planet_of_the_overlord.tmp
 GLBSP: 
 GLBSP: Building normal and GL nodes on MAP01
 GLBSP: Building normal and GL nodes on MAP02
@@ -4802,7 +4982,7 @@ GLBSP: Building normal and GL nodes on MAP30
 GLBSP: Building normal and GL nodes on MAP31
 GLBSP: Building normal and GL nodes on MAP32
 GLBSP: 
-GLBSP: Saving WAD as C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\magic_in_the_citadel.wad
+GLBSP: Saving WAD as C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\planet_of_the_overlord.wad
 GLBSP: 
 GLBSP: Total serious warnings: 0
 GLBSP: Total minor warnings: 0
@@ -4812,5 +4992,5 @@ Saving options file...
 DONE.
 
 
-TOTAL TIME: 113.58 seconds
+TOTAL TIME: 124.19 seconds
 

@@ -2,7 +2,7 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
-seed = 663943897
+seed = 998470083
 
 ---- Game Settings ----
 
@@ -24,19 +24,19 @@ steepness = mixed
 ---- Monsters ----
 
 mons = normal
-strength = medium
-ramp_up = medium
-bosses = medium
+strength = harder
+ramp_up = fast
+bosses = harder
 traps = some
 cages = some
 
 ---- Pickups ----
 
 health = normal
-ammo = heaps
-weapons = normal
+ammo = normal
+weapons = very_late
 items = normal
-secrets = none
+secrets = some
 
 ---- Other Modules ----
 
@@ -253,7 +253,111 @@ secrets = none
   Watcher = default
   RailArachnotron = default
 
-@doom_mon_control = 0
+@REALM667W = 1
+  Ionspray = default
+  PlasmaBolter = default
+  SwatShotgun = default
+  Thompson = default
+  Repeater = default
+  model1887 = default
+  GatLaser = default
+  M40Rifle = default
+  BHGen = default
+  Smasher = default
+  Machinegun = default
+  CryoBow = default
+  ClaymoreMine = default
+  Butchergun = default
+  Axe = default
+  BayonetRifle = default
+  D2C_Pipebomb = default
+  FlashLightAngled = default
+  BFG2704 = default
+  Channeler = default
+  PulseNailgun = default
+  Glock18 = default
+  AngledPistol = default
+  Yellowboy = default
+  DoubleBladedChainsaw = default
+  FistRedux = default
+  ScatterPistol = default
+  SingleShot = default
+  MP5 = default
+  Uzi = default
+  UTNTPyroCannon = default
+  WensternShotgun = default
+  ActionMachineGun = default
+  PlasmaBeam = default
+  NailGunMG = default
+  Raptor = default
+  UberMinigun = default
+  NailgunSG = default
+  SniperRifle = default
+  MicroUzi = default
+  GasGun = default
+  ShieldGun = default
+  Reaper = default
+  STMinigun = default
+  KDiZDSuperShotgun = default
+  DemonicLeech = default
+  UACPlasmaticRifle = default
+  FreezeRifle = default
+  Toaster = default
+  SuppressedMP5 = default
+  STRailgun = default
+  STGrenadeLauncher = default
+  STBFG10K = default
+  HeavyCarbine = default
+  Autogun = default
+  ElectroGun = default
+  SPAS12 = default
+  PlasmaRepeater = default
+  SkeletalRevenge = default
+  LaserCannon = default
+  HellstormCannon = default
+  SidebySide = default
+  UTNTFlamethrower = default
+  EgoSmasher = default
+  Rifle = default
+  Raygun = default
+  AutoShot = default
+  Colt45 = default
+  AlphaUnmaker = default
+  QuadShotgun = default
+  GrenadeLauncher40mm = default
+  PumpActionShotgun = default
+  Karasawa = default
+  PlasmaShotgun = default
+  PulseRifle = default
+  AK47 = default
+  iGun = default
+  Smartgun = default
+  Coachgun = default
+  M79 = default
+  HeavyRifle = default
+  Machete = default
+  Knife = default
+  SprayCannon = default
+  NuclearMissileLauncher = default
+  LandMineLayer = default
+  DualLaser = default
+  MP40 = default
+  MancubusArm = default
+  Mag60 = default
+  PlasmaPistol = default
+  M16 = default
+  SilencedPistol = default
+  KDiZDGrenadeLauncher = default
+  DukeShotgun = default
+  AA12 = default
+  BioPipebombLauncher = default
+  PlasmaBallista = default
+  HandGrenade = default
+  FragGrenade = default
+  RivetGun = default
+  DGL = default
+
+@doom_mon_control = 1
   Spiderdemon = default
   caco = less
   gunner = more
@@ -309,7 +413,7 @@ secrets = none
   phoenix = default
 
 @misc = 1
-  pistol_starts = yes
+  pistol_starts = no
   alt_starts = no
   big_rooms = some
   parks = rare
@@ -380,7 +484,7 @@ secrets = none
   zapper = default
   grenade = default
 
-@sky_generator = 1
+@sky_generator = 0
 
 @small_spiderdemon = 1
 
