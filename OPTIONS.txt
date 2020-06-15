@@ -19,7 +19,6 @@ last_directory = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_fear.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_slime.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\sinful_blood.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\evil_rage.wad
@@ -29,4 +28,5 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\death_in_the_city.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\magic_in_the_citadel.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\planet_of_the_overlord.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\shores_of_blood.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\abandoned_hate.wad
 

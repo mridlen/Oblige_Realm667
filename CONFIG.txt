@@ -2,20 +2,20 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
-seed = 1264743891
+seed = 729904639
 
 ---- Game Settings ----
 
 game = doom2
 engine = zdoom
 length = game
-theme = original
+theme = bit_mixed
 
 ---- Architecture ----
 
 size = small
 outdoors = mixed
-caves = mixed
+caves = rare
 liquids = mixed
 hallways = none
 teleporters = none

@@ -18,7 +18,7 @@ REALM667W.WEAPONS =
 	AA12 =
 	{
 		id = 29604
-		level = 1
+		level = 6
 		pref = 2
 		add_prob = 1
 		hide_prob = 80
@@ -44,7 +44,7 @@ REALM667W.WEAPONS =
 	AK47 =
 	{
 		id = 29125
-		level = 2
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -174,7 +174,7 @@ REALM667W.WEAPONS =
 	Butchergun =
 	{
 		id = 29151
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -184,12 +184,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	-- disabled by default
 	Channeler =
 	{
 		id = 29152
 		level = 5
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -213,7 +214,7 @@ REALM667W.WEAPONS =
 	Coachgun =
 	{
 		id = 29160
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -223,12 +224,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	-- disabled by default
 	Colt45 =
 	{
 		id = 5757
-		level = 2
+		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -366,12 +368,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	-- disabled by default
 	FlashLightAngled =
 	{
 		id = 29182
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -379,12 +382,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	-- disabled by default
 	FragGrenade =
 	{
 		id = 11907
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -486,7 +490,7 @@ REALM667W.WEAPONS =
 	HellstormCannon =
 	{
 		id = 29187
-		level = 4
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -499,7 +503,7 @@ REALM667W.WEAPONS =
 	iGun =
 	{
 		id = 29191
-		level = 2
+		level = 1
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -512,7 +516,7 @@ REALM667W.WEAPONS =
 	Ionspray =
 	{
 		id = 29192
-		level = 4
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -525,7 +529,7 @@ REALM667W.WEAPONS =
 	Karasawa =
 	{
 		id = 29193
-		level = 4
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -551,7 +555,7 @@ REALM667W.WEAPONS =
 	KDiZDSuperShotgun =
 	{
 		id = 29257
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -561,12 +565,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	-- disabled by default
 	Knife =
 	{
 		id = 29194
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -574,12 +579,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	-- disabled by default
 	LandMineLayer =
 	{
 		id = 29195
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -616,7 +622,7 @@ REALM667W.WEAPONS =
 	M40Rifle =
 	{
 		id = 29199
-		level = 4
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1019,7 +1025,7 @@ REALM667W.WEAPONS =
 	SidebySide =
 	{
 		id = 29240
-		level = 4
+		level = 7
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1032,7 +1038,7 @@ REALM667W.WEAPONS =
 	SilencedPistol =
 	{
 		id = 29241
-		level = 2
+		level = 1
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1227,7 +1233,7 @@ REALM667W.WEAPONS =
 	Toaster =
 	{
 		id = 12466
-		level = 3
+		level = 6
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1266,7 +1272,7 @@ REALM667W.WEAPONS =
 	UTNTFlamethrower =
 	{
 		id = 29179
-		level = 4
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1305,7 +1311,7 @@ REALM667W.WEAPONS =
 	WensternShotgun =
 	{
 		id = 29272
-		level = 2
+		level = 1
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1318,7 +1324,7 @@ REALM667W.WEAPONS =
 	Yellowboy =
 	{
 		id = 22911
-		level = 2
+		level = 1
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
