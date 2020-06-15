@@ -1412,7 +1412,6 @@ AA12                    =  {  label=_("AA12"),                    choices=REALM6
 ActionMachineGun        =  {  label=_("ActionMachineGun"),        choices=REALM667W.WEAPON_CHOICES  }
 AK47                    =  {  label=_("AK47"),                    choices=REALM667W.WEAPON_CHOICES  }
 AlphaUnmaker            =  {  label=_("AlphaUnmaker"),            choices=REALM667W.WEAPON_CHOICES  }
-AlphaUnmaker            =  {  label=_("AlphaUnmaker"),            choices=REALM667W.WEAPON_CHOICES  }
 AngledPistol            =  {  label=_("AngledPistol"),            choices=REALM667W.WEAPON_CHOICES  }
 Autogun                 =  {  label=_("Autogun"),                 choices=REALM667W.WEAPON_CHOICES  }
 AutoShot                =  {  label=_("AutoShot"),                choices=REALM667W.WEAPON_CHOICES  }

@@ -2,7 +2,7 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
-seed = 998470083
+seed = 1264743891
 
 ---- Game Settings ----
 
