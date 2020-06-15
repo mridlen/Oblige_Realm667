@@ -16,10 +16,10 @@ last_directory = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70
 
 ---- Enabled Addons ----
 
+addon = ObAddon.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_slime.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\sinful_blood.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\evil_rage.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\dreams_forever.wad
@@ -29,4 +29,5 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\magic_in_the_citadel.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\planet_of_the_overlord.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\shores_of_blood.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\abandoned_hate.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-15-1103_dreadful_pits.wad
 
