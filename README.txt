@@ -4,7 +4,7 @@
 1) Download the files and run the oblige.exe
 2) Verify the REALM667 box is checked (there are 2 of them now)
 3) Generate your level(s)
-4) Run the generated wad and Realm667.pk3 and/or Realm667_weapons.zip with your desired sourceport (only GZDoom was tested)
+4) Run the generated wad and Realm667.pk3 and/or Realm667_weapons.pk3 with your desired sourceport (only GZDoom was tested)
 
 # Installation - Linux (or other)
 1) Don't clone/download this one. Go to the Oblige home and download the "source" package (you'll need to compile it... good luck). http://oblige.sourceforge.net/ 
