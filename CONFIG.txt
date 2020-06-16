@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 1270971359
+seed = 2063759327
 
 ---- Game Settings ----
 
@@ -29,7 +29,7 @@ theme = bit_mixed
 
 ---- Architecture ----
 
-size = micro
+size = tiny
 streets_mode = no
 linear_mode = none
 outdoors = mixed
@@ -488,9 +488,9 @@ secrets_bonus = none
 @misc = 1
   pistol_starts = no
   alt_starts = no
-  big_rooms = some
-  big_outdoor_rooms = mixed
-  room_heights = normal
+  big_rooms = heaps
+  big_outdoor_rooms = rare
+  room_heights = mixed
   parks = rare
   natural_parks = none
   park_detail = mixed
