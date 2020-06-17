@@ -20,7 +20,6 @@ addon = ObAddon.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\evil_rage.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\dreams_forever.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_horror.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\death_in_the_city.wad
@@ -30,4 +29,5 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\shores_of_blood.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\abandoned_hate.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-15-1103_dreadful_pits.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-15-1533_vindictive_cruelty.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-16-1959_evil_unleashed_blasphemous_vexation.wad
 
