@@ -5,11 +5,17 @@
 2) Verify the REALM667 box is checked (there are 2 of them now)
 3) Generate your level(s)
 4) Run the generated wad and Realm667.pk3 and/or Realm667_weapons.pk3 with your desired sourceport (only GZDoom was tested)
+5) I've also included "big_backpack.wad" - some monsters have a lot of HP. You'll need it especially if you are one of those UV-Max players.
 
 # Installation - Linux (or other)
 1) Don't clone/download this one. Go to the Oblige home and download the "source" package (you'll need to compile it... good luck). http://oblige.sourceforge.net/ 
-2) Just grab the realm667_monsters.lua from the modules folder and the Realm667.pk3 file.
-3) Put the realm667_monsters.lua in your modules folder
+2) Just grab the following files:
+modules/realm667_monsters.lua
+modules/realm667_weapons.lua
+Realm667.pk3
+Realm667_monsters.pk3
+big_backpack.wad
+3) Put the the lua files in your modules folder
 4) Go to step 2 on the Windows install
 
 
