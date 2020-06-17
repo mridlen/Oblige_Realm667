@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 2063759327
+seed = 594588927
 
 ---- Game Settings ----
 
@@ -29,9 +29,10 @@ theme = bit_mixed
 
 ---- Architecture ----
 
-size = tiny
+size = small
 streets_mode = no
 linear_mode = none
+nature_mode = 10
 outdoors = mixed
 caves = rare
 liquids = mixed
@@ -53,6 +54,7 @@ strength = harder
 ramp_up = fast
 mon_variety = mixed
 bosses = harder
+bossesnormal = no
 traps = some
 trap_style = default
 trap_qty = default
@@ -434,14 +436,20 @@ secrets_bonus = none
 
 @export_map = 0
 
+@fauna_module = 0
+  flies = disable
+  rats = disable
+
 @gzdoom_boss_gen = 0
   boss_gen_types = no
   boss_gen_hpbar = yes
   boss_gen_diff = default
   boss_gen_hitscan = default
   boss_gen_music = yes
+  boss_gen_reinforcerate = default
   boss_gen_health = default
   boss_gen_reinforce = default
+  boss_gen_typelimit = softlimit
   boss_gen_weap = scatter
   boss_gen_exit = default
   boss_gen_steepness = none
@@ -488,6 +496,7 @@ secrets_bonus = none
 @misc = 1
   pistol_starts = no
   alt_starts = no
+  foreshadowing_exit = yes
   big_rooms = heaps
   big_outdoor_rooms = rare
   room_heights = mixed
@@ -498,7 +507,7 @@ secrets_bonus = none
   passable_windows = not_on_vistas
   symmetry = mixed
   beams = mixed
-  fences = mixed
+  fences = none
   porches = mixed
   scenics = mixed
   corner_style = random
@@ -526,10 +535,11 @@ secrets_bonus = none
 
 @music_swapper = 1
 
-@prefab_control = 0
-  autodetail = on
-  point_prob = fab_default
+@prefab_control = 1
+  fab_match_theme = on
   wall_prob = fab_default
+  point_prob = fab_default
+  autodetail = on
 
 @procedural_gotcha = 0
   gotcha_map_size = small
@@ -595,9 +605,12 @@ secrets_bonus = none
 
 @sky_generator = 0
   force_hill_params = hp_random
-  influence_map_darkness = no
   force_hills = hs_random
   force_sky = sky_default
+  terrain_color = default
+  nebula_color = default
+  influence_map_darkness = no
+  cloud_color = default
 
 @small_spiderdemon = 1
 
@@ -617,6 +630,19 @@ secrets_bonus = none
 
 @stealth_mons = 0
   qty = normal
+
+@theme_ctl_doom1 = 0
+  episode4 = no_change
+  episode3 = no_change
+  secret = no_change
+  episode2 = no_change
+  episode1 = no_change
+
+@theme_ctl_doom2 = 0
+  secret = no_change
+  episode2 = no_change
+  episode3 = no_change
+  episode1 = no_change
 
 @zdoom_ambient_sound = 0
 
@@ -642,8 +668,9 @@ secrets_bonus = none
   dynamic_lights = yes
   fog_env = all
   custom_quit_messages = yes
-  no_intermission = no
   episode_selection = no
+  no_intermission = no
+  glowing_flats = yes
   fog_affects_sky = yes
   story_generator = proc
   mapinfo_music_shuffler = no
