@@ -715,7 +715,8 @@ REALM667.MONSTERS =
 	 health = 120
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
+	 boss_type = "nasty"
 	}
 	EnhancedCacodemon =
 	{
