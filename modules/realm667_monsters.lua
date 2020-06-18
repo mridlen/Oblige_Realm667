@@ -1331,8 +1331,8 @@ REALM667.MONSTERS =
 	NightmareDemon =
 	{
 	 id = 10101
-	 r = 30
-	 h = 56
+	 r = 60
+	 h = 66
 	 prob = 30
 	 health = 260
 	 damage = 32

@@ -18,18 +18,18 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 594588927
+seed = 1135722439
 
 ---- Game Settings ----
 
 game = doom2
-engine = zdoom
+engine = gzdoom
 length = game
-theme = bit_mixed
+theme = tech
 
 ---- Architecture ----
 
-size = small
+size = micro
 streets_mode = no
 linear_mode = none
 nature_mode = 10
@@ -391,7 +391,7 @@ secrets_bonus = none
   RivetGun = default
   DGL = default
 
-@armaetus_epic_textures = 0
+@armaetus_epic_textures = 1
   include_package = yes
   custom_liquids = yes
   custom_trees = zs
@@ -412,7 +412,7 @@ secrets_bonus = none
   skull = default
   demon = default
   knight = heaps
-  vile = none
+  vile = scarce
   zombie = default
   Cyberdemon = scarce
   ss_nazi = default
@@ -436,9 +436,9 @@ secrets_bonus = none
 
 @export_map = 0
 
-@fauna_module = 0
-  flies = disable
-  rats = disable
+@fauna_module = 1
+  flies = enable
+  rats = enable
 
 @gzdoom_boss_gen = 0
   boss_gen_types = no
@@ -491,7 +491,7 @@ secrets_bonus = none
   level_lower_bound = micro
   level_size_ramp_factor = 0.66
 
-@megawad_swapper = 0
+@megawad_swapper = 1
 
 @misc = 1
   pistol_starts = no
@@ -603,13 +603,13 @@ secrets_bonus = none
   zapper = default
   grenade = default
 
-@sky_generator = 0
+@sky_generator = 1
   force_hill_params = hp_random
   force_hills = hs_random
   force_sky = sky_default
   terrain_color = default
   nebula_color = default
-  influence_map_darkness = no
+  influence_map_darkness = yes
   cloud_color = default
 
 @small_spiderdemon = 1
@@ -662,7 +662,7 @@ secrets_bonus = none
 @zdoom_marines = 0
   qty = plenty
 
-@zdoom_specials = 0
+@zdoom_specials = 1
   generic_intermusic = $MUSIC_READ_M
   fog_generator = no
   dynamic_lights = yes

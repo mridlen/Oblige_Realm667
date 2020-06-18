@@ -20,9 +20,6 @@ addon = ObAddon.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\dreams_forever.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\gateway_of_horror.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\death_in_the_city.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\magic_in_the_citadel.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\planet_of_the_overlord.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\shores_of_blood.wad
@@ -30,4 +27,7 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\abandoned_hate.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-15-1103_dreadful_pits.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-15-1533_vindictive_cruelty.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-16-1959_evil_unleashed_blasphemous_vexation.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-17-1442_zone_of_incompetence.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-17-1837_vacation_in_the_bereavement_carnival.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-18-0853_meridian_of_the_left_behind.wad
 
