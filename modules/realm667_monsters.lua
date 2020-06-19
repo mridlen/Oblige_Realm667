@@ -1009,6 +1009,8 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 30
+	 outdoor_factor = 0
 	}
 	HazmatZombie =
 	{
