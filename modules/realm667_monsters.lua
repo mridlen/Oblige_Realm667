@@ -431,6 +431,18 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	Tentacle2 =
+	{
+	 id = 667
+	 r = 40
+	 h = 112
+	 prob = 30
+	 health = 400
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
+	 outdoor_factor = 0
+	}
 	CrackoDemon =
 	{
 	 id = 5123
@@ -526,6 +538,50 @@ REALM667.MONSTERS =
 	DarkDevil =
 	{
 	 id = 30130
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 160
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	EyesExplosive = 
+	{
+	 id = 31354
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 160
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	EyesSpider =
+	{
+	 id = 31356
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 160
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	EyesBat
+	{
+	 id = 31357
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 160
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	EyesPoison
+	{
+	 id = 31355
 	 r = 20
 	 h = 56
 	 prob = 30
@@ -1354,7 +1410,18 @@ REALM667.MONSTERS =
 	}
 	ObsidianStatue =
 	{
-	 id = 3109
+	 id = 3113
+	 r = 24
+	 h = 75
+	 prob = 30
+	 health = 800
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	ObsidianStatueNonDormant =
+	{
+	 id = 3114
 	 r = 24
 	 h = 75
 	 prob = 30
@@ -2265,9 +2332,17 @@ REALM667.MONSTERS =
 	 attack = "melee"
 	 density = 0.9
 	}
-
-	-- Zombie Flyer goes here --
-	
+	ZombieFlyer =
+	{
+	 id = 31412
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 15
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
 	ZombieFodder =
 	{
 	 id = 1957
@@ -2584,6 +2659,7 @@ OB_MODULES["REALM667"] =
 	CGunSpider               =  {  label=_("CGunSpider"),               choices=REALM667.MON_CHOICES  }
 	ChainsawZombie           =  {  label=_("ChainsawZombie"),           choices=REALM667.MON_CHOICES  }
 	Tentacle1                =  {  label=_("Tentacle1"),                choices=REALM667.MON_CHOICES  }
+	Tentacle2                =  {  label=_("Tentacle2"),                choices=REALM667.MON_CHOICES  }
 	CrackoDemon              =  {  label=_("CrackoDemon"),              choices=REALM667.MON_CHOICES  }
 	Crash2                   =  {  label=_("Crash2"),                   choices=REALM667.MON_CHOICES  }
 	Cyberbaron               =  {  label=_("Cyberbaron"),               choices=REALM667.MON_CHOICES  }
@@ -2611,6 +2687,10 @@ OB_MODULES["REALM667"] =
 	DuneWarrior              =  {  label=_("DuneWarrior"),              choices=REALM667.MON_CHOICES  }
 	EnhancedCacodemon        =  {  label=_("EnhancedCacodemon"),        choices=REALM667.MON_CHOICES  }
 	Exterminator             =  {  label=_("Exterminator"),             choices=REALM667.MON_CHOICES  }
+	EyesExplosive	             =  {  label=_("EyesExplosive"),             choices=REALM667.MON_CHOICES  }
+	EyesPoison	             =  {  label=_("EyesPoison"),             choices=REALM667.MON_CHOICES  }
+	EyesBat	             =  {  label=_("EyesBat"),             choices=REALM667.MON_CHOICES  }
+	EyesSpider	             =  {  label=_("EyesSpider"),             choices=REALM667.MON_CHOICES  }
 	Fallen                   =  {  label=_("Fallen"),                   choices=REALM667.MON_CHOICES  }
 	FemalePlasma             =  {  label=_("FemalePlasma"),             choices=REALM667.MON_CHOICES  }
 	FemaleRail               =  {  label=_("FemaleRail"),               choices=REALM667.MON_CHOICES  }
@@ -2665,6 +2745,7 @@ OB_MODULES["REALM667"] =
 	NightmareDemon           =  {  label=_("NightmareDemon"),           choices=REALM667.MON_CHOICES  }
 	Nightshade               =  {  label=_("Nightshade"),               choices=REALM667.MON_CHOICES  }
 	ObsidianStatue           =  {  label=_("ObsidianStatue"),           choices=REALM667.MON_CHOICES  }
+	ObsidianStatueNonDormant           =  {  label=_("ObsidianStatueNonDormant"),           choices=REALM667.MON_CHOICES  }
 	OverLord                 =  {  label=_("OverLord"),                 choices=REALM667.MON_CHOICES  }
 	Phantasm                 =  {  label=_("Phantasm"),                 choices=REALM667.MON_CHOICES  }
 	Phantom                  =  {  label=_("Phantom"),                  choices=REALM667.MON_CHOICES  }
@@ -2744,6 +2825,7 @@ OB_MODULES["REALM667"] =
 	Weakener                 =  {  label=_("Weakener"),                 choices=REALM667.MON_CHOICES  }
 	Wicked                   =  {  label=_("Wicked"),                   choices=REALM667.MON_CHOICES  }
 	D3Wraith                 =  {  label=_("D3Wraith"),                 choices=REALM667.MON_CHOICES  }
+    ZombieFlyer  	=  {  label=_("ZombieFlyer"),             choices=REALM667.MON_CHOICES  }
 	ZombieFodder             =  {  label=_("ZombieFodder"),             choices=REALM667.MON_CHOICES  }
 	ZombieHenchman           =  {  label=_("ZombieHenchman"),           choices=REALM667.MON_CHOICES  }
 	ZombieMarine             =  {  label=_("ZombieMarine"),             choices=REALM667.MON_CHOICES  }

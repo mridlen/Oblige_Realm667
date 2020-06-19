@@ -18,14 +18,14 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 737361391
+seed = 737212099
 
 ---- Game Settings ----
 
 game = doom2
-engine = gzdoom
+engine = nolimit
 length = game
-theme = tech
+theme = psycho
 
 ---- Architecture ----
 
@@ -638,11 +638,11 @@ secrets_bonus = none
   episode2 = no_change
   episode1 = no_change
 
-@theme_ctl_doom2 = 0
-  secret = no_change
-  episode2 = no_change
-  episode3 = no_change
-  episode1 = no_change
+@theme_ctl_doom2 = 1
+  secret = urban
+  episode2 = hell
+  episode3 = psycho
+  episode1 = tech
 
 @zdoom_ambient_sound = 0
 
