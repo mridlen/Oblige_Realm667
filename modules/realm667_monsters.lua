@@ -2004,9 +2004,9 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
-	Morphed =
+	StoneImpHidden =
 	{
-	 id = {}
+	 id = 31403
 	 r = 20
 	 h = 56
 	 prob = 30
@@ -2797,7 +2797,7 @@ OB_MODULES["REALM667"] =
 	StealthFighter           =  {  label=_("StealthFighter"),           choices=REALM667.MON_CHOICES  }
 	StoneDemon               =  {  label=_("StoneDemon"),               choices=REALM667.MON_CHOICES  }
 	StoneImp                 =  {  label=_("StoneImp"),                 choices=REALM667.MON_CHOICES  }
-	Morphed                  =  {  label=_("Morphed"),                  choices=REALM667.MON_CHOICES  }
+	StoneImpHidden                  =  {  label=_("StoneImpHidden"),                  choices=REALM667.MON_CHOICES  }
 	SuicideBomber            =  {  label=_("SuicideBomber"),            choices=REALM667.MON_CHOICES  }
 	Superdemon               =  {  label=_("Superdemon"),               choices=REALM667.MON_CHOICES  }
 	SuperFlyingImp           =  {  label=_("SuperFlyingImp"),           choices=REALM667.MON_CHOICES  }
