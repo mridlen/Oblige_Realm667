@@ -2464,3 +2464,994 @@ This level is not absurd...
 
 Target # of rooms : 3 .. 6
 
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 1
+Emergency in ROOM_2 is resolved OMG AMAZING!!!!
+2 Emergency Sprout attempts: 1
+1 Emergency Sprout attempts: 1
+1 Emergency Sprout attempts: 1
+1 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     CCCCCC  /BBBBB
+                                  /CCCCCCCCCCBBBBBB
+                                  CCCCCCCCCCCBB/BBBBB
+                                  CCCCCCCCC CBBBBBBBB
+                                  CCCCCCCCCCCBBBB/B
+                                  CCCCCCCCCCCBBBBBBB
+                                  CCCCCCCCCCCBBBBBB
+                                    CCCCCCCCC  BBB
+                                    CCCCCCC AAABBBBB
+                                    CCCCCCC AAA BBBB
+                                   CCCCCCCCCAAAABBB
+                                   CCCCCCCCCAAAABBB
+                                  CCCCCCCCCCAAAABBB
+                                   CCCCCC AAAAAABBB
+                                     CC   AAAAAABBBBB
+                                     CC  AAAAAAABBBBB
+                                         AAAAAAABBBBBB
+                                            AAABBBBBBB
+                                               BBBBBBB
+                                               BBBBBBB
+                                                BBBB
+                                                BBBB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_3
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:294
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:3 areas:45
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Auto Detail Report |==--
+
+Total walkable volume: 294
+Group walls tone down multiplier: 1
+Total perimeter: 343
+Plain walls tone down multiplier: 0
+MAP07: Adding Light_gtd_flourescent_lamp_alt {5664,5280}
+MAP07: Adding Start_armaetus_start_center_pillar {5408,6032}
+MAP07: Adding Item_closet_simple2 {5792,5168}
+MAP07: Adding Pic_box_computer {5776,5408}
+MAP07: Adding Item_scionox_simple_crates_closet_tall_2 {5296,5152}
+MAP07: Adding Joiner_simple2_tech1_epic {5776,6048}
+MAP07: Adding Item_scionox_simple_crates_pile_on_top {5920,6432}
+MAP07: Adding Item_scionox_simple_crates_pile_on_side_2 {6048,6944}
+MAP07: Adding Item_locker_cylinder {5920,6688}
+MAP07: Adding Item_pedestal_tech {6112,6368}
+MAP07: Adding Item_weapon_case {5856,6240}
+MAP07: Adding Item_weapon_case {5856,6880}
+MAP07: Adding Item_weapon_case {5984,5216}
+MAP07: Adding Light_gtd_flourescent_lamp {6176,5280}
+MAP07: Adding Light_gtd_flourescent_lamp {6176,5472}
+MAP07: Adding Light_gtd_flourescent_lamp {6048,4832}
+MAP07: Adding Light_gtd_flourescent_lamp {6304,4832}
+MAP07: Adding Light_gtd_flourescent_lamp {5984,5024}
+MAP07: Adding Light_gtd_flourescent_lamp {6368,5024}
+MAP07: Adding Light_gtd_flourescent_lamp {6368,5216}
+MAP07: Adding Item_scionox_simple_crates_closet_side_2 {6416,5280}
+MAP07: Adding Item_alcove_small_tech1 {6432,4784}
+MAP07: Adding Item_scionox_simple_crates_closet_tall {6160,6304}
+MAP07: Adding Item_scionox_simple_crates_closet_side_2 {5936,4768}
+MAP07: Adding Item_alcove_small_tech1 {6288,7072}
+MAP07: Adding Item_alcove_small_general3 {6288,5536}
+MAP07: Adding Item_alcove_small_general1 {6064,5280}
+MAP07: Adding Stair_long_1x3_tech3 {6304,5920}
+MAP07: Adding Decor_tech_complockers {5408,6432}
+MAP07: Adding Decor_sealed_storage {4640,5664}
+MAP07: Adding Cage_sandbag_fort_EPIC {4512,6688}
+MAP07: Adding Light_tech_LITES03 {5024,6944}
+MAP07: Adding Light_tech_LITES03 {5088,6368}
+MAP07: Adding Light_tech_LITES03 {5152,5920}
+MAP07: Adding Light_tech_LITES03 {5152,6624}
+MAP07: Adding Light_tech_LITES03 {4896,6624}
+MAP07: Adding Light_tech_LITES03 {5152,5728}
+MAP07: Adding Light_tech_LITES03 {4896,7264}
+MAP07: Adding Light_tech_LITES03 {5344,7072}
+MAP07: Adding Light_tech_LITES03 {4832,6496}
+MAP07: Adding Light_tech_LITES03 {5344,5728}
+MAP07: Adding Light_gtd_detailed_alt2 {4640,5920}
+MAP07: Adding Light_gtd_detailed_alt2 {4640,6304}
+MAP07: Adding Light_gtd_detailed_alt2 {4448,5984}
+MAP07: Adding Light_gtd_detailed_alt2 {4576,6112}
+MAP07: Adding Light_tech_TLITE5_1 {4512,6688}
+MAP07: Adding Light_tech_LITBL3F1 {4704,6816}
+MAP07: Adding Cage_wall_bunker_tech {4768,5552}
+MAP07: Adding Exit_closet1_tech {4784,6944}
+MAP07: Adding Pic_simple_crates_1 {4624,6688}
+MAP07: Adding Cage_wall_brncage {5392,7200}
+MAP07: Adding Stair_32 {4896,5792}
+MAP07: Adding Stair_32 {4896,6176}
+MAP07: Adding Stairs_128_3X {4384,6048}
+MAP07: Adding Decor_exit_sign {5440,5834}
+MAP07: Adding Decor_exit_sign {5440,6006}
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B6D5FA8
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B6D5FF8
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B6D62C8
+  env = building
+  fields = table: 0B6D6430
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP08
+  models = table: 0B6D62F0
+  name = Wall_flat_accent
+  prob = 15
+  state = transform_z
+  theme = tech
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B6D6B10
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B6CF3B0
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B6D6818
+  env = building
+  fields = table: 0B6D6A48
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP03
+  models = table: 0B6D3C08
+  name = Wall_inset
+  prob = 15
+  state = transform_z
+  theme = !hell
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B399718
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B3996F0
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B39CFA8
+  env = building
+  fields = table: 0B39D1B0
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP06
+  models = table: 0B39CF58
+  name = Wall_raised_computer_2
+  on_liquids = never
+  prob = 15
+  state = transform_z
+  theme = tech
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 1066CA90
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 1066CA68
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 1066BED8
+  env = building
+  fields = table: 1066BD98
+  file = wall/armaetus_wall_fans.wad
+  height = 128
+  kind = wall
+  map = MAP01
+  models = table: 1066BEB0
+  name = Wall_armaetus_fan_general
+  prob = 20
+  sound = Indoor_Fan
+  state = transform_z
+  theme = !hell
+  use_prob = 20
+  uses_epic_textures = true
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 1066A538
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 1066A4C0
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 106694D0
+  env = building
+  fields = table: 106692F0
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP02
+  models = table: 106694A8
+  name = Wall_grated_thing
+  prob = 15
+  state = transform_z
+  theme = !hell
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 10667540
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 10667518
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 106664D8
+  env = building
+  fields = table: 10666348
+  file = wall/gtd_wall_tech_interior_2.wad
+  height = 128
+  kind = wall
+  map = MAP03
+  models = table: 10666488
+  name = Wall_double_light
+  prob = 15
+  state = transform_z
+  theme = !hell
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+MAP07: Adding Fence_pillar_tech {4384,5920}
+MAP07: Adding Fence_pillar_tech {4512,5792}
+MAP07: Adding Fence_pillar_tech {4512,5920}
+MAP07: Adding Fence_pillar_tech {4512,6048}
+MAP07: Adding Fence_pillar_tech {4512,6432}
+MAP07: Adding Fence_pillar_tech {4640,6048}
+MAP07: Adding Fence_pillar_tech {4640,6176}
+MAP07: Adding Fence_pillar_tech {4768,5792}
+MAP07: Adding Fence_pillar_tech {4768,6048}
+MAP07: Adding Fence_pillar_tech {4768,6176}
+MAP07: Adding Fence_pillar_tech {5408,5408}
+MAP07: Adding Fence_pillar_tech {5664,5408}
+MAP07: Adding Fence_pillar_tech {6176,5536}
+MAP07: Adding Depot_raise {32,11616}
+
+--==| Make Battles |==--
+
+Giving weapon: shotty
+Giving weapon: FreezeRifle
+Giving weapon: HeavyCarbine
+Giving weapon: HellstormCannon
+Giving weapon: DGL
+Giving weapon: Repeater
+Giving weapon: DualLaser
+Giving weapon: LaserCannon
+Giving weapon: NailGunMG
+Giving weapon: SuppressedMP5
+Giving weapon: PlasmaBolter
+Giving weapon: PulseRifle
+Giving weapon: CryoBow
+Giving weapon: PlasmaBeam
+Giving weapon: model1887
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 17437 dead regions (of 24467)
+Swallowed 4865 brushes (of 17481)
+Filled 0 gaps (of 4125 total)
+Lighting level...
+Merged 1662 colinear lines
+Rounded 0 square corners
+Aligned 3577 textures
+Level 8 title: Tei Tenga Repository
+
+~~~~~~| MAP08 |~~~~~~
+Level seed: 33370332595
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  beams = heaps
+  big_outdoor_rooms = rare
+  big_rooms = heaps
+  cages = some
+  caves = rare
+  darkness = rare
+  dead_ends = heaps
+  doors = heaps
+  fences = none
+  hallways = none
+  keys = none
+  liquids = none
+  natural_parks = none
+  outdoors = few
+  park_detail = heaps
+  parks = rare
+  pictures = few
+  porches = some
+  scenics = some
+  secrets = some
+  steepness = few
+  switches = none
+  symmetry = none
+  teleporters = none
+  traps = some
+  trikeys = none
+  windows = some
+}
+
+Liquid: skipped for level (by style).
+
+
+--==| Creating Rooms |==--
+
+Map size target: 10x9 seeds
+Shape rules skipped for this level: 258 / 481
+Rules can be disabled via skip probability or level styles.
+
+--== Layout Absurdity Module ==--
+
+This level is not absurd...
+
+Target # of rooms : 3 .. 6
+
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 1
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 2
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        cccccc
+                                        cccccc
+                                        ccccc\AAAA
+                                         /ccccAAAA
+                                        /cccccAAAAAA
+                                        ccccAAAAAAAA
+                                        ccccAAAAAAAA
+                                    cccccccc  AAAAAA
+                                    cccccccc   AAA BB
+                                       cc   BBBBBBBBBB\
+                                       cc   BBBBBBBBBBBB
+                                  BB    /BB\     BB  BBB
+                                  BBBBB/BBBB\  BBBBBBBB
+                                  BBBBBBBBBBBBBBBBBBBBBB
+                                  BBBBBBBBBBBBBBBBB  BBB
+                                  BBBB \BBBB/ BBBBBBBBB
+                                  BBBB  \BB/BBBBBBBBBB/
+                                  BB     BB BBBBBBBBB
+                                         BB BBBBBBBBB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_2
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:248
+Zone quota: 1
+Zone list:
+  ZONE_1 : rooms:3 areas:29
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Auto Detail Report |==--
+
+Total walkable volume: 248.5
+Group walls tone down multiplier: 1
+Total perimeter: 341
+Plain walls tone down multiplier: 0
+MAP08: Adding Decor_litter6 {5792,5664}
+MAP08: Adding Light_fan_tech {5920,5920}
+MAP08: Adding Light_fan_tech {6048,5664}
+MAP08: Adding Light_fan_tech {6048,6112}
+MAP08: Adding Light_fan_tech {5920,5472}
+MAP08: Adding Light_fan_tech {5600,5792}
+MAP08: Adding Light_fan_tech {6112,5472}
+MAP08: Adding Start_armaetus_v5_start1 {6160,6048}
+MAP08: Adding Item_tech_window {5664,6032}
+MAP08: Adding Item_alcove_small_general2 {5920,6160}
+MAP08: Adding Joiner_simplest {5552,5664}
+MAP08: Adding Item_weapon_case {5600,6048}
+MAP08: Adding Light_tech1 {4960,5536}
+MAP08: Adding Light_tech1 {4704,5536}
+MAP08: Adding Item_closet_simple3 {5392,6560}
+MAP08: Adding Item_alcove_small_general4 {5024,5424}
+MAP08: Adding Item_alcove_small_general2 {5168,6176}
+MAP08: Adding Item_alcove_small_general2 {5408,5680}
+MAP08: Adding Item_closet_w_door_tech {4656,5408}
+MAP08: Adding Stair_32 {5152,5792}
+MAP08: Adding Pillar_round1_tech2 {5088,4704}
+MAP08: Adding Decor_generic_sunk_roof_yuge {5856,4704}
+MAP08: Adding Decor_armaetus_basic_computer3 {6432,5280}
+MAP08: Adding Decor_armaetus_basic_computer1 {5792,4384}
+MAP08: Adding Decor_tech_point_HVAC_2 {6176,4896}
+MAP08: Adding Decor_techfloor1 {5152,5024}
+MAP08: Adding Decor_litter6 {5408,4768}
+MAP08: Adding Decor_lifted_crate {6432,4896}
+MAP08: Adding Decor_tentaclepillar {6432,4512}
+MAP08: Adding Pillar_round1_tech {6688,4768}
+MAP08: Adding Light_tech_TLITE65B {4256,4640}
+MAP08: Adding Light_tech_TLITE65B {4256,4832}
+MAP08: Adding Light_tech_LITE4F2 {5536,4192}
+MAP08: Adding Light_tech_LITE4F2 {5728,4192}
+MAP08: Adding Light_tech_LITE4F2 {5472,4448}
+MAP08: Adding Light_tech_LITE4F2 {5472,4320}
+MAP08: Adding Cage_auto_open_smaller {5680,5152}
+MAP08: Adding Pic_gtd_shaw_comp {6560,4400}
+MAP08: Adding Pic_pipagery {6800,4896}
+MAP08: Adding Exit_beed28_fireblu_exit_tech {4384,4528}
+MAP08: Adding Pic_EPIC_box_metal_small {4128,4880}
+MAP08: Adding Pic_EPIC_box_metal_wide {6032,4384}
+MAP08: Adding Pic_box_liteblu1 {6800,5280}
+MAP08: Adding Item_secret_techmachine1V1_closet {5280,4400}
+MAP08: Adding Cage_scionox_guardpost_destroyed {4384,4752}
+MAP08: Adding Pic_EPIC_box_metal_small {4640,4656}
+MAP08: Adding Sidewalk_8 {6816,5024}
+MAP08: Adding Decor_exit_sign {6006,5440}
+MAP08: Adding Decor_exit_sign {5834,5440}
+MAP08: Adding Fence_pillar_tech {5152,5792}
+
+--==| Make Battles |==--
+
+Giving weapon: shotty
+WARNING!! Cannot place boss monster: 
+RifleCommando
+Giving weapon: ElectroGun
+Giving weapon: KDiZDGrenadeLauncher
+Giving weapon: ScatterPistol
+Giving weapon: SniperRifle
+Giving weapon: HeavyRifle
+Giving weapon: M16
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 19623 dead regions (of 27661)
+Swallowed 4479 brushes (of 19679)
+Filled 1564 gaps (of 5123 total)
+Lighting level...
+Merged 1488 colinear lines
+Rounded 0 square corners
+Aligned 2563 textures
+Level 9 title: Raw Materials Processing
+
+~~~~~~| MAP09 |~~~~~~
+Level seed: 33370332596
+
+Styles = 
+{
+  ambushes = some
+  barrels = some
+  beams = none
+  big_outdoor_rooms = rare
+  big_rooms = heaps
+  cages = some
+  caves = rare
+  darkness = rare
+  dead_ends = heaps
+  doors = some
+  fences = none
+  hallways = none
+  keys = none
+  liquids = few
+  natural_parks = none
+  outdoors = some
+  park_detail = heaps
+  parks = rare
+  pictures = some
+  porches = some
+  scenics = heaps
+  secrets = some
+  steepness = heaps
+  switches = none
+  symmetry = few
+  teleporters = none
+  traps = some
+  trikeys = none
+  windows = some
+}
+
+Liquid: skipped for level (by style).
+
+
+--==| Creating Rooms |==--
+
+Map size target: 10x9 seeds
+Shape rules skipped for this level: 262 / 481
+Rules can be disabled via skip probability or level styles.
+
+--== Layout Absurdity Module ==--
+
+This level is not absurd...
+
+Target # of rooms : 3 .. 6
+
+--==| Nature mode activated! Take a walk! |==--
+
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 1
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        bb    bb
+                                        bbbb  bb
+                                        bbbb  bbbb
+                                      bbbbbbbbbbbb
+                                      bbbbbbbbbbbbbb
+                                      bbbbbbbbbbbbbbaa
+                                    bbbbbbbbbbbbbb aaa
+                                    bbbbbbbbbbbbaaaaaaaaa
+                                    bbbbbbbbbbaaaaaaaaaaaaa
+                                       \bbbbbbaaaaaaaaaaaaa
+                                      ccc bbaaaaaaaaaaaa/
+                                      ccc bbaaaaaaaaaaa/
+                                    ccccccc aaaaaaaaaaa
+                                    cccccccccccaaaaaaaa
+                                     cccccccccc   aaaaa
+                                   ccccccccccc/   \aaa/
+                                   ccccccccccc     aaa
+                                     \ccccccc/
+                                      ccccccccc
+                                      ccccccccc
+                                      cccccccccccc
+                                       ccccccccccc
+                                       cccccc/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_3
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:311
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:3 areas:26
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Auto Detail Report |==--
+
+Total walkable volume: 311.5
+Group walls tone down multiplier: 1
+Total perimeter: 243
+Plain walls tone down multiplier: 0
+MAP09: Adding Pic_dem_nookd4 {6688,6032}
+MAP09: Adding Pic_park_generic_1 {6032,5664}
+MAP09: Adding Item_alcove_small_general3 {6432,6288}
+MAP09: Adding Item_secret_niche1 {5408,5648}
+MAP09: Adding Start_armaetus_start_lift_downwards {7056,6048}
+MAP09: Adding Pic_dem_nook4 {5920,6032}
+MAP09: Adding Joiner_wallmachines_secret {5808,5792}
+MAP09: Adding Decor_dem_campfireC {5792,6688}
+MAP09: Adding Pic_dem_ruinsN2 {4912,6304}
+MAP09: Adding Pic_dem_nook7 {5408,5808}
+MAP09: Adding Pic_dem_nookd7 {6160,6560}
+MAP09: Adding Pic_dem_nook8 {5680,6432}
+MAP09: Adding Item_closet_simple1 {4896,6800}
+MAP09: Adding Pic_dem_nookd9 {5152,6672}
+MAP09: Adding Pic_dem_nook8 {5920,6544}
+MAP09: Adding Pic_dem_nook7 {5664,6800}
+MAP09: Adding Pic_dem_nookd9 {4656,5920}
+MAP09: Adding Pic_dem_nookd10 {5408,6320}
+MAP09: Adding Item_scionox_simple_crates_pile_on_side {4896,5024}
+MAP09: Adding Item_closet_simple2 {4528,4896}
+MAP09: Adding Item_alcove_small_general4 {5024,5264}
+MAP09: Adding Item_alcove_small_tech2 {4656,5280}
+MAP09: Adding Item_closet_simple1 {5280,4400}
+MAP09: Adding Exit_gazebo1 {5920,4512}
+MAP09: Adding Item_closet_complex3 {5520,4768}
+MAP09: Adding Decor_exit_sign {5750,5440}
+MAP09: Adding Decor_exit_sign {5578,5440}
+MAP09: Adding Post_metal {4640,4384}
+
+--==| Make Battles |==--
+
+Giving weapon: chain
+Giving weapon: AA12
+Giving weapon: launch
+Giving weapon: PulseNailgun
+Giving weapon: UACPlasmaticRifle
+Giving weapon: M79
+Giving weapon: BioPipebombLauncher
+Giving weapon: MP5
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 46779 dead regions (of 63989)
+Swallowed 9533 brushes (of 46892)
+Filled 0 gaps (of 14663 total)
+Lighting level...
+Merged 3699 colinear lines
+Rounded 20 square corners
+Aligned 12299 textures
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+WARNING: bad doom entity number: '0'
+Level 10 title: Interstellar Apparatus
+
+~~~~~~| MAP10 |~~~~~~
+Level seed: 33370332597
+
+Styles = 
+{
+  ambushes = few
+  barrels = some
+  beams = some
+  big_outdoor_rooms = rare
+  big_rooms = heaps
+  cages = some
+  caves = rare
+  darkness = rare
+  dead_ends = heaps
+  doors = few
+  fences = none
+  hallways = none
+  keys = none
+  liquids = few
+  natural_parks = none
+  outdoors = some
+  park_detail = heaps
+  parks = rare
+  pictures = some
+  porches = heaps
+  scenics = few
+  secrets = some
+  steepness = some
+  switches = none
+  symmetry = some
+  teleporters = none
+  traps = some
+  trikeys = none
+  windows = some
+}
+
+Liquid: skipped for level (by style).
+
+
+--==| Creating Rooms |==--
+
+Map size target: 10x9 seeds
+Shape rules skipped for this level: 259 / 481
+Rules can be disabled via skip probability or level styles.
+
+--== Layout Absurdity Module ==--
+
+This level is not absurd...
+
+Target # of rooms : 3 .. 6
+
+--==| Nature mode activated! Take a walk! |==--
+
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 1
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 2
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
