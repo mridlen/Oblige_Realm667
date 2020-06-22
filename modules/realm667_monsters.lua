@@ -568,7 +568,7 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
-	EyesBat
+	EyesBat =
 	{
 	 id = 31357
 	 r = 20
@@ -579,7 +579,7 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
-	EyesPoison
+	EyesPoison =
 	{
 	 id = 31355
 	 r = 20
@@ -785,17 +785,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
-	--ESoul =
-	--{
-	 --id = ESoul
-	 --r = 16
-	 --h = 32
-	 --prob = 30
-	 --health = 180
-	 --damage = 32
-	 --attack = "missile"
-	 --density = 0.9
-	--}
+	ESoul =
+	{
+	 id = 30392
+	 r = 16
+	 h = 32
+	 prob = 30
+	 health = 180
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
 	Exterminator =
 	{
 	 id = 31353
@@ -807,9 +807,6 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
-
-	--- Eyes go here ---
-	
 	Fallen =
 	{
 	 id = 30113
@@ -919,7 +916,7 @@ REALM667.MONSTERS =
 	 health = 50
 	 damage = 32
 	 attack = "missile"
-	 density = 0.3
+	 density = 0.2
 	 boss_type = "minor"
 	}
 	Fleshspawn =
@@ -1336,6 +1333,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	Minigunner =
 	{
@@ -1681,7 +1679,7 @@ REALM667.MONSTERS =
 	 health = 100
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.2
 	}
 	RifleCommando =
 	{
@@ -1799,10 +1797,10 @@ REALM667.MONSTERS =
 	 r = 15
 	 h = 63
 	 prob = 30
-	 health = 150
+	 health = 300
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	}
 	Shadow =
 	{
@@ -2231,17 +2229,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
-	--UndeadPriest =
-	--{
-	-- id = UndeadPriest
-	-- r = 20
-	-- h = 56
-	-- prob = 30
-	-- health = 200
-	-- damage = 32
-	-- attack = "missile"
-	-- density = 0.9
-	--}
+	UndeadPriest =
+	{
+	 id = 29259
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
 	UnmakerGuy =
 	{
 	 id = 31410
@@ -2686,6 +2684,7 @@ OB_MODULES["REALM667"] =
 	RevGhoul                 =  {  label=_("RevGhoul"),                 choices=REALM667.MON_CHOICES  }
 	DuneWarrior              =  {  label=_("DuneWarrior"),              choices=REALM667.MON_CHOICES  }
 	EnhancedCacodemon        =  {  label=_("EnhancedCacodemon"),        choices=REALM667.MON_CHOICES  }
+	ESoul        =  {  label=_("ESoul"),        choices=REALM667.MON_CHOICES  }
 	Exterminator             =  {  label=_("Exterminator"),             choices=REALM667.MON_CHOICES  }
 	EyesExplosive	             =  {  label=_("EyesExplosive"),             choices=REALM667.MON_CHOICES  }
 	EyesPoison	             =  {  label=_("EyesPoison"),             choices=REALM667.MON_CHOICES  }
@@ -2817,6 +2816,7 @@ OB_MODULES["REALM667"] =
 	UACBot                   =  {  label=_("UACBot"),                   choices=REALM667.MON_CHOICES  }
 	Uberchain                =  {  label=_("Uberchain"),                choices=REALM667.MON_CHOICES  }
 	UndeadHunter             =  {  label=_("UndeadHunter"),             choices=REALM667.MON_CHOICES  }
+	UndeadPriest             =  {  label=_("UndeadPriest"),             choices=REALM667.MON_CHOICES  }
 	UnmakerGuy               =  {  label=_("UnmakerGuy"),               choices=REALM667.MON_CHOICES  }
 	FlyingFatso              =  {  label=_("FlyingFatso"),              choices=REALM667.MON_CHOICES  }
 	Vulgar                   =  {  label=_("Vulgar"),                   choices=REALM667.MON_CHOICES  }
