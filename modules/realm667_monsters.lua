@@ -300,7 +300,7 @@ REALM667.MONSTERS =
 	}
 	Bloodfiend =
 	{
-	 id = 30100
+	 id = 28258
 	 r = 30
 	 h = 56
 	 prob = 30
@@ -2231,7 +2231,7 @@ REALM667.MONSTERS =
 	}
 	UndeadPriest =
 	{
-	 id = 29259
+	 id = 28259
 	 r = 20
 	 h = 56
 	 prob = 30
