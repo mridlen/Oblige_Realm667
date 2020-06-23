@@ -6,16 +6,21 @@
 3) Generate your level(s)
 4) Run the generated wad and Realm667.pk3 and/or Realm667_weapons.pk3 with your desired sourceport (only GZDoom was tested)
 5) I've also included "big_backpack.wad" - some monsters have a lot of HP. You'll need it especially if you are one of those UV-Max players.
+6) I've included targetspy if you want to file bug reports, it helps to know the name of the monster
+7) I highly recommend turning on weapon names in GZDoom (for bug reports)
+Options -> HUD Options -> Display Nametags -> Weapons
 
 # Installation - Linux (or other)
 1) Don't clone/download this one. Go to the Oblige home and download the "source" package (you'll need to compile it... good luck). http://oblige.sourceforge.net/ 
 2) Just grab the following files:
 modules/realm667_monsters.lua
 modules/realm667_weapons.lua
+scripts/defs.lua
 Realm667.pk3
 Realm667_monsters.pk3
 big_backpack.wad
-3) Put the the lua files in your modules folder
+target-spy-v1.14.pk3
+3) Copy the files to their respective locations in your installation
 4) Go to step 2 on the Windows install
 
 
