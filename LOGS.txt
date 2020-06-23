@@ -72,3 +72,18 @@ Loading config file: C:\Users\mridlen\Documents\GitHub\Oblige_Realm667/CONFIG.tx
 WARNING: invalid choice: lots (for option procedural_gotcha.gotcha_qty)
 DONE.
 
+
+Quit......
+
+Saving options file...
+DONE.
+
+Saving config file...
+DONE.
+
+
+--- CLOSED LUA VM ---
+
+
+====== END OF OBLIGE LOGS ======
+

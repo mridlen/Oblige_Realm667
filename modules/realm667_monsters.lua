@@ -172,7 +172,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "tough"
+	 boss_type = "minor"
 	}
 	ASGGuy =
 	{
@@ -353,6 +353,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	CacoLich1 =
 	{
@@ -364,6 +365,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Catharsi =
 	{
@@ -476,6 +478,7 @@ REALM667.MONSTERS =
 	 damage = 100
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	CyberFiend =
 	{
@@ -509,7 +512,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "nasty"
+	 boss_type = "tough"
 	}
 	Cybruiser =
 	{
@@ -1635,6 +1638,7 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "nasty"
+	 outdoor_factor = 0
 	}
 	RailBot =
 	{
@@ -1646,6 +1650,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.2
+	 outdoor_factor = 0
 	}
 	RapidFireTrooper =
 	{
@@ -2262,6 +2267,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Vulgar =
 	{

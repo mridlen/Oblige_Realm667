@@ -18,8 +18,6 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 926953683
-
 ---- Game Settings ----
 
 game = doom2
@@ -47,19 +45,19 @@ zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = normal
+mons = heaps
 mix_it_up_upper_range = nuts
 mix_it_up_lower_range = scarce
 strength = harder
 ramp_up = fast
 mon_variety = mixed
 bosses = harder
-bossesnormal = no
+bossesnormal = minor
 traps = some
 trap_style = default
 trap_qty = default
 cage_qty = default
-cages = some
+cages = less
 secret_monsters = no
 quiet_start = no
 
@@ -416,22 +414,22 @@ secrets_bonus = none
 
 @doom_mon_control = 1
   Spiderdemon = default
-  caco = less
-  gunner = more
+  caco = default
+  gunner = default
   skull = default
   demon = default
-  knight = heaps
-  vile = scarce
+  knight = default
+  vile = default
   zombie = default
-  Cyberdemon = scarce
+  Cyberdemon = default
   ss_nazi = default
-  baron = plenty
+  baron = default
   spectre = default
-  arach = plenty
+  arach = default
   mancubus = default
   revenant = default
   pain = default
-  imp = insane
+  imp = default
   shooter = default
 
 @doom_weapon_control = 0
@@ -463,7 +461,7 @@ secrets_bonus = none
   boss_gen_exit = default
   boss_gen_steepness = none
 
-@harder_enemy = 0
+@harder_enemy = 1
 
 @heretic_mon_control = 0
   warrior = default
@@ -672,8 +670,8 @@ secrets_bonus = none
   qty = plenty
 
 @zdoom_specials = 1
-  generic_intermusic = $MUSIC_READ_M
-  fog_generator = no
+  generic_intermusic = $MUSIC_INTER
+  fog_generator = per_sky_gen
   dynamic_lights = yes
   fog_env = all
   custom_quit_messages = yes
