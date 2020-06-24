@@ -331,7 +331,7 @@ REALM667W.WEAPONS =
 	EgoSmasher =
 	{
 		id = 29175
-		level = 5
+		level = 7.5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -345,6 +345,19 @@ REALM667W.WEAPONS =
 	{
 		id = 29176
 		level = 4
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "cell"
+		per = 1
+	}
+	EMSRifle =
+	{
+		id = 29177
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1190,6 +1203,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	StunnerRifle =
+	{
+		id = 29256
+		level = 3
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "bullet"
+		per = 1
+	}
 	SuppressedMP5 =
 	{
 		id = 29258
@@ -1439,6 +1465,7 @@ DualLaser               =  {  label=_("DualLaser"),               choices=REALM6
 DukeShotgun             =  {  label=_("DukeShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
 EgoSmasher              =  {  label=_("EgoSmasher"),              choices=REALM667W.WEAPON_CHOICES  }
 ElectroGun              =  {  label=_("ElectroGun"),              choices=REALM667W.WEAPON_CHOICES  }
+EMSRifle              =  {  label=_("EMSRifle"),              choices=REALM667W.WEAPON_CHOICES  }
 FistRedux               =  {  label=_("FistRedux"),               choices=REALM667W.WEAPON_CHOICES  }
 FlashLightAngled        =  {  label=_("FlashLightAngled"),        choices=REALM667W.WEAPON_CHOICES  }
 FragGrenade             =  {  label=_("FragGrenade"),             choices=REALM667W.WEAPON_CHOICES  }
@@ -1504,6 +1531,7 @@ STBFG10K                =  {  label=_("STBFG10K"),                choices=REALM6
 STGrenadeLauncher       =  {  label=_("STGrenadeLauncher"),       choices=REALM667W.WEAPON_CHOICES  }
 STMinigun               =  {  label=_("STMinigun"),               choices=REALM667W.WEAPON_CHOICES  }
 STRailgun               =  {  label=_("STRailgun"),               choices=REALM667W.WEAPON_CHOICES  }
+StunnerRifle               =  {  label=_("StunnerRifle"),               choices=REALM667W.WEAPON_CHOICES  }
 SuppressedMP5           =  {  label=_("SuppressedMP5"),           choices=REALM667W.WEAPON_CHOICES  }
 SwatShotgun             =  {  label=_("SwatShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
 Thompson                =  {  label=_("Thompson"),                choices=REALM667W.WEAPON_CHOICES  }

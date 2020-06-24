@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 2000828867
+seed = 801356287
 
 ---- Game Settings ----
 
@@ -47,7 +47,7 @@ zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = heaps
+mons = legions
 mix_it_up_upper_range = nuts
 mix_it_up_lower_range = few
 strength = harder
@@ -102,6 +102,7 @@ secrets_bonus = none
   Arachnophyte = default
   FemaleRail = default
   JetpackZombie = default
+  Abbadon = default
   ZombieScientistPlasma = default
   STImp = default
   CacoLich1 = default
@@ -317,23 +318,25 @@ secrets_bonus = none
   FlashLightAngled = default
   BFG2704 = default
   Channeler = default
+  Yellowboy = default
   PulseNailgun = default
   Glock18 = default
+  UberMinigun = default
   AngledPistol = default
-  Yellowboy = default
+  Uzi = default
   DoubleBladedChainsaw = default
   FistRedux = default
-  ScatterPistol = default
+  UTNTPyroCannon = default
   SingleShot = default
   MP5 = default
-  Uzi = default
-  UTNTPyroCannon = default
+  EMSRifle = default
+  ScatterPistol = default
   WensternShotgun = default
   ActionMachineGun = default
   PlasmaBeam = default
   NailGunMG = default
   Raptor = default
-  UberMinigun = default
+  UACPlasmaticRifle = default
   NailgunSG = default
   SniperRifle = default
   MicroUzi = default
@@ -343,10 +346,10 @@ secrets_bonus = none
   STMinigun = default
   KDiZDSuperShotgun = default
   DemonicLeech = default
-  UACPlasmaticRifle = default
-  FreezeRifle = default
   Toaster = default
+  FreezeRifle = default
   SuppressedMP5 = default
+  Raygun = default
   STRailgun = default
   STGrenadeLauncher = default
   STBFG10K = default
@@ -362,7 +365,7 @@ secrets_bonus = none
   UTNTFlamethrower = default
   EgoSmasher = default
   Rifle = default
-  Raygun = default
+  StunnerRifle = default
   AutoShot = default
   Colt45 = default
   AlphaUnmaker = default
@@ -672,7 +675,7 @@ secrets_bonus = none
   qty = plenty
 
 @zdoom_specials = 1
-  generic_intermusic = $MUSIC_INTER
+  generic_intermusic = $MUSIC_DM2INT
   fog_generator = per_sky_gen
   dynamic_lights = yes
   fog_env = all

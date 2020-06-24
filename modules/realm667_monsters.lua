@@ -466,7 +466,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "minor"
+	 boss_type = "tough"
 	}
 	Crash2 =
 	{
@@ -657,8 +657,8 @@ REALM667.MONSTERS =
 	 health = 1500
 	 damage = 32
 	 attack = "missile"
-	 density = 0.9
-	 boss_type = "minor"
+	 density = 0.1
+	 boss_type = "tough"
 	}
 	Incarnate =
 	{
