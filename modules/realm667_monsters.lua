@@ -54,7 +54,18 @@ REALM667 = {}
 
 REALM667.MONSTERS =
 {
-
+     Abbadon =
+	{
+	 id = 28460
+	 r = 36
+	 h = 60
+	 prob = 30
+	 health = 1200
+	 damage = 32
+	 attack = "missle"
+	 density = 0.9
+	 boss_type = "minor"
+	}
 	Afrit =
 	{
 	 id = 31338
@@ -63,7 +74,7 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 800
 	 damage = 32
-	 attack = "melee"
+	 attack = "missle"
 	 density = 0.9
 	 boss_type = "minor"
 	}
@@ -341,7 +352,7 @@ REALM667.MONSTERS =
 	 damage = 100
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "minor"
+	 boss_type = "tough"
 	}
 	CacolanternClone =
 	{
@@ -1065,7 +1076,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
-	 cage_factor = 30
+	 cage_factor = 5
 	 outdoor_factor = 0
 	}
 	HazmatZombie =
@@ -1638,7 +1649,6 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "nasty"
-	 outdoor_factor = 0
 	}
 	RailBot =
 	{
@@ -2629,7 +2639,7 @@ OB_MODULES["REALM667"] =
   
   options =
   {
-  
+	Abbadon                    =  {  label=_("Abbadon"),                    choices=REALM667.MON_CHOICES  }
 	Afrit                    =  {  label=_("Afrit"),                    choices=REALM667.MON_CHOICES  }
 	Agathodemon              =  {  label=_("Agathodemon"),              choices=REALM667.MON_CHOICES  }
 	Agaures                  =  {  label=_("Agaures"),                  choices=REALM667.MON_CHOICES  }

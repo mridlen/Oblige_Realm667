@@ -18,6 +18,8 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
+seed = 2000828867
+
 ---- Game Settings ----
 
 game = doom2
@@ -47,7 +49,7 @@ zdoom_skybox = disable
 
 mons = heaps
 mix_it_up_upper_range = nuts
-mix_it_up_lower_range = scarce
+mix_it_up_lower_range = few
 strength = harder
 ramp_up = fast
 mon_variety = mixed
