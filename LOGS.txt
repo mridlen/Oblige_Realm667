@@ -9925,3 +9925,291 @@ Emergency in ROOM_1 is resolved OMG AMAZING!!!!
 1 Emergency Sprout attempts: 1
 Emergency in ROOM_1 is resolved OMG AMAZING!!!!
 1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          cc
+                                          cc
+                                         /cc\
+                                        cccccc
+                                      /ccccccccc
+                                     cccccccccccc
+                                     cccccccccccc
+                                     ccccccccccc
+                                      cccccccccAA
+                                      ccccccAA AA AA
+                                      cc AAAA /AA\ AAAA
+                                        AAAAAAAAAAAAAAAA
+                                        AAAAAAAAAAAAAAAA
+                                     BBBAAAAA \AA/ AAAAABBB
+                                     BBBBBBBBBBBBBBBBBBBBBB
+                                    BBBBBBBBBBBBBBBBBBBBBBBB
+                                    BBBBBBBB/BBBBBB\BBBBBBBB
+                                    BBBBBBBB BBBBBB BBBBBBBB
+                                     BBBBBBBBBB  BBBBBBBBBB
+                                      BBBBBBBBB\/BBBBBBBBB
+                                      BBBBBBB\BBBB/BBBBBBB
+                                          BB\BBBBBB/BB
+                                          \BBBBBBBBBB/
+                                           BBBBBBBBBB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_2
+Secret Exit: ROOM_3
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:327
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:3 areas:31
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Auto Detail Report |==--
+
+Total walkable volume: 327.5
+Group walls tone down multiplier: 1
+Total perimeter: 231
+Plain walls tone down multiplier: 0
+MAP31: Adding Crate_small_gray {5344,5600}
+MAP31: Adding Crate_small_gray {6496,5600}
+MAP31: Adding Start_generic_open {5792,5904}
+MAP31: Adding Item_alcove_small_urban1 {6800,5792}
+MAP31: Adding Item_alcove_small_general4 {5040,5408}
+MAP31: Adding Decor_light_pillar_helix_outdoor {5408,6432}
+MAP31: Adding Decor_litter1 {5024,6688}
+MAP31: Adding Decor_road_clutter_concrete_barrier_striped {5280,6816}
+MAP31: Adding Decor_ruins3 {5792,6432}
+MAP31: Adding Decor_road_clutter_boxes {4768,6304}
+MAP31: Adding Pic_storefront_2x {4656,6176}
+MAP31: Adding Pic_bookstore {5664,6544}
+MAP31: Adding Exit_closet2_secret {5152,7056}
+MAP31: Adding Pic_storefront_2x {5904,6560}
+MAP31: Adding Pic_urban_downtown_facade_alley 
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0A2F5790
+  brushes = table: 0A301C20
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 1D4670C8
+  env = outdoor
+  fields = table: 1D46C500
+  file = picture/gtd_pic_urban_downtown_facades.wad
+  height = 160
+  kind = picture
+  map = MAP06
+  models = table: 1D46BAB0
+  name = Pic_urban_downtown_facade_alley
+  prob = 200
+  replaces = Pic_urban_downtown_facade3_vanilla
+  seed_h = 2
+  seed_w = 2
+  state = transform_z
+  theme = urban
+  use_prob = 200
+  uses_epic_textures = true
+  where = seeds
+  x_fit = table: 1D46B998
+  y_fit = table: 1D46A750
+  z_fit = table: 0A3021C0
+}
+Required: 240 Prefab has: 256
+
+{4896,6064}
+MAP31: Adding Decor_craneo_arcade_machine {5920,4384}
+MAP31: Adding Decor_street_barrier {5216,5088}
+MAP31: Adding Decor_street_barrier {6624,5088}
+MAP31: Adding Decor_tech_complockers {5280,4704}
+MAP31: Adding Decor_tech_complockers {6560,4704}
+MAP31: Adding Decor_tech_complockers {5408,4256}
+MAP31: Adding Decor_tech_complockers {6432,4256}
+MAP31: Adding Decor_tech_complockers {5664,5280}
+MAP31: Adding Decor_tech_complockers {6176,5280}
+MAP31: Adding Decor_waiting_shed {5664,4768}
+MAP31: Adding Decor_waiting_shed {6176,4768}
+MAP31: Adding Light_urban_LITES02 {5920,5280}
+MAP31: Adding Light_urban_LITES02 {4640,5088}
+MAP31: Adding Light_urban_LITES02 {7200,5088}
+MAP31: Adding Light_urban_LITES02 {4768,4832}
+MAP31: Adding Light_urban_LITES02 {7072,4832}
+MAP31: Adding Light_urban_LITES02 {5280,4448}
+MAP31: Adding Light_urban_LITES02 {6560,4448}
+MAP31: Adding Light_urban_LITES02 {4896,5216}
+MAP31: Adding Light_urban_LITES02 {6944,5216}
+MAP31: Adding Light_urban_LITES02 {5024,4832}
+MAP31: Adding Light_urban_LITES02 {6816,4832}
+MAP31: Adding Light_urban_LITES02 {5408,5344}
+MAP31: Adding Light_urban_LITES02 {6432,5344}
+MAP31: Adding Light_urban_LITES02 {5472,5216}
+MAP31: Adding Light_urban_LITES02 {6368,5216}
+MAP31: Adding Light_urban_LITES02 {4576,4832}
+MAP31: Adding Light_urban_LITES02 {7264,4832}
+MAP31: Adding Light_urban_LITES02 {5600,4192}
+MAP31: Adding Light_urban_LITES02 {6240,4192}
+MAP31: Adding Light_urban_LITES02 {5216,5344}
+MAP31: Adding Light_urban_LITES02 {6624,5344}
+MAP31: Adding Item_gtd_secret_cage {6944,5264}
+MAP31: Adding Pic_box_gargoyles2 {4512,5264}
+MAP31: Adding Exit_armaetus_sky_floor_exit {7200,4784}
+MAP31: Adding Pic_urban_mirrors_edge_wall_EPIC {5152,4784}
+MAP31: Adding Pic_box_woodskull {6304,5168}
+MAP31: Adding Pic_storefront_2x {5920,5168}
+MAP31: Adding Item_wallmachines_secret_6 {7312,5280}
+MAP31: Adding Item_closet_confession_booth {4528,4896}
+MAP31: Adding Pic_storefront_2x {6688,5264}
+MAP31: Adding Pic_box_woodskull {4896,5264}
+MAP31: Adding Decor_exit_sign {6006,5440}
+MAP31: Adding Decor_exit_sign {5834,5440}
+MAP31: Adding Post_metal {4896,6688}
+MAP31: Adding Post_metal {4896,6816}
+MAP31: Adding Post_metal {5664,6816}
+
+--==| Make Battles |==--
+
+Giving weapon: shotty
+Giving weapon: Colt45
+Giving weapon: chain
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+Removed 40316 dead regions (of 54576)
+Swallowed 9344 brushes (of 40428)
+Filled 0 gaps (of 11560 total)
+Lighting level...
+Merged 3760 colinear lines
+Rounded 11 square corners
+Aligned 4635 textures
+Level 32 title: Russov Roads
+
+~~~~~~| MAP32 |~~~~~~
+Level seed: 28848826363
+
+Styles = 
+{
+  ambushes = heaps
+  barrels = few
+  beams = some
+  big_outdoor_rooms = rare
+  big_rooms = heaps
+  cages = less
+  caves = rare
+  darkness = rare
+  dead_ends = heaps
+  doors = some
+  fences = none
+  hallways = none
+  keys = none
+  liquids = none
+  natural_parks = none
+  outdoors = heaps
+  park_detail = few
+  parks = rare
+  pictures = heaps
+  porches = some
+  scenics = heaps
+  secrets = some
+  steepness = few
+  switches = none
+  symmetry = none
+  teleporters = none
+  traps = some
+  trikeys = none
+  windows = heaps
+}
+
+Liquid: skipped for level (by style).
+
+The world has become dark...
+
+
+--==| Creating Rooms |==--
+
+Map size target: 10x9 seeds
+Shape rules skipped for this level: 247 / 481
+Rules can be disabled via skip probability or level styles.
+
+--== Layout Absurdity Module ==--
+
+This level is not absurd...
+
+Target # of rooms : 3 .. 6
+
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 1
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 2
