@@ -20,7 +20,6 @@ addon = ObAddon.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-18-1517_the_anguished_valley.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-19-1215_the_old_ones_cometh.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-21-1103_demise_of_the_tainted.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-21-1608_a_wad_full_of_treason.wad
@@ -30,4 +29,5 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-23-0840_chambers_o
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-23-1935_the_grievious_canyon.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-24-1439_oracle_of_conviction.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-24-1530_beyond_the_blizzard.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-24-1955_doomguys_vacation_with_frozsoul.wad
 

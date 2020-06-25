@@ -1203,6 +1203,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	StrifePistol =
+	{
+		id = 29255
+		level = 1
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "bullet"
+		per = 1
+	}
 	StunnerRifle =
 	{
 		id = 29256
@@ -1531,6 +1544,7 @@ STBFG10K                =  {  label=_("STBFG10K"),                choices=REALM6
 STGrenadeLauncher       =  {  label=_("STGrenadeLauncher"),       choices=REALM667W.WEAPON_CHOICES  }
 STMinigun               =  {  label=_("STMinigun"),               choices=REALM667W.WEAPON_CHOICES  }
 STRailgun               =  {  label=_("STRailgun"),               choices=REALM667W.WEAPON_CHOICES  }
+StrifePistol               =  {  label=_("StrifePistol"),               choices=REALM667W.WEAPON_CHOICES  }
 StunnerRifle               =  {  label=_("StunnerRifle"),               choices=REALM667W.WEAPON_CHOICES  }
 SuppressedMP5           =  {  label=_("SuppressedMP5"),           choices=REALM667W.WEAPON_CHOICES  }
 SwatShotgun             =  {  label=_("SwatShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
