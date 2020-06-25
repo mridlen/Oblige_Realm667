@@ -18,12 +18,12 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 535032555
+seed = 1740733655
 
 ---- Game Settings ----
 
 game = doom2
-engine = gzdoom
+engine = nolimit
 length = game
 theme = tech
 

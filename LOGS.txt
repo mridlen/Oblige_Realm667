@@ -75,7 +75,7 @@ DONE.
 Saving config file...
 DONE.
 
-Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-25-1447_blazing_chaos.wad
+Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-25-1507_into_the_feral_pass.wad
 
 
 ~~~~~~~ Making Levels ~~~~~~~
@@ -98,12 +98,12 @@ Created WAD file: C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-25-1447_blazi
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 535032555
+seed = 1740733655
 
 ---- Game Settings ----
 
 game = doom2
-engine = gzdoom
+engine = nolimit
 length = game
 theme = tech
 
@@ -498,12 +498,6 @@ secrets_bonus = none
   RivetGun = default
   DGL = default
 
-@armaetus_epic_textures = 1
-  include_package = yes
-  custom_liquids = yes
-  custom_trees = zs
-  environment_themes = random
-
 @debugger = 0
 
 @doom_mon_control = 1
@@ -530,19 +524,11 @@ secrets_bonus = none
 
 @export_map = 0
 
-@fauna_module = 1
-  flies = enable
-  rats = enable
-
 @gzdoom_boss_gen = 0
-
-@harder_enemy = 1
 
 @jokewad_module = 0
 
 @level_control = 0
-
-@megawad_swapper = 1
 
 @misc = 1
   pistol_starts = no
@@ -579,8 +565,6 @@ secrets_bonus = none
 
 @modded_game_extras = 0
 
-@music_swapper = 1
-
 @prefab_control = 1
   fab_match_theme = on
   wall_prob = fab_default
@@ -598,38 +582,13 @@ secrets_bonus = none
   influence_map_darkness = yes
   cloud_color = default
 
-@small_spiderdemon = 1
-
-@stealth_mons = 0
-
 @theme_ctl_doom2 = 1
   secret = urban
   episode2 = hell
   episode3 = psycho
   episode1 = tech
 
-@zdoom_ambient_sound = 0
-
-@zdoom_marines = 0
-
-@zdoom_specials = 1
-  generic_intermusic = $MUSIC_DM2INT
-  fog_generator = per_sky_gen
-  dynamic_lights = yes
-  fog_env = all
-  custom_quit_messages = yes
-  episode_selection = no
-  no_intermission = no
-  glowing_flats = yes
-  fog_affects_sky = yes
-  story_generator = proc
-  mapinfo_music_shuffler = no
-  fog_intensity = subtle
-
 -- END --
-
---== ZDoom Special Addons module active ==--
-
 Loading prefabs from: 'games/doom/fabs'
 OK
 2947 prefab definitions loaded!
@@ -639,14 +598,14 @@ Preprocess shape grammars...
 
 Sky generator:
 Forced sky: sky_default
-  1 = JADE_CLOUDS
-    + BROWN_HILLS
-Forced sky: sky_default
-  2 = PEACH_CLOUDS
+  1 = WHITE_CLOUDS
     + GREENISH_HILLS
 Forced sky: sky_default
-  3 = STARS
+  2 = SKY_CLOUDS
     + DARKBROWN_HILLS
+Forced sky: sky_default
+  3 = BLUE_NEBULA
+  3 = STARS
 
 
 Theme for level MAP01 = tech
@@ -670,52 +629,17 @@ Theme for level MAP18 = hell
 Theme for level MAP19 = hell
 Theme for level MAP20 = hell
 Theme for level MAP21 = tech
-Theme for level MAP22 = tech
+Theme for level MAP22 = hell
 Theme for level MAP23 = hell
 Theme for level MAP24 = tech
-Theme for level MAP25 = tech
-Theme for level MAP26 = urban
+Theme for level MAP25 = urban
+Theme for level MAP26 = tech
 Theme for level MAP27 = hell
 Theme for level MAP28 = urban
 Theme for level MAP29 = tech
 Theme for level MAP30 = tech
 Theme for level MAP31 = urban
 Theme for level MAP32 = urban
-
---==| Environment Outdoor Themes |==--
-
-Outdoor theme for MAP01: snow
-Outdoor theme for MAP02: snow
-Outdoor theme for MAP03: snow
-Outdoor theme for MAP04: temperate
-Outdoor theme for MAP05: snow
-Outdoor theme for MAP06: temperate
-Outdoor theme for MAP07: temperate
-Outdoor theme for MAP08: snow
-Outdoor theme for MAP09: desert
-Outdoor theme for MAP10: temperate
-Outdoor theme for MAP11: snow
-Outdoor theme for MAP12: temperate
-Outdoor theme for MAP13: desert
-Outdoor theme for MAP14: desert
-Outdoor theme for MAP15: desert
-Outdoor theme for MAP16: snow
-Outdoor theme for MAP17: desert
-Outdoor theme for MAP18: desert
-Outdoor theme for MAP19: desert
-Outdoor theme for MAP20: temperate
-Outdoor theme for MAP21: snow
-Outdoor theme for MAP22: desert
-Outdoor theme for MAP23: snow
-Outdoor theme for MAP24: desert
-Outdoor theme for MAP25: snow
-Outdoor theme for MAP26: temperate
-Outdoor theme for MAP27: desert
-Outdoor theme for MAP28: temperate
-Outdoor theme for MAP29: temperate
-Outdoor theme for MAP30: snow
-Outdoor theme for MAP31: temperate
-Outdoor theme for MAP32: snow
 
 Special levels:
   none
@@ -751,26 +675,26 @@ Initial size for MAP29: 10
 Initial size for MAP30: 10
 Initial size for MAP31: 10
 Initial size for MAP32: 10
-Game title: Blazing Chaos
+Game title: Into the Feral Pass
 
-Game sub-title: IV
+Game sub-title: Now with more Impse
 
-Episode 1 title: Nightmares and Bodies
+Episode 1 title: Left for Dead
 
-Episode 2 title: The Cradle of Carnage
+Episode 2 title: The Citadel of Gore
 
-Episode 3 title: A Gloomy Boundary
+Episode 3 title: Waist-Deep in Demise
 
-Level 1 title: The Petrochemical Matrix
+Level 1 title: The Aethereal Power Compound
 
 ~~~~~~| MAP01 |~~~~~~
-Level seed: 19261171980
+Level seed: 62666411580
 
 Styles = 
 {
-  ambushes = heaps
-  barrels = heaps
-  beams = few
+  ambushes = few
+  barrels = some
+  beams = heaps
   big_outdoor_rooms = rare
   big_rooms = heaps
   cages = less
@@ -781,254 +705,9 @@ Styles =
   fences = none
   hallways = none
   keys = none
-  liquids = few
+  liquids = none
   natural_parks = none
   outdoors = some
-  park_detail = heaps
-  parks = rare
-  pictures = some
-  porches = some
-  scenics = some
-  secrets = some
-  steepness = heaps
-  switches = none
-  symmetry = none
-  teleporters = none
-  traps = some
-  trikeys = none
-  windows = some
-}
-
-Liquid: gwater (usage 25%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 10x9 seeds
-Shape rules skipped for this level: 178 / 481
-Rules can be disabled via skip probability or level styles.
-
---== Layout Absurdity Module ==--
-
-This level is not absurd...
-
-Target # of rooms : 3 .. 6
-
-Emergency in ROOM_1 is resolved OMG AMAZING!!!!
-1 Emergency Sprout attempts: 1
-Emergency in ROOM_1 is resolved OMG AMAZING!!!!
-1 Emergency Sprout attempts: 2
-1 Emergency Sprout attempts: 2
-1 Emergency Sprout attempts: 2
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                      cc
-                                                      cc
-                                                      cc\
-                                             AAA  ccccccc\
-                                             AAAAAccccccccc
-                                            AAAAAAccccccccc
-                                          AAAAAAAAccccccc/
-                                          AAAAAAAAccccccc
-                                      BBB    \AA/cccccccc
-                                      BBB   BBAA cccccccc
-                                    BBBBBBBBBBAA
-                                    BBBBBBBBBBBBBB
-                                   BBBB/BBBBBBBBBB
-                                   BBBBBBBBBBBBBBBB
-                                   BBBBBBBBBBBBBBBB
-                                     BBBB BB BBBB
-                                       BB    BBBB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_2
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:194
-Zone quota: 1
-Zone list:
-  ZONE_1 : rooms:3 areas:27
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Auto Detail Report |==--
-
-Total walkable volume: 194.5
-Group walls tone down multiplier: 1
-Total perimeter: 266
-Plain walls tone down multiplier: 0
-MAP01: Adding Start_generic_immersive_start {5424,5792}
-MAP01: Adding Item_scionox_simple_crates_cluster {5536,6160}
-MAP01: Adding Item_closet_simple3 {5920,6160}
-MAP01: Adding Decor_exit_sign {5878,5568}
-MAP01: Adding Decor_exit_sign {5706,5568}
-MAP01: Adding Joiner_gtd_universal_staircase {5920,5552}
-MAP01: Adding Decor_square_planter_snow {6496,5984}
-MAP01: Adding Decor_litter6 {6880,6240}
-MAP01: Adding Pic_HVAC_unit {6800,5920}
-MAP01: Adding Item_alcove_small_general3 {6688,6544}
-MAP01: Adding Pic_gtd_green_liquid_tank {6320,5536}
-MAP01: Adding Pic_simple_crates_2 {6320,6176}
-MAP01: Adding Pic_gtd_smelter_and_she_was_real_nice_this_is_not_creepy_at_all {7184,6304}
-MAP01: Adding Stair_slope_2 {6432,5792}
-MAP01: Adding Stair_slope_2 {6432,6432}
-MAP01: Adding Item_scionox_simple_crates_pile_on_side {5664,5152}
-MAP01: Adding Item_pedestal_tech {5216,5088}
-MAP01: Adding Item_weapon_case {5344,5344}
-MAP01: Adding Item_weapon_case {5600,5472}
-MAP01: Adding Item_weapon_case {4960,5216}
-MAP01: Adding Item_scionox_simple_crates_single_pile_2 {4896,5408}
-MAP01: Adding Light_tech1 {4896,5024}
-MAP01: Adding Light_tech1 {5408,5472}
-MAP01: Adding Light_tech1 {5984,5024}
-MAP01: Adding Light_tech1 {4640,5280}
-MAP01: Adding Light_tech1 {4640,4960}
-MAP01: Adding Item_closet_complex1 {5024,4912}
-MAP01: Adding Item_alcove_small_tech1 {5408,5520}
-MAP01: Adding Item_closet_complex1 {5408,4912}
-MAP01: Adding Item_closet_simple2 {6048,4912}
-MAP01: Adding Item_closet_simple3 {4528,5280}
-MAP01: Adding Item_scionox_simple_crates_cluster {4640,5520}
-MAP01: Adding Item_closet_complex1 {6032,5152}
-MAP01: Adding Item_closet_simple3 {4528,4896}
-MAP01: Adding Exit_duke_nukem_exit {4768,4912}
-MAP01: Adding Item_scionox_simple_crates_closet_side_2 {5904,5408}
-MAP01: Adding Stairs_128_2X {5024,5536}
-MAP01: Adding Depot_raise {32,11616}
-
---==| Make Battles |==--
-
-Giving weapon: FistRedux
-WARNING!! Cannot place boss monster: 
-Watcher
-Giving weapon: DukeShotgun
-Giving weapon: iGun
-Giving weapon: WensternShotgun
-Giving weapon: Axe
-Giving weapon: Yellowboy
-Giving weapon: StrifePistol
-Giving weapon: SilencedPistol
-Giving weapon: HandGrenade
-Giving weapon: Karasawa
-Giving weapon: DoubleBladedChainsaw
-Giving weapon: Machete
-Giving weapon: DemonicLeech
-Giving weapon: D2C_Pipebomb
-Giving weapon: Rifle
-Giving weapon: Colt45
-Giving weapon: SingleShot
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 25092 dead regions (of 34573)
-Swallowed 3789 brushes (of 25136)
-Filled 4470 gaps (of 6999 total)
-Lighting level...
-Merged 1335 colinear lines
-Rounded 0 square corners
-Aligned 2166 textures
-WARNING: bad doom entity number: '0'
-Level 2 title: Bushwick Forge Avenged
-
-~~~~~~| MAP02 |~~~~~~
-Level seed: 19261171981
-
-Styles = 
-{
-  ambushes = some
-  barrels = heaps
-  beams = few
-  big_outdoor_rooms = rare
-  big_rooms = heaps
-  cages = less
-  caves = rare
-  darkness = rare
-  dead_ends = heaps
-  doors = some
-  fences = none
-  hallways = none
-  keys = none
-  liquids = few
-  natural_parks = none
-  outdoors = few
   park_detail = heaps
   parks = rare
   pictures = some
@@ -1044,352 +723,13 @@ Styles =
   windows = some
 }
 
-Liquid: nukage (usage 25%)
-
-
---==| Creating Rooms |==--
-
-Map size target: 10x9 seeds
-Shape rules skipped for this level: 184 / 481
-Rules can be disabled via skip probability or level styles.
-
---== Layout Absurdity Module ==--
-
-This level is not absurd...
-
-Target # of rooms : 3 .. 6
-
-Emergency in ROOM_1 is resolved OMG AMAZING!!!!
-1 Emergency Sprout attempts: 1
-Seed Map:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                       CC CCCCCCCCCC CC
-                                       CC CCCCCCCCCC CC
-                                       CCCCCCCCCCCCCCCC
-                                   CCCCCCCCCCCCCCCCCCCCCCCC
-                                   CCCCCCCCCCCCCCCCCCCCCCCC
-                                  CCCCCCCCCCCCCCCCCCCCCCCCCC
-                                  CC CC CCCAAAAAAAACCC CC CC
-                                  CCCCCCCCCAAAAAAAACCCCCCCCC
-                                  CCCCCCCCCAAAAAAAACCCCCCCCC
-                                   CCCCCCBBAAAAAAAABBCCCCCC
-                                         BBBBBBBBBBBB
-                                        BBBBBBBBBBBBBB
-                                        BBBBBBBBBBBBBB
-                                   BB    BBB/BBBB\BBB    BB
-                                   BB BBBBBBBBBBBBBBBBBB BB
-                                  BBBBBBBB\BBBBBBBB/BBBBBBBB
-                                  BBBBBBBBBBBBBBBBBBBBBBBBBB
-                                  BBBBBBBBBBBBBBBBBBBBBBBBBB
-                                  BBBBBBBBB BBBBBB BBBBBBBBB
-                                   BB  BBB  BBBBBB  BBB  BB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==| Make Quests |==--
-
-Exit room: ROOM_2
-Maximum of 0 key goals.
-Start room: ROOM_1
-Quest list:
-  QUEST_1 : svolume:412
-Zone quota: 2
-Zone list:
-  ZONE_1 : rooms:3 areas:57
-Other Item quota : 1.00
-
---==|  Build Rooms |==--
-
-
---==| Auto Detail Report |==--
-
-Total walkable volume: 412
-Group walls tone down multiplier: 1
-Total perimeter: 344
-Plain walls tone down multiplier: 0
-MAP02: Adding Light_tech_LITES01 {5920,5472}
-MAP02: Adding Light_tech_LITES01 {5664,5856}
-MAP02: Adding Light_tech_LITES01 {5664,5472}
-MAP02: Adding Light_tech_LITES01 {5920,5856}
-MAP02: Adding Light_tech_LITES01 {5600,5664}
-MAP02: Adding Light_tech_LITES01 {5984,5664}
-MAP02: Adding Item_sealed_armory_room_regular {5552,5408}
-MAP02: Adding Start_armaetus_start_lift {6032,5920}
-MAP02: Adding Light_tech_TLITE65W {5408,6304}
-MAP02: Adding Light_tech_TLITE65W {6176,6304}
-MAP02: Adding Light_tech_TLITE65W {5216,6304}
-MAP02: Adding Light_tech_TLITE65W {6368,6304}
-MAP02: Adding Light_gtd_tall_light {4640,5856}
-MAP02: Adding Light_gtd_tall_light {6944,5856}
-MAP02: Adding Pic_EPIC_box_static_sounds {4272,5792}
-MAP02: Adding Pic_EPIC_box_metal_big {7312,6048}
-MAP02: Adding Pic_EPIC_box_metal_small_sounds {5024,5552}
-MAP02: Adding Pic_EPIC_box_metal_wide {6944,5552}
-MAP02: Adding Pic_EPIC_box_silverwall {7072,6032}
-MAP02: Adding Pic_EPIC_box_silverwall {4256,6032}
-MAP02: Adding Pic_box_computer {5536,6416}
-MAP02: Adding Pic_EPIC_box_metal_superwide {5008,5920}
-MAP02: Adding Pic_EPIC_box_metal_small {6576,5536}
-MAP02: Adding Pic_box_computer {7328,5552}
-MAP02: Adding Pic_EPIC_box_metal_small_sounds {4640,5552}
-MAP02: Adding Pic_box_silver2 {6048,6416}
-MAP02: Adding Pic_box_computer {5152,6416}
-MAP02: Adding Pic_EPIC_box_metal_big_bunchacomputers {6800,6304}
-MAP02: Adding Pic_box_computer {4784,6048}
-MAP02: Adding Pic_simple_crates_3 {4768,6416}
-MAP02: Adding Pic_EPIC_box_metal_wide {6560,6416}
-MAP02: Adding Pic_EPIC_box_metal_big {7312,5792}
-MAP02: Adding Item_alcove_small_general2 {4272,5536}
-MAP02: Adding Stairs_stack_o_boxes_128 {6560,6176}
-MAP02: Adding Stairs_stack_o_boxes_128 {5024,6432}
-MAP02: Adding Cage_stand1 {5216,5216}
-MAP02: Adding Cage_stand1 {6368,5216}
-MAP02: Adding Pillar_tech2_elec {4640,4640}
-MAP02: Adding Pillar_tech2_elec {6944,4640}
-MAP02: Adding Decor_tech_complockers {4896,4640}
-MAP02: Adding Decor_tech_complockers {6688,4640}
-MAP02: Adding Decor_lifted_crate {5024,4384}
-MAP02: Adding Decor_lifted_crate {6560,4384}
-MAP02: Adding Light_tech_TLITE65O {4704,4384}
-MAP02: Adding Light_tech_TLITE65O {6880,4384}
-MAP02: Adding Pic_EPIC_box_static {6544,5280}
-MAP02: Adding Pic_EPIC_box_metal_big {5040,5024}
-MAP02: Adding Cage_wall_d2_computer_tech_flipped {5152,4272}
-MAP02: Adding Cage_wall_d2_computer_tech_flipped {6816,4272}
-MAP02: Adding Pic_septic_tank {5792,4400}
-MAP02: Adding Pic_control_room_small_monitors {6176,4400}
-MAP02: Adding Pic_box_computer {6560,4752}
-MAP02: Adding Pic_box_computer {4640,4752}
-MAP02: Adding Item_scionox_simple_crates_closet_tall {4272,4512}
-MAP02: Adding Item_closet_complex3 {7312,4768}
-MAP02: Adding Cage_wall_armaetus_bunker {4256,4752}
-MAP02: Adding Cage_wall_armaetus_bunker {7072,4752}
-MAP02: Adding Item_closet_simple2 {4512,4272}
-MAP02: Adding Exit_duke_nukem_exit {7328,4272}
-MAP02: Adding Item_scionox_simple_crates_cluster {7312,4512}
-MAP02: Adding Item_closet_simple3 {4272,4256}
-MAP02: Adding Cage_wall_d2_computer_tech_flipped {5024,5392}
-MAP02: Adding Cage_wall_d2_computer_tech_flipped {6304,5392}
-MAP02: Adding Stair_32 {6176,5280}
-MAP02: Adding Stair_32 {5408,5408}
-MAP02: Adding Sidewalk_8 {5152,4896}
-MAP02: Adding Sidewalk_8 {6560,4896}
-MAP02: Adding Sidewalk_8 {6944,4512}
-MAP02: Adding Sidewalk_8 {4640,4256}
-MAP02: Adding Decor_exit_sign {5920,5440}
-MAP02: Adding Decor_exit_sign {5664,5440}
-
-
-PREFAB DOES NOT FIT!!!
-(on z axis)
-Fab info:
-{
-  bbox = table: 0AEA7FF0
-  bound_z1 = 0
-  bound_z2 = 128
-  brushes = table: 0AEA8018
-  deep = 16
-  dir_name = games/doom/fabs
-  entities = table: 0AEA8BF8
-  env = building
-  fields = table: 0AEA8CE8
-  file = wall/armaetus_wall_fans.wad
-  height = 128
-  kind = wall
-  map = MAP01
-  models = table: 0AEA8C20
-  name = Wall_armaetus_fan_general
-  prob = 20
-  sound = Indoor_Fan
-  state = transform_z
-  theme = !hell
-  use_prob = 20
-  uses_epic_textures = true
-  where = edge
-  x_fit = frame
-  z_fit = top
-}
-Required: 96 Prefab has: 128
-
-
-
-PREFAB DOES NOT FIT!!!
-(on z axis)
-Fab info:
-{
-  bbox = table: 0AEAB4E8
-  bound_z1 = 0
-  bound_z2 = 128
-  brushes = table: 0AEAB510
-  deep = 16
-  dir_name = games/doom/fabs
-  entities = table: 0AEABE70
-  env = building
-  fields = table: 0AEABF60
-  file = wall/gtd_wall_tech_interior_1.wad
-  height = 128
-  kind = wall
-  map = MAP03
-  models = table: 0AEABE98
-  name = Wall_inset
-  prob = 15
-  state = transform_z
-  theme = !hell
-  use_prob = 15
-  where = edge
-  x_fit = frame
-  z_fit = top
-}
-Required: 96 Prefab has: 128
-
-MAP02: Adding Fence_pillar_tech {4640,4512}
-MAP02: Adding Fence_pillar_tech {5152,6176}
-MAP02: Adding Fence_pillar_tech {6432,6176}
-MAP02: Adding Fence_pillar_tech {6944,4512}
-
---==| Make Battles |==--
-
-Giving weapon: ShieldGun
-WARNING!! Cannot place boss monster: 
-FlamerZombie
-Giving weapon: super
-Giving weapon: MancubusArm
-Giving weapon: chain
-Giving weapon: ClaymoreMine
-Giving weapon: DukeShotgun
-Giving weapon: BayonetRifle
-
---==| Item Pickups |==--
-
-DOOM CSG...
-Removed 34610 dead regions (of 47758)
-Swallowed 7379 brushes (of 34725)
-Filled 0 gaps (of 10543 total)
-Lighting level...
-Merged 3583 colinear lines
-Rounded 17 square corners
-Aligned 3716 textures
-WARNING: bad doom entity number: '0'
-WARNING: bad doom entity number: '0'
-WARNING: bad doom entity number: '0'
-WARNING: bad doom entity number: '0'
-WARNING: bad doom entity number: '0'
-WARNING: bad doom entity number: '0'
-WARNING: bad doom entity number: '0'
-WARNING: bad doom entity number: '0'
-Level 3 title: Gravity Field Pool B-966I54
-
-~~~~~~| MAP03 |~~~~~~
-Level seed: 19261171982
-
-Styles = 
-{
-  ambushes = some
-  barrels = heaps
-  beams = none
-  big_outdoor_rooms = rare
-  big_rooms = heaps
-  cages = less
-  caves = rare
-  darkness = rare
-  dead_ends = heaps
-  doors = some
-  fences = none
-  hallways = none
-  keys = none
-  liquids = none
-  natural_parks = none
-  outdoors = none
-  park_detail = heaps
-  parks = rare
-  pictures = some
-  porches = some
-  scenics = heaps
-  secrets = some
-  steepness = heaps
-  switches = none
-  symmetry = some
-  teleporters = none
-  traps = some
-  trikeys = none
-  windows = heaps
-}
-
 Liquid: skipped for level (by style).
 
 
 --==| Creating Rooms |==--
 
 Map size target: 10x9 seeds
-Shape rules skipped for this level: 253 / 481
+Shape rules skipped for this level: 251 / 481
 Rules can be disabled via skip probability or level styles.
 
 --== Layout Absurdity Module ==--
@@ -1398,13 +738,6 @@ This level is not absurd...
 
 Target # of rooms : 3 .. 6
 
-Emergency in ROOM_1 is resolved OMG AMAZING!!!!
-1 Emergency Sprout attempts: 1
-Emergency in ROOM_1 is resolved OMG AMAZING!!!!
-1 Emergency Sprout attempts: 2
-1 Emergency Sprout attempts: 2
-1 Emergency Sprout attempts: 2
-1 Emergency Sprout attempts: 2
 Seed Map:
 
 
@@ -1439,29 +772,29 @@ Seed Map:
 
 
 
-                                          CCCCCCCCCCCC
-                                          CCCCCCCCCCCC
-                                         CCCCCC\CC/CCCC
-                                       CCCCCCCCCCCCCCCC
-                                       CCCCCCCCCCCCCCCC
-                                         CCCCCCCCCCCCCC
-                                         CCCCCCCCCCCC
-                                           CCCC
-                                          AAAAA   AAAAA
-                                          AAAAAAAAAAAAA
-                                         AAAAAAAAAAAAAAA
-                                         AAAAAAAAAAAAAAA
-                                          AAAAAAAAAAAAA
-                                          AAAAAAAAAAAAA
-                                          AAAA BBB AAAA
-                                          AAAABBBBBAAAA
-                                         BBBBBBBBBBBBBBB
-                                         BBBBBBBBBBBBBBB
-                                         BBBBBBB BBBBBBB
-                                           BBBBB BBBBB
-                                           BBBBB BBBBB
-                                             BB   BB
-                                             BB   BB
+
+
+
+                                              AA
+                                           AAAAAA
+                                           AAAAAA
+                                             AAAAAcc cc
+                                           AAAAAAAcc ccccc
+                                           AAAAAAAcccccccc
+                                             AAAAAccccccccc
+                                           AAAAAAAccccccccc
+                                           AAAAAcc/ccccccc
+                                           AAAAAcccccccccc
+                                           bbbbbbbcccccccccc
+                                           bbbbbbbcccccccccc
+                                           bbbbbbbcccccccccc
+                                          bbbbbbbbb  cc cc
+                                          bbbb bbbb  cc
+
+
+
+
+
 
 
 
@@ -1504,10 +837,10 @@ Exit room: ROOM_3
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:275
+  QUEST_1 : svolume:186
 Zone quota: 1
 Zone list:
-  ZONE_1 : rooms:3 areas:35
+  ZONE_1 : rooms:3 areas:22
 Other Item quota : 1.00
 
 --==|  Build Rooms |==--
@@ -1515,106 +848,87 @@ Other Item quota : 1.00
 
 --==| Auto Detail Report |==--
 
-Total walkable volume: 275
+Total walkable volume: 186
 Group walls tone down multiplier: 1
-Total perimeter: 366
+Total perimeter: 203
 Plain walls tone down multiplier: 0
-MAP03: Adding Light_gtd_round {5984,5728}
-MAP03: Adding Start_armaetus_start_center_pillar {5792,5904}
-MAP03: Adding Pic_EPIC_box_metal_small_sounds {5424,5280}
-MAP03: Adding Item_alcove_small_general2 {6544,5792}
-MAP03: Adding Item_wallmachines_secret_5 {5296,5792}
-MAP03: Adding Item_tech_window {6672,6048}
-MAP03: Adding Pic_EPIC_box_metal_big_bunchacomputers {5296,6048}
-MAP03: Adding Pic_pipagery {6672,6304}
-MAP03: Adding Decor_armaetus_basic_computer4 {5664,4896}
-MAP03: Adding Decor_armaetus_basic_computer4 {6304,4896}
-MAP03: Adding Decor_techfloor1 {5408,5024}
-MAP03: Adding Decor_techfloor1 {6560,5024}
-MAP03: Adding Light_tech_LITES01 {5792,4704}
-MAP03: Adding Light_tech_LITES01 {6176,4704}
-MAP03: Adding Light_tech_LITES01 {5600,5088}
-MAP03: Adding Light_tech_LITES01 {6368,5088}
-MAP03: Adding Light_tech_LITES01 {5600,4704}
-MAP03: Adding Light_tech_LITES01 {6368,4704}
-MAP03: Adding Light_tech_LITES01 {5344,5216}
-MAP03: Adding Light_tech_LITES01 {6624,5216}
-MAP03: Adding Pic_EPIC_box_static {6416,4896}
-MAP03: Adding Pic_EPIC_box_silverwall {5552,4640}
-MAP03: Adding Pic_EPIC_box_silverwall {5296,4896}
-MAP03: Adding Pic_control_room_small_monitors {6672,5280}
-MAP03: Adding Pic_EPIC_box_metal_big {6432,4656}
-MAP03: Adding Item_closet_simple1 {5792,4656}
-MAP03: Adding Stair_long_1x2_general2 {6048,4768}
-MAP03: Adding Stair_long_1x2_general2 {6560,5152}
-MAP03: Adding Stair_long_1x2_general2 {5792,4768}
-MAP03: Adding Stair_long_1x2_general2 {5408,5280}
-MAP03: Adding Decor_armaetus_basic_computer1 {6240,7200}
-MAP03: Adding Item_scionox_simple_crates_big_pile {6048,6944}
-MAP03: Adding Item_scionox_simple_crates_big_pile_2 {5792,7200}
-MAP03: Adding Light_tech_TLITE65G {5728,6752}
-MAP03: Adding Light_tech_TLITE65G {6368,6752}
-MAP03: Adding Light_tech_TLITE65G {5600,6432}
-MAP03: Adding Light_tech_TLITE65G {6432,7008}
-MAP03: Adding Light_tech_TLITE65G {5664,7008}
-MAP03: Adding Light_tech_TLITE65G {6048,6624}
-MAP03: Adding Light_tech_TLITE65G {5344,6432}
-MAP03: Adding Light_tech_TLITE65G {5216,6752}
-MAP03: Adding Light_tech_TLITE65G {5408,7008}
-MAP03: Adding Light_tech_TLITE65G {5152,7008}
-MAP03: Adding Light_tech_TLITE65G {5472,6816}
-MAP03: Adding Pic_EPIC_box_metal_big {6544,7072}
-MAP03: Adding Item_dem_elevatorshaft_closet {5040,6688}
-MAP03: Adding Pic_box_silver2 {5280,6576}
-MAP03: Adding Item_closet_simple2 {6560,6576}
-MAP03: Adding Item_scionox_simple_crates_closet_tall {6176,6576}
-MAP03: Adding Item_tech_window_2 {5152,7056}
-MAP03: Adding Exit_closet2 {6544,7328}
-MAP03: Adding Item_alcove_small_general4 {5552,7072}
-MAP03: Adding Stairs_stack_o_boxes_128 {6176,6816}
-MAP03: Adding Sidewalk_8 {5408,6688}
-MAP03: Adding Decor_exit_sign {5408,6272}
-MAP03: Adding Decor_exit_sign {5664,6272}
-MAP03: Adding Fence_pillar_tech {5408,5152}
-MAP03: Adding Fence_pillar_tech {5664,5152}
-MAP03: Adding Fence_pillar_tech {5792,4768}
-MAP03: Adding Fence_pillar_tech {5792,5024}
-MAP03: Adding Fence_pillar_tech {6176,4768}
-MAP03: Adding Fence_pillar_tech {6176,5024}
-MAP03: Adding Fence_pillar_tech {6304,5152}
-MAP03: Adding Fence_pillar_tech {6560,5152}
-MAP03: Adding Depot_raise {32,11616}
+MAP01: Adding Light_tech1 {5728,6496}
+MAP01: Adding Start_armaetus_v5_start1_hell {5552,5664}
+MAP01: Adding Pic_crucified1 {5552,6176}
+MAP01: Adding Item_closet_simple3 {5664,6800}
+MAP01: Adding Pic_box_silver3 {5904,6560}
+MAP01: Adding Item_secret_niche1_hell {5904,6816}
+MAP01: Adding Item_alcove_small_hell1 {5552,6560}
+MAP01: Adding Stair_long_1x2_tech3 {5792,6432}
+MAP01: Adding Decor_exit_sign {5888,6134}
+MAP01: Adding Decor_exit_sign {5888,5962}
+MAP01: Adding Joiner_curve1_general4 {5920,6176}
+MAP01: Adding Decor_light_pillar_core_outdoor {5408,5536}
+MAP01: Adding Decor_light_pillar_core_outdoor {6048,5536}
+MAP01: Adding Item_scionox_simple_crates_pile_on_top_2 {5408,5280}
+MAP01: Adding Item_weapon_case {6368,5472}
+MAP01: Adding Item_scionox_simple_crates_small_pile {6304,6048}
+MAP01: Adding Item_weapon_case {6496,6240}
+MAP01: Adding Item_weapon_case {6496,5984}
+MAP01: Adding Item_closet_toilet_point {6688,5792}
+MAP01: Adding Item_scionox_simple_crates_pile_on_side {7072,5792}
+MAP01: Adding Item_weapon_case {6688,5984}
+MAP01: Adding Item_weapon_case {6688,5600}
+MAP01: Adding Item_pedestal_tech {6304,5728}
+MAP01: Adding Item_scionox_simple_crates_cluster {6176,6288}
+MAP01: Adding Item_closet_simple3 {7184,6176}
+MAP01: Adding Item_scionox_simple_crates_closet_tall_2 {6816,6288}
+MAP01: Adding Exit_duke_nukem_exit {7200,5296}
+MAP01: Adding Item_scionox_simple_crates_closet_tall_2 {7184,5664}
+MAP01: Adding Item_closet_simple2 {6816,5296}
+MAP01: Adding Item_scionox_simple_crates_cluster {6560,6288}
+MAP01: Adding Fence_pillar_tech {5664,6432}
+MAP01: Adding Fence_pillar_tech {5664,6560}
+MAP01: Adding Fence_pillar_tech {5792,6432}
+MAP01: Adding Fence_pillar_tech {5792,6560}
+MAP01: Adding Post_metal {6176,5664}
+MAP01: Adding Depot_raise {32,11616}
 
 --==| Make Battles |==--
 
-Giving weapon: AngledPistol
-Giving weapon: Raygun
-Giving weapon: model1887
-Giving weapon: super
-Giving weapon: M40Rifle
-Giving weapon: Reaper
-Giving weapon: KDiZDSuperShotgun
-Giving weapon: chain
-Giving weapon: shotty
+Giving weapon: HandGrenade
+Giving weapon: Rifle
+Giving weapon: Colt45
+Giving weapon: DukeShotgun
+Giving weapon: ClaymoreMine
+Giving weapon: DemonicLeech
+Giving weapon: StrifePistol
+Giving weapon: SingleShot
+Giving weapon: Axe
+Giving weapon: ShieldGun
+Giving weapon: D2C_Pipebomb
+Giving weapon: WensternShotgun
+Giving weapon: FistRedux
+Giving weapon: Karasawa
+Giving weapon: BayonetRifle
+Giving weapon: Yellowboy
+Giving weapon: Machete
 
 --==| Item Pickups |==--
 
 DOOM CSG...
-Removed 18978 dead regions (of 26732)
-Swallowed 4324 brushes (of 19049)
-Filled 0 gaps (of 4739 total)
+WARNING: region degenerated (2 snags)
+WARNING: region degenerated (2 snags)
+Removed 24221 dead regions (of 33750)
+Swallowed 4531 brushes (of 24296)
+Filled 2030 gaps (of 7290 total)
 Lighting level...
-Merged 1914 colinear lines
-Rounded 0 square corners
-Aligned 3776 textures
-Level 4 title: Nefarious Firewall
+Merged 1652 colinear lines
+Rounded 2 square corners
+Aligned 2289 textures
+Level 2 title: Norun Polytopic Site F-07-68
 
-~~~~~~| MAP04 |~~~~~~
-Level seed: 19261171983
+~~~~~~| MAP02 |~~~~~~
+Level seed: 62666411581
 
 Styles = 
 {
-  ambushes = heaps
+  ambushes = some
   barrels = some
   beams = some
   big_outdoor_rooms = rare
@@ -1627,31 +941,31 @@ Styles =
   fences = none
   hallways = none
   keys = none
-  liquids = none
+  liquids = some
   natural_parks = none
   outdoors = some
-  park_detail = heaps
+  park_detail = some
   parks = rare
   pictures = some
-  porches = few
-  scenics = heaps
+  porches = some
+  scenics = some
   secrets = some
   steepness = some
   switches = none
-  symmetry = heaps
+  symmetry = some
   teleporters = none
   traps = some
   trikeys = none
   windows = some
 }
 
-Liquid: skipped for level (by style).
+Liquid: water (usage 50%)
 
 
 --==| Creating Rooms |==--
 
 Map size target: 10x9 seeds
-Shape rules skipped for this level: 249 / 481
+Shape rules skipped for this level: 179 / 481
 Rules can be disabled via skip probability or level styles.
 
 --== Layout Absurdity Module ==--
@@ -1662,12 +976,14 @@ Target # of rooms : 3 .. 6
 
 Emergency in ROOM_1 is resolved OMG AMAZING!!!!
 1 Emergency Sprout attempts: 1
-1 Emergency Sprout attempts: 1
-1 Emergency Sprout attempts: 1
-1 Emergency Sprout attempts: 1
-1 Emergency Sprout attempts: 1
-1 Emergency Sprout attempts: 1
-1 Emergency Sprout attempts: 1
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
+1 Emergency Sprout attempts: 2
 Seed Map:
 
 
@@ -1703,29 +1019,578 @@ Seed Map:
 
 
 
-                                             BBB        BB
-                                   cc        BBBBB      BBBB
-                                   ccccc cc  BBBBB BBBBBBBBB
-                                   ccccc cc BBBBBB BBBBBBBBB
-                                   ccccc\ccBBBBBBBBBBBBBB BB
-                                  cccccccccBBBBBBBBBBBBBBBBB
-                                  cccccccccBBBBBBBB BB BB BB
-                                    \ccccccccABBBABBBBBBBBBB
-                                   ccccccccccAAAAABBBBBBBBBB
-                                   cccccccc/AAAAAAA BBBBBBBB
-                                     \cc/   AAAAAAA   BBBBBB
-                                      cc AAAAAAAAAAAAA\BBBB/
-                                      cc AAAAAAAAAAAAA BBBB
-                                   AAAAAAAAAAAAAAAAAAAAAAAAA
-                                   AAAAAAAAAAAAAAAAAAAAAAAAA
-                                   AAAAAA AAA AAA AAA AAAAAA
-                                   AAAAAA     AAA     AAAAAA
+                                   CC              CC
+                                  CCCCC  CCCCCC  CCCCC
+                                  CCC C  CCCCCC  C CCC
+                                   CCCCCCCCCCCCCCCCCC
+                                  CCCCCCCCCCCCCCCCCCCC
+                                  CCC CCC  CC  CCC CCC
+                                  CCCCCCC CCCC CCCCCCC
+                                      BB  CCCCaa
+                                      BBaaaCC aa
+                                    BBBBaaaaaaaaaaaa
+                                    BBBBaaaaaaaaaaaa
+                                      BB aaaBBaaaaaa
+                                      BBBBBaBBaaaaaa
+                                      \BBBB Baaaaa
+                                       BBBBBBaaaaa
+                                       BBBBBBaaaaaaa
+                                     BBBBBBBaa/a\aaa
+                                     BBB BBBaaaaaa
+                                     BBB\BBBaa\a/aa
+                                      BBB\BBBaaaaaa
+                                     BBBBBBBBaaaaa
+                                     BBBBBBBBaaaaa
+                                     BBB\BBBB   aa
+                                     BBB \BB
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--==| Make Quests |==--
+
+Exit room: ROOM_3
+Maximum of 0 key goals.
+Start room: ROOM_1
+Quest list:
+  QUEST_1 : svolume:308
+Zone quota: 2
+Zone list:
+  ZONE_1 : rooms:3 areas:47
+Other Item quota : 1.00
+
+--==|  Build Rooms |==--
+
+
+--==| Auto Detail Report |==--
+
+Total walkable volume: 308.5
+Group walls tone down multiplier: 1
+Total perimeter: 383
+Plain walls tone down multiplier: 0
+MAP02: Adding Crate_medium_gray {5664,5408}
+MAP02: Adding Decor_generic_sunk_roof {6048,5280}
+MAP02: Adding Decor_sealed_storage_outdoor {6048,4640}
+MAP02: Adding Start_generic_open {6160,6048}
+MAP02: Adding Trap_closet_tech_2 {6160,4896}
+MAP02: Adding Pic_simple_crates_1 {6160,5280}
+MAP02: Adding Item_scionox_simple_crates_cluster {5920,4528}
+MAP02: Adding Item_alcove_small {5552,4768}
+MAP02: Adding Item_secret_niche1 {5040,5792}
+MAP02: Adding Trap_closet_tech_2 {6176,4528}
+MAP02: Adding Stair_32 {6048,5536}
+MAP02: Adding Decor_armaetus_2x2_terminal_smaller {5216,4448}
+MAP02: Adding Decor_techfloor1 {4832,4576}
+MAP02: Adding Crate_medium_gray {5280,4896}
+MAP02: Adding Crate_small_gray {5280,5152}
+MAP02: Adding Crate_small_brown {4768,4896}
+MAP02: Adding Decor_techfloor1 {5024,5408}
+MAP02: Adding Decor_techfloor1 {4768,5920}
+MAP02: Adding Pic_box_computer {5392,4512}
+MAP02: Adding Pic_box_UAC {4656,4384}
+MAP02: Adding Pic_box_computer {4640,6032}
+MAP02: Adding Pic_pipagery {4656,4768}
+MAP02: Adding Pic_box_shawn3 {5392,4768}
+MAP02: Adding Pic_box_computer {4656,5792}
+MAP02: Adding Pic_box_shawn3 {5152,5264}
+MAP02: Adding Item_alcove_small_tech1 {4656,4128}
+MAP02: Adding Pic_box_computer {5168,4768}
+MAP02: Adding Stairs_128 {4896,5792}
+MAP02: Adding Crate_small_gray {5408,6688}
+MAP02: Adding Decor_road_clutter_boxes {5152,6688}
+MAP02: Adding Decor_road_clutter_boxes {5664,6688}
+MAP02: Adding Pillar_tech2_B {4768,6688}
+MAP02: Adding Pillar_tech2_B {6048,6688}
+MAP02: Adding Light_tech2 {5408,6304}
+MAP02: Adding Light_tech2 {5216,6304}
+MAP02: Adding Light_tech2 {5600,6304}
+MAP02: Adding Light_tech1 {4960,6688}
+MAP02: Adding Light_tech1 {5856,6688}
+MAP02: Adding Light_tech1 {4704,6432}
+MAP02: Adding Light_tech1 {6112,6432}
+MAP02: Adding Light_tech1 {4704,6944}
+MAP02: Adding Light_tech1 {6112,6944}
+MAP02: Adding Light_gtd_round_alt {4384,6560}
+MAP02: Adding Light_gtd_round_alt {6432,6560}
+MAP02: Adding Light_gtd_round_alt {4384,6944}
+MAP02: Adding Light_gtd_round_alt {6432,6944}
+MAP02: Adding Item_closet_simple3 {6544,7072}
+MAP02: Adding Item_alcove_small_general3 {4272,6816}
+MAP02: Adding Item_closet_w_door_tech {4272,6304}
+MAP02: Adding Item_alcove_small_tech2 {6544,6688}
+MAP02: Adding Cage_scionox_guardpost_destroyed {5536,6800}
+MAP02: Adding Item_secret_niche1 {5024,6800}
+MAP02: Adding Exit_duke_nukem_exit {4256,7056}
+MAP02: Adding Item_alcove_small_general1 {6304,7056}
+MAP02: Adding Pic_box_computer {6064,6304}
+MAP02: Adding Pic_pipagery {4752,6560}
+MAP02: Adding Pic_box_computer {5280,6800}
+MAP02: Adding Stairs_128 {6304,6304}
+MAP02: Adding Stairs_128 {6304,6560}
+MAP02: Adding Stairs_128 {6304,6944}
+MAP02: Adding Stairs_128 {4512,6432}
+MAP02: Adding Stairs_128 {4512,6816}
+MAP02: Adding Stairs_128 {4512,7072}
+MAP02: Adding Decor_exit_sign {5322,6016}
+MAP02: Adding Decor_exit_sign {5494,6016}
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B555CC8
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B555CF0
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B556650
+  env = building
+  fields = table: 0B556740
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP03
+  models = table: 0B556678
+  name = Wall_inset
+  prob = 15
+  state = transform_z
+  theme = !hell
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B557CF8
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B557D20
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B557F00
+  env = building
+  fields = table: 0B557FF0
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP08
+  models = table: 0B557F28
+  name = Wall_flat_accent
+  prob = 15
+  state = transform_z
+  theme = tech
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B55AF98
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B55AFC0
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B55BEC0
+  env = building
+  fields = table: 0B55BFB0
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP01
+  models = table: 0B55BEE8
+  name = Wall_raised_comp
+  on_liquids = never
+  prob = 15
+  state = transform_z
+  theme = tech
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B560448
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B560470
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B561370
+  env = building
+  fields = table: 0B561460
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP01
+  models = table: 0B561398
+  name = Wall_raised_comp
+  on_liquids = never
+  prob = 15
+  state = transform_z
+  theme = tech
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B5642A0
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B5642C8
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B5C9D90
+  env = building
+  fields = table: 0B5C9E80
+  file = wall/gtd_wall_tech_interior_2.wad
+  height = 128
+  kind = wall
+  liquid = true
+  map = MAP02
+  models = table: 0B5C9DB8
+  name = Wall_liquid_tank
+  prob = 15
+  state = transform_z
+  theme = !hell
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = stretch
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B5CB3C0
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B5CB3E8
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B5CBE60
+  env = building
+  fields = table: 0B5CBF50
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP09
+  models = table: 0B5CBE88
+  name = Wall_caged_pipes
+  prob = 15
+  state = transform_z
+  theme = tech
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B5CD5F8
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B5CD620
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B5CE520
+  env = building
+  fields = table: 0B5CE610
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP05
+  models = table: 0B5CE548
+  name = Wall_vertical_double_light
+  prob = 15
+  state = transform_z
+  theme = !hell
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+
+PREFAB DOES NOT FIT!!!
+(on z axis)
+Fab info:
+{
+  bbox = table: 0B5CFB50
+  bound_z1 = 0
+  bound_z2 = 128
+  brushes = table: 0B5CFB78
+  deep = 16
+  dir_name = games/doom/fabs
+  entities = table: 0B5D0780
+  env = building
+  fields = table: 0B5D0870
+  file = wall/gtd_wall_tech_interior_1.wad
+  height = 128
+  kind = wall
+  map = MAP04
+  models = table: 0B5D07A8
+  name = Wall_vertical_light
+  prob = 15
+  state = transform_z
+  theme = !hell
+  use_prob = 15
+  where = edge
+  x_fit = frame
+  z_fit = top
+}
+Required: 96 Prefab has: 128
+
+
+--==| Make Battles |==--
+
+Giving weapon: SilencedPistol
+Giving weapon: Reaper
+Giving weapon: KDiZDSuperShotgun
+Giving weapon: Raygun
+Giving weapon: PumpActionShotgun
+Giving weapon: chain
+Giving weapon: shotty
+
+--==| Item Pickups |==--
+
+DOOM CSG...
+WARNING: region degenerated (2 snags)
+WARNING: region degenerated (2 snags)
+WARNING: region degenerated (2 snags)
+WARNING: region degenerated (1 snags)
+Removed 27505 dead regions (of 37784)
+Swallowed 6861 brushes (of 27582)
+Filled 0 gaps (of 6876 total)
+Lighting level...
+Merged 2797 colinear lines
+Rounded 2 square corners
+Aligned 3000 textures
+Level 3 title: Distribution Cache
+
+~~~~~~| MAP03 |~~~~~~
+Level seed: 62666411582
+
+Styles = 
+{
+  ambushes = some
+  barrels = heaps
+  beams = some
+  big_outdoor_rooms = rare
+  big_rooms = heaps
+  cages = less
+  caves = rare
+  darkness = rare
+  dead_ends = heaps
+  doors = heaps
+  fences = none
+  hallways = none
+  keys = none
+  liquids = some
+  natural_parks = none
+  outdoors = some
+  park_detail = heaps
+  parks = rare
+  pictures = heaps
+  porches = few
+  scenics = few
+  secrets = some
+  steepness = heaps
+  switches = none
+  symmetry = none
+  teleporters = none
+  traps = some
+  trikeys = none
+  windows = some
+}
+
+Liquid: water (usage 50%)
+
+
+--==| Creating Rooms |==--
+
+Map size target: 10x9 seeds
+Shape rules skipped for this level: 178 / 481
+Rules can be disabled via skip probability or level styles.
+
+--== Layout Absurdity Module ==--
+
+This level is not absurd...
+
+Target # of rooms : 3 .. 6
+
+--==| Nature mode activated! Take a walk! |==--
+
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 1
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 2
+Emergency in ROOM_1 is resolved OMG AMAZING!!!!
+1 Emergency Sprout attempts: 3
+Emergency in ROOM_2 is resolved OMG AMAZING!!!!
+2 Emergency Sprout attempts: 1
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+2 Emergency Sprout attempts: 1
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+2 Emergency Sprout attempts: 1
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+1 Emergency Sprout attempts: 3
+Seed Map:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      bb
+                                    bbbb
+                                    bbbbbbbb        aa
+                                   /bbbbbbbb        aa
+                                  bbbbbbbbbb aaaaaaaaaaa
+                                  bbbbbbbbbb aaaaaaaaaaa
+                                  bbbbbbbbbb aaaaaaaaa
+                                  bbbbbbbbaa/aaaaaaaa/
+                                  bbbbbbbaaaaaaaaaaaaaa
+                                  bbbbbbbaaaaaaaaaaaaaaCC
+                                  bbbbbbb\aaaaaaaaaaCCCCC
+                                  bbbbb   \aaaaaaaaaCCCCCCC
+                                   bb      aaaaaaCCCCCCCCCC
+                                   bb      aaaaaaCCCCCCCCCC
+                                           aaaaaaCCCCCCCCCC
+                                            \aaaaCCCCCCC
+                                           aaaaaCCCCCCCC
+                                           aaaaaCCCCCC
+                                             aaa CCCCC
+                                              aa CC CC
+                                              aa CC
 
 
 
@@ -1767,10 +1632,10 @@ Exit room: ROOM_2
 Maximum of 0 key goals.
 Start room: ROOM_1
 Quest list:
-  QUEST_1 : svolume:344
-Zone quota: 2
+  QUEST_1 : svolume:300
+Zone quota: 1
 Zone list:
-  ZONE_1 : rooms:3 areas:37
+  ZONE_1 : rooms:3 areas:24
 Other Item quota : 1.00
 
 --==|  Build Rooms |==--
@@ -1778,140 +1643,37 @@ Other Item quota : 1.00
 
 --==| Auto Detail Report |==--
 
-Total walkable volume: 344.5
+Total walkable volume: 300
 Group walls tone down multiplier: 1
-Total perimeter: 334
+Total perimeter: 234
 Plain walls tone down multiplier: 0
-MAP04: Adding Decor_light_pillar_core {5856,5472}
-MAP04: Adding Decor_tech_complockers {5408,5408}
-MAP04: Adding Decor_tech_complockers {6304,5408}
-MAP04: Adding Light_tech_LITBL3F1 {5856,5856}
-MAP04: Adding Light_typh_flourescent_lamp_alt {5856,6112}
-MAP04: Adding Light_typh_flourescent_lamp_alt {5664,6112}
-MAP04: Adding Light_typh_flourescent_lamp_alt {6048,6112}
-MAP04: Adding Light_typh_flourescent_lamp_alt {5600,6240}
-MAP04: Adding Light_typh_flourescent_lamp_alt {6112,6240}
-MAP04: Adding Light_tech_LITE4F1 {4640,5408}
-MAP04: Adding Light_tech_LITE4F1 {7072,5408}
-MAP04: Adding Light_tech_LITE4F1 {5088,5408}
-MAP04: Adding Light_tech_LITE4F1 {6624,5408}
-MAP04: Adding Light_tech_LITE4F1 {5600,5408}
-MAP04: Adding Light_tech_LITE4F1 {6112,5408}
-MAP04: Adding Light_tech_LITE4F1 {4320,5408}
-MAP04: Adding Light_tech_LITE4F1 {7392,5408}
-MAP04: Adding Start_beed28_tunnel {5680,5664}
-MAP04: Adding Item_scionox_simple_crates_closet_side {7456,5296}
-MAP04: Adding Pic_EPIC_box_metal_big {4640,5296}
-MAP04: Adding Pic_EPIC_box_metal_small {5536,5296}
-MAP04: Adding Pic_box_computer {6560,5296}
-MAP04: Adding Pic_gtd_smelter_and_she_was_real_nice_this_is_not_creepy_at_all {5024,5296}
-MAP04: Adding Item_alcove_small_tech3 {7072,5296}
-MAP04: Adding Pic_EPIC_box_static {6304,5520}
-MAP04: Adding Pic_pipagery {5024,5520}
-MAP04: Adding Pic_EPIC_box_metal_small_sounds {6048,5296}
-MAP04: Adding Pic_techy_vats {6048,5520}
-MAP04: Adding Pic_EPIC_box_metal_wide {5408,5520}
-MAP04: Adding Decor_crackofdoom {4768,5920}
-MAP04: Adding Crate_tall_brown {4384,6432}
-MAP04: Adding Pic_gtd_green_liquid_tank {5024,6672}
-MAP04: Adding Pic_heatant_coolant_1 {4896,5808}
-MAP04: Adding Pic_heatant_coolant_2 {4512,6672}
-MAP04: Adding Item_scionox_guardpost_blocked {4256,6800}
-MAP04: Adding Pic_techy_vats {4272,6304}
-MAP04: Adding Pic_gtd_tech_core_thing {4528,5920}
-MAP04: Adding Item_weapon_case {5344,6432}
-MAP04: Adding Item_pedestal_tech {5344,6624}
-MAP04: Adding Item_secret_niche1 {6688,6192}
-MAP04: Adding Pic_EPIC_box_metal_small {6688,6672}
-MAP04: Adding Pic_EPIC_box_metal_small {6304,6672}
-MAP04: Adding Item_alcove_small_general3 {5536,6928}
-MAP04: Adding Item_alcove_small_general2 {7328,5680}
-MAP04: Adding Item_scionox_simple_crates_closet_side {6944,5904}
-MAP04: Adding Item_alcove_small_general2 {5920,6800}
-MAP04: Adding Item_secret_niche1 {6944,6928}
-MAP04: Adding Exit_tech_immersive_exit {7200,6800}
-MAP04: Adding Item_tech_window_2 {7072,5680}
-MAP04: Adding Decor_exit_sign {6144,6262}
-MAP04: Adding Decor_exit_sign {6144,6090}
-
---==| Make Battles |==--
-
-Giving weapon: super
-Giving weapon: PlasmaBallista
-Giving weapon: ScatterPistol
-Giving weapon: QuadShotgun
-Giving weapon: Coachgun
-Giving weapon: Raptor
-Giving weapon: RivetGun
-Giving weapon: Raygun
-Giving weapon: PumpActionShotgun
-
---==| Item Pickups |==--
-
-DOOM CSG...
-WARNING: region degenerated (1 snags)
-WARNING: region degenerated (2 snags)
-WARNING: region degenerated (2 snags)
-WARNING: region degenerated (2 snags)
-WARNING: region degenerated (2 snags)
-WARNING: region degenerated (2 snags)
-Removed 36109 dead regions (of 49567)
-Swallowed 7975 brushes (of 36203)
-Filled 4275 gaps (of 10770 total)
-Lighting level...
-Merged 3121 colinear lines
-Rounded 3 square corners
-Aligned 4312 textures
-Level 5 title: Attack the Authorization Analyser
-
-~~~~~~| MAP05 |~~~~~~
-Level seed: 19261171984
-
-Styles = 
-{
-  ambushes = some
-  barrels = some
-  beams = some
-  big_outdoor_rooms = rare
-  big_rooms = heaps
-  cages = less
-  caves = rare
-  darkness = rare
-  dead_ends = heaps
-  doors = heaps
-  fences = none
-  hallways = none
-  keys = none
-  liquids = none
-  natural_parks = none
-  outdoors = some
-  park_detail = heaps
-  parks = rare
-  pictures = heaps
-  porches = few
-  scenics = none
-  secrets = some
-  steepness = few
-  switches = none
-  symmetry = heaps
-  teleporters = none
-  traps = some
-  trikeys = none
-  windows = some
-}
-
-Liquid: skipped for level (by style).
-
-
---==| Creating Rooms |==--
-
-Map size target: 10x9 seeds
-Shape rules skipped for this level: 257 / 481
-Rules can be disabled via skip probability or level styles.
-
---== Layout Absurdity Module ==--
-
-This level is not absurd...
-
-Target # of rooms : 3 .. 6
-
+MAP03: Adding Item_closet_simple1 {6544,5920}
+MAP03: Adding Start_beed28_tunnel {6432,6416}
+MAP03: Adding Pic_park_generic_2 {5552,4640}
+MAP03: Adding Item_scionox_simple_crates_closet_tall {5920,4528}
+MAP03: Adding Pic_dem_nook7 {6672,6432}
+MAP03: Adding Decor_exit_sign {5194,5888}
+MAP03: Adding Decor_exit_sign {5366,5888}
+MAP03: Adding Joiner_door2_tech1 {5152,5904}
+MAP03: Adding Joiner_armaetus_cave_to_cave_joiner_2x1_any_to_cave {5904,5408}
+MAP03: Adding Item_locker_bin {6816,5280}
+MAP03: Adding Item_pedestal_tech {6816,5088}
+MAP03: Adding Item_weapon_case {6816,5472}
+MAP03: Adding Item_pedestal_tech {6304,4576}
+MAP03: Adding Item_weapon_case {7008,5408}
+MAP03: Adding Item_weapon_case {7008,5152}
+MAP03: Adding Item_pedestal_tech {6624,4768}
+MAP03: Adding Item_secret_niche1 {7056,5280}
+MAP03: Adding Pic_dem_cavein7 {6304,4528}
+MAP03: Adding Pic_dem_cavein8 {6944,5040}
+MAP03: Adding Pic_dem_cavein7 {7056,5536}
+MAP03: Adding Pic_dem_cavein9 {6816,5520}
+MAP03: Adding Item_secret_niche1 {6688,4656}
+MAP03: Adding Pic_dem_cavein14 {6064,4640}
+MAP03: Adding Pic_dem_cavein6 {6432,5520}
+MAP03: Adding Pic_dem_nookd9 {4640,6672}
+MAP03: Adding Pic_park_generic_1 {5024,5808}
+MAP03: Adding Exit_beed28_tunnel {4512,5424}
+MAP03: Adding Item_secret_niche1 {4496,5792}
+MAP03: Adding Pic_park_generic_2 {4896,6416}
+MAP03: Adding Item_secret_niche1 {4384,6544}

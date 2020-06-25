@@ -1078,28 +1078,29 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
-	FireSerpent =
-	{
- 	 id = 24930
-	 r = 19
-	 h = 52
-	 prob = 30
-	 health = 15
-	 damage = 32
-	 attack = "missile"
-	 density = 0.9
-	}
-	FlameSerpent =
-	{
- 	 id = 24931
-	 r = 19
-	 h = 52
-	 prob = 30
-	 health = 15
-	 damage = 32
-	 attack = "missile"
-	 density = 0.9
-	}
+	-- FireSerpent lags the game out for some reason
+	--FireSerpent =
+	--{
+ 	 --id = 24930
+	 --r = 19
+	 --h = 52
+	 --prob = 30
+	 --health = 15
+	 --damage = 32
+	 --attack = "missile"
+	 --density = 0.9
+	--}
+	--FlameSerpent =
+	--{
+ 	 --id = 24931
+	 --r = 19
+	 --h = 52
+	 --prob = 30
+	 --health = 15
+	 --damage = 32
+	 --attack = "missile"
+	 --density = 0.9
+	--}
 	FlamerZombie =
 	{
 	 id = 31497
