@@ -433,6 +433,18 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	Cheogh =
+	{
+	 id = 26847
+	 r = 22
+	 h = 65
+	 prob = 30
+	 health = 3000
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
+	}
 	Tentacle1 =
 	{
 	 id = 667
@@ -549,6 +561,17 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 boss_type = "nasty"
 	}
+	DagfallSkeleton =
+	{
+	 id = 7007
+	 r = 24
+	 h = 56
+	 prob = 30
+	 health = 80
+	 damage = 32
+	 attack = "melee"
+	 density = 0.9
+	}
 	DarkDevil =
 	{
 	 id = 30130
@@ -582,6 +605,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	Spider =
+	{
+	 id = 26846
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 10
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
 	EyesBat =
 	{
 	 id = 31357
@@ -589,6 +623,17 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 160
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	Bat =
+	{
+	 id = 26845
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 10
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
@@ -730,6 +775,96 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	DevilwormBaby =
+	{
+	 id = 11110
+	 r = 15
+	 h = 15
+	 prob = 30
+	 health = 30
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	DevilwormEgg = 
+	{
+	 id = 10999
+	 r = 15
+	 h = 15
+	 prob = 30
+	 health = 30
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	DevilwormTeen =
+	{
+	 id = 11112
+	 r = 25
+	 h = 25
+	 prob = 30
+	 health = 300
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	DevilwormTeenH =
+	{
+	 id = 11111
+	 r = 25
+	 h = 25
+	 prob = 30
+	 health = 300
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	DevilwormAdult =
+	{
+	 id = 11114
+	 r = 35
+	 h = 35
+	 prob = 30
+	 health = 750
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	DevilwormAdultH =
+	{
+	 id = 11113
+	 r = 35
+	 h = 35
+	 prob = 30
+	 health = 750
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	DevilwormElder =
+	{
+	 id = 11116
+	 r = 38
+	 h = 45
+	 prob = 30
+	 health = 1000
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
+	DevilwormElderH =
+	{
+	 id = 11115
+	 r = 38
+	 h = 45
+	 prob = 30
+	 health = 1000
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
 	Diabloist =
 	{
 	 id = 30112
@@ -765,6 +900,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	Drone =
+	{
+	 id = 1267
+	 r = 16
+	 h = 24
+	 prob = 30
+	 health = 150
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
 	RevGhoul =
 	{
 	 id = 11460
@@ -787,6 +933,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "nasty"
+	}
+	EliteGuard =
+	{
+	 id = 25948
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 130
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
 	}
 	EnhancedCacodemon =
 	{
@@ -913,6 +1070,28 @@ REALM667.MONSTERS =
 	FemaleZombie =
 	{
 	 id = 31365
+	 r = 19
+	 h = 52
+	 prob = 30
+	 health = 15
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	FireSerpent =
+	{
+ 	 id = 24930
+	 r = 19
+	 h = 52
+	 prob = 30
+	 health = 15
+	 damage = 32
+	 attack = "missile"
+	 density = 0.9
+	}
+	FlameSerpent =
+	{
+ 	 id = 24931
 	 r = 19
 	 h = 52
 	 prob = 30
@@ -2673,6 +2852,7 @@ OB_MODULES["REALM667"] =
 	ChaingunMajor            =  {  label=_("ChaingunMajor"),            choices=REALM667.MON_CHOICES  }
 	CGunSpider               =  {  label=_("CGunSpider"),               choices=REALM667.MON_CHOICES  }
 	ChainsawZombie           =  {  label=_("ChainsawZombie"),           choices=REALM667.MON_CHOICES  }
+	Cheogh           =  {  label=_("Cheogh"),           choices=REALM667.MON_CHOICES  }
 	Tentacle1                =  {  label=_("Tentacle1"),                choices=REALM667.MON_CHOICES  }
 	Tentacle2                =  {  label=_("Tentacle2"),                choices=REALM667.MON_CHOICES  }
 	CrackoDemon              =  {  label=_("CrackoDemon"),              choices=REALM667.MON_CHOICES  }
@@ -2683,6 +2863,7 @@ OB_MODULES["REALM667"] =
 	CyberMastermind          =  {  label=_("CyberMastermind"),          choices=REALM667.MON_CHOICES  }
 	Cybruiser                =  {  label=_("Cybruiser"),                choices=REALM667.MON_CHOICES  }
 	Cardinal                 =  {  label=_("Cardinal"),                 choices=REALM667.MON_CHOICES  }
+	DagfallSkeleton			= { label=_("DagfallSkeleton"),		choices=REALM667.MON_CHOICES }
 	DarkDevil                =  {  label=_("DarkDevil"),                choices=REALM667.MON_CHOICES  }
 	NamiDarkImp              =  {  label=_("NamiDarkImp"),              choices=REALM667.MON_CHOICES  }
 	NetherDarkImp            =  {  label=_("NetherDarkImp"),            choices=REALM667.MON_CHOICES  }
@@ -2695,18 +2876,31 @@ OB_MODULES["REALM667"] =
 	Demolisher               =  {  label=_("Demolisher"),               choices=REALM667.MON_CHOICES  }
 	DevastatorZombie         =  {  label=_("DevastatorZombie"),         choices=REALM667.MON_CHOICES  }
 	Devil                    =  {  label=_("Devil"),                    choices=REALM667.MON_CHOICES  }
+	DevilwormEgg                    =  {  label=_("DevilwormEgg"),                    choices=REALM667.MON_CHOICES  }
+	DevilwormTeen                    =  {  label=_("DevilwormTeen"),                    choices=REALM667.MON_CHOICES  }
+	DevilwormTeenH                    =  {  label=_("DevilwormTeenH"),                    choices=REALM667.MON_CHOICES  }
+	DevilwormAdult                    =  {  label=_("DevilwormAdult"),                    choices=REALM667.MON_CHOICES  }
+	DevilwormAdultH                    =  {  label=_("DevilwormAdultH"),                    choices=REALM667.MON_CHOICES  }
+	DevilwormElder                    =  {  label=_("DevilwormElder"),                    choices=REALM667.MON_CHOICES  }
+	DevilwormElderH                    =  {  label=_("DevilwormElderH"),                    choices=REALM667.MON_CHOICES  }
+	DevilwormBaby                    =  {  label=_("DevilwormBaby"),                    choices=REALM667.MON_CHOICES  }
+
 	Diabloist                =  {  label=_("Diabloist"),                choices=REALM667.MON_CHOICES  }
 	DivineShadow             =  {  label=_("DivineShadow"),             choices=REALM667.MON_CHOICES  }
 	ChaingunGuy2             =  {  label=_("ChaingunGuy2"),             choices=REALM667.MON_CHOICES  }
+	Drone						= { label=_("Drone"),						choices=REALM667.MON_CHOICES }
 	RevGhoul                 =  {  label=_("RevGhoul"),                 choices=REALM667.MON_CHOICES  }
 	DuneWarrior              =  {  label=_("DuneWarrior"),              choices=REALM667.MON_CHOICES  }
 	EnhancedCacodemon        =  {  label=_("EnhancedCacodemon"),        choices=REALM667.MON_CHOICES  }
+	EliteGuard        =  {  label=_("EliteGuard"),        choices=REALM667.MON_CHOICES  }
 	ESoul        =  {  label=_("ESoul"),        choices=REALM667.MON_CHOICES  }
 	Exterminator             =  {  label=_("Exterminator"),             choices=REALM667.MON_CHOICES  }
 	EyesExplosive	             =  {  label=_("EyesExplosive"),             choices=REALM667.MON_CHOICES  }
 	EyesPoison	             =  {  label=_("EyesPoison"),             choices=REALM667.MON_CHOICES  }
 	EyesBat	             =  {  label=_("EyesBat"),             choices=REALM667.MON_CHOICES  }
+	Bat	             =  {  label=_("Bat"),             choices=REALM667.MON_CHOICES  }
 	EyesSpider	             =  {  label=_("EyesSpider"),             choices=REALM667.MON_CHOICES  }
+	Spider	             =  {  label=_("Spider"),             choices=REALM667.MON_CHOICES  }
 	Fallen                   =  {  label=_("Fallen"),                   choices=REALM667.MON_CHOICES  }
 	FemalePlasma             =  {  label=_("FemalePlasma"),             choices=REALM667.MON_CHOICES  }
 	FemaleRail               =  {  label=_("FemaleRail"),               choices=REALM667.MON_CHOICES  }
