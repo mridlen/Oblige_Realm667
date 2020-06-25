@@ -1838,6 +1838,7 @@ REALM667.MONSTERS =
 	 damage = 32
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	ShadowTrooper =
 	{

@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 801356287
+seed = 528726495
 
 ---- Game Settings ----
 
