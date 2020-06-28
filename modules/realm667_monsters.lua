@@ -61,7 +61,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 1200
-	 damage = 32
+	 damage = 22
 	 attack = "missle"
 	 density = 0.9
 	 boss_type = "minor"
@@ -73,19 +73,30 @@ REALM667.MONSTERS =
 	 h = 72
 	 prob = 30
 	 health = 800
-	 damage = 32
+	 damage = 22
 	 attack = "missle"
 	 density = 0.9
 	 boss_type = "minor"
 	}
 	Agathodemon =
 	{
+	 id = 15948
+	 r = 31
+	 h = 64
+	 prob = 30
+	 health = 650
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	AnotherAgathodemon =
+	{
 	 id = 31339
 	 r = 31
 	 h = 64
 	 prob = 30
 	 health = 650
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -96,11 +107,21 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
-     
+     GhostlyAgaures =
+	{
+	 id = 18990
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 300
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
 	 -- Allied Marines Go Here --
 	 
 	Annihilator =
@@ -134,7 +155,7 @@ REALM667.MONSTERS =
 	 h = 100
 	 prob = 30
 	 health = 500
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -145,7 +166,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1000
-	 damage = 320
+	 damage = 220
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
@@ -157,7 +178,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 170
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -180,7 +201,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
@@ -192,7 +213,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 90
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -203,7 +224,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2400
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -215,7 +236,7 @@ REALM667.MONSTERS =
 	 h = 36
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -226,7 +247,7 @@ REALM667.MONSTERS =
 	 h = 16
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -237,7 +258,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 10
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -248,7 +269,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -259,7 +280,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 20
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -270,7 +291,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1500
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
@@ -282,7 +303,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "nasty"
@@ -294,7 +315,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -305,7 +326,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -316,7 +337,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 250
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -327,7 +348,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -338,7 +359,7 @@ REALM667.MONSTERS =
 	 h = 24
 	 prob = 30
 	 health = 20
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -361,7 +382,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 800
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
@@ -373,7 +394,19 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 500
-	 damage = 32
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
+	CacoLich =
+	{
+	 id = 3132
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 500
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
@@ -385,7 +418,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -396,7 +429,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -407,7 +440,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -418,7 +451,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 450
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -429,9 +462,10 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 30
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	Cheogh =
 	{
@@ -440,7 +474,7 @@ REALM667.MONSTERS =
 	 h = 65
 	 prob = 30
 	 health = 3000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -475,7 +509,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 1200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -487,7 +521,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -510,7 +544,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 500
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -521,7 +555,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -532,7 +566,7 @@ REALM667.MONSTERS =
 	 h = 100
 	 prob = 30
 	 health = 5000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -544,7 +578,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 320
+	 damage = 220
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -556,7 +590,7 @@ REALM667.MONSTERS =
 	 h = 112
 	 prob = 30
 	 health = 4500
-	 damage = 320
+	 damage = 220
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "nasty"
@@ -568,7 +602,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -579,8 +613,19 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 160
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
+	 density = 0.9
+	}
+	EvilKnight =
+	{
+	 id = 23059
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 250
+	 damage = 22
+	 attack = "missle"
 	 density = 0.9
 	}
 	EyesExplosive = 
@@ -590,7 +635,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 160
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -601,7 +646,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 160
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -612,7 +657,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 10
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -623,7 +668,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 160
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -634,7 +679,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 10
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -645,7 +690,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 160
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -656,7 +701,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 105
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -667,7 +712,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -678,7 +723,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 110
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -689,7 +734,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 130
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -700,7 +745,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 1500
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "tough"
@@ -712,7 +757,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -735,7 +780,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 1000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -747,7 +792,7 @@ REALM667.MONSTERS =
 	 h = 100
 	 prob = 30
 	 health = 6000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "nasty"
@@ -759,7 +804,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "nasty"
@@ -771,7 +816,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -782,9 +827,10 @@ REALM667.MONSTERS =
 	 h = 15
 	 prob = 30
 	 health = 30
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	DevilwormEgg = 
 	{
@@ -793,9 +839,10 @@ REALM667.MONSTERS =
 	 h = 15
 	 prob = 30
 	 health = 30
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	DevilwormTeen =
 	{
@@ -804,9 +851,10 @@ REALM667.MONSTERS =
 	 h = 25
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	DevilwormTeenH =
 	{
@@ -815,9 +863,10 @@ REALM667.MONSTERS =
 	 h = 25
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	DevilwormAdult =
 	{
@@ -826,9 +875,10 @@ REALM667.MONSTERS =
 	 h = 35
 	 prob = 30
 	 health = 750
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	DevilwormAdultH =
 	{
@@ -837,9 +887,10 @@ REALM667.MONSTERS =
 	 h = 35
 	 prob = 30
 	 health = 750
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	DevilwormElder =
 	{
@@ -848,10 +899,11 @@ REALM667.MONSTERS =
 	 h = 45
 	 prob = 30
 	 health = 1000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
+	 cage_factor = 0
 	}
 	DevilwormElderH =
 	{
@@ -860,10 +912,11 @@ REALM667.MONSTERS =
 	 h = 45
 	 prob = 30
 	 health = 1000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
+	 cage_factor = 0
 	}
 	Diabloist =
 	{
@@ -884,7 +937,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 3500
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "nasty"
@@ -896,7 +949,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -907,7 +960,7 @@ REALM667.MONSTERS =
 	 h = 24
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -918,7 +971,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 400
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -929,9 +982,9 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
-	 density = 0.2
+	 density = 0.1
 	 boss_type = "nasty"
 	}
 	EliteGuard =
@@ -941,7 +994,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 130
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -952,7 +1005,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -963,7 +1016,7 @@ REALM667.MONSTERS =
 	 h = 32
 	 prob = 30
 	 health = 180
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -974,7 +1027,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -985,7 +1038,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -996,7 +1049,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1007,7 +1060,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "nasty"
@@ -1019,7 +1072,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 15
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1030,7 +1083,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 15
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1041,7 +1094,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 15
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1052,7 +1105,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 30
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1063,7 +1116,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 60
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1074,7 +1127,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 15
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1086,7 +1139,7 @@ REALM667.MONSTERS =
 	 --h = 52
 	 --prob = 30
 	 --health = 15
-	 --damage = 32
+	 --damage = 22
 	 --attack = "missile"
 	 --density = 0.9
 	--}
@@ -1097,7 +1150,7 @@ REALM667.MONSTERS =
 	 --h = 52
 	 --prob = 30
 	 --health = 15
-	 --damage = 32
+	 --damage = 22
 	 --attack = "missile"
 	 --density = 0.9
 	--}
@@ -1108,7 +1161,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "minor"
@@ -1120,7 +1173,7 @@ REALM667.MONSTERS =
 	 h = 30
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1131,7 +1184,18 @@ REALM667.MONSTERS =
 	 h = 80
 	 prob = 30
 	 health = 180
-	 damage = 32
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	FleshWizard =
+	{
+	 id = 7800
+	 r = 20
+	 h = 80
+	 prob = 30
+	 health = 180
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1142,7 +1206,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1153,7 +1217,7 @@ REALM667.MONSTERS =
 	 h = 30
 	 prob = 30
 	 health = 40
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1164,7 +1228,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1175,7 +1239,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1186,9 +1250,21 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 600
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	}
+	Gatekeeper =
+	{
+	 id = 17000
+	 r = 56
+	 h = 120
+	 prob = 30
+	 health = 6000
+	 damage = 22
+	 attack = "missle"
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	GhostRevenant =
 	{
@@ -1197,8 +1273,42 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 350
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
+	 density = 0.9
+	}
+	GiantBatSleep =
+	{
+	 id = 12358
+	 r = 16
+	 h = 32
+	 prob = 30
+	 health = 25
+	 damage = 22
+	 attack = "missle"
+	 density = 0.9
+	 outdoor_factor = 0
+	}
+	GiantBat =
+	{
+	 id = 12359
+	 r = 16
+	 h = 32
+	 prob = 30
+	 health = 25
+	 damage = 22
+	 attack = "missle"
+	 density = 0.9
+	}
+	GiantRat =
+	{
+	 id = 13200
+	 r = 16
+	 h = 24
+	 prob = 30
+	 health = 30
+	 damage = 22
+	 attack = "missle"
 	 density = 0.9
 	}
 	Grell =
@@ -1208,7 +1318,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1219,7 +1329,7 @@ REALM667.MONSTERS =
 	 h = 32
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1230,7 +1340,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 35
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1241,7 +1351,7 @@ REALM667.MONSTERS =
 	 h = 88
 	 prob = 30
 	 health = 750
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
@@ -1253,7 +1363,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 cage_factor = 5
@@ -1266,8 +1376,30 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
+	 density = 0.9
+	}
+	HeadMonster =
+	{
+	 id = 10400
+	 r = 30
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 22
+	 attack = "missle"
+	 density = 0.9
+	}
+	HeadMonsterSneaky =
+	{
+	 id = 10401
+	 r = 30
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 22
+	 attack = "missle"
 	 density = 0.9
 	}
 	HeavenGuard =
@@ -1277,7 +1409,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1288,7 +1420,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1299,7 +1431,7 @@ REALM667.MONSTERS =
 	 h = 80
 	 prob = 30
 	 health = 1500
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1310,10 +1442,21 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1600
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
+	}
+	HellHound =
+	{
+	 id = 30121
+	 r = 30
+	 h = 50
+	 prob = 30
+	 health = 300
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
 	}
 	Hellion =
 	{
@@ -1322,9 +1465,20 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 70
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
+	}
+	HellRose =
+	{
+	 id = 15498
+	 r = 32
+	 h = 56
+	 prob = 30
+	 health = 300
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
 	}
 	HellsFury =
 	{
@@ -1333,7 +1487,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 1000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
@@ -1345,7 +1499,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.3
 	 boss_type = "tough"
@@ -1357,7 +1511,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 400
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1368,7 +1522,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 1800
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -1380,7 +1534,7 @@ REALM667.MONSTERS =
 	 h = 38
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1391,7 +1545,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1402,7 +1556,18 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 90
-	 damage = 32
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Incubus =
+	{
+	 id = 30083
+	 r = 48
+	 h = 64
+	 prob = 30
+	 health = 3000
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1413,7 +1578,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 55
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1424,7 +1589,7 @@ REALM667.MONSTERS =
 	 h = 24
 	 prob = 30
 	 health = 15
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1435,9 +1600,55 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 65
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	}
+	InfernalSpiderBig =
+	{
+	 id = 31004
+	 r = 72
+	 h = 120
+	 prob = 30
+	 health = 12000
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9	
+	 boss_type = "nasty"
+	}
+	InfernalSpiderSmall =
+	{
+	 id = 31006
+	 r = 42
+	 h = 56
+	 prob = 30
+	 health = 1000
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+     boss_type = "minor"	 
+	}
+	InfernalSpiderMini = 
+	{
+	 id = 31005
+	 r = 42
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9	
+	}
+	InfernalSpiderVeryMini =
+	{
+	 id = 31007
+	 r = 32
+	 h = 24
+	 prob = 30
+	 health = 100
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9	
 	}
 	Inferno =
 	{
@@ -1446,7 +1657,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 400
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1457,8 +1668,19 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
+	 density = 0.9
+	}
+	Juggernaut =
+	{
+	 id = 13400
+	 r = 30
+	 h = 56
+	 prob = 30
+	 health = 1000
+	 damage = 22
+	 attack = "melee"
 	 density = 0.9
 	}
 	KarasawaGuy =
@@ -1468,7 +1690,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1479,7 +1701,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 240
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1490,10 +1712,22 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 1250
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
+	}
+	Maephisto =
+	{
+	 id = 14049
+	 r = 50
+	 h = 100
+	 prob = 30
+	 health = 3500
+	 damage = 22
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "tough"
 	}
 	Machinegunguy =
 	{
@@ -1502,7 +1736,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1513,7 +1747,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -1524,7 +1758,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 cage_factor = 0
@@ -1536,9 +1770,21 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 70
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	}
+	Moloch =
+	{
+	 id = 6666
+	 r = 50
+	 h = 125
+	 prob = 30
+	 health = 7000
+	 damage = 22
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	NailBorg =
 	{
@@ -1562,10 +1808,30 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.2
 	}
-
+	NetherworldDrone =
+	{
+	 id = 31002
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	NetherworldQueen =
+	{
+	 id = 31003
+	 r = 40
+	 h = 140
+	 prob = 30
+	 health = 1600
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
 	-- Nightmare Spectre goes here --
-
-	-- Nightmare goes here --
 	
 	KDiZDNightmare =
 	{
@@ -1574,7 +1840,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1585,7 +1851,7 @@ REALM667.MONSTERS =
 	 h = 66
 	 prob = 30
 	 health = 260
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -1596,7 +1862,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1607,7 +1873,7 @@ REALM667.MONSTERS =
 	 h = 75
 	 prob = 30
 	 health = 800
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1618,7 +1884,7 @@ REALM667.MONSTERS =
 	 h = 75
 	 prob = 30
 	 health = 800
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1644,7 +1910,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1655,7 +1921,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 850
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.5
 	 boss_type = "nasty"
@@ -1667,7 +1933,18 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Pistule =
+	{
+	 id = 14000
+	 r = 20
+	 h = 24
+	 prob = 30
+	 health = 40
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1678,7 +1955,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1689,7 +1966,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 450
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1700,7 +1977,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1711,7 +1988,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 900
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1722,7 +1999,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1733,7 +2010,106 @@ REALM667.MONSTERS =
 	 h = 14
 	 prob = 30
 	 health = 1
-	 damage = 32
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist2 =
+	{
+	 id = 31386
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist3 =
+	{
+	 id = 31387
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist4 =
+	{
+	 id = 31388
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist5 =
+	{
+	 id = 31389
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist6 =
+	{
+	 id = 31390
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist7 =
+	{
+	 id = 31391
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist8 =
+	{
+	 id = 31392
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist9 =
+	{
+	 id = 31393
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	Poltergeist10 =
+	{
+	 id = 31394
+	 r = 8
+	 h = 14
+	 prob = 30
+	 health = 1
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1744,7 +2120,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 2000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -1756,7 +2132,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1767,7 +2143,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1790,7 +2166,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "nasty"
@@ -1802,7 +2178,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "nasty"
@@ -1814,7 +2190,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 140
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1825,7 +2201,7 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 500
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "nasty"
@@ -1837,7 +2213,7 @@ REALM667.MONSTERS =
 	 h = 16
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	 outdoor_factor = 0
@@ -1849,7 +2225,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 30
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1872,7 +2248,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	}
@@ -1883,7 +2259,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 70
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1894,7 +2270,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 45
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1905,7 +2281,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1916,7 +2292,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 75
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1927,7 +2303,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1938,7 +2314,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1949,7 +2325,7 @@ REALM667.MONSTERS =
 	 h = 32
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -1960,7 +2336,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 400
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -1971,7 +2347,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -1993,7 +2369,7 @@ REALM667.MONSTERS =
 	 h = 63
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	}
@@ -2004,7 +2380,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2015,9 +2391,9 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	 boss_type = "minor"
 	}
 	ShadowTrooper =
@@ -2027,8 +2403,19 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
+	 density = 0.9
+	}
+	Skeleton =
+	{
+	 id = 31008
+	 r = 24
+	 h = 56
+	 prob = 30
+	 health = 80
+	 damage = 22
+	 attack = "melee"
 	 density = 0.9
 	}
 	SlimeImp =
@@ -2038,7 +2425,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 90
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2049,7 +2436,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 250
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2071,7 +2458,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2094,7 +2481,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2105,7 +2492,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 40
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2116,7 +2503,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "nasty"
@@ -2128,9 +2515,21 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	}
+	SourceGuardian =
+	{
+	 id = 16999
+	 r = 40
+	 h = 140
+	 prob = 30
+	 health = 1200
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
 	}
 	SpiritImp =
 	{
@@ -2139,7 +2538,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2150,7 +2549,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 225
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2161,7 +2560,7 @@ REALM667.MONSTERS =
 	 h = 40
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2172,7 +2571,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2183,7 +2582,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 400
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2194,7 +2593,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2205,7 +2604,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 180
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2216,7 +2615,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2239,7 +2638,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 60
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2250,7 +2649,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2261,7 +2660,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2284,7 +2683,7 @@ REALM667.MONSTERS =
 	 h = 48
 	 prob = 30
 	 health = 10
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -2295,7 +2694,7 @@ REALM667.MONSTERS =
 	 h = 60
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2318,7 +2717,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -2329,7 +2728,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 250
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.3
 	}
@@ -2364,10 +2763,10 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 1500
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
-	 density = 0.9
-	 boss_type = "minor"
+	 density = 0.1
+	 boss_type = "tough"
 	}
 	TorturedSoul =
 	{
@@ -2376,9 +2775,21 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 700
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	}
+	TrashMonster =
+	{
+	 id = 9999
+	 r = 16
+	 h = 29
+	 prob = 30
+	 health = 400
+	 damage = 22
+	 attack = "melee"
+	 density = 0.9
+	 boss_type = "minor"
 	}
 	Trite =
 	{
@@ -2387,7 +2798,7 @@ REALM667.MONSTERS =
 	 h = 25
 	 prob = 30
 	 health = 30
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2398,7 +2809,7 @@ REALM667.MONSTERS =
 	 h = 110
 	 prob = 30
 	 health = 3000
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
@@ -2421,7 +2832,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 120
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2432,7 +2843,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2455,7 +2866,7 @@ REALM667.MONSTERS =
 	 h = 76
 	 prob = 30
 	 health = 400
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "minor"
@@ -2467,7 +2878,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 70
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2490,7 +2901,7 @@ REALM667.MONSTERS =
 	 h = 40
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2501,7 +2912,7 @@ REALM667.MONSTERS =
 	 h = 44
 	 prob = 30
 	 health = 300
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2512,7 +2923,7 @@ REALM667.MONSTERS =
 	 h = 88
 	 prob = 30
 	 health = 275
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2523,7 +2934,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "melee"
 	 density = 0.9
 	}
@@ -2534,7 +2945,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 15
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2545,7 +2956,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 15
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2556,7 +2967,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 80
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2567,7 +2978,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2590,7 +3001,7 @@ REALM667.MONSTERS =
 	 h = 72
 	 prob = 30
 	 health = 450
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "minor"
@@ -2602,7 +3013,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 45
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "nasty"
@@ -2614,7 +3025,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2625,7 +3036,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2636,7 +3047,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2647,7 +3058,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 40
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2658,7 +3069,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 20
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2669,7 +3080,7 @@ REALM667.MONSTERS =
 	 h = 44
 	 prob = 30
 	 health = 40
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2680,7 +3091,7 @@ REALM667.MONSTERS =
 	 h = 52
 	 prob = 30
 	 health = 50
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2691,7 +3102,7 @@ REALM667.MONSTERS =
 	 h = 72
 	 prob = 30
 	 health = 450
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "minor"
@@ -2703,7 +3114,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 100
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2714,7 +3125,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2725,7 +3136,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.2
 	 boss_type = "nasty"
@@ -2737,7 +3148,7 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 150
-	 damage = 32
+	 damage = 22
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -2823,7 +3234,9 @@ OB_MODULES["REALM667"] =
 	Abbadon                    =  {  label=_("Abbadon"),                    choices=REALM667.MON_CHOICES  }
 	Afrit                    =  {  label=_("Afrit"),                    choices=REALM667.MON_CHOICES  }
 	Agathodemon              =  {  label=_("Agathodemon"),              choices=REALM667.MON_CHOICES  }
+	AnotherAgathodemon              =  {  label=_("AnotherAgathodemon"),              choices=REALM667.MON_CHOICES  }
 	Agaures                  =  {  label=_("Agaures"),                  choices=REALM667.MON_CHOICES  }
+	GhostlyAgaures                  =  {  label=_("GhostlyAgaures"),                  choices=REALM667.MON_CHOICES  }
 	Annihilator              =  {  label=_("Annihilator"),              choices=REALM667.MON_CHOICES  }
 	Arachnobaron             =  {  label=_("Arachnobaron"),             choices=REALM667.MON_CHOICES  }
 	Arachnophyte             =  {  label=_("Arachnophyte"),             choices=REALM667.MON_CHOICES  }
@@ -2848,6 +3261,7 @@ OB_MODULES["REALM667"] =
 	BruiserDemon             =  {  label=_("BruiserDemon"),             choices=REALM667.MON_CHOICES  }
 	CacolanternClone         =  {  label=_("CacolanternClone"),         choices=REALM667.MON_CHOICES  }
 	CacoLich1                =  {  label=_("CacoLich1"),                choices=REALM667.MON_CHOICES  }
+	CacoLich                =  {  label=_("CacoLich"),                choices=REALM667.MON_CHOICES  }
 	Catharsi                 =  {  label=_("Catharsi"),                 choices=REALM667.MON_CHOICES  }
 	ChaingunDemon            =  {  label=_("ChaingunDemon"),            choices=REALM667.MON_CHOICES  }
 	ChaingunMajor            =  {  label=_("ChaingunMajor"),            choices=REALM667.MON_CHOICES  }
@@ -2895,6 +3309,7 @@ OB_MODULES["REALM667"] =
 	EnhancedCacodemon        =  {  label=_("EnhancedCacodemon"),        choices=REALM667.MON_CHOICES  }
 	EliteGuard        =  {  label=_("EliteGuard"),        choices=REALM667.MON_CHOICES  }
 	ESoul        =  {  label=_("ESoul"),        choices=REALM667.MON_CHOICES  }
+	EvilKnight				=	{ label=_("EvilKnight"),			choices=REALM667.MON_CHOICES }
 	Exterminator             =  {  label=_("Exterminator"),             choices=REALM667.MON_CHOICES  }
 	EyesExplosive	             =  {  label=_("EyesExplosive"),             choices=REALM667.MON_CHOICES  }
 	EyesPoison	             =  {  label=_("EyesPoison"),             choices=REALM667.MON_CHOICES  }
@@ -2914,18 +3329,25 @@ OB_MODULES["REALM667"] =
 	FlamerZombie             =  {  label=_("FlamerZombie"),             choices=REALM667.MON_CHOICES  }
 	Fleshspawn               =  {  label=_("Fleshspawn"),               choices=REALM667.MON_CHOICES  }
 	XWizard                  =  {  label=_("XWizard"),                  choices=REALM667.MON_CHOICES  }
+	FleshWizard                  =  {  label=_("FleshWizard"),                  choices=REALM667.MON_CHOICES  }
 	FlyingImp                =  {  label=_("FlyingImp"),                choices=REALM667.MON_CHOICES  }
 	ForgottenOne             =  {  label=_("ForgottenOne"),             choices=REALM667.MON_CHOICES  }
 	FormerRanger             =  {  label=_("FormerRanger"),             choices=REALM667.MON_CHOICES  }
 	FreezeRifleGuy           =  {  label=_("FreezeRifleGuy"),           choices=REALM667.MON_CHOICES  }
 	FusionSpider             =  {  label=_("FusionSpider"),             choices=REALM667.MON_CHOICES  }
+	Gatekeeper            =  {  label=_("Gatekeeper"),            choices=REALM667.MON_CHOICES  }
 	GhostRevenant            =  {  label=_("GhostRevenant"),            choices=REALM667.MON_CHOICES  }
+	GiantBatSleep            =  {  label=_("GiantBatSleep"),            choices=REALM667.MON_CHOICES  }
+	GiantBat            =  {  label=_("GiantBat"),            choices=REALM667.MON_CHOICES  }
+	GiantRat            =  {  label=_("GiantRat"),            choices=REALM667.MON_CHOICES  }
 	Grell                    =  {  label=_("Grell"),                    choices=REALM667.MON_CHOICES  }
 	Guardian                 =  {  label=_("Guardian"),                 choices=REALM667.MON_CHOICES  }
 	HS3                      =  {  label=_("HS3"),                      choices=REALM667.MON_CHOICES  }
 	Haedexebus               =  {  label=_("Haedexebus"),               choices=REALM667.MON_CHOICES  }
 	Hangman                  =  {  label=_("Hangman"),                  choices=REALM667.MON_CHOICES  }
 	HazmatZombie             =  {  label=_("HazmatZombie"),             choices=REALM667.MON_CHOICES  }
+	HeadMonster              =  {  label=_("HeadMonster"),              choices=REALM667.MON_CHOICES  }
+	HeadMonsterSneaky              =  {  label=_("HeadMonsterSneaky"),              choices=REALM667.MON_CHOICES  }
 	HeavenGuard              =  {  label=_("HeavenGuard"),              choices=REALM667.MON_CHOICES  }
 	HeavyCarbineGuy          =  {  label=_("HeavyCarbineGuy"),          choices=REALM667.MON_CHOICES  }
 	HectebusClone            =  {  label=_("HectebusClone"),            choices=REALM667.MON_CHOICES  }
@@ -2934,24 +3356,36 @@ OB_MODULES["REALM667"] =
 	HellsFury                =  {  label=_("HellsFury"),                choices=REALM667.MON_CHOICES  }
 	HellstormArchon          =  {  label=_("HellstormArchon"),          choices=REALM667.MON_CHOICES  }
 	HellWarrior              =  {  label=_("HellWarrior"),              choices=REALM667.MON_CHOICES  }
+	HellHound              =  {  label=_("HellHound"),              choices=REALM667.MON_CHOICES  }
+	HellRose              =  {  label=_("HellRose"),              choices=REALM667.MON_CHOICES  }
 	Hierophant               =  {  label=_("Hierophant"),               choices=REALM667.MON_CHOICES  }
 	HornedImp                =  {  label=_("HornedImp"),                choices=REALM667.MON_CHOICES  }
 	Illus                    =  {  label=_("Illus"),                    choices=REALM667.MON_CHOICES  }
 	ImpAbomination           =  {  label=_("ImpAbomination"),           choices=REALM667.MON_CHOICES  }
+	Incubus           =  {  label=_("Incubus"),           choices=REALM667.MON_CHOICES  }
 	STImp                    =  {  label=_("STImp"),                    choices=REALM667.MON_CHOICES  }
 	SpiderImpHead            =  {  label=_("SpiderImpHead"),            choices=REALM667.MON_CHOICES  }
 	VoidImp                  =  {  label=_("VoidImp"),                  choices=REALM667.MON_CHOICES  }
+	InfernalSpiderBig                  =  {  label=_("InfernalSpiderBig"),                  choices=REALM667.MON_CHOICES  }
+	InfernalSpiderSmall                  =  {  label=_("InfernalSpiderSmall"),                  choices=REALM667.MON_CHOICES  }
+	InfernalSpiderMini                  =  {  label=_("InfernalSpiderMini"),                  choices=REALM667.MON_CHOICES  }
+	InfernalSpider                  =  {  label=_("Inferno"),                  choices=REALM667.MON_CHOICES  }
 	Inferno                  =  {  label=_("Inferno"),                  choices=REALM667.MON_CHOICES  }
 	JetpackZombie            =  {  label=_("JetpackZombie"),            choices=REALM667.MON_CHOICES  }
+	Juggernaut            =  {  label=_("Juggernaut"),            choices=REALM667.MON_CHOICES  }
 	KarasawaGuy              =  {  label=_("KarasawaGuy"),              choices=REALM667.MON_CHOICES  }
 	LesserMutant             =  {  label=_("LesserMutant"),             choices=REALM667.MON_CHOICES  }
 	LordofHeresy             =  {  label=_("LordofHeresy"),             choices=REALM667.MON_CHOICES  }
+	Maephisto               =  {  label=_("Maephisto"),               choices=REALM667.MON_CHOICES  }
 	Machinegunguy            =  {  label=_("Machinegunguy"),            choices=REALM667.MON_CHOICES  }
 	MaulerDemon              =  {  label=_("MaulerDemon"),              choices=REALM667.MON_CHOICES  }
 	MeleeRevenant            =  {  label=_("MeleeRevenant"),            choices=REALM667.MON_CHOICES  }
 	Minigunner               =  {  label=_("Minigunner"),               choices=REALM667.MON_CHOICES  }
+	Moloch               =  {  label=_("Moloch"),               choices=REALM667.MON_CHOICES  }
 	NailBorg                 =  {  label=_("NailBorg"),                 choices=REALM667.MON_CHOICES  }
 	NailBorgCommando         =  {  label=_("NailBorgCommando"),         choices=REALM667.MON_CHOICES  }
+	NetherworldDrone         =  {  label=_("NetherworldDrone"),         choices=REALM667.MON_CHOICES  }
+	NetherworldQueen         =  {  label=_("NetherworldQueen"),         choices=REALM667.MON_CHOICES  }
 	KDiZDNightmare           =  {  label=_("KDiZDNightmare"),           choices=REALM667.MON_CHOICES  }
 	NightmareDemon           =  {  label=_("NightmareDemon"),           choices=REALM667.MON_CHOICES  }
 	Nightshade               =  {  label=_("Nightshade"),               choices=REALM667.MON_CHOICES  }
@@ -2961,12 +3395,22 @@ OB_MODULES["REALM667"] =
 	Phantasm                 =  {  label=_("Phantasm"),                 choices=REALM667.MON_CHOICES  }
 	Phantom                  =  {  label=_("Phantom"),                  choices=REALM667.MON_CHOICES  }
 	PhaseImp                 =  {  label=_("PhaseImp"),                 choices=REALM667.MON_CHOICES  }
+	Pistule                 =  {  label=_("Pistule"),                 choices=REALM667.MON_CHOICES  }
 	PlasmaDemon              =  {  label=_("PlasmaDemon"),              choices=REALM667.MON_CHOICES  }
 	PlasmaElemental          =  {  label=_("PlasmaElemental"),          choices=REALM667.MON_CHOICES  }
 	PlasmaZombie             =  {  label=_("PlasmaZombie"),             choices=REALM667.MON_CHOICES  }
 	Poe                      =  {  label=_("Poe"),                      choices=REALM667.MON_CHOICES  }
 	PoisonSoul               =  {  label=_("PoisonSoul"),               choices=REALM667.MON_CHOICES  }
 	Poltergeist1             =  {  label=_("Poltergeist1"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist2             =  {  label=_("Poltergeist2"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist3             =  {  label=_("Poltergeist3"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist4             =  {  label=_("Poltergeist4"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist5             =  {  label=_("Poltergeist5"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist6             =  {  label=_("Poltergeist6"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist7             =  {  label=_("Poltergeist7"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist8             =  {  label=_("Poltergeist8"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist9             =  {  label=_("Poltergeist9"),             choices=REALM667.MON_CHOICES  }
+	Poltergeist10             =  {  label=_("Poltergeist10"),             choices=REALM667.MON_CHOICES  }
 	ProfaneOne               =  {  label=_("ProfaneOne"),               choices=REALM667.MON_CHOICES  }
 	PsychicSoul              =  {  label=_("PsychicSoul"),              choices=REALM667.MON_CHOICES  }
 	PNZombie                 =  {  label=_("PNZombie"),                 choices=REALM667.MON_CHOICES  }
@@ -2993,6 +3437,7 @@ OB_MODULES["REALM667"] =
 	Shadow                   =  {  label=_("Shadow"),                   choices=REALM667.MON_CHOICES  }
 	ShadowHunter             =  {  label=_("ShadowHunter"),             choices=REALM667.MON_CHOICES  }
 	ShadowTrooper            =  {  label=_("ShadowTrooper"),            choices=REALM667.MON_CHOICES  }
+	Skeleton                 =  {  label=_("Skeleton"),                 choices=REALM667.MON_CHOICES  }
 	SlimeImp                 =  {  label=_("SlimeImp"),                 choices=REALM667.MON_CHOICES  }
 	SlimeWorm                =  {  label=_("SlimeWorm"),                choices=REALM667.MON_CHOICES  }
 	SmallRat                 =  {  label=_("SmallRat"),                 choices=REALM667.MON_CHOICES  }
@@ -3002,6 +3447,7 @@ OB_MODULES["REALM667"] =
 	SniperRifleGuy           =  {  label=_("SniperRifleGuy"),           choices=REALM667.MON_CHOICES  }
 	SonicRailgunZombie       =  {  label=_("SonicRailgunZombie"),       choices=REALM667.MON_CHOICES  }
 	SoulHarvester            =  {  label=_("SoulHarvester"),            choices=REALM667.MON_CHOICES  }
+	SourceGuardian			= {	label=_("SourceGuardian"),			choices=REALM667.MON_CHOICES }
 	SpiritImp                =  {  label=_("SpiritImp"),                choices=REALM667.MON_CHOICES  }
 	Squire                   =  {  label=_("Squire"),                   choices=REALM667.MON_CHOICES  }
 	OutcastStalker           =  {  label=_("OutcastStalker"),           choices=REALM667.MON_CHOICES  }
@@ -3024,6 +3470,7 @@ OB_MODULES["REALM667"] =
 	TimeImp                  =  {  label=_("TimeImp"),                  choices=REALM667.MON_CHOICES  }
 	TornadoDemon             =  {  label=_("TornadoDemon"),             choices=REALM667.MON_CHOICES  }
 	TorturedSoul             =  {  label=_("TorturedSoul"),             choices=REALM667.MON_CHOICES  }
+	TrashMonster             =  {  label=_("TrashMonster"),             choices=REALM667.MON_CHOICES  }
 	Trite                    =  {  label=_("Trite"),                    choices=REALM667.MON_CHOICES  }
 	UACBot                   =  {  label=_("UACBot"),                   choices=REALM667.MON_CHOICES  }
 	Uberchain                =  {  label=_("Uberchain"),                choices=REALM667.MON_CHOICES  }
