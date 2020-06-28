@@ -492,7 +492,7 @@ REALM667.MONSTERS =
 	}
 	Tentacle2 =
 	{
-	 id = 667
+	 id = 668
 	 r = 40
 	 h = 112
 	 prob = 30
@@ -1590,8 +1590,9 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 15
 	 damage = 22
-	 attack = "missile"
+	 attack = "melee"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	VoidImp =
 	{
@@ -2871,6 +2872,30 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 boss_type = "minor"
 	}
+	FlyingFatso2 =
+	{
+	 id = 3398
+	 r = 44
+	 h = 76
+	 prob = 30
+	 health = 400
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
+	FlyingFatso3 =
+	{
+	 id = 3399
+	 r = 44
+	 h = 76
+	 prob = 30
+	 health = 400
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
 	Vulgar =
 	{
 	 id = 30127
@@ -2952,6 +2977,17 @@ REALM667.MONSTERS =
 	ZombieFodder =
 	{
 	 id = 1957
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 15
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	ZombieFodder =
+	{
+	 id = 1958
 	 r = 20
 	 h = 56
 	 prob = 30
@@ -3478,6 +3514,8 @@ OB_MODULES["REALM667"] =
 	UndeadPriest             =  {  label=_("UndeadPriest"),             choices=REALM667.MON_CHOICES  }
 	UnmakerGuy               =  {  label=_("UnmakerGuy"),               choices=REALM667.MON_CHOICES  }
 	FlyingFatso              =  {  label=_("FlyingFatso"),              choices=REALM667.MON_CHOICES  }
+	FlyingFatso2              =  {  label=_("FlyingFatso2"),              choices=REALM667.MON_CHOICES  }
+	FlyingFatso3              =  {  label=_("FlyingFatso3"),              choices=REALM667.MON_CHOICES  }
 	Vulgar                   =  {  label=_("Vulgar"),                   choices=REALM667.MON_CHOICES  }
 	WarlordOfHell            =  {  label=_("WarlordOfHell"),            choices=REALM667.MON_CHOICES  }
 	Watcher                  =  {  label=_("Watcher"),                  choices=REALM667.MON_CHOICES  }
@@ -3486,6 +3524,7 @@ OB_MODULES["REALM667"] =
 	D3Wraith                 =  {  label=_("D3Wraith"),                 choices=REALM667.MON_CHOICES  }
     ZombieFlyer  	=  {  label=_("ZombieFlyer"),             choices=REALM667.MON_CHOICES  }
 	ZombieFodder             =  {  label=_("ZombieFodder"),             choices=REALM667.MON_CHOICES  }
+	QuakeFodder             =  {  label=_("QuakeFodder"),             choices=REALM667.MON_CHOICES  }
 	ZombieHenchman           =  {  label=_("ZombieHenchman"),           choices=REALM667.MON_CHOICES  }
 	ZombieMarine             =  {  label=_("ZombieMarine"),             choices=REALM667.MON_CHOICES  }
 	ZombieMissileTank        =  {  label=_("ZombieMissileTank"),        choices=REALM667.MON_CHOICES  }
