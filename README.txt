@@ -7,7 +7,9 @@ Features:
 - Big Backpack mod (because the standard backpack isn't big enough)
 Also included:
 - Target Spy (to identify the monsters you are fighting)
+  https://forum.zdoom.org/viewtopic.php?f=43&t=60784
 - Obaddon (for more interesting levels)
+  https://github.com/caligari87/ObAddon
 
 # Installation - Windows
 1) Download the files and run the oblige.exe
