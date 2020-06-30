@@ -1,4 +1,13 @@
 # Oblige with Realm 667 monsters and weapons
+Features:
+- Loads of new enemies - 244 currently
+- Loads of new weapons - 115 currently
+- Somewhat balanced SlotPriority (meaning powerful weapons will be selected first when switching via number)
+- Somewhat balanced gameplay - meaning it will give you appropriate weapons to fight the monsters, and enough ammo to kill them
+- Big Backpack mod (because the standard backpack isn't big enough)
+Also included:
+- Target Spy (to identify the monsters you are fighting)
+- Obaddon (for more interesting levels)
 
 # Installation - Windows
 1) Download the files and run the oblige.exe
