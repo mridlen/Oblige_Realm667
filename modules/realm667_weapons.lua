@@ -289,6 +289,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	Doom3SSG =
+	{
+		id = 29171
+		level = 4
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "shell"
+		per = 1	
+	}
 	DoubleBladedChainsaw =
 	{
 		id = 29172
@@ -378,6 +391,19 @@ REALM667W.WEAPONS =
 		rate = 0.9
 		damage = 50
 		ammo = "bullet"
+		per = 1
+	}
+	FlakCannon =
+	{
+		id = 2052
+		level = 3
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "shell"
 		per = 1
 	}
 	-- disabled by default
@@ -1473,6 +1499,7 @@ CryoBow                 =  {  label=_("CryoBow"),                 choices=REALM6
 D2C_Pipebomb            =  {  label=_("D2C_Pipebomb"),            choices=REALM667W.WEAPON_CHOICES  }
 DemonicLeech            =  {  label=_("DemonicLeech"),            choices=REALM667W.WEAPON_CHOICES  }
 DGL                     =  {  label=_("DGL"),                     choices=REALM667W.WEAPON_CHOICES  }
+Doom3SSG                     =  {  label=_("Doom3SSG"),                     choices=REALM667W.WEAPON_CHOICES  }
 DoubleBladedChainsaw    =  {  label=_("DoubleBladedChainsaw"),    choices=REALM667W.WEAPON_CHOICES  }
 DualLaser               =  {  label=_("DualLaser"),               choices=REALM667W.WEAPON_CHOICES  }
 DukeShotgun             =  {  label=_("DukeShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
@@ -1480,6 +1507,7 @@ EgoSmasher              =  {  label=_("EgoSmasher"),              choices=REALM6
 ElectroGun              =  {  label=_("ElectroGun"),              choices=REALM667W.WEAPON_CHOICES  }
 EMSRifle              =  {  label=_("EMSRifle"),              choices=REALM667W.WEAPON_CHOICES  }
 FistRedux               =  {  label=_("FistRedux"),               choices=REALM667W.WEAPON_CHOICES  }
+FlakCannon               =  {  label=_("FlakCannon"),               choices=REALM667W.WEAPON_CHOICES  }
 FlashLightAngled        =  {  label=_("FlashLightAngled"),        choices=REALM667W.WEAPON_CHOICES  }
 FragGrenade             =  {  label=_("FragGrenade"),             choices=REALM667W.WEAPON_CHOICES  }
 FreezeRifle             =  {  label=_("FreezeRifle"),             choices=REALM667W.WEAPON_CHOICES  }

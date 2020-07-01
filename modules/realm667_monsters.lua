@@ -318,6 +318,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	BloodDemonClone =
 	{
@@ -638,6 +639,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	EyesSpider =
 	{
@@ -649,6 +651,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	Spider =
 	{
@@ -660,6 +663,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	EyesBat =
 	{
@@ -671,6 +675,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	Bat =
 	{
@@ -682,6 +687,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	EyesPoison =
 	{
@@ -693,6 +699,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	NamiDarkImp =
 	{
@@ -1610,11 +1617,11 @@ REALM667.MONSTERS =
 	 id = 31004
 	 r = 72
 	 h = 120
-	 prob = 30
-	 health = 12000
-	 damage = 22
+	 prob = 1
+	 health = 8000
+	 damage = 1200
 	 attack = "missile"
-	 density = 0.9	
+	 density = 0.01	
 	 boss_type = "nasty"
 	}
 	InfernalSpiderSmall =
@@ -1623,11 +1630,11 @@ REALM667.MONSTERS =
 	 r = 42
 	 h = 56
 	 prob = 30
-	 health = 1000
-	 damage = 22
+	 health = 2000
+	 damage = 300
 	 attack = "missile"
-	 density = 0.9
-     boss_type = "minor"	 
+	 density = 0.1
+     boss_type = "nasty"	 
 	}
 	InfernalSpiderMini = 
 	{
@@ -1843,7 +1850,7 @@ REALM667.MONSTERS =
 	 health = 100
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
 	}
 	NightmareDemon =
 	{
@@ -2619,6 +2626,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	Superdemon =
 	{
