@@ -31,7 +31,7 @@ REALM667W.WEAPONS =
 	ActionMachineGun =
 	{
 		id = 29124
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -512,6 +512,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	HeavyChaingun =
+	{
+		id = 29605
+		level = 5
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "bullet"
+		per = 1
+	}
 	HeavyRifle =
 	{
 		id = 25035
@@ -529,6 +542,19 @@ REALM667W.WEAPONS =
 	{
 		id = 29187
 		level = 5
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "bullet"
+		per = 1
+	}
+	HuntingRifle =
+	{
+		id = 29190
+		level = 1
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -634,6 +660,19 @@ REALM667W.WEAPONS =
 	LaserCannon =
 	{
 		id = 29197
+		level = 4
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "cell"
+		per = 1
+	}
+	LightMachinegun =
+	{
+		id = 601
 		level = 4
 		pref = 5
 		add_prob = 1
@@ -1516,8 +1555,10 @@ GatLaser                =  {  label=_("GatLaser"),                choices=REALM6
 Glock18                 =  {  label=_("Glock18"),                 choices=REALM667W.WEAPON_CHOICES  }
 HandGrenade             =  {  label=_("HandGrenade"),             choices=REALM667W.WEAPON_CHOICES  }
 HeavyCarbine            =  {  label=_("HeavyCarbine"),            choices=REALM667W.WEAPON_CHOICES  }
+HeavyChaingun            =  {  label=_("HeavyChaingun"),            choices=REALM667W.WEAPON_CHOICES  }
 HeavyRifle              =  {  label=_("HeavyRifle"),              choices=REALM667W.WEAPON_CHOICES  }
 HellstormCannon         =  {  label=_("HellstormCannon"),         choices=REALM667W.WEAPON_CHOICES  }
+HuntingRifle         =  {  label=_("HuntingRifle"),         choices=REALM667W.WEAPON_CHOICES  }
 iGun                    =  {  label=_("iGun"),                    choices=REALM667W.WEAPON_CHOICES  }
 Ionspray                =  {  label=_("Ionspray"),                choices=REALM667W.WEAPON_CHOICES  }
 Karasawa                =  {  label=_("Karasawa"),                choices=REALM667W.WEAPON_CHOICES  }
@@ -1526,6 +1567,7 @@ KDiZDSuperShotgun       =  {  label=_("KDiZDSuperShotgun"),       choices=REALM6
 Knife                   =  {  label=_("Knife"),                   choices=REALM667W.WEAPON_CHOICES  }
 LandMineLayer           =  {  label=_("LandMineLayer"),           choices=REALM667W.WEAPON_CHOICES  }
 LaserCannon             =  {  label=_("LaserCannon"),             choices=REALM667W.WEAPON_CHOICES  }
+LightMachinegun             =  {  label=_("LightMachinegun"),             choices=REALM667W.WEAPON_CHOICES  }
 M16                     =  {  label=_("M16"),                     choices=REALM667W.WEAPON_CHOICES  }
 M40Rifle                =  {  label=_("M40Rifle"),                choices=REALM667W.WEAPON_CHOICES  }
 M79                     =  {  label=_("M79"),                     choices=REALM667W.WEAPON_CHOICES  }
