@@ -184,13 +184,12 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
-	-- disabled by default
 	Channeler =
 	{
 		id = 29152
 		level = 5
 		pref = 5
-		add_prob = 0
+		add_prob = 1
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -541,7 +540,7 @@ REALM667W.WEAPONS =
 	HellstormCannon =
 	{
 		id = 29187
-		level = 5
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -554,7 +553,7 @@ REALM667W.WEAPONS =
 	HuntingRifle =
 	{
 		id = 29190
-		level = 1
+		level = 6
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1400,7 +1399,7 @@ REALM667W.WEAPONS =
 	}
 	Uzi =
 	{
-		id = 20002
+		id = 17459
 		level = 5
 		pref = 5
 		add_prob = 1

@@ -1252,7 +1252,7 @@ REALM667.MONSTERS =
 	}
 	FusionSpider =
 	{
-	 id = 20000
+	 id = 17458
 	 r = 64
 	 h = 64
 	 prob = 30

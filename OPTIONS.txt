@@ -16,11 +16,12 @@ last_directory = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70
 
 ---- Enabled Addons ----
 
+addon = ObAddon-Ambient-Sounds-Pack-master.pk3
 addon = ObAddon.pk3
+addon = Urban_Alleyway_Unclogger.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-24-1530_beyond_the_blizzard.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-24-1955_doomguys_vacation_with_frozsoul.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-25-1447_blazing_chaos.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-25-1507_into_the_feral_pass.wad
@@ -30,4 +31,5 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-27-1149_doom_apath
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-28-1614_ashfall_of_faith.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-29-1936_the_menacing_noon.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-1-0913_magic_revealed.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-2-1156_ransack_the_dreadful_vale.wad
 
