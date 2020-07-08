@@ -2380,6 +2380,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.1
+	 boss_type = "nasty"
 	}
 	Shadow =
 	{
@@ -2615,6 +2616,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 cage_factor = 0
 	}
 	SuicideBomber =
 	{
@@ -2638,7 +2640,7 @@ REALM667.MONSTERS =
 	 damage = 400
 	 attack = "missile"
 	 density = 0.1
-	 boss_type = "nasty"
+	 boss_type = "minor"
 	}
 	SuperFlyingImp =
 	{

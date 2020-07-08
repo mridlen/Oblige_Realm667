@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 655457267
+seed = 860445269
 
 ---- Game Settings ----
 
@@ -30,7 +30,7 @@ theme = epi
 ---- Architecture ----
 
 size = tiny
-streets_mode = no
+streets_mode = 13
 linear_mode = all
 nature_mode = 10
 outdoors = mixed
@@ -47,20 +47,20 @@ zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = legions
-mix_it_up_upper_range = nuts
-mix_it_up_lower_range = few
+mons = deranged
+mix_it_up_upper_range = chaotic
+mix_it_up_lower_range = scarce
 strength = harder
 ramp_up = fast
 mon_variety = mixed
 bosses = harder
 bossesnormal = minor
 traps = some
-trap_style = default
-trap_qty = default
+trap_style = closets
+trap_qty = harder
 cage_qty = default
-cages = less
-secret_monsters = no
+cages = rare
+secret_monsters = yesyes
 quiet_start = no
 
 ---- Pickups ----
@@ -70,7 +70,7 @@ ammo = normal
 weapons = very_late
 items = normal
 secrets = some
-secrets_bonus = none
+secrets_bonus = heapsest
 
 ---- Other Modules ----
 
@@ -553,8 +553,8 @@ secrets_bonus = none
   phoenix = default
 
 @jokewad_module = 0
-  fireblu_mode = disable
-  pandemic_mode = disable
+  fireblu_mode = enable
+  pandemic_mode = enable
 
 @level_control = 0
   mixin_type = normal
@@ -572,7 +572,7 @@ secrets_bonus = none
   big_outdoor_rooms = rare
   room_heights = mixed
   parks = rare
-  natural_parks = none
+  natural_parks = rare
   park_detail = mixed
   windows = mixed
   passable_windows = not_on_vistas
@@ -745,6 +745,6 @@ secrets_bonus = none
   fog_affects_sky = yes
   story_generator = proc
   mapinfo_music_shuffler = no
-  fog_intensity = subtle
+  fog_intensity = misty
 
 -- END --

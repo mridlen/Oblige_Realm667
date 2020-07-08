@@ -22,14 +22,14 @@ addon = Urban_Alleyway_Unclogger.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-24-1955_doomguys_vacation_with_frozsoul.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-25-1447_blazing_chaos.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-25-1507_into_the_feral_pass.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-26-0932_doomguy_and_the_devil.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-27-0519_the_left_behind_of_grief.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-27-1149_doom_apathy_on_earth.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-28-1614_ashfall_of_faith.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-6-29-1936_the_menacing_noon.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-1-0913_magic_revealed.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-2-1156_ransack_the_dreadful_vale.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-3-1146_doomguy_vs_the_dead.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-5-1501_unholy_belief.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-6-1249_fall_of_bane.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-7-0903_chaos_appalling_kingdom.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-7-0938_divine_undoing.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-7-1936_a_wad_full_of_pain.wad
 

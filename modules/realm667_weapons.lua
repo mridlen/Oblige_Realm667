@@ -83,7 +83,7 @@ REALM667W.WEAPONS =
 	Autogun =
 	{
 		id = 29130
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -96,7 +96,7 @@ REALM667W.WEAPONS =
 	AutoShot =
 	{
 		id = 5664
-		level = 6
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -148,7 +148,7 @@ REALM667W.WEAPONS =
 	BHGen =
 	{
 		id = 29150
-		level = 6
+		level = 7
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -174,7 +174,7 @@ REALM667W.WEAPONS =
 	Butchergun =
 	{
 		id = 29151
-		level = 5
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -553,7 +553,7 @@ REALM667W.WEAPONS =
 	HuntingRifle =
 	{
 		id = 29190
-		level = 6
+		level = 7
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -592,7 +592,7 @@ REALM667W.WEAPONS =
 	Karasawa =
 	{
 		id = 29193
-		level = 1
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -618,7 +618,7 @@ REALM667W.WEAPONS =
 	KDiZDSuperShotgun =
 	{
 		id = 29257
-		level = 2
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -672,7 +672,7 @@ REALM667W.WEAPONS =
 	LightMachinegun =
 	{
 		id = 601
-		level = 4
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -776,7 +776,7 @@ REALM667W.WEAPONS =
 	MicroUzi =
 	{
 		id = 29606
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -789,7 +789,7 @@ REALM667W.WEAPONS =
 	model1887 =
 	{
 		id = 29210
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -802,7 +802,7 @@ REALM667W.WEAPONS =
 	MP40 =
 	{
 		id = 12400
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1010,7 +1010,7 @@ REALM667W.WEAPONS =
 	Raygun =
 	{
 		id = 12634
-		level = 2
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1075,7 +1075,7 @@ REALM667W.WEAPONS =
 	ScatterPistol =
 	{
 		id = 29238
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1085,12 +1085,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	--disabled by default
 	ShieldGun =
 	{
 		id = 29239
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -1166,7 +1167,7 @@ REALM667W.WEAPONS =
 	Smasher =
 	{
 		id = 12465
-		level = 4
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1413,7 +1414,7 @@ REALM667W.WEAPONS =
 	WensternShotgun =
 	{
 		id = 29272
-		level = 1
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1426,7 +1427,7 @@ REALM667W.WEAPONS =
 	Yellowboy =
 	{
 		id = 22911
-		level = 1
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1439,9 +1440,107 @@ REALM667W.WEAPONS =
 }
 
 
+REALM667W.PICKUPS =
+{
+  Grenades40mm =
+  {
+    id = 5567
+    kind = "ammo"
+    add_prob = 20
+    cluster = { 4,7 }
+    give = { {ammo="40mmGrenades", count=5} }
+  }
+  Grenades40mmBox =
+  {
+    id = 5568
+	kind = "ammo"
+	add_prob = 20
+	give = { {ammo="40mmGrenades", count=20 } }
+  }
+  BioContainer =
+  {
+    id = 29146
+    kind = "ammo"
+    add_prob = 20
+    cluster = { 4,7 }
+    give = { {ammo="BioContainer", count=6} }
+  }
+  BioContainerHefty =
+  {
+    id = 29147
+	kind = "ammo"
+	add_prob = 20
+	give = { {ammo="BioContainer", count=30 } }
+  }
+  --Claymore goes here when I'm not feeling lazy
+  
+  --EMS Rifle = Slugs
+  Slugs =
+    {
+    id = 5660
+    kind = "ammo"
+    add_prob = 20
+    give = { {ammo="Slugs", count=12} }
+   }
+   SlugMag =
+    {
+    id = 5661
+    kind = "ammo"
+    add_prob = 20
+    give = { {ammo="Slugs", count=6} }
+  }
+  FlakAmmo =
+  {
+    id = 2050
+    kind = "ammo"
+    add_prob = 20
+    give = { {ammo="FlakAmmo", count=2} }
+  }
+    FlakAmmoBox =
+  {
+    id = 2051
+    kind = "ammo"
+    add_prob = 20
+    give = { {ammo="FlakAmmo", count=6} }
+  }
+  
+  --Hand Grenade goes here when I'm not feeling lazy
+  
+  --Karasawa goes here when I'm not feeling lazy
+  
+  --Landmine Layer
+  
+  NuclearMissile =
+  {
+   id = 29216
+    kind = "ammo"
+    add_prob = 5
+    give = { {ammo="NuclearMissile", count=1} }
+  }
+  
+   Rivets =
+  {
+    id = 32257
+    kind = "ammo"
+    add_prob = 20
+    give = { {ammo="Rivets", count=12} }
+  }
+   RivetRack =
+  {
+    id = 32258
+    kind = "ammo"
+    add_prob = 20
+    give = { {ammo="RivetRack", count=25} }
+  }
+  
+  
+  --Unmaker
+  
+  
+}
 
 
-
+-- Interface code below...
 
 REALM667W.WEAPON_CHOICES =
 {
