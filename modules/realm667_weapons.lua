@@ -540,7 +540,7 @@ REALM667W.WEAPONS =
 	HeavyRifle =
 	{
 		id = 25035
-		level = 3
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80

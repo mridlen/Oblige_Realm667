@@ -376,6 +376,18 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 boss_type = "tough"
 	}
+	CacodemonElemental =
+	{
+	 id = 17347
+	 r = 47
+	 h = 84
+	 prob = 30
+	 health = 4000
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
 	CacolanternClone =
 	{
 	 id = 3111
@@ -3329,6 +3341,7 @@ OB_MODULES["REALM667"] =
 	Blot                     =  {  label=_("Blot"),                     choices=REALM667.MON_CHOICES  }
 	BruiserDemon             =  {  label=_("BruiserDemon"),             choices=REALM667.MON_CHOICES  }
 	CacolanternClone         =  {  label=_("CacolanternClone"),         choices=REALM667.MON_CHOICES  }
+	CacodemonElemental         =  {  label=_("CacodemonElemental"),         choices=REALM667.MON_CHOICES  }
 	CacoLich1                =  {  label=_("CacoLich1"),                choices=REALM667.MON_CHOICES  }
 	CacoLich                =  {  label=_("CacoLich"),                choices=REALM667.MON_CHOICES  }
 	Catharsi                 =  {  label=_("Catharsi"),                 choices=REALM667.MON_CHOICES  }

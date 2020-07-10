@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 726323533
+seed = 1673042025
 
 ---- Game Settings ----
 
@@ -38,7 +38,7 @@ caves = rare
 liquids = mixed
 hallways = none
 teleporters = none
-steepness = mixed
+steepness = heaps
 prebuilt_levels = yes
 procedural_gotchas = none
 layout_absurdity = none
@@ -572,8 +572,8 @@ secrets_bonus = heapsest
   alt_starts = no
   foreshadowing_exit = yes
   big_rooms = heaps
-  big_outdoor_rooms = rare
-  room_heights = mixed
+  big_outdoor_rooms = heaps
+  room_heights = tall
   parks = rare
   natural_parks = rare
   park_detail = mixed
