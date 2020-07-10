@@ -1908,7 +1908,30 @@ REALM667.MONSTERS =
 	 density = 0.1
 	 boss_type = "nasty"
 	}
-
+	PainElementalElemental =
+	{
+	 id = 17349
+	 r = 80
+	 h = 168
+	 prob = 30
+	 health = 5000
+	 damage = 1000
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
+	}
+	PainElementalElementalElemental =
+	{
+	 id = 17348
+	 r = 150
+	 h = 224
+	 prob = 30
+	 health = 5000
+	 damage = 1000
+	 attack = "missile"
+	 density = 0.5
+	 boss_type = "nasty"
+	}
 	-- Phantasm Classic goes here ?? --
 	
 	Phantasm =
@@ -3439,6 +3462,8 @@ OB_MODULES["REALM667"] =
 	ObsidianStatueNonDormant           =  {  label=_("ObsidianStatueNonDormant"),           choices=REALM667.MON_CHOICES  }
 	OverLord                 =  {  label=_("OverLord"),                 choices=REALM667.MON_CHOICES  }
 	Phantasm                 =  {  label=_("Phantasm"),                 choices=REALM667.MON_CHOICES  }
+	PainElementalElemental   =  {  label=_("PainElementalElemental"),                 choices=REALM667.MON_CHOICES  }
+	PainElementalElementalElemental =  {  label=_("PainElementalElementalElemental"),   choices=REALM667.MON_CHOICES  }
 	Phantom                  =  {  label=_("Phantom"),                  choices=REALM667.MON_CHOICES  }
 	PhaseImp                 =  {  label=_("PhaseImp"),                 choices=REALM667.MON_CHOICES  }
 	Pistule                 =  {  label=_("Pistule"),                 choices=REALM667.MON_CHOICES  }

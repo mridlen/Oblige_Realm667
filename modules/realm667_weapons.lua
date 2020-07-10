@@ -524,6 +524,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	HeavyMachineGun =
+	{
+		id = 602
+		level = 3
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "bullet"
+		per = 1
+	}
 	HeavyRifle =
 	{
 		id = 25035
@@ -1654,6 +1667,7 @@ Glock18                 =  {  label=_("Glock18"),                 choices=REALM6
 HandGrenade             =  {  label=_("HandGrenade"),             choices=REALM667W.WEAPON_CHOICES  }
 HeavyCarbine            =  {  label=_("HeavyCarbine"),            choices=REALM667W.WEAPON_CHOICES  }
 HeavyChaingun            =  {  label=_("HeavyChaingun"),            choices=REALM667W.WEAPON_CHOICES  }
+HeavyMachinegun		= { label=_("HeavyMachineGun"),			choices=REALM667W.WEAPON_CHOICES  }
 HeavyRifle              =  {  label=_("HeavyRifle"),              choices=REALM667W.WEAPON_CHOICES  }
 HellstormCannon         =  {  label=_("HellstormCannon"),         choices=REALM667W.WEAPON_CHOICES  }
 HuntingRifle         =  {  label=_("HuntingRifle"),         choices=REALM667W.WEAPON_CHOICES  }
