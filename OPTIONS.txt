@@ -22,7 +22,6 @@ addon = Urban_Alleyway_Unclogger.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-2-1156_ransack_the_dreadful_vale.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-3-1146_doomguy_vs_the_dead.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-5-1501_unholy_belief.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-6-1249_fall_of_bane.wad
@@ -32,4 +31,5 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-7-1936_a_wad_full_
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-8-1558_corrupt_in_the_carnival.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-9-1837_attack_of_the_chaotic_vampire.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-10-0812_the_giants_of_hell.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-10-1513_broken_death_and_magik.wad
 

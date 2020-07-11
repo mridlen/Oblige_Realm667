@@ -2261,6 +2261,18 @@ REALM667.MONSTERS =
 	 density = 0.2
 	 outdoor_factor = 0
 	}
+	RandomElemental =
+	{
+	 id = 17346
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 4000
+	 damage = 22
+	 attack = "missile"
+	 density = 0.5
+	 boss_type = "tough"
+	}
 	RapidFireTrooper =
 	{
 	 id = 3201
@@ -3504,6 +3516,7 @@ OB_MODULES["REALM667"] =
 	QuadShotgunZombie        =  {  label=_("QuadShotgunZombie"),        choices=REALM667.MON_CHOICES  }
 	RailArachnotron          =  {  label=_("RailArachnotron"),          choices=REALM667.MON_CHOICES  }
 	RailBot                  =  {  label=_("RailBot"),                  choices=REALM667.MON_CHOICES  }
+	RandomElemental                  =  {  label=_("RandomElemental"),                  choices=REALM667.MON_CHOICES  }
 	RapidFireTrooper         =  {  label=_("RapidFireTrooper"),         choices=REALM667.MON_CHOICES  }
 	RepeaterZombie           =  {  label=_("RepeaterZombie"),           choices=REALM667.MON_CHOICES  }
 	Rictus                   =  {  label=_("Rictus"),                   choices=REALM667.MON_CHOICES  }
