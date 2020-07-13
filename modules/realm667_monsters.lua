@@ -194,6 +194,29 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 boss_type = "tough"
 	}
+	ArchdukeChocula =
+	{
+	 id = 17403
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 5000
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
+	}
+	AdmiralCrunch =
+	{
+	 id = 17404
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 300
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
+	}
 	ArchonOfHell =
 	{
 	 id = 30104
@@ -872,7 +895,7 @@ REALM667.MONSTERS =
 	 health = 300
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.5
 	 cage_factor = 0
 	}
 	DevilwormTeenH =
@@ -884,7 +907,7 @@ REALM667.MONSTERS =
 	 health = 300
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.5
 	 cage_factor = 0
 	}
 	DevilwormAdult =
@@ -896,7 +919,7 @@ REALM667.MONSTERS =
 	 health = 750
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
 	 cage_factor = 0
 	}
 	DevilwormAdultH =
@@ -908,7 +931,7 @@ REALM667.MONSTERS =
 	 health = 750
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.3
 	 cage_factor = 0
 	}
 	DevilwormElder =
@@ -920,7 +943,7 @@ REALM667.MONSTERS =
 	 health = 1000
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	 boss_type = "minor"
 	 cage_factor = 0
 	}
@@ -933,7 +956,7 @@ REALM667.MONSTERS =
 	 health = 1000
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	 boss_type = "minor"
 	 cage_factor = 0
 	}
@@ -1908,6 +1931,52 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	GoldOtent =
+	{
+	 id = 17350
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 5000
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
+	}
+	WhiteOtent =
+	{
+	 id = 17351
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 2000
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
+	Otent =
+	{
+	 id = 17352
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 800
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
+	WeakOtent =
+	{
+	 id = 17353
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 400
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
 	OverLord =
 	{
 	 id = 30134
@@ -1929,8 +1998,8 @@ REALM667.MONSTERS =
 	 health = 5000
 	 damage = 1000
 	 attack = "missile"
-	 density = 0.1
-	 boss_type = "nasty"
+	 density = 0.9
+	 boss_type = "tough"
 	}
 	PainElementalElementalElemental =
 	{
@@ -1941,8 +2010,8 @@ REALM667.MONSTERS =
 	 health = 5000
 	 damage = 1000
 	 attack = "missile"
-	 density = 0.5
-	 boss_type = "nasty"
+	 density = 0.9
+	 boss_type = "tough"
 	}
 	-- Phantasm Classic goes here ?? --
 	
@@ -2270,7 +2339,7 @@ REALM667.MONSTERS =
 	 health = 4000
 	 damage = 22
 	 attack = "missile"
-	 density = 0.5
+	 density = 0.9
 	 boss_type = "tough"
 	}
 	RapidFireTrooper =
@@ -3336,6 +3405,7 @@ OB_MODULES["REALM667"] =
 	ArachnotronMK2           =  {  label=_("ArachnotronMK2"),           choices=REALM667.MON_CHOICES  }
 	Aracnorb                 =  {  label=_("Aracnorb"),                 choices=REALM667.MON_CHOICES  }
 	AracnorbQueen            =  {  label=_("AracnorbQueen"),            choices=REALM667.MON_CHOICES  }
+	ArchdukeChocula            =  {  label=_("ArchdukeChocula"),            choices=REALM667.MON_CHOICES  }
 	ArchonOfHell             =  {  label=_("ArchonOfHell"),             choices=REALM667.MON_CHOICES  }
 	ASGGuy                   =  {  label=_("ASGGuy"),                   choices=REALM667.MON_CHOICES  }
 	Azazel                   =  {  label=_("Azazel"),                   choices=REALM667.MON_CHOICES  }
@@ -3485,6 +3555,10 @@ OB_MODULES["REALM667"] =
 	Nightshade               =  {  label=_("Nightshade"),               choices=REALM667.MON_CHOICES  }
 	ObsidianStatue           =  {  label=_("ObsidianStatue"),           choices=REALM667.MON_CHOICES  }
 	ObsidianStatueNonDormant           =  {  label=_("ObsidianStatueNonDormant"),           choices=REALM667.MON_CHOICES  }
+	GoldOtent           =  {  label=_("GoldOtent"),           choices=REALM667.MON_CHOICES  }
+	WhiteOtent           =  {  label=_("WhiteOtent"),           choices=REALM667.MON_CHOICES  }
+	Otent           =  {  label=_("Otent"),           choices=REALM667.MON_CHOICES  }
+	WeakOtent           =  {  label=_("WeakOtent"),           choices=REALM667.MON_CHOICES  }
 	OverLord                 =  {  label=_("OverLord"),                 choices=REALM667.MON_CHOICES  }
 	Phantasm                 =  {  label=_("Phantasm"),                 choices=REALM667.MON_CHOICES  }
 	PainElementalElemental   =  {  label=_("PainElementalElemental"),                 choices=REALM667.MON_CHOICES  }

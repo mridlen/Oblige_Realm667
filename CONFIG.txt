@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 456791117
+seed = 322640733
 
 ---- Game Settings ----
 
@@ -31,10 +31,10 @@ theme = epi
 
 size = tiny
 streets_mode = 13
-linear_mode = all
+linear_mode = none
 nature_mode = 10
 outdoors = mixed
-caves = rare
+caves = none
 liquids = mixed
 hallways = none
 teleporters = none
@@ -47,12 +47,12 @@ zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = deranged
+mons = nuts
 mix_it_up_upper_range = chaotic
 mix_it_up_lower_range = scarce
 strength = harder
 ramp_up = fast
-mon_variety = mixed
+mon_variety = heaps
 bosses = harder
 bossesnormal = minor
 traps = some
@@ -89,6 +89,7 @@ secrets_bonus = heapsest
   DevilwormElderH = default
   Thamuz = default
   DarkDevil = default
+  ArchdukeChocula = default
   ZSpecOpsShotgun = default
   BloodSkull = default
   AnotherAgathodemon = default
@@ -592,15 +593,15 @@ secrets_bonus = heapsest
   brightness_offset = none
   barrels = mixed
   doors = mixed
-  keys = mixed
-  trikeys = mixed
-  switches = none
+  keys = heaps
+  trikeys = heaps
+  switches = mixed
   road_markings = yes
   street_traffic = mixed
   exit_signs = yes
   linear_start = default
   dead_ends = mixed
-  live_minimap = step
+  live_minimap = room
 
 @modded_game_extras = 0
   qcde_lootboxes = disable
