@@ -411,6 +411,28 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 boss_type = "minor"
 	}
+	CacodemonRailgun =
+	{
+	 id = 17360
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 400
+	 damage = 22
+	 attack = "hitscan"
+	 density = 0.9	
+	}
+	CacodemonRailgunElite =
+	{
+	 id = 17361
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 1000
+	 damage = 22
+	 attack = "hitscan"
+	 density = 0.9	
+	}
 	CacolanternClone =
 	{
 	 id = 3111
@@ -2532,6 +2554,39 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	ShotgunGuyGreen =
+	{
+	 id = 17357
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 22
+	 attack = "hitscan"
+	 density = 0.9	
+	}
+	ShotgunGuyBrown =
+	{
+	 id = 17358
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 100
+	 damage = 22
+	 attack = "hitscan"
+	 density = 0.9	
+	}
+	ShotgunGuyGold =
+	{
+	 id = 17359
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 400
+	 damage = 22
+	 attack = "hitscan"
+	 density = 0.5	
+	}
 	Skeleton =
 	{
 	 id = 31008
@@ -3269,6 +3324,39 @@ REALM667.MONSTERS =
 	 density = 0.1
 	 boss_type = "minor"
 	}
+	GoldZombie =
+	{
+	 id = 17354
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 400
+	 damage = 22
+	 attack = "hitscan"
+	 density = 0.9
+	}
+	WhiteZombie =
+	{
+	 id = 17355
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 22
+	 attack = "hitscan"
+	 density = 0.9
+	}
+	GreyZombie =
+	{
+	 id = 17356
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 100
+	 damage = 22
+	 attack = "hitscan"
+	 density = 0.9
+	}
 	ZSec =
 	{
 	 id = 31418
@@ -3424,6 +3512,8 @@ OB_MODULES["REALM667"] =
 	BruiserDemon             =  {  label=_("BruiserDemon"),             choices=REALM667.MON_CHOICES  }
 	CacolanternClone         =  {  label=_("CacolanternClone"),         choices=REALM667.MON_CHOICES  }
 	CacodemonElemental         =  {  label=_("CacodemonElemental"),         choices=REALM667.MON_CHOICES  }
+	CacodemonRailgun         =  {  label=_("CacodemonRailgun"),         choices=REALM667.MON_CHOICES  }
+	CacodemonRailgunElite         =  {  label=_("CacodemonRailgunElite"),         choices=REALM667.MON_CHOICES  }
 	CacoLich1                =  {  label=_("CacoLich1"),                choices=REALM667.MON_CHOICES  }
 	CacoLich                =  {  label=_("CacoLich"),                choices=REALM667.MON_CHOICES  }
 	Catharsi                 =  {  label=_("Catharsi"),                 choices=REALM667.MON_CHOICES  }
@@ -3608,6 +3698,9 @@ OB_MODULES["REALM667"] =
 	Shadow                   =  {  label=_("Shadow"),                   choices=REALM667.MON_CHOICES  }
 	ShadowHunter             =  {  label=_("ShadowHunter"),             choices=REALM667.MON_CHOICES  }
 	ShadowTrooper            =  {  label=_("ShadowTrooper"),            choices=REALM667.MON_CHOICES  }
+	ShotgunGuyGreen            =  {  label=_("ShotgunGuyGreen"),            choices=REALM667.MON_CHOICES  }
+	ShotgunGuyBrown            =  {  label=_("ShotgunGuyBrown"),            choices=REALM667.MON_CHOICES  }
+	ShotgunGuyGold            =  {  label=_("ShotgunGuyGold"),            choices=REALM667.MON_CHOICES  }
 	Skeleton                 =  {  label=_("Skeleton"),                 choices=REALM667.MON_CHOICES  }
 	SlimeImp                 =  {  label=_("SlimeImp"),                 choices=REALM667.MON_CHOICES  }
 	SlimeWorm                =  {  label=_("SlimeWorm"),                choices=REALM667.MON_CHOICES  }
@@ -3673,6 +3766,9 @@ OB_MODULES["REALM667"] =
 	ZombieScientistHeadless  =  {  label=_("ZombieScientistHeadless"),  choices=REALM667.MON_CHOICES  }
 	ZombieScientistPlasma    =  {  label=_("ZombieScientistPlasma"),    choices=REALM667.MON_CHOICES  }
 	ZombieTank               =  {  label=_("ZombieTank"),               choices=REALM667.MON_CHOICES  }
+	GoldZombie               =  {  label=_("GoldZombie"),               choices=REALM667.MON_CHOICES  }
+	GreyZombie               =  {  label=_("GreyZombie"),               choices=REALM667.MON_CHOICES  }
+	WhiteZombie               =  {  label=_("WhiteZombie"),               choices=REALM667.MON_CHOICES  }
 	ZSec                     =  {  label=_("ZSec"),                     choices=REALM667.MON_CHOICES  }
 	ZSpecOpsMachinegun       =  {  label=_("ZSpecOpsMachinegun"),       choices=REALM667.MON_CHOICES  }
 	ZSpecOpsRailgun          =  {  label=_("ZSpecOpsRailgun"),          choices=REALM667.MON_CHOICES  }
