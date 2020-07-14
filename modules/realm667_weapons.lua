@@ -171,6 +171,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	BRPS =
+	{
+		id = 17363
+		level = 6
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "cell"
+		per = 1
+	}
 	Butchergun =
 	{
 		id = 29151
@@ -1640,6 +1653,7 @@ BayonetRifle            =  {  label=_("BayonetRifle"),            choices=REALM6
 BFG2704                 =  {  label=_("BFG2704"),                 choices=REALM667W.WEAPON_CHOICES  }
 BHGen                   =  {  label=_("BHGen"),                   choices=REALM667W.WEAPON_CHOICES  }
 BioPipebombLauncher     =  {  label=_("BioPipebombLauncher"),     choices=REALM667W.WEAPON_CHOICES  }
+BRPS     =  {  label=_("BRPS"),     choices=REALM667W.WEAPON_CHOICES  }
 Butchergun              =  {  label=_("Butchergun"),              choices=REALM667W.WEAPON_CHOICES  }
 Channeler               =  {  label=_("Channeler"),               choices=REALM667W.WEAPON_CHOICES  }
 ClaymoreMine            =  {  label=_("ClaymoreMine"),            choices=REALM667W.WEAPON_CHOICES  }

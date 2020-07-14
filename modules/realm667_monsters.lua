@@ -502,6 +502,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	Chubs =
+	{
+	 id = 17362
+	 r = 15
+	 h = 40
+	 prob = 30
+	 health = 70
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	}
 	CGunSpider =
 	{
 	 id = 12456
@@ -1273,6 +1284,17 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	}
+	FlyKing =
+	{
+	 id = 9660
+	 r = 6
+	 h = 6
+	 prob = 30
+	 health = 10
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9	
 	}
 	ForgottenOne =
 	{
@@ -3519,6 +3541,7 @@ OB_MODULES["REALM667"] =
 	Catharsi                 =  {  label=_("Catharsi"),                 choices=REALM667.MON_CHOICES  }
 	ChaingunDemon            =  {  label=_("ChaingunDemon"),            choices=REALM667.MON_CHOICES  }
 	ChaingunMajor            =  {  label=_("ChaingunMajor"),            choices=REALM667.MON_CHOICES  }
+	Chubs            =  {  label=_("Chubs"),            choices=REALM667.MON_CHOICES  }
 	CGunSpider               =  {  label=_("CGunSpider"),               choices=REALM667.MON_CHOICES  }
 	ChainsawZombie           =  {  label=_("ChainsawZombie"),           choices=REALM667.MON_CHOICES  }
 	Cheogh           =  {  label=_("Cheogh"),           choices=REALM667.MON_CHOICES  }
@@ -3585,6 +3608,7 @@ OB_MODULES["REALM667"] =
 	XWizard                  =  {  label=_("XWizard"),                  choices=REALM667.MON_CHOICES  }
 	FleshWizard                  =  {  label=_("FleshWizard"),                  choices=REALM667.MON_CHOICES  }
 	FlyingImp                =  {  label=_("FlyingImp"),                choices=REALM667.MON_CHOICES  }
+	FlyKing                =  {  label=_("FlyKing"),                choices=REALM667.MON_CHOICES  }
 	ForgottenOne             =  {  label=_("ForgottenOne"),             choices=REALM667.MON_CHOICES  }
 	FormerRanger             =  {  label=_("FormerRanger"),             choices=REALM667.MON_CHOICES  }
 	FreezeRifleGuy           =  {  label=_("FreezeRifleGuy"),           choices=REALM667.MON_CHOICES  }
