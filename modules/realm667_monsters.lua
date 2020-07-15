@@ -88,6 +88,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	AnotherAgathodemon =
 	{
@@ -99,6 +100,7 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Agaures =
 	{

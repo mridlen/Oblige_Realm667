@@ -67,12 +67,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	--disabled by default
 	AngledPistol =
 	{
 		id = 29128
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -106,12 +107,13 @@ REALM667W.WEAPONS =
 		ammo = "shell"
 		per = 1
 	}
+	--disabled by default
 	Axe =
 	{
 		id = 29131
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -119,12 +121,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	--disabled by default
 	BayonetRifle =
 	{
 		id = 29132
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -210,12 +213,13 @@ REALM667W.WEAPONS =
 		ammo = "cell"
 		per = 1
 	}
+	--disabled by default
 	ClaymoreMine =
 	{
 		id = 10200
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -262,12 +266,13 @@ REALM667W.WEAPONS =
 		ammo = "cell"
 		per = 1
 	}
+	--disabled by default
 	D2C_Pipebomb =
 	{
 		id = 25018
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -304,7 +309,7 @@ REALM667W.WEAPONS =
 	Doom3SSG =
 	{
 		id = 29171
-		level = 4
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -392,12 +397,13 @@ REALM667W.WEAPONS =
 		ammo = "cell"
 		per = 1
 	}
+	--disabled by default
 	FistRedux =
 	{
 		id = 29178
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -488,7 +494,7 @@ REALM667W.WEAPONS =
 	Glock18 =
 	{
 		id = 29184
-		level = 4
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -498,12 +504,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	--disabled by default
 	HandGrenade =
 	{
 		id = 25099
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -511,12 +518,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	--disabled by default
 	HeavyCarbine =
 	{
 		id = 20212
 		level = 5
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -698,7 +706,7 @@ REALM667W.WEAPONS =
 	LightMachinegun =
 	{
 		id = 601
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -747,12 +755,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	--disabled by default
 	Machete =
 	{
 		id = 29205
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -825,12 +834,13 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	--disabled by default
 	MP40 =
 	{
 		id = 12400
 		level = 2
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -932,7 +942,7 @@ REALM667W.WEAPONS =
 	PlasmaPistol =
 	{
 		id = 29220
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1072,12 +1082,13 @@ REALM667W.WEAPONS =
 		ammo = "cell"
 		per = 1
 	}
+	--disabled by default
 	Rifle =
 	{
 		id = 25096
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -1336,7 +1347,7 @@ REALM667W.WEAPONS =
 	SwatShotgun =
 	{
 		id = 29259
-		level = 4
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
