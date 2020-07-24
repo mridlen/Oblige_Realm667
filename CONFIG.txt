@@ -18,20 +18,20 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 733597813
+seed = 1461393757
 
 ---- Game Settings ----
 
 game = doom2
 engine = gzdoom
 length = game
-theme = epi
+theme = bit_mixed
 
 ---- Architecture ----
 
-size = tiny
+size = average
 streets_mode = 13
-linear_mode = none
+linear_mode = 10
 nature_mode = 10
 outdoors = mixed
 caves = none
@@ -47,20 +47,20 @@ zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = nuts
-mix_it_up_upper_range = chaotic
-mix_it_up_lower_range = scarce
-strength = harder
+mons = scarce
+mix_it_up_upper_range = few
+mix_it_up_lower_range = rarest
+strength = crazy
 ramp_up = fast
 mon_variety = heaps
 bosses = harder
-bossesnormal = minor
+bossesnormal = no
 traps = some
-trap_style = closets
-trap_qty = harder
+trap_style = default
+trap_qty = default
 cage_qty = default
-cages = rare
-secret_monsters = yesyes
+cages = none
+secret_monsters = no
 quiet_start = no
 
 ---- Pickups ----
@@ -70,7 +70,7 @@ ammo = normal
 weapons = very_late
 items = normal
 secrets = some
-secrets_bonus = heapsest
+secrets_bonus = none
 
 ---- Other Modules ----
 
@@ -174,6 +174,7 @@ secrets_bonus = heapsest
   Poltergeist5 = default
   FemalePlasma = default
   RocketImp = default
+  CacodemonShockRifle = default
   Superdemon = default
   EliteGuard = default
   PyroZombie = default
@@ -483,7 +484,7 @@ secrets_bonus = heapsest
   RivetGun = default
   Colt45 = default
 
-@armaetus_epic_textures = 1
+@armaetus_epic_textures = 0
   include_package = yes
   custom_liquids = yes
   custom_trees = zs
@@ -529,8 +530,8 @@ secrets_bonus = heapsest
 @export_map = 0
 
 @fauna_module = 0
-  flies = enable
-  rats = enable
+  flies = disable
+  rats = disable
 
 @gzdoom_boss_gen = 0
   boss_gen_types = no
@@ -546,7 +547,7 @@ secrets_bonus = heapsest
   boss_gen_exit = default
   boss_gen_steepness = none
 
-@harder_enemy = 1
+@harder_enemy = 0
 
 @heretic_mon_control = 0
   warrior = default
@@ -574,8 +575,8 @@ secrets_bonus = heapsest
   phoenix = default
 
 @jokewad_module = 0
-  fireblu_mode = enable
-  pandemic_mode = enable
+  fireblu_mode = disable
+  pandemic_mode = disable
 
 @level_control = 0
   mixin_type = normal
@@ -583,17 +584,17 @@ secrets_bonus = heapsest
   level_lower_bound = micro
   level_size_ramp_factor = 0.66
 
-@megawad_swapper = 1
+@megawad_swapper = 0
 
 @misc = 1
   pistol_starts = no
   alt_starts = no
   foreshadowing_exit = yes
   big_rooms = heaps
-  big_outdoor_rooms = heaps
+  big_outdoor_rooms = mixed
   room_heights = tall
   parks = rare
-  natural_parks = rare
+  natural_parks = none
   park_detail = mixed
   windows = mixed
   passable_windows = not_on_vistas
@@ -609,14 +610,14 @@ secrets_bonus = heapsest
   barrels = mixed
   doors = mixed
   keys = heaps
-  trikeys = heaps
+  trikeys = mixed
   switches = mixed
   road_markings = yes
   street_traffic = mixed
   exit_signs = yes
   linear_start = default
-  dead_ends = mixed
-  live_minimap = room
+  dead_ends = heaps
+  live_minimap = step
 
 @modded_game_extras = 0
   qcde_lootboxes = disable
@@ -628,9 +629,9 @@ secrets_bonus = heapsest
 @music_swapper = 1
 
 @prefab_control = 1
-  fab_match_theme = on
-  wall_prob = fab_default
-  point_prob = fab_default
+  fab_match_theme = off
+  wall_prob = fab_rare
+  point_prob = fab_none
   autodetail = on
 
 @procedural_gotcha = 0
@@ -701,7 +702,7 @@ secrets_bonus = heapsest
   force_sky = sky_default
   terrain_color = default
   nebula_color = default
-  influence_map_darkness = yes
+  influence_map_darkness = no
   cloud_color = default
 
 @small_spiderdemon = 1
@@ -731,12 +732,12 @@ secrets_bonus = heapsest
   episode1 = no_change
 
 @theme_ctl_doom2 = 0
-  secret = urban
-  episode2 = hell
-  episode3 = psycho
-  episode1 = tech
+  secret = no_change
+  episode2 = no_change
+  episode3 = no_change
+  episode1 = no_change
 
-@zdoom_ambient_sound = 1
+@zdoom_ambient_sound = 0
 
 @zdoom_marine_control = 0
   marine_bfg = default
@@ -754,9 +755,9 @@ secrets_bonus = heapsest
 @zdoom_marines = 0
   qty = plenty
 
-@zdoom_specials = 1
-  generic_intermusic = $MUSIC_DM2INT
-  fog_generator = per_sky_gen
+@zdoom_specials = 0
+  generic_intermusic = $MUSIC_READ_M
+  fog_generator = no
   dynamic_lights = yes
   fog_env = all
   custom_quit_messages = yes
@@ -766,6 +767,6 @@ secrets_bonus = heapsest
   fog_affects_sky = yes
   story_generator = proc
   mapinfo_music_shuffler = no
-  fog_intensity = misty
+  fog_intensity = subtle
 
 -- END --

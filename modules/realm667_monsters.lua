@@ -87,7 +87,7 @@ REALM667.MONSTERS =
 	 health = 650
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.6
 	 boss_type = "minor"
 	}
 	AnotherAgathodemon =
@@ -99,7 +99,7 @@ REALM667.MONSTERS =
 	 health = 650
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.6
 	 boss_type = "minor"
 	}
 	Agaures =
@@ -203,6 +203,53 @@ REALM667.MONSTERS =
 	 h = 64
 	 prob = 30
 	 health = 5000
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
+	}
+	ArchvileBlack =
+	{
+	 id = 17369
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 3000
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	ArchvileGold =
+	{
+	 id = 17370
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 200
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
+	ArchvileGoldMinion =
+	{
+	 id = 17371
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 200
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
+	ArchvileBrown =
+	{
+	 id = 17372
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 2000
 	 damage = 100
 	 attack = "missile"
 	 density = 0.9
@@ -434,6 +481,18 @@ REALM667.MONSTERS =
 	 damage = 22
 	 attack = "hitscan"
 	 density = 0.9	
+	}
+	CacodemonShockRifle =
+	{
+	 id = 17364
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 1000
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
 	}
 	CacolanternClone =
 	{
@@ -1555,7 +1614,7 @@ REALM667.MONSTERS =
 	 health = 70
 	 damage = 22
 	 attack = "missile"
-	 density = 0.1
+	 density = 0.3
 	}
 	HellRose =
 	{
@@ -1566,7 +1625,7 @@ REALM667.MONSTERS =
 	 health = 300
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.4
 	}
 	HellsFury =
 	{
@@ -1955,16 +2014,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	--disabled by default
 	ObsidianStatue =
 	{
 	 id = 3113
 	 r = 24
 	 h = 75
-	 prob = 30
+	 prob = 0
 	 health = 800
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.1
 	}
 	ObsidianStatueNonDormant =
 	{
@@ -1975,7 +2035,7 @@ REALM667.MONSTERS =
 	 health = 800
 	 damage = 22
 	 attack = "missile"
-	 density = 0.9
+	 density = 0.6
 	}
 	GoldOtent =
 	{
@@ -2041,11 +2101,10 @@ REALM667.MONSTERS =
 	 r = 80
 	 h = 168
 	 prob = 30
-	 health = 5000
+	 health = 3000
 	 damage = 1000
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "tough"
 	}
 	PainElementalElementalElemental =
 	{
@@ -2053,11 +2112,10 @@ REALM667.MONSTERS =
 	 r = 150
 	 h = 224
 	 prob = 30
-	 health = 5000
+	 health = 6000
 	 damage = 1000
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "tough"
 	}
 	-- Phantasm Classic goes here ?? --
 	
@@ -2328,6 +2386,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.1
 	 boss_type = "nasty"
+	}
+	PyroPork =
+	{
+	 id = 17365
+	 r = 30
+	 h = 46
+	 prob = 30
+	 health = 150
+	 damage = 22
+	 attack = "missile"
+	 density = 0.9
 	}
 	PyroZombie =
 	{
@@ -3538,6 +3607,7 @@ OB_MODULES["REALM667"] =
 	CacodemonElemental         =  {  label=_("CacodemonElemental"),         choices=REALM667.MON_CHOICES  }
 	CacodemonRailgun         =  {  label=_("CacodemonRailgun"),         choices=REALM667.MON_CHOICES  }
 	CacodemonRailgunElite         =  {  label=_("CacodemonRailgunElite"),         choices=REALM667.MON_CHOICES  }
+	CacodemonShockRifle         =  {  label=_("CacodemonShockRifle"),         choices=REALM667.MON_CHOICES  }
 	CacoLich1                =  {  label=_("CacoLich1"),                choices=REALM667.MON_CHOICES  }
 	CacoLich                =  {  label=_("CacoLich"),                choices=REALM667.MON_CHOICES  }
 	Catharsi                 =  {  label=_("Catharsi"),                 choices=REALM667.MON_CHOICES  }

@@ -978,6 +978,19 @@ REALM667W.WEAPONS =
 		ammo = "cell"
 		per = 1
 	}
+	PlasmaSplitter =
+	{
+		id = 17366
+		level = 4
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "cell"
+		per = 1
+	}
 	PulseNailgun =
 	{
 		id = 29609
@@ -1134,6 +1147,19 @@ REALM667W.WEAPONS =
 		rate = 0.9
 		damage = 50
 		ammo = "bullet"
+		per = 1
+	}
+	ShockRifle =
+	{
+		id = 17368
+		level = 3
+		pref = 5
+		add_prob = 0
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "cell"
 		per = 1
 	}
 	SidebySide =
@@ -1347,6 +1373,19 @@ REALM667W.WEAPONS =
 	SwatShotgun =
 	{
 		id = 29259
+		level = 2
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 50
+		ammo = "shell"
+		per = 1
+	}
+	TacticalShotgun =
+	{
+		id = 17367
 		level = 2
 		pref = 5
 		add_prob = 1

@@ -22,14 +22,14 @@ addon = Urban_Alleyway_Unclogger.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-7-0938_divine_undoing.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-7-1936_a_wad_full_of_pain.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-8-1558_corrupt_in_the_carnival.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-9-1837_attack_of_the_chaotic_vampire.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-10-0812_the_giants_of_hell.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-10-1513_broken_death_and_magik.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-11-0928_demonic_black_metal.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-12-1402_frozsouls_coast.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-13-1344_the_evil_cult_of_the_profane_oracle.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-14-1146_agony_at_the_peak.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-20-1903_affliction_oh_my_oh_my.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\fields_of_the_demons.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\sinful_planet.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\agony_forever.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-20-2048_apathy_at_the_winter.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-21-1049_assault_on_the_nefarious_pass.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-22-1010_icons_at_the_dungeons.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-22-2006_the_chambers_of_the_marine.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-24-1111_doom_saga_on_earth.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-7-24-1154_forgotten_chambers.wad
 
