@@ -181,13 +181,13 @@ HEALTH_FACTORS =
 AMMO_FACTORS =
 {
   none     = 0
-  scarce   = 0.8
-  less     = 0.9
-  bit_less = 1.3
-  normal   = 1.6
-  bit_more = 1.8
-  more     = 2.8
-  heaps    = 5
+  scarce   = 1.3
+  less     = 1.9
+  bit_less = 2.0
+  normal   = 2.6
+  bit_more = 3.1
+  more     = 3.8
+  heaps    = 7
 }
 
 
