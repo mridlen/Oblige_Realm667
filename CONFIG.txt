@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 734582367
+seed = 1407834487
 
 ---- Game Settings ----
 
@@ -47,14 +47,14 @@ zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = insane
-mix_it_up_upper_range = legions
+mons = more
+mix_it_up_upper_range = heaps
 mix_it_up_lower_range = rarest
 strength = fierce
 ramp_up = fast
 mon_variety = heaps
 bosses = harder
-bossesnormal = no
+bossesnormal = minor
 traps = some
 trap_style = default
 trap_qty = default
