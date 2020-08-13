@@ -276,7 +276,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "minor"
+	 boss_type = "tough"
 	}
 	ASGGuy =
 	{
