@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 1407834487
+seed = 264868947
 
 ---- Game Settings ----
 
@@ -47,7 +47,7 @@ zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = more
+mons = normal
 mix_it_up_upper_range = heaps
 mix_it_up_lower_range = rarest
 strength = fierce
@@ -67,10 +67,10 @@ quiet_start = no
 
 health = normal
 ammo = normal
-weapons = very_late
+weapons = normal
 items = normal
 secrets = some
-secrets_bonus = none
+secrets_bonus = heapsest
 
 ---- Other Modules ----
 
@@ -376,7 +376,7 @@ secrets_bonus = none
 @REALM667W = 1
   Ionspray = default
   PlasmaBolter = default
-  SwatShotgun = default
+  Bolter = default
   Thompson = default
   Doom3SSG = default
   model1887 = default
@@ -387,22 +387,23 @@ secrets_bonus = none
   Machinegun = default
   CryoBow = default
   ClaymoreMine = default
-  StrifePistol = default
   Yellowboy = default
+  StrifePistol = default
   STGrenadeLauncher = default
   Uzi = default
-  Butchergun = default
   UTNTPyroCannon = default
+  Butchergun = default
+  PumpActionShotgun = default
   Axe = default
   BayonetRifle = default
-  PumpActionShotgun = default
+  UberMinigun = default
   D2C_Pipebomb = default
   FlashLightAngled = default
-  UberMinigun = default
   UACPlasmaticRifle = default
+  Toaster = default
   BFG2704 = default
   Channeler = default
-  Toaster = default
+  SwatShotgun = default
   PulseNailgun = default
   Glock18 = default
   SuppressedMP5 = default

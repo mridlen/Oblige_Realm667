@@ -492,7 +492,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "minor"
+	 boss_type = "tough"
 	}
 	CacolanternClone =
 	{
@@ -896,6 +896,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	DeepOne =
 	{
@@ -1609,6 +1610,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	HellPaladin =
+	{
+	 id = 17377
+	 r = 32
+	 h = 64
+	 prob = 30
+	 health = 775
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
 	Hellion =
 	{
 	 id = 30132
@@ -2248,7 +2260,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
-	 boss_type = "minor"
+	 boss_type = "tough"
 	}
 	PoisonSoul =
 	{
@@ -2643,12 +2655,13 @@ REALM667.MONSTERS =
 	 attack = "melee"
 	 density = 0.9
 	}
+	--disabled by default, this monster is just too nasty
 	Shade =
 	{
 	 id = 16336
 	 r = 15
 	 h = 63
-	 prob = 30
+	 prob = 0
 	 health = 300
 	 damage = 16
 	 attack = "missile"
@@ -3749,6 +3762,7 @@ OB_MODULES["REALM667"] =
 	HellstormArchon          =  {  label=_("HellstormArchon"),          choices=REALM667.MON_CHOICES  }
 	HellWarrior              =  {  label=_("HellWarrior"),              choices=REALM667.MON_CHOICES  }
 	HellHound              =  {  label=_("HellHound"),              choices=REALM667.MON_CHOICES  }
+	HellPaladin              =  {  label=_("HellPaladin"),              choices=REALM667.MON_CHOICES  }
 	HellRose              =  {  label=_("HellRose"),              choices=REALM667.MON_CHOICES  }
 	Hierophant               =  {  label=_("Hierophant"),               choices=REALM667.MON_CHOICES  }
 	HornedImp                =  {  label=_("HornedImp"),                choices=REALM667.MON_CHOICES  }
