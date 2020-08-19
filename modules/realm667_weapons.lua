@@ -1148,6 +1148,19 @@ REALM667W.WEAPONS =
 		ammo = "rocket"
 		per = 1
 	}
+	Satcheler =
+	{
+		id = 29126
+		level = 1
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
 	ScatterPistol =
 	{
 		id = 29238
@@ -1803,6 +1816,7 @@ Rifle                   =  {  label=_("Rifle"),                   choices=REALM6
 Rifle                   =  {  label=_("Rifle"),                   choices=REALM667W.WEAPON_CHOICES  }
 RivetGun                =  {  label=_("RivetGun"),                choices=REALM667W.WEAPON_CHOICES  }
 RocketLaunchermkII                =  {  label=_("RocketLaunchermkII"),                choices=REALM667W.WEAPON_CHOICES  }
+Satcheler           =  {  label=_("Satcheler"),           choices=REALM667W.WEAPON_CHOICES  }
 ScatterPistol           =  {  label=_("ScatterPistol"),           choices=REALM667W.WEAPON_CHOICES  }
 ShieldGun               =  {  label=_("ShieldGun"),               choices=REALM667W.WEAPON_CHOICES  }
 SidebySide              =  {  label=_("SidebySide"),              choices=REALM667W.WEAPON_CHOICES  }

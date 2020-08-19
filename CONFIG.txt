@@ -18,8 +18,6 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 1732893311
-
 ---- Game Settings ----
 
 game = doom2
@@ -29,7 +27,7 @@ theme = bit_mixed
 
 ---- Architecture ----
 
-size = average
+size = micro
 streets_mode = 13
 linear_mode = 10
 nature_mode = 10
@@ -41,17 +39,17 @@ teleporters = none
 steepness = heaps
 prebuilt_levels = yes
 procedural_gotchas = none
-layout_absurdity = none
-zdoom_vista = disable
-zdoom_skybox = disable
+layout_absurdity = all
+zdoom_vista = enable
+zdoom_skybox = themed
 
 ---- Monsters ----
 
-mons = less
+mons = prog
 mix_it_up_upper_range = heaps
 mix_it_up_lower_range = rarest
 strength = fierce
-ramp_up = fast
+ramp_up = medium
 mon_variety = heaps
 bosses = medium
 bossesnormal = no
@@ -60,7 +58,7 @@ trap_style = default
 trap_qty = default
 cage_qty = default
 cages = none
-secret_monsters = no
+secret_monsters = yesyes
 quiet_start = no
 
 ---- Pickups ----
@@ -386,44 +384,45 @@ secrets_bonus = heapsest
   BHGen = default
   Smasher = default
   Machinegun = default
+  Yellowboy = default
   CryoBow = default
   ClaymoreMine = default
-  Yellowboy = default
-  STBFG10K = default
-  StrifePistol = default
+  LaserCannon = default
   Uzi = default
+  StrifePistol = default
   UTNTPyroCannon = default
   PumpActionShotgun = default
-  Butchergun = default
   UberMinigun = default
+  Butchergun = default
+  UACPlasmaticRifle = default
   Axe = default
   BayonetRifle = default
-  UACPlasmaticRifle = default
+  Toaster = default
   D2C_Pipebomb = default
   FlashLightAngled = default
-  Toaster = default
   SwatShotgun = default
+  SuppressedMP5 = default
   BFG2704 = default
   Channeler = default
-  SuppressedMP5 = default
+  FragGrenade = default
   PulseNailgun = default
   Glock18 = default
-  FragGrenade = default
-  AngledPistol = default
   STRailgun = default
+  AngledPistol = default
+  MP40 = default
   DoubleBladedChainsaw = default
   FistRedux = default
-  SPAS12 = default
+  STGrenadeLauncher = default
   SingleShot = default
   MP5 = default
   EMSRifle = default
-  STGrenadeLauncher = default
+  STBFG10K = default
   WensternShotgun = default
   ActionMachineGun = default
   PlasmaBeam = default
   NailGunMG = default
   Raptor = default
-  LaserCannon = default
+  SPAS12 = default
   NailgunSG = default
   SniperRifle = default
   MicroUzi = default
@@ -433,13 +432,13 @@ secrets_bonus = heapsest
   STMinigun = default
   KDiZDSuperShotgun = default
   DemonicLeech = default
-  MP40 = default
-  FreezeRifle = default
   Repeater = default
+  FreezeRifle = default
   HeavyCarbine = default
   SidebySide = default
-  HuntingRifle = default
   ScatterPistol = default
+  HuntingRifle = default
+  LightMachinegun = default
   RocketLaunchermkII = default
   Autogun = default
   ElectroGun = default
@@ -475,7 +474,7 @@ secrets_bonus = heapsest
   LandMineLayer = default
   DualLaser = default
   M16 = default
-  LightMachinegun = default
+  Satcheler = default
   Mag60 = default
   PlasmaPistol = default
   HeavyMachinegun = default
@@ -553,7 +552,7 @@ secrets_bonus = heapsest
   boss_gen_exit = default
   boss_gen_steepness = none
 
-@harder_enemy = 0
+@harder_enemy = 1
 
 @heretic_mon_control = 0
   warrior = default
@@ -584,9 +583,9 @@ secrets_bonus = heapsest
   fireblu_mode = disable
   pandemic_mode = disable
 
-@level_control = 0
+@level_control = 1
   mixin_type = normal
-  level_upper_bound = trans
+  level_upper_bound = tiny
   level_lower_bound = micro
   level_size_ramp_factor = 0.66
 
@@ -600,7 +599,7 @@ secrets_bonus = heapsest
   big_outdoor_rooms = mixed
   room_heights = tall
   parks = rare
-  natural_parks = none
+  natural_parks = mixed
   park_detail = mixed
   windows = mixed
   passable_windows = not_on_vistas
@@ -616,7 +615,7 @@ secrets_bonus = heapsest
   barrels = mixed
   doors = mixed
   keys = heaps
-  trikeys = none
+  trikeys = rare
   switches = mixed
   road_markings = yes
   street_traffic = mixed
@@ -728,7 +727,7 @@ secrets_bonus = heapsest
   stealth_gunner = default
 
 @stealth_mons = 0
-  qty = normal
+  qty = less
 
 @theme_ctl_doom1 = 0
   episode4 = no_change
@@ -759,7 +758,7 @@ secrets_bonus = heapsest
   marine_shotty = default
 
 @zdoom_marines = 0
-  qty = plenty
+  qty = scarce
 
 @zdoom_specials = 0
   generic_intermusic = $MUSIC_READ_M
