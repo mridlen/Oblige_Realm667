@@ -90,6 +90,149 @@ REALM667.MONSTERS =
 	 density = 0.6
 	 boss_type = "minor"
 	}
+	MarineAllyFist =
+	{
+	 id = 11811
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 16
+	 attack = "melee"
+	 density = 0.6
+	}
+	MarineAllyPistol =
+	{
+	 id = 11812
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.6
+	}
+	MarineAllyMG =
+	{
+	 id = 11813
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.6
+	}
+	MarineAllyCG =
+	{
+	 id = 11814
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.6
+	}
+	MarineAllySG =
+	{
+	 id = 11815
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.6
+	}
+	MarineAllyMinigun =
+	{
+	 id = 11816
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.6
+	}
+	MarineAllyChainsaw =
+	{
+	 id = 11817
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "melee"
+	 density = 0.6
+	}
+	MarineAllyPlasma =
+	{
+	 id = 11818
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "missile"
+	 density = 0.6
+	}
+	MarineAllyRocket =
+	{
+	 id = 11860
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "missile"
+	 density = 0.6
+	}
+	MarineAllyBFG9000 =
+	{
+	 id = 11861
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "missile"
+	 density = 0.6
+	}
+	MarineAllySSG =
+	{
+	 id = 11862
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.6
+	}
+	MarineAllyRailgun =
+	{
+	 id = 11867
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.6
+	}
+	MarineAllyHSMissile =
+	{
+	 id = 11870
+	 r = 20
+	 h = 56
+	 prob = 0
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.6
+	}
 	AnotherAgathodemon =
 	{
 	 id = 31339
@@ -561,6 +704,17 @@ REALM667.MONSTERS =
 	 health = 180
 	 damage = 16
 	 attack = "missile"
+	 density = 0.9
+	}
+	Charlie =
+	{
+	 id = 17379
+	 r = 30
+	 h = 56
+	 prob = 30
+	 health = 10
+	 damage = 1
+	 attack = "melee"
 	 density = 0.9
 	}
 	Chubs =
@@ -1868,6 +2022,17 @@ REALM667.MONSTERS =
 	 health = 240
 	 damage = 16
 	 attack = "missile"
+	 density = 0.9
+	}
+	Loper =
+	{
+	 id = 17380
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 550
+	 damage = 16
+	 attack = "melee"
 	 density = 0.9
 	}
 	LordofHeresy =
@@ -3615,6 +3780,38 @@ function REALM667.monster_setup(self)
   end -- for opt
 end
 
+OB_MODULES["REALM667_Allies"] =
+{
+  label = "Realm667 Allies (default=off)"
+  game = "doomish"
+  hooks =
+  {
+	REALM667.monster_setup
+  }
+  
+  options =
+  {
+    Charlie							= { label=_("Charlie"),						choices=REALM667.MON_CHOICES  }
+    MarineAllyFist				= { label=_("MarineAllyFist"),				choices=REALM667.MON_CHOICES  }
+	MarineAllyPistol 				= { label=_("MarineAllyPistol"),			choices=REALM667.MON_CHOICES  }
+	MarineAllyMG					= { label=_("MarineAllyMG"),				choices=REALM667.MON_CHOICES  }
+	MarineAllyCG 				= { label=_("MarineAllyCG"),				choices=REALM667.MON_CHOICES  }
+	MarineAllySG 				= { label=_("MarineAllySG"),				choices=REALM667.MON_CHOICES  }
+	MarineAllyMinigun 			= { label=_("MarineAllyMinigun"),		choices=REALM667.MON_CHOICES  }
+	MarineAllyChainsaw 		= { label=_("MarineAllyChainsaw"),		choices=REALM667.MON_CHOICES  }
+	MarineAllyPlasma			= { label=_("MarineAllyPlasma"),		choices=REALM667.MON_CHOICES  }
+	MarineAllyRocket 			= { label=_("MarineAllyRocket"),			choices=REALM667.MON_CHOICES  }
+	MarineAllyBFG9000 		= { label=_("MarineAllyBFG9000"),		choices=REALM667.MON_CHOICES  }
+	MarineAllySSG 				= { label=_("MarineAllySSG"),			choices=REALM667.MON_CHOICES  }
+	MarineAllyRailgun 			= { label=_("MarineAllyRailgun"),		choices=REALM667.MON_CHOICES  }
+	MarineAllyHSMissile 		= { label=_("MarineAllyHSMissile"),		choices=REALM667.MON_CHOICES  }
+  }
+  
+  tables =
+  {
+    REALM667_Allies
+  }
+}
 
 OB_MODULES["REALM667"] =
 {
@@ -3781,6 +3978,7 @@ OB_MODULES["REALM667"] =
 	Juggernaut            =  {  label=_("Juggernaut"),            choices=REALM667.MON_CHOICES  }
 	KarasawaGuy              =  {  label=_("KarasawaGuy"),              choices=REALM667.MON_CHOICES  }
 	LesserMutant             =  {  label=_("LesserMutant"),             choices=REALM667.MON_CHOICES  }
+	Loper             =  {  label=_("Loper"),             choices=REALM667.MON_CHOICES  }
 	LordofHeresy             =  {  label=_("LordofHeresy"),             choices=REALM667.MON_CHOICES  }
 	Maephisto               =  {  label=_("Maephisto"),               choices=REALM667.MON_CHOICES  }
 	Machinegunguy            =  {  label=_("Machinegunguy"),            choices=REALM667.MON_CHOICES  }

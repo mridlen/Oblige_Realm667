@@ -24,12 +24,9 @@ DONE.
 
 Scanning for addons....
   found: no_hang_lamp.pk3 (Disabled)
-  found: ObAddon-Ambient-Sounds-Pack-master.pk3 (Enabled)
-  using: ObAddon-Ambient-Sounds-Pack-master.pk3
-  found: ObAddon.pk3 (Enabled)
-  using: ObAddon.pk3
-  found: Urban_Alleyway_Unclogger.pk3 (Enabled)
-  using: Urban_Alleyway_Unclogger.pk3
+  found: ObAddon-Ambient-Sounds-Pack-master.pk3 (Disabled)
+  found: ObAddon.pk3 (Disabled)
+  found: Urban_Alleyway_Unclogger.pk3 (Disabled)
 DONE
 
 
@@ -38,52 +35,14 @@ DONE
 Loading main script: oblige.lua
 DONE.
 
-***************************
-** ObAddon (C) 2018-2020 **
-***************************
-|    A Creation of the    |
-|        Community        |
-\_________________________/
-
-    MsrSgtShooterPerson
-          Armaetus
-          Garrett
-         Caligari87
-          Frozsoul
-          Simon-v
-           Beed28
-           Craneo
-           MogWaltz
-       EpicTyphlosion
-           Tapwave
-           Swedra
-           Demios
-    And All of Our Fans!
-
---------------------------------------------
--- https://github.com/caligari87/ObAddon/ --
---------------------------------------------
-
 ~~ Oblige Lua initialization begun ~~
 
 Loading all games...
 Loading all engines...
 Loading all modules...
 
-~~ Completed Lua initialization ~~
-
-Loading config file: C:\Users\mridlen\Documents\GitHub\Oblige_Realm667/CONFIG.txt
-WARNING: invalid choice: lots (for option procedural_gotcha.gotcha_qty)
-DONE.
-
-
-Quit......
-
-Saving options file...
-DONE.
-
-Saving config file...
-DONE.
+Unable to load script 'modules/realm667_weapons.lua'
+modules/realm667_weapons.lua:1708: 'then' expected near '='
 
 
 --- CLOSED LUA VM ---
