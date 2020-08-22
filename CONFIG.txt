@@ -2,7 +2,23 @@
 -- OBLIGE Level Maker (C) 2006-2017 Andrew Apted
 -- http://oblige.sourceforge.net/
 
-seed = 263936863
+-- ObAddon (C) 2018-2020
+-- MsrSgtShooterPerson
+-- Armaetus
+-- Garrett
+-- Caligari87
+-- Frozsoul
+-- Simon-v
+-- Beed28
+-- Craneo
+-- MogWaltz
+-- EpicTyphlosion
+-- Tapwave
+-- Swedra
+-- Demios
+-- https://github.com/caligari87/ObAddon/
+
+seed = 1671991501
 
 ---- Game Settings ----
 
@@ -14,29 +30,47 @@ theme = bit_mixed
 ---- Architecture ----
 
 size = epi
+streets_mode = no
+linear_mode = none
+nature_mode = 10
 outdoors = mixed
 caves = none
 liquids = mixed
 hallways = none
 teleporters = none
 steepness = heaps
+prebuilt_levels = no
+procedural_gotchas = epi
+layout_absurdity = none
+zdoom_vista = disable
+zdoom_skybox = disable
 
 ---- Monsters ----
 
-mons = normal
-strength = medium
+mons = prog
+mix_it_up_upper_range = ludicrous
+mix_it_up_lower_range = rarest
+strength = fierce
 ramp_up = medium
+mon_variety = heaps
 bosses = medium
+bossesnormal = no
 traps = some
+trap_style = default
+trap_qty = default
+cage_qty = default
 cages = none
+secret_monsters = no
+quiet_start = no
 
 ---- Pickups ----
 
 health = normal
 ammo = normal
-weapons = normal
+weapons = later
 items = normal
-secrets = some
+secrets = heaps
+secrets_bonus = heapsest
 
 ---- Other Modules ----
 
@@ -232,64 +266,64 @@ secrets = some
   DevilwormElder = default
   ArachnotronMK2 = default
   PainElementalElementalElemental = default
+  ZSpecOpsMachinegun = default
   HornedImp = default
   Poltergeist10 = default
-  ZSpecOpsMachinegun = default
-  CyberMastermind = default
   GreyZombie = default
-  EyesExplosive = default
+  CyberMastermind = default
   GoldZombie = default
-  ZombiePlasmaTank = default
+  EyesExplosive = default
+  QuakeFodder = default
+  ZombieScientist4 = default
   DevilwormTeen = default
   TentacledCommando = default
-  ZombieScientist4 = default
   ZombieScientist2 = default
   ZombieScientist = default
+  ZombiePlasmaTank = default
   ZombieTank = default
-  QuakeFodder = default
   HeavyCarbineGuy = default
-  Poltergeist3 = default
   RevGhoul = default
+  Poltergeist3 = default
   GiantBat = default
   Wicked = default
   Weakener = default
-  HellRose = default
   Watcher = default
+  HellRose = default
+  WarlordOfHell = default
   DevilwormAdultH = default
   Illus = default
-  WarlordOfHell = default
-  Poltergeist9 = default
+  Poltergeist6 = default
+  FlyingFatso = default
   Poltergeist8 = default
   Hangman = default
-  FlyingFatso = default
-  UACBot = default
   UnmakerGuy = default
+  UACBot = default
+  Phantasm = default
   Catharsi = default
-  Phantom = default
   Trite = default
-  SlimeImp = default
   TornadoDemon = default
+  SlimeImp = default
   Terror = default
   SSGZombie = default
-  StoneDemon = default
+  SpiritImp = default
   Spider = default
   StoneImpHidden = default
   StoneImp = default
+  StoneDemon = default
   SuperFlyingImp = default
-  SpiritImp = default
+  SourceGuardian = default
   Afrit = default
   Rictus = default
   ChaingunDemon = default
   CGunSpider = default
-  SourceGuardian = default
   SnakeImp = default
   SMGGuy = default
-  FlamerZombie = default
   SlimeWorm = default
+  FlamerZombie = default
   Skeleton = default
   ShotgunGuyGold = default
-  BeamRevenant = default
   ShadowHunter = default
+  BeamRevenant = default
   SawedOffShotgunGuy = default
   ChaingunMajor = default
   Roach = default
@@ -297,24 +331,25 @@ secrets = some
   RailBot = default
   RailArachnotron = default
   PyroDemon = default
-  Exterminator = default
   ProfaneOne = default
+  Exterminator = default
+  Poltergeist9 = default
   Vulgar = default
-  Poltergeist6 = default
   FemaleSergeant = default
   Poltergeist2 = default
   PoisonSoul = default
-  Annihilator = default
   PlasmaElemental = default
-  LordofHeresy = default
+  Annihilator = default
+  Loper = default
   PissedOffImpElite = default
+  Phantom = default
   Uberchain = default
-  Phantasm = default
   GoldOtent = default
   NightmareDemon = default
-  DivineShadow = default
   KDiZDNightmare = default
+  DivineShadow = default
   MeleeRevenant = default
+  LordofHeresy = default
   Pistule = default
   Inferno = default
   KarasawaGuy = default
@@ -453,25 +488,39 @@ secrets = some
   BioPipebombLauncher = default
   PlasmaBallista = default
   FlakCannon = default
-  EgoSmasher = none
+  EgoSmasher = default
   RivetGun = default
   Colt45 = default
 
 @REALM667_Allies = 1
-  MarineAllySG = insane
-  MarineAllyFist = insane
-  MarineAllyRailgun = insane
-  MarineAllyHSMissile = insane
-  MarineAllyBFG9000 = insane
-  MarineAllyCG = insane
-  MarineAllyMinigun = insane
-  MarineAllySSG = insane
-  MarineAllyMG = insane
-  MarineAllyRocket = insane
-  MarineAllyPistol = insane
-  MarineAllyPlasma = insane
-  MarineAllyChainsaw = insane
-  Charlie = insane
+  MarineAllySG = plenty
+  MarineAllyFist = plenty
+  MarineAllyRailgun = plenty
+  MarineAllyHSMissile = plenty
+  MarineAllyBFG9000 = plenty
+  MarineAllyCG = plenty
+  MarineAllyMinigun = plenty
+  MarineAllySSG = plenty
+  MarineAllyMG = plenty
+  MarineAllyRocket = plenty
+  MarineAllyPistol = plenty
+  MarineAllyPlasma = plenty
+  MarineAllyChainsaw = plenty
+  Charlie = plenty
+
+@armaetus_epic_textures = 0
+  include_package = yes
+  custom_liquids = yes
+  custom_trees = zs
+  environment_themes = random
+
+@debugger = 0
+  name_gen_test = none
+  build_levels = all
+  shape_rule_stats = no
+  print_prefab_use = yes
+  print_story_strings = yes
+  print_shape_steps = show
 
 @doom_mon_control = 1
   Spiderdemon = default
@@ -496,12 +545,33 @@ secrets = some
 @doom_weapon_control = 0
   super = default
   chain = default
+  weapon_prefs = normal
   launch = default
   bfg = default
   plasma = default
   shotty = default
 
 @export_map = 0
+
+@fauna_module = 0
+  flies = disable
+  rats = disable
+
+@gzdoom_boss_gen = 1
+  boss_gen_types = no
+  boss_gen_hpbar = yes
+  boss_gen_diff = default
+  boss_gen_hitscan = default
+  boss_gen_music = yes
+  boss_gen_reinforcerate = default
+  boss_gen_health = default
+  boss_gen_reinforce = default
+  boss_gen_typelimit = softlimit
+  boss_gen_weap = scatter
+  boss_gen_exit = default
+  boss_gen_steepness = none
+
+@harder_enemy = 1
 
 @heretic_mon_control = 0
   warrior = default
@@ -528,21 +598,71 @@ secrets = some
   firemace = default
   phoenix = default
 
+@jokewad_module = 0
+  fireblu_mode = disable
+  pandemic_mode = disable
+
+@level_control = 0
+  mixin_type = normal
+  level_upper_bound = trans
+  level_lower_bound = micro
+  level_size_ramp_factor = 0.66
+
+@megawad_swapper = 0
+
 @misc = 1
   pistol_starts = no
   alt_starts = no
+  foreshadowing_exit = yes
   big_rooms = heaps
+  big_outdoor_rooms = mixed
+  room_heights = normal
   parks = rare
+  natural_parks = none
+  park_detail = mixed
   windows = mixed
+  passable_windows = not_on_vistas
   symmetry = mixed
+  beams = mixed
+  fences = mixed
+  porches = mixed
+  scenics = mixed
+  corner_style = random
+  liquid_sinks = yes
   darkness = rare
-  mon_variety = mixed
+  brightness_offset = none
   barrels = mixed
   doors = mixed
   keys = heaps
+  trikeys = rare
   switches = mixed
+  road_markings = yes
+  street_traffic = mixed
+  exit_signs = yes
+  linear_start = default
+  dead_ends = heaps
+  live_minimap = step
+
+@modded_game_extras = 0
+  qcde_lootboxes = disable
+  hn_markers = none
+  hd_cover_walls = disable
+  d4t_ents = disable
+  custom_actor_names = none
 
 @music_swapper = 1
+
+@prefab_control = 0
+  fab_match_theme = on
+  wall_prob = fab_default
+  point_prob = fab_default
+  autodetail = on
+
+@procedural_gotcha = 1
+  gotcha_map_size = large
+  gotcha_strength = crazier
+  gotcha_boss_fight = yes
+  gotcha_qty = 50
 
 @quake2_mon_control = 0
   Huge_flyer = default
@@ -601,6 +721,13 @@ secrets = some
   grenade = default
 
 @sky_generator = 1
+  force_hill_params = hp_random
+  force_hills = hs_random
+  force_sky = sky_default
+  terrain_color = default
+  nebula_color = default
+  influence_map_darkness = no
+  cloud_color = default
 
 @small_spiderdemon = 1
 
@@ -621,6 +748,21 @@ secrets = some
 @stealth_mons = 0
   qty = less
 
+@theme_ctl_doom1 = 0
+  episode4 = no_change
+  episode3 = no_change
+  secret = no_change
+  episode2 = no_change
+  episode1 = no_change
+
+@theme_ctl_doom2 = 0
+  secret = no_change
+  episode2 = no_change
+  episode3 = no_change
+  episode1 = no_change
+
+@zdoom_ambient_sound = 0
+
 @zdoom_marine_control = 0
   marine_bfg = default
   marine_chain = default
@@ -636,5 +778,19 @@ secrets = some
 
 @zdoom_marines = 0
   qty = scarce
+
+@zdoom_specials = 1
+  generic_intermusic = $MUSIC_DM2INT
+  fog_generator = random
+  dynamic_lights = yes
+  fog_env = all
+  custom_quit_messages = yes
+  episode_selection = no
+  no_intermission = no
+  glowing_flats = yes
+  fog_affects_sky = yes
+  story_generator = proc
+  mapinfo_music_shuffler = no
+  fog_intensity = mixed
 
 -- END --

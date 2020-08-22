@@ -1718,7 +1718,7 @@ OB_MODULES["REALM667W"] =
 
   hooks =
   {
-    --setup = REALM667W.weapon_setup
+    setup = REALM667W.weapon_setup
   }
 
   tables =
