@@ -22,14 +22,14 @@ addon = Urban_Alleyway_Unclogger.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-20-1016_hollows_of_pestilence.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-20-1105_they_are_dark.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\infested_silence.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\fetid_hell.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\wrecked_shores.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\blood_forever.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-20-1916_monstrous_chapel.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-21-0834_doomguy_vs_the_dead.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-21-0858_frozen_zenith.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-21-1115_raid_at_the_tornadoes.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-22-1404_the_chaotic_gateway_of_the_astral_shaper.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-24-0956_risen_in_the_barrows.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-25-1050_epic_typhlosions_march.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-25-2040_grisly_desecration.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-26-0919_the_undead_lurks_below.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-27-2110_the_astray_day.wad
 

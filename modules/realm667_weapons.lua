@@ -18,7 +18,7 @@ REALM667W.WEAPONS =
 	AA12 =
 	{
 		id = 29604
-		level = 6
+		level = 8
 		pref = 2
 		add_prob = 1
 		hide_prob = 80
@@ -31,7 +31,7 @@ REALM667W.WEAPONS =
 	ActionMachineGun =
 	{
 		id = 29124
-		level = 2
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -44,7 +44,7 @@ REALM667W.WEAPONS =
 	AK47 =
 	{
 		id = 29125
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -57,7 +57,7 @@ REALM667W.WEAPONS =
 	AlphaUnmaker =
 	{
 		id = 29263
-		level = 6
+		level = 8
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -84,7 +84,7 @@ REALM667W.WEAPONS =
 	Autogun =
 	{
 		id = 29130
-		level = 4
+		level = 6
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -97,7 +97,7 @@ REALM667W.WEAPONS =
 	AutoShot =
 	{
 		id = 5664
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -138,7 +138,7 @@ REALM667W.WEAPONS =
 	BFG2704 =
 	{
 		id = 29140
-		level = 8
+		level = 7
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -151,7 +151,7 @@ REALM667W.WEAPONS =
 	BHGen =
 	{
 		id = 29150
-		level = 7
+		level = 6
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -164,7 +164,7 @@ REALM667W.WEAPONS =
 	BioPipebombLauncher =
 	{
 		id = 29141
-		level = 4
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -177,7 +177,7 @@ REALM667W.WEAPONS =
 	Bolter =
     {
 	    id = 17376
-		level = 3
+		level = 8
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -190,7 +190,7 @@ REALM667W.WEAPONS =
 	BRPS =
 	{
 		id = 17363
-		level = 6
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -203,7 +203,7 @@ REALM667W.WEAPONS =
 	Butchergun =
 	{
 		id = 29151
-		level = 4
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -216,7 +216,7 @@ REALM667W.WEAPONS =
 	Channeler =
 	{
 		id = 29152
-		level = 5
+		level = 7
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -256,7 +256,7 @@ REALM667W.WEAPONS =
 	Colt45 =
 	{
 		id = 5757
-		level = 1
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -269,7 +269,7 @@ REALM667W.WEAPONS =
 	CryoBow =
 	{
 		id = 29161
-		level = 3
+		level = 9
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -296,7 +296,7 @@ REALM667W.WEAPONS =
 	DemonicLeech =
 	{
 		id = 29170
-		level = 1
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -309,7 +309,7 @@ REALM667W.WEAPONS =
 	DGL =
 	{
 		id = 29173
-		level = 4
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -322,7 +322,7 @@ REALM667W.WEAPONS =
 	Doom3SSG =
 	{
 		id = 29171
-		level = 2
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -335,7 +335,7 @@ REALM667W.WEAPONS =
 	DoubleBladedChainsaw =
 	{
 		id = 29172
-		level = 1
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -361,7 +361,7 @@ REALM667W.WEAPONS =
 	DukeShotgun =
 	{
 		id = 29174
-		level = 1
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -374,7 +374,7 @@ REALM667W.WEAPONS =
 	EgoSmasher =
 	{
 		id = 29175
-		level = 7.5
+		level = 10
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -387,7 +387,7 @@ REALM667W.WEAPONS =
 	ElectroGun =
 	{
 		id = 29176
-		level = 4
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -400,7 +400,7 @@ REALM667W.WEAPONS =
 	EMSRifle =
 	{
 		id = 29177
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -507,7 +507,7 @@ REALM667W.WEAPONS =
 	Glock18 =
 	{
 		id = 29184
-		level = 2
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -561,7 +561,7 @@ REALM667W.WEAPONS =
 	HeavyMachineGun =
 	{
 		id = 602
-		level = 3
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -574,7 +574,7 @@ REALM667W.WEAPONS =
 	HeavyRifle =
 	{
 		id = 25035
-		level = 5
+		level = 10
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -613,7 +613,7 @@ REALM667W.WEAPONS =
 	iGun =
 	{
 		id = 29191
-		level = 1
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -626,7 +626,7 @@ REALM667W.WEAPONS =
 	Ionspray =
 	{
 		id = 29192
-		level = 3
+		level = 6
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -639,7 +639,7 @@ REALM667W.WEAPONS =
 	Karasawa =
 	{
 		id = 29193
-		level = 2
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -665,7 +665,7 @@ REALM667W.WEAPONS =
 	KDiZDSuperShotgun =
 	{
 		id = 29257
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -719,7 +719,7 @@ REALM667W.WEAPONS =
 	LightMachinegun =
 	{
 		id = 601
-		level = 2
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -732,7 +732,7 @@ REALM667W.WEAPONS =
 	M16 =
 	{
 		id = 29198
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -824,7 +824,7 @@ REALM667W.WEAPONS =
 	MicroUzi =
 	{
 		id = 29606
-		level = 2
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -837,7 +837,7 @@ REALM667W.WEAPONS =
 	model1887 =
 	{
 		id = 29210
-		level = 2
+		level = 3
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -864,7 +864,7 @@ REALM667W.WEAPONS =
 	MP5 =
 	{
 		id = 29211
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -903,7 +903,7 @@ REALM667W.WEAPONS =
 	NuclearMissileLauncher =
 	{
 		id = 29608
-		level = 8
+		level = 10
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -916,7 +916,7 @@ REALM667W.WEAPONS =
 	PlasmaBallista =
 	{
 		id = 29217
-		level = 2
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -968,7 +968,7 @@ REALM667W.WEAPONS =
 	PlasmaRepeater =
 	{
 		id = 5012
-		level = 3
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -994,7 +994,7 @@ REALM667W.WEAPONS =
 	PlasmaSplitter =
 	{
 		id = 17366
-		level = 4
+		level = 6
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1007,7 +1007,7 @@ REALM667W.WEAPONS =
 	PulseNailgun =
 	{
 		id = 29609
-		level = 4
+		level = 3.5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1033,7 +1033,7 @@ REALM667W.WEAPONS =
 	PumpActionShotgun =
 	{
 		id = 29227
-		level = 2
+		level = 4
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1046,7 +1046,7 @@ REALM667W.WEAPONS =
 	QuadShotgun =
 	{
 		id = 29999
-		level = 3
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1059,7 +1059,7 @@ REALM667W.WEAPONS =
 	Raptor =
 	{
 		id = 29230
-		level = 3
+		level = 5
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1072,7 +1072,7 @@ REALM667W.WEAPONS =
 	Raygun =
 	{
 		id = 12634
-		level = 4
+		level = 9
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1098,7 +1098,7 @@ REALM667W.WEAPONS =
 	Repeater =
 	{
 		id = 29231
-		level = 4
+		level = 8
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1125,7 +1125,7 @@ REALM667W.WEAPONS =
 	RivetGun =
 	{
 		id = 7932
-		level = 3
+		level = 2
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1138,7 +1138,7 @@ REALM667W.WEAPONS =
 	RocketLaunchermkII =
 	{
 		id = 17378
-		level = 5
+		level = 10
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1153,7 +1153,7 @@ REALM667W.WEAPONS =
 		id = 29126
 		level = 1
 		pref = 5
-		add_prob = 1
+		add_prob = 0
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
@@ -1438,7 +1438,7 @@ REALM667W.WEAPONS =
 	Thompson =
 	{
 		id = 29260
-		level = 5
+		level = 8
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1451,7 +1451,7 @@ REALM667W.WEAPONS =
 	Toaster =
 	{
 		id = 12466
-		level = 6
+		level = 10
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
@@ -1464,7 +1464,7 @@ REALM667W.WEAPONS =
 	UACPlasmaticRifle =
 	{
 		id = 29261
-		level = 4
+		level = 7
 		pref = 5
 		add_prob = 1
 		hide_prob = 80
