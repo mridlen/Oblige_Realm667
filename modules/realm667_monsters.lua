@@ -2129,6 +2129,28 @@ REALM667.MONSTERS =
 	 density = 0.2
 	 boss_type = "minor"
 	}
+	FlemoidusArachnus =
+	{
+	 id = 17382
+	 r = 20
+	 h = 30
+	 prob = 30
+	 health = 20
+	 damage = 16
+	 attack = "melee"
+	 density = 0.9
+	}
+	FlemoidusTenacious =
+	{
+	 id = 17383
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 400
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
 	Fleshspawn =
 	{
 	 id = 10558
@@ -4457,6 +4479,17 @@ REALM667.MONSTERS =
 	 density = 0.1
 	 boss_type = "minor"
 	}
+	SuperDevil =
+	{
+	 id = 17381
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 120
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
 	SuperFlyingImp =
 	{
 	 id = 25012
@@ -5512,6 +5545,8 @@ OB_MODULES["REALM667"] =
 	FlailDemon             =  {  label=_("FlailDemon"),             choices=REALM667.MON_CHOICES  }
 	FlamerZombie             =  {  label=_("FlamerZombie"),             choices=REALM667.MON_CHOICES  }
 	FlareZombieMan             =  {  label=_("FlareZombieMan"),             choices=REALM667.MON_CHOICES  }
+	FlemoidusArachnus               =  {  label=_("FlemoidusArachnus"),               choices=REALM667.MON_CHOICES  }
+	FlemoidusTenacious               =  {  label=_("FlemoidusTenacious"),               choices=REALM667.MON_CHOICES  }
 	Fleshspawn               =  {  label=_("Fleshspawn"),               choices=REALM667.MON_CHOICES  }
 	XWizard                  =  {  label=_("XWizard"),                  choices=REALM667.MON_CHOICES  }
 	FleshWizard                  =  {  label=_("FleshWizard"),                  choices=REALM667.MON_CHOICES  }
@@ -5710,6 +5745,7 @@ OB_MODULES["REALM667"] =
 	SuicideBomber            =  {  label=_("SuicideBomber"),            choices=REALM667.MON_CHOICES  }
 	SumoZombie               =  {  label=_("SumoZombie"),               choices=REALM667.MON_CHOICES  }
 	Superdemon               =  {  label=_("Superdemon"),               choices=REALM667.MON_CHOICES  }
+	SuperDevil               =  {  label=_("SuperDevil"),               choices=REALM667.MON_CHOICES  }
 	SuperFlyingImp           =  {  label=_("SuperFlyingImp"),           choices=REALM667.MON_CHOICES  }
 	SuperImp                 =  {  label=_("SuperImp"),                 choices=REALM667.MON_CHOICES  }
 	SSGZombie                =  {  label=_("SSGZombie"),                choices=REALM667.MON_CHOICES  }
