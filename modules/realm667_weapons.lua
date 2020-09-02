@@ -306,6 +306,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	DesertEagle =
+	{
+		id = 425
+		level = 3
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
 	DGL =
 	{
 		id = 29173
@@ -356,6 +369,19 @@ REALM667W.WEAPONS =
 		rate = 0.9
 		damage = 30
 		ammo = "cell"
+		per = 1
+	}
+	DukePistol =
+	{
+		id = 17392
+		level = 3
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
 		per = 1
 	}
 	DukeShotgun =
@@ -414,6 +440,19 @@ REALM667W.WEAPONS =
 	FistRedux =
 	{
 		id = 29178
+		level = 1
+		pref = 5
+		add_prob = 0
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
+	FistsOfFury =
+	{
+		id = 17384
 		level = 1
 		pref = 5
 		add_prob = 0
@@ -821,6 +860,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	DualMancubusArm =
+	{
+		id = 29208
+		level = 2
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
 	MicroUzi =
 	{
 		id = 29606
@@ -965,6 +1017,19 @@ REALM667W.WEAPONS =
 		ammo = "cell"
 		per = 1
 	}
+	PlasmaQuadShotgun =
+	{
+		id = 17388
+		level = 8
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 30
+		ammo = "cell"
+		per = 1
+	}
 	PlasmaRepeater =
 	{
 		id = 5012
@@ -973,6 +1038,19 @@ REALM667W.WEAPONS =
 		add_prob = 1
 		hide_prob = 80
 		attack = "hitscan"
+		rate = 0.9
+		damage = 30
+		ammo = "cell"
+		per = 1
+	}
+	PlasmaRocketLauncher =
+	{
+		id = 17389
+		level = 5
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "missile"
 		rate = 0.9
 		damage = 30
 		ammo = "cell"
@@ -1253,6 +1331,19 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	SlugShotgun =
+	{
+		id = 17390
+		level = 5
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "hitscan"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
 	Smartgun =
 	{
 		id = 29250
@@ -1394,6 +1485,19 @@ REALM667W.WEAPONS =
 		rate = 0.9
 		damage = 30
 		ammo = "bullet"
+		per = 1
+	}
+	SuperMiniMissileLauncher =
+	{
+		id = 17394
+		level = 6
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "missile"
+		rate = 0.9
+		damage = 30
+		ammo = "rocket"
 		per = 1
 	}
 	SuppressedMP5 =
@@ -1752,15 +1856,18 @@ Colt45                  =  {  label=_("Colt45"),                  choices=REALM6
 CryoBow                 =  {  label=_("CryoBow"),                 choices=REALM667W.WEAPON_CHOICES  }
 D2C_Pipebomb            =  {  label=_("D2C_Pipebomb"),            choices=REALM667W.WEAPON_CHOICES  }
 DemonicLeech            =  {  label=_("DemonicLeech"),            choices=REALM667W.WEAPON_CHOICES  }
+DesertEagle            =  {  label=_("DesertEagle"),            choices=REALM667W.WEAPON_CHOICES  }
 DGL                     =  {  label=_("DGL"),                     choices=REALM667W.WEAPON_CHOICES  }
 Doom3SSG                     =  {  label=_("Doom3SSG"),                     choices=REALM667W.WEAPON_CHOICES  }
 DoubleBladedChainsaw    =  {  label=_("DoubleBladedChainsaw"),    choices=REALM667W.WEAPON_CHOICES  }
 DualLaser               =  {  label=_("DualLaser"),               choices=REALM667W.WEAPON_CHOICES  }
+DukePistol             =  {  label=_("DukePistol"),             choices=REALM667W.WEAPON_CHOICES  }
 DukeShotgun             =  {  label=_("DukeShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
 EgoSmasher              =  {  label=_("EgoSmasher"),              choices=REALM667W.WEAPON_CHOICES  }
 ElectroGun              =  {  label=_("ElectroGun"),              choices=REALM667W.WEAPON_CHOICES  }
 EMSRifle              =  {  label=_("EMSRifle"),              choices=REALM667W.WEAPON_CHOICES  }
 FistRedux               =  {  label=_("FistRedux"),               choices=REALM667W.WEAPON_CHOICES  }
+FistsOfFury               =  {  label=_("FistsOfFury"),               choices=REALM667W.WEAPON_CHOICES  }
 FlakCannon               =  {  label=_("FlakCannon"),               choices=REALM667W.WEAPON_CHOICES  }
 FlashLightAngled        =  {  label=_("FlashLightAngled"),        choices=REALM667W.WEAPON_CHOICES  }
 FragGrenade             =  {  label=_("FragGrenade"),             choices=REALM667W.WEAPON_CHOICES  }
@@ -1791,6 +1898,7 @@ Machete                 =  {  label=_("Machete"),                 choices=REALM6
 Machinegun              =  {  label=_("Machinegun"),              choices=REALM667W.WEAPON_CHOICES  }
 Mag60                   =  {  label=_("Mag60"),                   choices=REALM667W.WEAPON_CHOICES  }
 MancubusArm             =  {  label=_("MancubusArm"),             choices=REALM667W.WEAPON_CHOICES  }
+DualMancubusArm             =  {  label=_("DualMancubusArm"),             choices=REALM667W.WEAPON_CHOICES  }
 MicroUzi                =  {  label=_("MicroUzi"),                choices=REALM667W.WEAPON_CHOICES  }
 model1887               =  {  label=_("model1887"),               choices=REALM667W.WEAPON_CHOICES  }
 MP40                    =  {  label=_("MP40"),                    choices=REALM667W.WEAPON_CHOICES  }
@@ -1802,7 +1910,9 @@ PlasmaBallista          =  {  label=_("PlasmaBallista"),          choices=REALM6
 PlasmaBeam              =  {  label=_("PlasmaBeam"),              choices=REALM667W.WEAPON_CHOICES  }
 PlasmaBolter            =  {  label=_("PlasmaBolter"),            choices=REALM667W.WEAPON_CHOICES  }
 PlasmaPistol            =  {  label=_("PlasmaPistol"),            choices=REALM667W.WEAPON_CHOICES  }
+PlasmaQuadShotgun            =  {  label=_("PlasmaQuadShotgun"),            choices=REALM667W.WEAPON_CHOICES  }
 PlasmaRepeater          =  {  label=_("PlasmaRepeater"),          choices=REALM667W.WEAPON_CHOICES  }
+PlasmaRocketLauncher          =  {  label=_("PlasmaRocketLauncher"),          choices=REALM667W.WEAPON_CHOICES  }
 PlasmaShotgun           =  {  label=_("PlasmaShotgun"),           choices=REALM667W.WEAPON_CHOICES  }
 PulseNailgun            =  {  label=_("PulseNailgun"),            choices=REALM667W.WEAPON_CHOICES  }
 PulseRifle              =  {  label=_("PulseRifle"),              choices=REALM667W.WEAPON_CHOICES  }
@@ -1823,6 +1933,7 @@ SidebySide              =  {  label=_("SidebySide"),              choices=REALM6
 SilencedPistol          =  {  label=_("SilencedPistol"),          choices=REALM667W.WEAPON_CHOICES  }
 SingleShot              =  {  label=_("SingleShot"),              choices=REALM667W.WEAPON_CHOICES  }
 SkeletalRevenge         =  {  label=_("SkeletalRevenge"),         choices=REALM667W.WEAPON_CHOICES  }
+SlugShotgun         =  {  label=_("SlugShotgun"),         choices=REALM667W.WEAPON_CHOICES  }
 Smartgun                =  {  label=_("Smartgun"),                choices=REALM667W.WEAPON_CHOICES  }
 Smasher                 =  {  label=_("Smasher"),                 choices=REALM667W.WEAPON_CHOICES  }
 SniperRifle             =  {  label=_("SniperRifle"),             choices=REALM667W.WEAPON_CHOICES  }
@@ -1834,6 +1945,7 @@ STMinigun               =  {  label=_("STMinigun"),               choices=REALM6
 STRailgun               =  {  label=_("STRailgun"),               choices=REALM667W.WEAPON_CHOICES  }
 StrifePistol               =  {  label=_("StrifePistol"),               choices=REALM667W.WEAPON_CHOICES  }
 StunnerRifle               =  {  label=_("StunnerRifle"),               choices=REALM667W.WEAPON_CHOICES  }
+SuperMiniMissileLauncher           =  {  label=_("SuperMiniMissileLauncher"),           choices=REALM667W.WEAPON_CHOICES  }
 SuppressedMP5           =  {  label=_("SuppressedMP5"),           choices=REALM667W.WEAPON_CHOICES  }
 SwatShotgun             =  {  label=_("SwatShotgun"),             choices=REALM667W.WEAPON_CHOICES  }
 Thompson                =  {  label=_("Thompson"),                choices=REALM667W.WEAPON_CHOICES  }

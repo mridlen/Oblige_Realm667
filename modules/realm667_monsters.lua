@@ -714,6 +714,18 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	Bruiser =
+	{
+	 id = 17385
+	 r = 30
+	 h = 82
+	 prob = 30
+	 health = 2000
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
 	BruiserDemon =
 	{
 	 id = 3333
@@ -725,6 +737,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
+	}
+	Brute =
+	{
+	 id = 17386
+	 r = 30
+	 h = 82
+	 prob = 30
+	 health = 1000
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
 	}
 	BullShotgunner =
 	{
@@ -1087,6 +1110,17 @@ REALM667.MONSTERS =
 	 health = 100
 	 damage = 16
 	 attack = "missile"
+	 density = 0.9
+	}
+	CrimsonSoul =
+	{
+	 id = 17391
+	 r = 10
+	 h = 20
+	 prob = 30
+	 health = 50
+	 damage = 16
+	 attack = "melee"
 	 density = 0.9
 	}
 	--ALL crows are being disabled because they are not enemies
@@ -2624,6 +2658,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	Hellion =
 	{
@@ -2760,6 +2795,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	 boss_type = "tough"
+	}
+	Isabelle =
+	{
+	 id = 17393
+	 r = 14
+	 h = 40
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
 	}
 	STImp =
 	{
@@ -2950,6 +2996,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	LizardEnforcer =
 	{
@@ -3179,6 +3226,17 @@ REALM667.MONSTERS =
 	 attack = "melee"
 	 density = 0.9
 	}
+	NightmareWitch =
+	{
+	 id = 17387
+	 r = 16
+	 h = 60
+	 prob = 30
+	 health = 300
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
 	Nightshade =
 	{
 	 id = 30133
@@ -3189,6 +3247,18 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	}
+	NoirCacodemon =
+	{
+	 id = 15643
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 1200
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
 	}
 	--disabled by default
 	ObsidianStatue =
@@ -4568,6 +4638,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	T800 =
+	{
+	 id = 32101
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 500
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.9
+	}
 	TechnoPhythe =
 	{
 	 id = 16299
@@ -5325,6 +5406,7 @@ OB_MODULES["REALM667_Allies"] =
   options =
   {
     Charlie							= { label=_("Charlie"),						choices=REALM667.MON_CHOICES  }
+    Isabelle							= { label=_("Isabelle"),						choices=REALM667.MON_CHOICES  }
     MarineAllyFist				= { label=_("MarineAllyFist"),				choices=REALM667.MON_CHOICES  }
 	MarineAllyPistol 				= { label=_("MarineAllyPistol"),			choices=REALM667.MON_CHOICES  }
 	MarineAllyMG					= { label=_("MarineAllyMG"),				choices=REALM667.MON_CHOICES  }
@@ -5423,7 +5505,9 @@ OB_MODULES["REALM667"] =
 	BloodLich               =  {  label=_("BloodLich"),               choices=REALM667.MON_CHOICES  }
 	BloodSkull               =  {  label=_("BloodSkull"),               choices=REALM667.MON_CHOICES  }
 	Blot                     =  {  label=_("Blot"),                     choices=REALM667.MON_CHOICES  }
+	Bruiser             =  {  label=_("Bruiser"),             choices=REALM667.MON_CHOICES  }
 	BruiserDemon             =  {  label=_("BruiserDemon"),             choices=REALM667.MON_CHOICES  }
+	Brute             =  {  label=_("Brute"),             choices=REALM667.MON_CHOICES  }
 	BullShotgunner             =  {  label=_("BullShotgunner"),             choices=REALM667.MON_CHOICES  }
 	Bulltubus             =  {  label=_("Bulltubus"),             choices=REALM667.MON_CHOICES  }
 	Cacobald         =  {  label=_("Cacobald"),         choices=REALM667.MON_CHOICES  }
@@ -5454,6 +5538,7 @@ OB_MODULES["REALM667"] =
 	Tentacle2                =  {  label=_("Tentacle2"),                choices=REALM667.MON_CHOICES  }
 	CrackoDemon              =  {  label=_("CrackoDemon"),              choices=REALM667.MON_CHOICES  }
 	Crash2                   =  {  label=_("Crash2"),                   choices=REALM667.MON_CHOICES  }
+	CrimsonSoul                   =  {  label=_("CrimsonSoul"),                   choices=REALM667.MON_CHOICES  }
 	CrowWander1L                   =  {  label=_("CrowWander1L"),                   choices=REALM667.MON_CHOICES  }
 	CrowWander1R                   =  {  label=_("CrowWander1R"),                   choices=REALM667.MON_CHOICES  }
 	CrowWander2L                   =  {  label=_("CrowWander2L"),                   choices=REALM667.MON_CHOICES  }
@@ -5599,6 +5684,7 @@ OB_MODULES["REALM667"] =
 	Illus                    =  {  label=_("Illus"),                    choices=REALM667.MON_CHOICES  }
 	ImpAbomination           =  {  label=_("ImpAbomination"),           choices=REALM667.MON_CHOICES  }
 	Incubus           =  {  label=_("Incubus"),           choices=REALM667.MON_CHOICES  }
+	Isabelle           =  {  label=_("Isabelle"),           choices=REALM667.MON_CHOICES  }
 	STImp                    =  {  label=_("STImp"),                    choices=REALM667.MON_CHOICES  }
 	SpiderImpHead            =  {  label=_("SpiderImpHead"),            choices=REALM667.MON_CHOICES  }
 	VoidImp                  =  {  label=_("VoidImp"),                  choices=REALM667.MON_CHOICES  }
@@ -5635,7 +5721,9 @@ OB_MODULES["REALM667"] =
 	KDiZDNightmare           =  {  label=_("KDiZDNightmare"),           choices=REALM667.MON_CHOICES  }
 	NightmareBeast           =  {  label=_("NightmareBeast"),           choices=REALM667.MON_CHOICES  }
 	NightmareDemon           =  {  label=_("NightmareDemon"),           choices=REALM667.MON_CHOICES  }
+	NightmareWitch           =  {  label=_("NightmareWitch"),           choices=REALM667.MON_CHOICES  }
 	Nightshade               =  {  label=_("Nightshade"),               choices=REALM667.MON_CHOICES  }
+	NoirCacodemon               =  {  label=_("NoirCacodemon"),               choices=REALM667.MON_CHOICES  }
 	ObsidianStatue           =  {  label=_("ObsidianStatue"),           choices=REALM667.MON_CHOICES  }
 	ObsidianStatueNonDormant           =  {  label=_("ObsidianStatueNonDormant"),           choices=REALM667.MON_CHOICES  }
 	GoldOtent           =  {  label=_("GoldOtent"),           choices=REALM667.MON_CHOICES  }
@@ -5753,6 +5841,7 @@ OB_MODULES["REALM667"] =
 	Swarm                    =  {  label=_("Swarm"),                    choices=REALM667.MON_CHOICES  }
 	SWRipper                    =  {  label=_("SWRipper"),                    choices=REALM667.MON_CHOICES  }
 	SerpentDemiGod                    =  {  label=_("SerpentDemiGod"),                    choices=REALM667.MON_CHOICES  }
+	T800        =  {  label=_("T800"),        choices=REALM667.MON_CHOICES  }
 	TechnoPhythe        =  {  label=_("TechnoPhythe"),        choices=REALM667.MON_CHOICES  }
 	TentacledCommando        =  {  label=_("TentacledCommando"),        choices=REALM667.MON_CHOICES  }
 	TentaclePriest        =  {  label=_("TentaclePriest"),        choices=REALM667.MON_CHOICES  }
