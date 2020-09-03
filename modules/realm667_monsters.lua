@@ -1849,6 +1849,94 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	DRadysCKid =
+	{
+	 id = 17397
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
+	DRadysRena =
+	{
+	 id = 17398
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
+	DRadysTakako =
+	{
+	 id = 17399
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
+	DRadysPatricia =
+	{
+	 id = 17400
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
+	DRadysNagato =
+	{
+	 id = 17401
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
+	DRadysIris =
+	{
+	 id = 17402
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
+	DRadysAndro =
+	{
+	 id = 17405
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
+	DRadysAKid =
+	{
+	 id = 17406
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
 	BlackDragonImp =
 	{
 	 id = 16346
@@ -5429,6 +5517,14 @@ OB_MODULES["REALM667_Allies"] =
   options =
   {
     Charlie							= { label=_("Charlie"),						choices=REALM667.MON_CHOICES  }
+    DRadysCKid					= { label=_("DRadysCKid"),						choices=REALM667.MON_CHOICES  }
+    DRadysRena					= { label=_("DRadysRena"),						choices=REALM667.MON_CHOICES  }
+    DRadysTakako				= { label=_("DRadysTakako"),						choices=REALM667.MON_CHOICES  }
+    DRadysPatricia				= { label=_("DRadysPatricia"),						choices=REALM667.MON_CHOICES  }
+    DRadysNagato				= { label=_("DRadysNagato"),						choices=REALM667.MON_CHOICES  }
+    DRadysIris					= { label=_("DRadysIris"),						choices=REALM667.MON_CHOICES  }
+    DRadysAndro				= { label=_("DRadysAndro"),						choices=REALM667.MON_CHOICES  }
+    DRadysAKid					= { label=_("DRadysAKid"),						choices=REALM667.MON_CHOICES  }
     Isabelle							= { label=_("Isabelle"),						choices=REALM667.MON_CHOICES  }
     MarineAllyFist				= { label=_("MarineAllyFist"),				choices=REALM667.MON_CHOICES  }
 	MarineAllyPistol 				= { label=_("MarineAllyPistol"),			choices=REALM667.MON_CHOICES  }

@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 927469821
+seed = 925408965
 
 ---- Game Settings ----
 
@@ -54,7 +54,7 @@ strength = fierce
 ramp_up = medium
 mon_variety = heaps
 bosses = medium
-bossesnormal = no
+bossesnormal = all
 traps = some
 trap_style = default
 trap_qty = default
@@ -636,31 +636,39 @@ secrets_bonus = heapsest
   Colt45 = default
 
 @REALM667_Adult = 1
-  CiraeArgoth = less
-  SpaceVixen = less
-  NagaGoddess = less
-  Bastet = less
-  Sikkibus = less
-  SelkisMinion = less
+  CiraeArgoth = plenty
+  SpaceVixen = plenty
+  NagaGoddess = plenty
+  Bastet = plenty
+  Sikkibus = plenty
+  SelkisMinion = plenty
 
 @REALM667_Allies = 1
   MarineAllySG = less
   MarineAllyFist = less
   Isabelle = more
-  MarineAllyHSMissile = less
+  DRadysNagato = more
   MarineAllyBFG9000 = less
+  DRadysCKid = more
   MarineAllyMinigun = less
+  DRadysRena = more
   Susie = more
   MarineAllySSG = less
+  DRadysTakako = more
   Charlie = less
-  MarineAllyCG = less
   Ralsei = more
-  MarineAllyMG = less
+  MarineAllyHSMissile = less
   MarineAllyRailgun = less
-  MarineAllyPistol = less
+  MarineAllyCG = less
   MarineAllyRocket = less
-  MarineAllyChainsaw = less
   MarineAllyPlasma = less
+  MarineAllyChainsaw = less
+  DRadysIris = more
+  MarineAllyMG = less
+  MarineAllyPistol = less
+  DRadysAndro = more
+  DRadysAKid = more
+  DRadysPatricia = more
 
 @armaetus_epic_textures = 1
   include_package = yes
