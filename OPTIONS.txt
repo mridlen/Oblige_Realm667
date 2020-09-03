@@ -22,7 +22,6 @@ addon = Urban_Alleyway_Unclogger.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-25-1050_epic_typhlosions_march.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-25-2040_grisly_desecration.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-26-0919_the_undead_lurks_below.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-27-2110_the_astray_day.wad
@@ -32,4 +31,5 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-30-1352_heroes_in_
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-31-1137_showdown_with_the_devil.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-31-2138_magic_at_the_tornadoes.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-1-2157_neglected_mausoleum.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-3-1040_showdown_with_the_crusaders.wad
 

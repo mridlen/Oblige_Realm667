@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 60513757
+seed = 927469821
 
 ---- Game Settings ----
 
@@ -646,19 +646,21 @@ secrets_bonus = heapsest
 @REALM667_Allies = 1
   MarineAllySG = less
   MarineAllyFist = less
-  Isabelle = less
+  Isabelle = more
   MarineAllyHSMissile = less
   MarineAllyBFG9000 = less
-  MarineAllyCG = less
-  MarineAllyRailgun = less
   MarineAllyMinigun = less
+  Susie = more
   MarineAllySSG = less
-  MarineAllyMG = less
-  MarineAllyRocket = less
-  MarineAllyPistol = less
-  MarineAllyPlasma = less
-  MarineAllyChainsaw = less
   Charlie = less
+  MarineAllyCG = less
+  Ralsei = more
+  MarineAllyMG = less
+  MarineAllyRailgun = less
+  MarineAllyPistol = less
+  MarineAllyRocket = less
+  MarineAllyChainsaw = less
+  MarineAllyPlasma = less
 
 @armaetus_epic_textures = 1
   include_package = yes
