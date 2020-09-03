@@ -11708,3 +11708,18 @@ DONE.
 
 TOTAL TIME: 547.28 seconds
 
+
+Quit......
+
+Saving options file...
+DONE.
+
+Saving config file...
+DONE.
+
+
+--- CLOSED LUA VM ---
+
+
+====== END OF OBLIGE LOGS ======
+

@@ -3866,6 +3866,17 @@ REALM667.MONSTERS =
 	 density = 0.2
 	 outdoor_factor = 0
 	}
+	Ralsei =
+	{
+	 id = 17396
+	 r = 14
+	 h = 40
+	 prob = 30
+	 health = 0
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
 	RandomElemental =
 	{
 	 id = 17346
@@ -3899,6 +3910,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	RedDemon =
 	{
@@ -4579,6 +4591,17 @@ REALM667.MONSTERS =
 	 prob = 30
 	 health = 80
 	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	Susie =
+	{
+	 id = 17395
+	 r = 14
+	 h = 40
+	 prob = 30
+	 health = 0
+	 damage = 0
 	 attack = "missile"
 	 density = 0.9
 	}
@@ -5420,6 +5443,8 @@ OB_MODULES["REALM667_Allies"] =
 	MarineAllySSG 				= { label=_("MarineAllySSG"),			choices=REALM667.MON_CHOICES  }
 	MarineAllyRailgun 			= { label=_("MarineAllyRailgun"),		choices=REALM667.MON_CHOICES  }
 	MarineAllyHSMissile 		= { label=_("MarineAllyHSMissile"),		choices=REALM667.MON_CHOICES  }
+	Susie 							= { label=_("Susie"),		choices=REALM667.MON_CHOICES  }
+	Ralsei 							= { label=_("Ralsei"),		choices=REALM667.MON_CHOICES  }
   }
   
   tables =
