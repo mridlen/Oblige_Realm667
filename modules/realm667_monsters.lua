@@ -106,7 +106,7 @@ REALM667.MONSTERS =
 	 id = 11811
 	 r = 20
 	 h = 56
-	 prob = 30
+	 prob = 0
 	 health = 200
 	 damage = 16
 	 attack = "melee"
@@ -117,7 +117,7 @@ REALM667.MONSTERS =
 	 id = 11812
 	 r = 20
 	 h = 56
-	 prob = 30
+	 prob = 0
 	 health = 200
 	 damage = 16
 	 attack = "hitscan"
@@ -918,6 +918,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 outdoor_factor = 0
 	}
 	Cendros =
 	{
@@ -991,7 +992,7 @@ REALM667.MONSTERS =
 	 id = 17379
 	 r = 30
 	 h = 56
-	 prob = 30
+	 prob = 0
 	 health = 10
 	 damage = 1
 	 attack = "melee"
@@ -2554,6 +2555,18 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	}
+	GrossElemental =
+	{
+	 id = 6156
+	 r = 31
+	 h = 56
+	 prob = 30
+	 health = 540
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
 	}
 	Grunt =
 	{
@@ -4290,7 +4303,7 @@ REALM667.MONSTERS =
 	 attack = "melee"
 	 density = 0.9
 	}
-	SheildSentinal =
+	ShieldSentinal =
 	{
 	 id = 16384
 	 r = 20
@@ -4626,7 +4639,7 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 cage_factor = 0
 	}
-	SumoWrestler =
+	SumoZombie =
 	{
 	 id = 16517
 	 r = 24
@@ -5511,7 +5524,7 @@ OB_MODULES["REALM667_Allies"] =
   game = "doomish"
   hooks =
   {
-	REALM667.monster_setup
+	setup = REALM667.monster_setup
   }
   
   options =
@@ -5555,7 +5568,7 @@ OB_MODULES["REALM667_Adult"] =
   game = "doomish"
   hooks  =
   {
-    REALM667.monster_setup
+    setup = REALM667.monster_setup
   }
   
   options =
@@ -5589,6 +5602,7 @@ OB_MODULES["REALM667"] =
   {
 	Abbadon                    =  {  label=_("Abbadon"),                    choices=REALM667.MON_CHOICES  }
 	AcipenserSapiens                    =  {  label=_("AcipenserSapiens"),                    choices=REALM667.MON_CHOICES  }
+	AdmiralCrunch                    =  {  label=_("AdmiralCrunch"),                    choices=REALM667.MON_CHOICES  }
 	Afrit                    =  {  label=_("Afrit"),                    choices=REALM667.MON_CHOICES  }
 	Agathodemon              =  {  label=_("Agathodemon"),              choices=REALM667.MON_CHOICES  }
 	AnotherAgathodemon              =  {  label=_("AnotherAgathodemon"),              choices=REALM667.MON_CHOICES  }
@@ -5600,6 +5614,10 @@ OB_MODULES["REALM667"] =
 	Arachnocubus             =  {  label=_("Arachnocubus"),             choices=REALM667.MON_CHOICES  }
 	Arachnophyte             =  {  label=_("Arachnophyte"),             choices=REALM667.MON_CHOICES  }
 	ArachnotronMK2           =  {  label=_("ArachnotronMK2"),           choices=REALM667.MON_CHOICES  }
+	ArchvileBlack           =  {  label=_("ArchvileBlack"),           choices=REALM667.MON_CHOICES  }
+	ArchvileBrown           =  {  label=_("ArchvileBrown"),           choices=REALM667.MON_CHOICES  }
+	ArchvileGold           =  {  label=_("ArchvileGold"),           choices=REALM667.MON_CHOICES  }
+	ArchvileGoldMinion           =  {  label=_("ArchvileGoldMinion"),           choices=REALM667.MON_CHOICES  }
 	Aracnorb                 =  {  label=_("Aracnorb"),                 choices=REALM667.MON_CHOICES  }
 	AracnorbQueen            =  {  label=_("AracnorbQueen"),            choices=REALM667.MON_CHOICES  }
 	ArchdukeChocula            =  {  label=_("ArchdukeChocula"),            choices=REALM667.MON_CHOICES  }
@@ -5761,6 +5779,7 @@ OB_MODULES["REALM667"] =
 	ForgottenOne             =  {  label=_("ForgottenOne"),             choices=REALM667.MON_CHOICES  }
 	FormerCommander             =  {  label=_("FormerCommander"),             choices=REALM667.MON_CHOICES  }
 	FormerRanger             =  {  label=_("FormerRanger"),             choices=REALM667.MON_CHOICES  }
+	FormerSoldier             =  {  label=_("FormerSoldier"),             choices=REALM667.MON_CHOICES  }
 	FreezeRifleGuy           =  {  label=_("FreezeRifleGuy"),           choices=REALM667.MON_CHOICES  }
 	FusionSpider             =  {  label=_("FusionSpider"),             choices=REALM667.MON_CHOICES  }
 	GargantuanHorror            =  {  label=_("GargantuanHorror"),            choices=REALM667.MON_CHOICES  }
@@ -5777,7 +5796,9 @@ OB_MODULES["REALM667"] =
 	GreenSwampZombie                    =  {  label=_("GreenSwampZombie"),                    choices=REALM667.MON_CHOICES  }
 	RedSwampZombie                    =  {  label=_("RedSwampZombie"),                    choices=REALM667.MON_CHOICES  }
 	GreyAlien                    =  {  label=_("GreyAlien"),                    choices=REALM667.MON_CHOICES  }
+	GrossElemental                    =  {  label=_("GrossElemental"),                    choices=REALM667.MON_CHOICES  }
 	Grunt                    =  {  label=_("Grunt"),                    choices=REALM667.MON_CHOICES  }
+	GruntSergeant                    =  {  label=_("GruntSergeant"),                    choices=REALM667.MON_CHOICES  }
 	Guardian                 =  {  label=_("Guardian"),                 choices=REALM667.MON_CHOICES  }
 	GutlessOne                 =  {  label=_("GutlessOne"),                 choices=REALM667.MON_CHOICES  }
 	HS3                      =  {  label=_("HS3"),                      choices=REALM667.MON_CHOICES  }
@@ -5813,7 +5834,7 @@ OB_MODULES["REALM667"] =
 	InfernalSpiderBig                  =  {  label=_("InfernalSpiderBig"),                  choices=REALM667.MON_CHOICES  }
 	InfernalSpiderSmall                  =  {  label=_("InfernalSpiderSmall"),                  choices=REALM667.MON_CHOICES  }
 	InfernalSpiderMini                  =  {  label=_("InfernalSpiderMini"),                  choices=REALM667.MON_CHOICES  }
-	InfernalSpider                  =  {  label=_("Inferno"),                  choices=REALM667.MON_CHOICES  }
+	InfernalSpiderVeryMini                  =  {  label=_("InfernalSpiderVeryMini"),                  choices=REALM667.MON_CHOICES  }
 	Inferno                  =  {  label=_("Inferno"),                  choices=REALM667.MON_CHOICES  }
 	JetpackZombie            =  {  label=_("JetpackZombie"),            choices=REALM667.MON_CHOICES  }
 	Juggernaut            =  {  label=_("Juggernaut"),            choices=REALM667.MON_CHOICES  }
@@ -5890,6 +5911,7 @@ OB_MODULES["REALM667"] =
 	Pyrobus                =  {  label=_("Pyrobus"),                choices=REALM667.MON_CHOICES  }
 	PyroDemon                =  {  label=_("PyroDemon"),                choices=REALM667.MON_CHOICES  }
 	PyroImp                  =  {  label=_("PyroImp"),                  choices=REALM667.MON_CHOICES  }
+	PyroPork                  =  {  label=_("PyroPork"),                  choices=REALM667.MON_CHOICES  }
 	PyroZombie               =  {  label=_("PyroZombie"),               choices=REALM667.MON_CHOICES  }
 	Q1Spawn        =  {  label=_("Q1Spawn"),        choices=REALM667.MON_CHOICES  }
 	Q2IronMaiden        =  {  label=_("Q2IronMaiden"),        choices=REALM667.MON_CHOICES  }
@@ -5922,6 +5944,7 @@ OB_MODULES["REALM667"] =
 	Shade                    =  {  label=_("Shade"),                    choices=REALM667.MON_CHOICES  }
 	Shadow                   =  {  label=_("Shadow"),                   choices=REALM667.MON_CHOICES  }
 	ShadowHunter             =  {  label=_("ShadowHunter"),             choices=REALM667.MON_CHOICES  }
+	ShadowImp             =  {  label=_("ShadowImp"),             choices=REALM667.MON_CHOICES  }
 	ShadowTrooper            =  {  label=_("ShadowTrooper"),            choices=REALM667.MON_CHOICES  }
 	Shark            =  {  label=_("Shark"),            choices=REALM667.MON_CHOICES  }
 	ShieldSentinal            =  {  label=_("ShieldSentinal"),            choices=REALM667.MON_CHOICES  }
@@ -5961,7 +5984,7 @@ OB_MODULES["REALM667"] =
 	SupremeFiend             =  {  label=_("SupremeFiend"),             choices=REALM667.MON_CHOICES  }
 	Swarm                    =  {  label=_("Swarm"),                    choices=REALM667.MON_CHOICES  }
 	SWRipper                    =  {  label=_("SWRipper"),                    choices=REALM667.MON_CHOICES  }
-	SerpentDemiGod                    =  {  label=_("SerpentDemiGod"),                    choices=REALM667.MON_CHOICES  }
+	SWSerpentDemiGod                    =  {  label=_("SWSerpentDemiGod"),                    choices=REALM667.MON_CHOICES  }
 	T800        =  {  label=_("T800"),        choices=REALM667.MON_CHOICES  }
 	TechnoPhythe        =  {  label=_("TechnoPhythe"),        choices=REALM667.MON_CHOICES  }
 	TentacledCommando        =  {  label=_("TentacledCommando"),        choices=REALM667.MON_CHOICES  }
@@ -6003,7 +6026,7 @@ OB_MODULES["REALM667"] =
 	ZombieHenchman           =  {  label=_("ZombieHenchman"),           choices=REALM667.MON_CHOICES  }
 	ZombieMarine             =  {  label=_("ZombieMarine"),             choices=REALM667.MON_CHOICES  }
 	ZombieMissileTank        =  {  label=_("ZombieMissileTank"),        choices=REALM667.MON_CHOICES  }
-	ZombiePipeBomber         =  {  label=_("ZombiePipeBomber"),         choices=REALM667.MON_CHOICES  }
+	ZombiePipebomber         =  {  label=_("ZombiePipebomber"),         choices=REALM667.MON_CHOICES  }
 	ZombiePlasmaTank         =  {  label=_("ZombiePlasmaTank"),         choices=REALM667.MON_CHOICES  }
 	ZombieRailgunner         =  {  label=_("ZombieRailgunner"),         choices=REALM667.MON_CHOICES  }
 	ZombieScientist          =  {  label=_("ZombieScientist"),          choices=REALM667.MON_CHOICES  }
