@@ -187,6 +187,61 @@ REALM667W.WEAPONS =
 		ammo = "bullet"
 		per = 1
 	}
+	--BratwurstWeapons.wad start
+	--WolfKnife disabled by default
+	WolfKnife =
+    {
+	    id = 17439
+		level = 1
+		pref = 5
+		add_prob = 0
+		hide_prob = 80
+		attack = "melee"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
+	WolfPistol =
+    {
+	    id = 17440
+		level = 2
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "melee"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
+	WolfMachineGun =
+    {
+	    id = 17441
+		level = 3
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "melee"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
+	WolfGatlingGun =
+    {
+	    id = 17442
+		level = 4
+		pref = 5
+		add_prob = 1
+		hide_prob = 80
+		attack = "melee"
+		rate = 0.9
+		damage = 30
+		ammo = "bullet"
+		per = 1
+	}
+	--BratwurstWeapons.wad end
 	BRPS =
 	{
 		id = 17363
@@ -1847,6 +1902,12 @@ BFG2704                 =  {  label=_("BFG2704"),                 choices=REALM6
 BHGen                   =  {  label=_("BHGen"),                   choices=REALM667W.WEAPON_CHOICES  }
 BioPipebombLauncher     =  {  label=_("BioPipebombLauncher"),     choices=REALM667W.WEAPON_CHOICES  }
 Bolter     =  {  label=_("Bolter"),     choices=REALM667W.WEAPON_CHOICES  }
+--Bratwurst Weapons.wad
+WolfKnife     =  {  label=_("WolfKnife"),     choices=REALM667W.WEAPON_CHOICES  }
+WolfPistol     =  {  label=_("WolfPistol"),     choices=REALM667W.WEAPON_CHOICES  }
+WolfMachineGun     =  {  label=_("WolfMachineGun"),     choices=REALM667W.WEAPON_CHOICES  }
+WolfGatlingGun     =  {  label=_("WolfGatlingGun"),     choices=REALM667W.WEAPON_CHOICES  }
+--End Bratwurst Weapons.wad
 BRPS     =  {  label=_("BRPS"),     choices=REALM667W.WEAPON_CHOICES  }
 Butchergun              =  {  label=_("Butchergun"),              choices=REALM667W.WEAPON_CHOICES  }
 Channeler               =  {  label=_("Channeler"),               choices=REALM667W.WEAPON_CHOICES  }

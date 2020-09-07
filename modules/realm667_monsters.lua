@@ -292,6 +292,18 @@ REALM667.MONSTERS =
 	 density = 0.1
 	 boss_type = "nasty"
 	}
+	Annolisher =
+	{
+	 id = 10015
+	 r = 96
+	 h = 100
+	 prob = 30
+	 health = 6000
+	 damage = 800
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
+	}
 	Antithesis =
 	{
 	 id = 16289
@@ -311,6 +323,29 @@ REALM667.MONSTERS =
 	 h = 70
 	 prob = 30
 	 health = 1200
+	 damage = 800
+	 attack = "missile"
+	 density = 0.3
+	 boss_type = "minor"
+	}
+	Arachnohellknight =
+	{
+	 id = 17409
+	 r = 64
+	 h = 64
+	 prob = 30
+	 health = 600
+	 damage = 800
+	 attack = "missile"
+	 density = 0.3
+	}
+	Arachnobelphegor =
+	{
+	 id = 17408
+	 r = 64
+	 h = 64
+	 prob = 30
+	 health = 1800
 	 damage = 800
 	 attack = "missile"
 	 density = 0.3
@@ -338,6 +373,30 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	}
+	Arachnophyte2 =
+	{
+	 id = 17410
+	 r = 64
+	 h = 100
+	 prob = 30
+	 health = 3000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
+	}
+	DarkArachnophyte =
+	{
+	 id = 17411
+	 r = 64
+	 h = 100
+	 prob = 30
+	 health = 4000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
 	}
 	ArachnotronMK2 =
 	{
@@ -523,6 +582,18 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	BaronChampion =
+	{
+	 id = 17412
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 1000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
 	Bastet =
 	{
 	 id = 16478
@@ -590,6 +661,18 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 boss_type = "minor"
 	}
+	BelphegorChampion =
+	{
+	 id = 17413
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 1500
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
+	}
 	BetaSoul =
 	{
 	 id = 16380
@@ -601,6 +684,30 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	BFGArachnophyte =
+	{
+	 id = 17414
+	 r = 96
+	 h = 100
+	 prob = 30
+	 health = 3000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
+	}
+	BFGArachnotron =
+	{
+	 id = 17415
+	 r = 64
+	 h = 64
+	 prob = 30
+	 health = 750
+	 damage = 16
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
+	}
 	BFGGuy =
 	{
 	 id = 31344
@@ -608,6 +715,18 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 200
+	 damage = 16
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
+	}
+	BFGSpiderMastermind =
+	{
+	 id = 29000
+	 r = 100
+	 h = 100
+	 prob = 30
+	 health = 3000
 	 damage = 16
 	 attack = "missile"
 	 density = 0.1
@@ -1067,6 +1186,18 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	--Cordie is an ally - disabled by default
+	Cordie =
+	{
+	 id = 17443
+	 r = 16
+	 h = 48
+	 prob = 0
+	 health = 80
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
 	Tentacle1 =
 	{
 	 id = 667
@@ -1326,6 +1457,18 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 boss_type = "minor"
 	}
+	CyberBelphegor =
+	{
+	 id = 17416
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 1800
+	 damage = 100
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
+	}
 	CyberFiend =
 	{
 	 id = 10078
@@ -1333,6 +1476,17 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 500
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	CyberHellKnight =
+	{
+	 id = 17417
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 600
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
@@ -1451,6 +1605,30 @@ REALM667.MONSTERS =
 	 attack = "melee"
 	 density = 0.9
 	}
+	DarkAnnihilator =
+	{
+	 id = 17418
+	 r = 40
+	 h = 110
+	 prob = 30
+	 health = 7800
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	DarkCyberMastermind =
+	{
+	 id = 17419
+	 r = 96
+	 h = 100
+	 prob = 30
+	 health = 5800
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
 	DarkDevil =
 	{
 	 id = 30130
@@ -1458,6 +1636,28 @@ REALM667.MONSTERS =
 	 h = 56
 	 prob = 30
 	 health = 160
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	DarkFlyingImp =
+	{
+	 id = 17420
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 120
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	DarkHarbinger =
+	{
+	 id = 17421
+	 r = 40
+	 h = 110
+	 prob = 30
+	 health = 4300
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
@@ -1556,6 +1756,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	 cage_factor = 0
+	}
+	DarkImpAbomination =
+	{
+	 id = 17422
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 150
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
 	}
 	NamiDarkImp =
 	{
@@ -1660,6 +1871,18 @@ REALM667.MONSTERS =
 	 density = 0.9
 	 boss_type = "tough"
 	}
+	Demoliphyte =
+	{
+	 id = 17423
+	 r = 96
+	 h = 100
+	 prob = 30
+	 health = 6000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
+	}
 	Demolisher =
 	{
 	 id = 30110
@@ -1682,6 +1905,18 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.1
+	}
+	DevastatorArachnotron =
+	{
+	 id = 17424
+	 r = 64
+	 h = 64
+	 prob = 30
+	 health = 1000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
 	}
 	DevastatorZombie =
 	{
@@ -1856,7 +2091,7 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 0
-	 health = 0
+	 health = 150
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -1867,7 +2102,7 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 0
-	 health = 0
+	 health = 150
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -1878,7 +2113,7 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 0
-	 health = 0
+	 health = 150
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -1889,7 +2124,7 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 0
-	 health = 0
+	 health = 150
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -1900,7 +2135,7 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 0
-	 health = 0
+	 health = 150
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -1911,7 +2146,7 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 0
-	 health = 0
+	 health = 150
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -1922,7 +2157,7 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 0
-	 health = 0
+	 health = 150
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -1933,7 +2168,7 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 0
-	 health = 0
+	 health = 150
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -2783,6 +3018,18 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.4
 	}
+	Hellsmith =
+	{
+	 id = 17425
+	 r = 40
+	 h = 110
+	 prob = 30
+	 health = 6000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.4
+	 boss_type = "nasty"
+	}
 	HellsFury =
 	{
 	 id = 3127
@@ -2903,7 +3150,7 @@ REALM667.MONSTERS =
 	 r = 14
 	 h = 40
 	 prob = 0
-	 health = 0
+	 health = 170
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -3009,6 +3256,66 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	}
+	InsanityArachnophyteV2 =
+	{
+	 id = 17426
+	 r = 96
+	 h = 100
+	 prob = 30
+	 health = 5000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	InsanityDemoliphyte =
+	{
+	 id = 17427
+	 r = 96
+	 h = 100
+	 prob = 30
+	 health = 7000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	InsanityDemolisher =
+	{
+	 id = 17428
+	 r = 96
+	 h = 100
+	 prob = 30
+	 health = 7000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	InsanitySpiderV2 =
+	{
+	 id = 17429
+	 r = 96
+	 h = 100
+	 prob = 30
+	 health = 5000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	InsanitySupremeFiend =
+	{
+	 id = 17430
+	 r = 40
+	 h = 95
+	 prob = 30
+	 health = 5500
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
 	}
 	JetpackZombie =
 	{
@@ -3327,6 +3634,17 @@ REALM667.MONSTERS =
 	 attack = "melee"
 	 density = 0.9
 	}
+	NightmareMechDemon =
+	{
+	 id = 17431
+	 r = 30
+	 h = 56
+	 prob = 30
+	 health = 460
+	 damage = 16
+	 attack = "melee"
+	 density = 0.9
+	}
 	NightmareWitch =
 	{
 	 id = 17387
@@ -3442,6 +3760,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.1
 	}
+	OutcastNightcrawler =
+	{
+	 id = 17432
+	 r = 64
+	 h = 64
+	 prob = 30
+	 health = 800
+	 damage = 16
+	 attack = "missile"
+	 density = 0.1
+	}
 	OverLord =
 	{
 	 id = 30134
@@ -3488,6 +3817,18 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	}
+	Pancakubus =
+	{
+	 id = 17407
+	 r = 48
+	 h = 64
+	 prob = 30
+	 health = 600
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "minor"
 	}
 	ParasitePatient =
 	{
@@ -3627,6 +3968,52 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	--PlasmaSentient.wad
+	BFGSentient =
+	{
+	 id = 17433
+	 r = 16
+	 h = 56
+	 prob = 30
+	 health = 100
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	BFGSuperSentient =
+	{
+	 id = 17434
+	 r = 30
+	 h = 56
+	 prob = 30
+	 health = 400
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	DevastatorSentient =
+	{
+	 id = 17435
+	 r = 30
+	 h = 56
+	 prob = 30
+	 health = 400
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	AvatarBallSentient =
+	{
+	 id = 17436
+	 r = 30
+	 h = 56
+	 prob = 30
+	 health = 400
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	--End PlasmaSentient.wad
 	PlasmaZombie =
 	{
 	 id = 3205
@@ -3973,7 +4360,7 @@ REALM667.MONSTERS =
 	 r = 14
 	 h = 40
 	 prob = 0
-	 health = 0
+	 health = 80
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -4242,6 +4629,32 @@ REALM667.MONSTERS =
 	 h = 63
 	 prob = 0
 	 health = 300
+	 damage = 16
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
+	}
+	--disabled by default, I can't even imagine fighting off this monster with twice as much health
+	ShadeElemental =
+	{
+	 id = 16338
+	 r = 31
+	 h = 56
+	 prob = 0
+	 health = 600
+	 damage = 16
+	 attack = "missile"
+	 density = 0.1
+	 boss_type = "nasty"
+	}
+	-- also off, sorry Matt ;-)
+	MattsShade =
+	{
+	 id = 17445
+	 r = 15
+	 h = 63
+	 prob = 0
+	 health = 150
 	 damage = 16
 	 attack = "missile"
 	 density = 0.1
@@ -4701,7 +5114,7 @@ REALM667.MONSTERS =
 	 r = 14
 	 h = 40
 	 prob = 0
-	 health = 0
+	 health = 200
 	 damage = 0
 	 attack = "missile"
 	 density = 0.9
@@ -4899,6 +5312,29 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	ToxicAfrit =
+	{
+	 id = 17437
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 800
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	ToxicHellsmith =
+	{
+	 id = 17438
+	 r = 40
+	 h = 110
+	 prob = 30
+	 health = 8000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
 	TrashMonster =
 	{
 	 id = 9999
@@ -5019,6 +5455,18 @@ REALM667.MONSTERS =
 	 r = 16
 	 h = 56
 	 prob = 30
+	 health = 150
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	--Vivian is an ally - disabled by default
+	Vivian =
+	{
+	 id = 17444
+	 r = 16
+	 h = 48
+	 prob = 0
 	 health = 150
 	 damage = 16
 	 attack = "missile"
@@ -5530,6 +5978,7 @@ OB_MODULES["REALM667_Allies"] =
   options =
   {
     Charlie							= { label=_("Charlie"),						choices=REALM667.MON_CHOICES  }
+    Cordie							= { label=_("Cordie"),						choices=REALM667.MON_CHOICES  }
     DRadysCKid					= { label=_("DRadysCKid"),						choices=REALM667.MON_CHOICES  }
     DRadysRena					= { label=_("DRadysRena"),						choices=REALM667.MON_CHOICES  }
     DRadysTakako				= { label=_("DRadysTakako"),						choices=REALM667.MON_CHOICES  }
@@ -5554,6 +6003,7 @@ OB_MODULES["REALM667_Allies"] =
 	MarineAllyHSMissile 		= { label=_("MarineAllyHSMissile"),		choices=REALM667.MON_CHOICES  }
 	Susie 							= { label=_("Susie"),		choices=REALM667.MON_CHOICES  }
 	Ralsei 							= { label=_("Ralsei"),		choices=REALM667.MON_CHOICES  }
+	Vivian							= { label=_("Vivian"),	choices=REALM667.MON_CHOICES  }
   }
   
   tables =
@@ -5609,10 +6059,14 @@ OB_MODULES["REALM667"] =
 	Agaures                  =  {  label=_("Agaures"),                  choices=REALM667.MON_CHOICES  }
 	GhostlyAgaures                  =  {  label=_("GhostlyAgaures"),                  choices=REALM667.MON_CHOICES  }
 	Annihilator              =  {  label=_("Annihilator"),              choices=REALM667.MON_CHOICES  }
+	Annolisher              =  {  label=_("Annolisher"),              choices=REALM667.MON_CHOICES  }
 	Antithesis              =  {  label=_("Antithesis"),              choices=REALM667.MON_CHOICES  }
 	Arachnobaron             =  {  label=_("Arachnobaron"),             choices=REALM667.MON_CHOICES  }
+	Arachnobelphegor             =  {  label=_("Arachnobelphegor"),             choices=REALM667.MON_CHOICES  }
 	Arachnocubus             =  {  label=_("Arachnocubus"),             choices=REALM667.MON_CHOICES  }
 	Arachnophyte             =  {  label=_("Arachnophyte"),             choices=REALM667.MON_CHOICES  }
+	Arachnophyte2             =  {  label=_("Arachnophyte2"),             choices=REALM667.MON_CHOICES  }
+	DarkArachnophyte             =  {  label=_("DarkArachnophyte"),             choices=REALM667.MON_CHOICES  }
 	ArachnotronMK2           =  {  label=_("ArachnotronMK2"),           choices=REALM667.MON_CHOICES  }
 	ArchvileBlack           =  {  label=_("ArchvileBlack"),           choices=REALM667.MON_CHOICES  }
 	ArchvileBrown           =  {  label=_("ArchvileBrown"),           choices=REALM667.MON_CHOICES  }
@@ -5628,13 +6082,18 @@ OB_MODULES["REALM667"] =
 	AzureSnake                   =  {  label=_("AzureSnake"),                   choices=REALM667.MON_CHOICES  }
 	BabyCaco                 =  {  label=_("BabyCaco"),                 choices=REALM667.MON_CHOICES  }
 	Bad                      =  {  label=_("Bad"),                      choices=REALM667.MON_CHOICES  }
+	BaronChampion                      =  {  label=_("BaronChampion"),                      choices=REALM667.MON_CHOICES  }
 	BattleRifleZombie                      =  {  label=_("BattleRifleZombie"),                      choices=REALM667.MON_CHOICES  }
 	BeamRevenant             =  {  label=_("BeamRevenant"),             choices=REALM667.MON_CHOICES  }
 	BeamGuy                  =  {  label=_("BeamGuy"),                  choices=REALM667.MON_CHOICES  }
 	KamikaziGuy              =  {  label=_("KamikaziGuy"),              choices=REALM667.MON_CHOICES  }
 	BelphegorClone           =  {  label=_("BelphegorClone"),           choices=REALM667.MON_CHOICES  }
+	BelphegorChampion           =  {  label=_("BelphegorChampion"),           choices=REALM667.MON_CHOICES  }
 	BetaSoul           =  {  label=_("BetaSoul"),           choices=REALM667.MON_CHOICES  }
+	BFGArachnophyte                   =  {  label=_("BFGArachnophyte"),                   choices=REALM667.MON_CHOICES  }
+	BFGArachnotron                   =  {  label=_("BFGArachnotron"),                   choices=REALM667.MON_CHOICES  }
 	BFGGuy                   =  {  label=_("BFGGuy"),                   choices=REALM667.MON_CHOICES  }
+	BFGSpiderMastermind                   =  {  label=_("BFGSpiderMastermind"),                   choices=REALM667.MON_CHOICES  }
 	BirdImp                   =  {  label=_("BirdImp"),                   choices=REALM667.MON_CHOICES  }
 	BlindPinky               =  {  label=_("BlindPinky"),               choices=REALM667.MON_CHOICES  }
 	BioTechGunGuy               =  {  label=_("BioTechGunGuy"),               choices=REALM667.MON_CHOICES  }
@@ -5696,7 +6155,9 @@ OB_MODULES["REALM667"] =
 	CrowStill4R                   =  {  label=_("CrowStill4R"),                   choices=REALM667.MON_CHOICES  }
 	Cryocubus                   =  {  label=_("Cryocubus"),                   choices=REALM667.MON_CHOICES  }
 	Cyberbaron               =  {  label=_("Cyberbaron"),               choices=REALM667.MON_CHOICES  }
+	CyberBelphegor               =  {  label=_("CyberBelphegor"),               choices=REALM667.MON_CHOICES  }
 	CyberFiend               =  {  label=_("CyberFiend"),               choices=REALM667.MON_CHOICES  }
+	CyberHellKnight                 =  {  label=_("CyberHellKnight"),                 choices=REALM667.MON_CHOICES  }
 	cyberImp                 =  {  label=_("cyberImp"),                 choices=REALM667.MON_CHOICES  }
 	CyberMastermind          =  {  label=_("CyberMastermind"),          choices=REALM667.MON_CHOICES  }
 	Cybruiser                =  {  label=_("Cybruiser"),                choices=REALM667.MON_CHOICES  }
@@ -5708,7 +6169,12 @@ OB_MODULES["REALM667"] =
 	Daedabus                =  {  label=_("Daedabus"),                choices=REALM667.MON_CHOICES  }
 	Cardinal                 =  {  label=_("Cardinal"),                 choices=REALM667.MON_CHOICES  }
 	DagfallSkeleton			= { label=_("DagfallSkeleton"),		choices=REALM667.MON_CHOICES }
+	DarkAnnihilator                =  {  label=_("DarkAnnihilator"),                choices=REALM667.MON_CHOICES  }
+	DarkCyberMastermind                =  {  label=_("DarkCyberMastermind"),                choices=REALM667.MON_CHOICES  }
 	DarkDevil                =  {  label=_("DarkDevil"),                choices=REALM667.MON_CHOICES  }
+	DarkFlyingImp                =  {  label=_("DarkFlyingImp"),                choices=REALM667.MON_CHOICES  }
+	DarkHarbinger                =  {  label=_("DarkHarbinger"),                choices=REALM667.MON_CHOICES  }
+	DarkImpAbomination              =  {  label=_("DarkImpAbomination"),              choices=REALM667.MON_CHOICES  }
 	NamiDarkImp              =  {  label=_("NamiDarkImp"),              choices=REALM667.MON_CHOICES  }
 	NetherDarkImp            =  {  label=_("NetherDarkImp"),            choices=REALM667.MON_CHOICES  }
 	STDarkImp                =  {  label=_("STDarkImp"),                choices=REALM667.MON_CHOICES  }
@@ -5718,8 +6184,10 @@ OB_MODULES["REALM667"] =
 	Incarnate                =  {  label=_("Incarnate"),                choices=REALM667.MON_CHOICES  }
 	DeepOne                  =  {  label=_("DeepOne"),                  choices=REALM667.MON_CHOICES  }
 	Defiler                  =  {  label=_("Defiler"),                  choices=REALM667.MON_CHOICES  }
+	Demoliphyte               =  {  label=_("Demoliphyte"),               choices=REALM667.MON_CHOICES  }
 	Demolisher               =  {  label=_("Demolisher"),               choices=REALM667.MON_CHOICES  }
 	DemonDaddy               =  {  label=_("DemonDaddy"),               choices=REALM667.MON_CHOICES  }
+	DevastatorArachnotron         =  {  label=_("DevastatorArachnotron"),         choices=REALM667.MON_CHOICES  }
 	DevastatorZombie         =  {  label=_("DevastatorZombie"),         choices=REALM667.MON_CHOICES  }
 	Devil                    =  {  label=_("Devil"),                    choices=REALM667.MON_CHOICES  }
 	DevilMan                    =  {  label=_("DevilMan"),                    choices=REALM667.MON_CHOICES  }
@@ -5819,6 +6287,7 @@ OB_MODULES["REALM667"] =
 	HellHound              =  {  label=_("HellHound"),              choices=REALM667.MON_CHOICES  }
 	HellPaladin              =  {  label=_("HellPaladin"),              choices=REALM667.MON_CHOICES  }
 	HellRose              =  {  label=_("HellRose"),              choices=REALM667.MON_CHOICES  }
+	Hellsmith              =  {  label=_("Hellsmith"),              choices=REALM667.MON_CHOICES  }
 	Hierophant               =  {  label=_("Hierophant"),               choices=REALM667.MON_CHOICES  }
 	HopperClown                =  {  label=_("HopperClown"),                choices=REALM667.MON_CHOICES  }
 	HornedImp                =  {  label=_("HornedImp"),                choices=REALM667.MON_CHOICES  }
@@ -5836,6 +6305,11 @@ OB_MODULES["REALM667"] =
 	InfernalSpiderMini                  =  {  label=_("InfernalSpiderMini"),                  choices=REALM667.MON_CHOICES  }
 	InfernalSpiderVeryMini                  =  {  label=_("InfernalSpiderVeryMini"),                  choices=REALM667.MON_CHOICES  }
 	Inferno                  =  {  label=_("Inferno"),                  choices=REALM667.MON_CHOICES  }
+	InsanityArachnophyteV2                  =  {  label=_("InsanityArachnophyteV2"),                  choices=REALM667.MON_CHOICES  }
+	InsanityDemoliphyte                  =  {  label=_("InsanityDemoliphyte"),                  choices=REALM667.MON_CHOICES  }
+	InsanityDemolisher                  =  {  label=_("InsanityDemolisher"),                  choices=REALM667.MON_CHOICES  }
+	InsanitySpiderV2                  =  {  label=_("InsanitySpiderV2"),                  choices=REALM667.MON_CHOICES  }
+	InsanitySupremeFiend                  =  {  label=_("InsanitySupremeFiend"),                  choices=REALM667.MON_CHOICES  }
 	JetpackZombie            =  {  label=_("JetpackZombie"),            choices=REALM667.MON_CHOICES  }
 	Juggernaut            =  {  label=_("Juggernaut"),            choices=REALM667.MON_CHOICES  }
 	KarasawaGuy              =  {  label=_("KarasawaGuy"),              choices=REALM667.MON_CHOICES  }
@@ -5863,6 +6337,7 @@ OB_MODULES["REALM667"] =
 	KDiZDNightmare           =  {  label=_("KDiZDNightmare"),           choices=REALM667.MON_CHOICES  }
 	NightmareBeast           =  {  label=_("NightmareBeast"),           choices=REALM667.MON_CHOICES  }
 	NightmareDemon           =  {  label=_("NightmareDemon"),           choices=REALM667.MON_CHOICES  }
+	NightmareMechDemon           =  {  label=_("NightmareMechDemon"),           choices=REALM667.MON_CHOICES  }
 	NightmareWitch           =  {  label=_("NightmareWitch"),           choices=REALM667.MON_CHOICES  }
 	Nightshade               =  {  label=_("Nightshade"),               choices=REALM667.MON_CHOICES  }
 	NoirCacodemon               =  {  label=_("NoirCacodemon"),               choices=REALM667.MON_CHOICES  }
@@ -5873,11 +6348,13 @@ OB_MODULES["REALM667"] =
 	Otent           =  {  label=_("Otent"),           choices=REALM667.MON_CHOICES  }
 	WeakOtent           =  {  label=_("WeakOtent"),           choices=REALM667.MON_CHOICES  }
 	OutcastAcidDemon                 =  {  label=_("OutcastAcidDemon"),                 choices=REALM667.MON_CHOICES  }
+	OutcastNightcrawler                 =  {  label=_("OutcastNightcrawler"),                 choices=REALM667.MON_CHOICES  }
 	OverLord                 =  {  label=_("OverLord"),                 choices=REALM667.MON_CHOICES  }
 	Phantasm                 =  {  label=_("Phantasm"),                 choices=REALM667.MON_CHOICES  }
 	PainElementalElemental   =  {  label=_("PainElementalElemental"),                 choices=REALM667.MON_CHOICES  }
 	PainElementalElementalElemental =  {  label=_("PainElementalElementalElemental"),   choices=REALM667.MON_CHOICES  }
 	PainGasm =  {  label=_("PainGasm"),   choices=REALM667.MON_CHOICES  }
+	Pancakubus =  {  label=_("Pancakubus"),   choices=REALM667.MON_CHOICES  }
 	ParasitePatient =  {  label=_("ParasitePatient"),   choices=REALM667.MON_CHOICES  }
 	Phantom                  =  {  label=_("Phantom"),                  choices=REALM667.MON_CHOICES  }
 	PhaseImp                 =  {  label=_("PhaseImp"),                 choices=REALM667.MON_CHOICES  }
@@ -5889,6 +6366,12 @@ OB_MODULES["REALM667"] =
 	Pistule                 =  {  label=_("Pistule"),                 choices=REALM667.MON_CHOICES  }
 	PlasmaDemon              =  {  label=_("PlasmaDemon"),              choices=REALM667.MON_CHOICES  }
 	PlasmaElemental          =  {  label=_("PlasmaElemental"),          choices=REALM667.MON_CHOICES  }
+	--PlasmaSentient.wad
+	BFGSentient          =  {  label=_("BFGSentient"),          choices=REALM667.MON_CHOICES  }
+	BFGSuperSentient          =  {  label=_("BFGSuperSentient"),          choices=REALM667.MON_CHOICES  }
+	DevastatorSentient          =  {  label=_("DevastatorSentient"),          choices=REALM667.MON_CHOICES  }
+	AvatarBallSentient          =  {  label=_("AvatarBallSentient"),          choices=REALM667.MON_CHOICES  }
+	--End PlasmaSentient.wad
 	PlasmaZombie             =  {  label=_("PlasmaZombie"),             choices=REALM667.MON_CHOICES  }
 	Poe                      =  {  label=_("Poe"),                      choices=REALM667.MON_CHOICES  }
 	PoisonBaron               =  {  label=_("PoisonBaron"),               choices=REALM667.MON_CHOICES  }
@@ -5942,6 +6425,8 @@ OB_MODULES["REALM667"] =
 	SentientMushroom             =  {  label=_("SentientMushroom"),             choices=REALM667.MON_CHOICES  }
 	SetMinion             =  {  label=_("SetMinion"),             choices=REALM667.MON_CHOICES  }
 	Shade                    =  {  label=_("Shade"),                    choices=REALM667.MON_CHOICES  }
+	ShadeElemental                    =  {  label=_("ShadeElemental"),                    choices=REALM667.MON_CHOICES  }
+	MattsShade                    =  {  label=_("MattsShade"),                    choices=REALM667.MON_CHOICES  }
 	Shadow                   =  {  label=_("Shadow"),                   choices=REALM667.MON_CHOICES  }
 	ShadowHunter             =  {  label=_("ShadowHunter"),             choices=REALM667.MON_CHOICES  }
 	ShadowImp             =  {  label=_("ShadowImp"),             choices=REALM667.MON_CHOICES  }
@@ -5997,6 +6482,8 @@ OB_MODULES["REALM667"] =
 	TimeImp                  =  {  label=_("TimeImp"),                  choices=REALM667.MON_CHOICES  }
 	TornadoDemon             =  {  label=_("TornadoDemon"),             choices=REALM667.MON_CHOICES  }
 	TorturedSoul             =  {  label=_("TorturedSoul"),             choices=REALM667.MON_CHOICES  }
+	ToxicAfrit             =  {  label=_("ToxicAfrit"),             choices=REALM667.MON_CHOICES  }
+	ToxicHellsmith             =  {  label=_("ToxicHellsmith"),             choices=REALM667.MON_CHOICES  }
 	TrashMonster             =  {  label=_("TrashMonster"),             choices=REALM667.MON_CHOICES  }
 	Trite                    =  {  label=_("Trite"),                    choices=REALM667.MON_CHOICES  }
 	Tyrant                    =  {  label=_("Tyrant"),                    choices=REALM667.MON_CHOICES  }

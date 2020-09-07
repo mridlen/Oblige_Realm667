@@ -22,14 +22,14 @@ addon = Urban_Alleyway_Unclogger.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-31-1137_showdown_with_the_devil.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-8-31-2138_magic_at_the_tornadoes.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-1-2157_neglected_mausoleum.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-3-1040_showdown_with_the_crusaders.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-3-1541_complete_viscera.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-3-1756_not_enough_dismay.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-4-0925_vault_of_disintegration.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-4-0933_the_demons_of_subjugation.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-4-0959_garretts_neglected_crevice.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-4-1008_the_dreadful_span.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-5-0325_the_doctrine_of_the_vampire.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-5-1559_the_surreal_garden.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-6-1234_the_oppressive_fog.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-6-1328_the_violent_polyandrium.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-6-1943_call_of_imagination.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-7-0936_forsaken_undoing.wad
 
