@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 1470845425
+seed = 793501169
 
 ---- Game Settings ----
 
@@ -54,7 +54,7 @@ strength = fierce
 ramp_up = medium
 mon_variety = heaps
 bosses = harder
-bossesnormal = minor
+bossesnormal = no
 traps = some
 trap_style = default
 trap_qty = default
