@@ -2173,6 +2173,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	DRadysBKid =
+	{
+	 id = 17439
+	 r = 16
+	 h = 56
+	 prob = 0
+	 health = 150
+	 damage = 0
+	 attack = "missile"
+	 density = 0.9
+	}
 	BlackDragonImp =
 	{
 	 id = 16346
@@ -5312,6 +5323,182 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	TouhouAlice =
+	{
+	 id = 31453
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouCirno =
+	{
+	 id = 31467
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouIku =
+	{
+	 id = 31458
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouKomachi =
+	{
+	 id = 31468
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouMarisa =
+	{
+	 id = 31452
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouMeiling =
+	{
+	 id = 31469
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouPatchouli =
+	{
+	 id = 31464
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouReimu =
+	{
+	 id = 31451
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouRemilia =
+	{
+	 id = 31466
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouSakuya =
+	{
+	 id = 31465
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouSanae =
+	{
+	 id = 31460
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouSuika =
+	{
+	 id = 31461
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouTenshi =
+	{
+	 id = 31459
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouUtsuho =
+	{
+	 id = 31470
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouYoumu =
+	{
+	 id = 31462
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
+	TouhouYuyuko =
+	{
+	 id = 31463
+	 r = 24
+	 h = 64
+	 prob = 0
+	 health = 700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	}
 	ToxicAfrit =
 	{
 	 id = 17437
@@ -5979,14 +6166,14 @@ OB_MODULES["REALM667_Allies"] =
   {
     Charlie							= { label=_("Charlie"),						choices=REALM667.MON_CHOICES  }
     Cordie							= { label=_("Cordie"),						choices=REALM667.MON_CHOICES  }
-    DRadysCKid					= { label=_("DRadysCKid"),						choices=REALM667.MON_CHOICES  }
-    DRadysRena					= { label=_("DRadysRena"),						choices=REALM667.MON_CHOICES  }
-    DRadysTakako				= { label=_("DRadysTakako"),						choices=REALM667.MON_CHOICES  }
-    DRadysPatricia				= { label=_("DRadysPatricia"),						choices=REALM667.MON_CHOICES  }
-    DRadysNagato				= { label=_("DRadysNagato"),						choices=REALM667.MON_CHOICES  }
-    DRadysIris					= { label=_("DRadysIris"),						choices=REALM667.MON_CHOICES  }
-    DRadysAndro				= { label=_("DRadysAndro"),						choices=REALM667.MON_CHOICES  }
-    DRadysAKid					= { label=_("DRadysAKid"),						choices=REALM667.MON_CHOICES  }
+    DRadysCKid					= { label=_("DRadysCKid"),				choices=REALM667.MON_CHOICES  }
+    DRadysRena					= { label=_("DRadysRena"),				choices=REALM667.MON_CHOICES  }
+    DRadysTakako				= { label=_("DRadysTakako"),			choices=REALM667.MON_CHOICES  }
+    DRadysPatricia				= { label=_("DRadysPatricia"),			choices=REALM667.MON_CHOICES  }
+    DRadysNagato				= { label=_("DRadysNagato"),			choices=REALM667.MON_CHOICES  }
+    DRadysIris					= { label=_("DRadysIris"),					choices=REALM667.MON_CHOICES  }
+    DRadysAndro				= { label=_("DRadysAndro"),				choices=REALM667.MON_CHOICES  }
+    DRadysAKid					= { label=_("DRadysAKid"),				choices=REALM667.MON_CHOICES  }
     Isabelle							= { label=_("Isabelle"),						choices=REALM667.MON_CHOICES  }
     MarineAllyFist				= { label=_("MarineAllyFist"),				choices=REALM667.MON_CHOICES  }
 	MarineAllyPistol 				= { label=_("MarineAllyPistol"),			choices=REALM667.MON_CHOICES  }
@@ -6001,9 +6188,25 @@ OB_MODULES["REALM667_Allies"] =
 	MarineAllySSG 				= { label=_("MarineAllySSG"),			choices=REALM667.MON_CHOICES  }
 	MarineAllyRailgun 			= { label=_("MarineAllyRailgun"),		choices=REALM667.MON_CHOICES  }
 	MarineAllyHSMissile 		= { label=_("MarineAllyHSMissile"),		choices=REALM667.MON_CHOICES  }
-	Susie 							= { label=_("Susie"),		choices=REALM667.MON_CHOICES  }
-	Ralsei 							= { label=_("Ralsei"),		choices=REALM667.MON_CHOICES  }
-	Vivian							= { label=_("Vivian"),	choices=REALM667.MON_CHOICES  }
+	Susie 							= { label=_("Susie"),							choices=REALM667.MON_CHOICES  }
+	TouhouAlice           		= { label=_("TohouAlice"),             		choices=REALM667.MON_CHOICES  }
+	TouhouCirno             		= { label=_("TouhouCirno"),             	choices=REALM667.MON_CHOICES  }
+	TouhouIku             		= { label=_("TohouIku"),             		choices=REALM667.MON_CHOICES  }
+	TouhouKomachi             = { label=_("TouhouKomachi"),           choices=REALM667.MON_CHOICES  }
+	TouhouMarisa             	= { label=_("TouhouMarisa"),              choices=REALM667.MON_CHOICES  }
+	TouhouMeiling             	= { label=_("TouhouMeiling"),             choices=REALM667.MON_CHOICES  }
+	TouhouPatchouli             = { label=_("TouhouPatchouli"),          choices=REALM667.MON_CHOICES  }
+	TouhouReimu             	= { label=_("TouhouReimu"),              choices=REALM667.MON_CHOICES  }
+	TouhouRemilia             	= { label=_("TouhouRemilia"),             choices=REALM667.MON_CHOICES  }
+	TouhouSakuya             	= { label=_("TouhouSakuya"),            choices=REALM667.MON_CHOICES  }
+	TouhouSanae             	= { label=_("TouhouSanae"),              choices=REALM667.MON_CHOICES  }
+	TouhouSuika             	= { label=_("TouhouSuika"),              choices=REALM667.MON_CHOICES  }
+	TouhouTenshi             	= { label=_("TouhouTenshi"),             choices=REALM667.MON_CHOICES  }
+	TouhouUtsuho             	= { label=_("TouhouUtsuho"),             choices=REALM667.MON_CHOICES  }
+	TouhouYoumu             	= { label=_("TouhouYoumu"),             choices=REALM667.MON_CHOICES  }
+	TouhouYuyuko             	= { label=_("TouhouYuyuko"),             choices=REALM667.MON_CHOICES  }
+	Ralsei 							= { label=_("Ralsei"),							choices=REALM667.MON_CHOICES  }
+	Vivian							= { label=_("Vivian"),						choices=REALM667.MON_CHOICES  }
   }
   
   tables =

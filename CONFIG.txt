@@ -18,7 +18,7 @@
 -- Demios
 -- https://github.com/caligari87/ObAddon/
 
-seed = 793501169
+seed = 660149461
 
 ---- Game Settings ----
 
@@ -48,7 +48,7 @@ zdoom_skybox = disable
 ---- Monsters ----
 
 mons = prog
-mix_it_up_upper_range = insane
+mix_it_up_upper_range = heaps
 mix_it_up_lower_range = scarce
 strength = fierce
 ramp_up = medium
@@ -695,31 +695,47 @@ secrets_bonus = heapsest
 @REALM667_Allies = 1
   MarineAllySG = less
   MarineAllyFist = less
-  Isabelle = plenty
-  DRadysNagato = plenty
-  Cordie = plenty
-  DRadysCKid = plenty
+  Ralsei = less
+  Cordie = less
+  DRadysCKid = less
   MarineAllyMinigun = less
-  DRadysRena = plenty
-  Susie = plenty
   MarineAllySSG = less
-  DRadysTakako = plenty
-  Charlie = plenty
-  Vivian = plenty
-  Ralsei = plenty
+  TouhouMarisa = less
+  DRadysPatricia = less
+  TouhouMeiling = less
+  MarineAllyCG = less
+  TouhouUtsuho = less
+  DRadysIris = less
+  MarineAllyPistol = less
+  TouhouPatchouli = less
+  MarineAllyPlasma = less
+  TouhouYoumu = less
+  Isabelle = less
+  DRadysNagato = less
+  Vivian = less
+  MarineAllyRocket = less
+  DRadysRena = less
+  Susie = less
+  TouhouYuyuko = less
+  DRadysTakako = less
+  TouhouSuika = less
+  Charlie = less
+  TouhouAlice = less
+  TouhouTenshi = less
+  TouhouSanae = less
+  DRadysAndro = less
   MarineAllyHSMissile = less
+  TouhouCirno = less
+  TouhouReimu = less
+  TouhouKomachi = less
+  TouhouIku = less
+  TouhouRemilia = less
+  MarineAllyMG = less
   MarineAllyRailgun = less
   MarineAllyBFG9000 = less
-  MarineAllyCG = less
-  MarineAllyRocket = less
-  MarineAllyPlasma = less
   MarineAllyChainsaw = less
-  DRadysIris = plenty
-  MarineAllyMG = less
-  MarineAllyPistol = less
-  DRadysAndro = plenty
-  DRadysAKid = plenty
-  DRadysPatricia = plenty
+  DRadysAKid = less
+  TouhouSakuya = less
 
 @armaetus_epic_textures = 1
   include_package = yes

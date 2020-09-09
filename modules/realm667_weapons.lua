@@ -11,7 +11,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -24,7 +24,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1
 	}
@@ -37,7 +37,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -50,7 +50,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -63,7 +63,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -77,7 +77,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -90,7 +90,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -103,7 +103,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1
 	}
@@ -117,7 +117,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -131,7 +131,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -144,7 +144,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -157,7 +157,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -170,7 +170,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -183,7 +183,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -191,14 +191,14 @@ REALM667W.WEAPONS =
 	--WolfKnife disabled by default
 	WolfKnife =
     {
-	    id = 17439
+	    id = 17446
 		level = 1
 		pref = 5
 		add_prob = 0
 		hide_prob = 80
 		attack = "melee"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -211,7 +211,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "melee"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -224,7 +224,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "melee"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -237,7 +237,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "melee"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -251,7 +251,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -264,7 +264,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -277,7 +277,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -291,7 +291,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -304,7 +304,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -317,7 +317,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -330,7 +330,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -344,7 +344,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -357,7 +357,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -370,7 +370,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -383,7 +383,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -396,7 +396,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1	
 	}
@@ -409,7 +409,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -422,7 +422,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -435,7 +435,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -448,7 +448,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1
 	}
@@ -461,7 +461,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -474,7 +474,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -487,7 +487,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -501,7 +501,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -514,7 +514,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -527,7 +527,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1
 	}
@@ -541,7 +541,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -555,7 +555,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -568,7 +568,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -581,7 +581,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -594,7 +594,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -607,7 +607,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -621,7 +621,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -635,7 +635,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -648,7 +648,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -661,7 +661,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -674,7 +674,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -687,7 +687,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -700,7 +700,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -713,7 +713,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -726,7 +726,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -739,7 +739,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -752,7 +752,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -765,7 +765,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -779,7 +779,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -793,7 +793,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -806,7 +806,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -819,7 +819,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -832,7 +832,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -845,7 +845,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -858,7 +858,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -872,7 +872,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -885,7 +885,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -898,7 +898,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -911,7 +911,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -924,7 +924,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -937,7 +937,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -950,7 +950,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -964,7 +964,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -977,7 +977,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -990,7 +990,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1003,7 +1003,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1016,7 +1016,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1029,7 +1029,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1042,7 +1042,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1055,7 +1055,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1068,7 +1068,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1081,7 +1081,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1094,7 +1094,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1107,7 +1107,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "missile"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1120,7 +1120,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1133,7 +1133,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1146,7 +1146,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1159,7 +1159,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1172,7 +1172,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1185,7 +1185,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1198,7 +1198,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1211,7 +1211,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1224,7 +1224,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1237,7 +1237,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1251,7 +1251,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1264,7 +1264,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1277,7 +1277,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "missile"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "rocket"
 		per = 1
 	}
@@ -1290,7 +1290,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1303,7 +1303,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1317,7 +1317,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1330,7 +1330,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1343,7 +1343,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1356,7 +1356,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1369,7 +1369,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1382,7 +1382,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1395,7 +1395,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1408,7 +1408,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1421,7 +1421,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1434,7 +1434,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1447,7 +1447,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1460,7 +1460,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1473,7 +1473,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "cell"
 		per = 1
 	}
@@ -1486,7 +1486,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1499,7 +1499,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1512,7 +1512,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1525,7 +1525,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1538,7 +1538,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1551,7 +1551,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "missile"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "rocket"
 		per = 1
 	}
@@ -1564,7 +1564,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1577,7 +1577,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1
 	}
@@ -1590,7 +1590,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1
 	}
@@ -1603,7 +1603,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1616,7 +1616,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1629,7 +1629,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1642,7 +1642,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1655,7 +1655,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1668,7 +1668,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1681,7 +1681,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "bullet"
 		per = 1
 	}
@@ -1694,7 +1694,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1
 	}
@@ -1707,7 +1707,7 @@ REALM667W.WEAPONS =
 		hide_prob = 80
 		attack = "hitscan"
 		rate = 0.9
-		damage = 30
+		damage = 10
 		ammo = "shell"
 		per = 1
 	}
