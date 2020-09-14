@@ -1,0 +1,2934 @@
+Monsters:
+----------------------------------------------------------------------------------------------------------------
+Code: Skulltag, Gothic
+GLDefs: Skulltag, Gothic
+Sounds: id Software (Doom 3)
+Sprites: Skulltag, 3DRealms (Octobrain bits), Midway (D64 Cacodemon bits), David G, Vader
+Sprite Edit: Gothic
+Idea Base: Skulltag's Abaddon
+
+At last, the whole Skulltag family is here. The Abaddon is a more powerful and faster variant of the cacodemon, it fires 2 fast red gas balls, or 3 smaller projectiles in a row, and sometimes making combo attacks.Code: Nanami, Ghastly_dragon
+GLDefs: Keksdose, Herculine (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Espi, Ebola
+Code: Jimmy, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software, Eriance (Projectiles), Vader (Projectiles)
+Sprite Edit: Jimmy
+Decorate: Dreadopp
+GLDEFs: Dreadopp, Sandypaper (Brightmaps)
+Sounds: Id Software, Midway, Blizzard Entertainment, Eriance
+Sprites: Id Software, Eriance
+Sprite Edit: Dreadopp
+Idea Base: Eriance's Vulgar and DevilSubmitted by: DBJ87
+Decorate Created by: DBJ87
+Palette: PNG Palette
+Brightmaps: Yes
+Sprites: ID Software, DBJ87, Mark Quinn, Anthony Cole, Xim, CaptainToenail, FuzzballFox, Alando1, Skulltag
+Sprite Edit: DBJ87
+Brightmaps Edit: DBJ87
+SFX: Custom, That_One_Doom_Mod, Doom3, CthulhuCultist, Tormentor667, Skulltag Team, Eriance, Raven Software, Rise of the Triad,
+Xim's Marine Pack, Doom64
+Idea Base: Own Idea, yuraofthehairfan (Colour Blending & Captive Marines)
+
+I take no credit for other people's work, such as the sprites & sounds used.
+I only take credit for:
+-The Decorate & SoundInfo
+-Editing the 2nd Rocket Marine (from Xim’s Marine pack) to make the Bombardier.
+-Creating both of the Sniper Marine's (from Alando1’s Allied Marines V3) Death Sprites.
+-*Adding the colour-blends & a tutorial on how to use this. (See COLOURS on File).
+-Creating all the Brightmaps used by the Marines, excluding Marine 3 which has Doom's Marine Brightmaps.
+-Creating a new/updated Plasma Marine Firing Sprite set F.
+-Creating a new Chaingun Marine Firing Sprite set X.
+-**Creating a Captive Marine Situation where you can decide the fate of captured allies
+
+*Credit & thank you to yuraofthehairfan for suggesting this as a replacement to 
+Team Deathmatch or Co-operative style game play. And extra variety to the Marines. 
+-**Credit & thank you to yuraofthehairfan for suggesting this too for and all 
+the help given throughout this whole project.
+-Thank you to MagicWazard for helping to simplify freeing the Marines.
+-Thank You to Blue Shadow for helping to simplify activation Radius of Captives.
+
+Credit for the sprites:
+ID Software: Machinegun Marine (Doom Player)
+Marine Mark Quinn: Melee, Pistol, Chainsaw & Shotgun Marines
+Anthony Cole: Chaingun Marine Xim, CaptainToenail & FuzzballFox: Minigunner, 
+Plasma Rocket, BFG-9000, Railgun Marines & Alternative Rocket Launcher Sprites 
+that I used for the Bombardier.
+Bombardier's Seeker Missile: Taken from several Rocket Launcher alternatives 
+from the99 Weapons Wad submitted to Doomworld.com by Daniel
+Alando1's Friendly Co-operatives2: Sniper Marine
+Xim's Sniper Marine for Bullet Sprites, Sound & Decorate Set up, used to help me 
+set up my own Sniper Marine.
+Skulltag & Captain Toenail: The Bound Marines
+
+Thank you to yuraofthehairfan, Blue Shadow, DreadOpp & MagicWazard.
+Thank you to the Epidermis Emporium, DoomLegends, DoomWorld.Code: Eriance, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software, Midway
+Sprites: Id Software, Raven Software, Wolfendoom
+Sprite Edit: Eriance
+Idea Base: Doom Cyberdemon
+Submitted: Alley (T_Alj5)
+Decorate: Alley (T_Alj5)
+GLDEFs: Alley (T_Alj5)
+Sounds: Id Software, Midway, Hard Doom
+Sprites: Id Software, Raven Software, Wolfendoom, Eriance, Town Infection
+Sprite Edit: Alley (T_Alj5)
+Idea Base: Cyber MastermindSubmitted: WhoDaMan
+Decorate: WhoDaMan
+GLDefs: Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software 
+Sprite Edit: WhoDaMan
+Idea Base: Doom Arachnotron and Baron of Hell
+Submitted: mattbratt11
+Decorate: WhoDaMan, mattbratt11
+GLDefs: Sandypaper (Brightmaps), mattbratt11 (Coding)
+Sounds: Id Software
+Sprites: Id Software, WhoDaMan
+Sprite Edit: mattbratt11
+Idea Base: Arachnobaron and Belphegor
+Submitted: mattbratt11
+Decorate: WhoDaMan, mattbratt11
+GLDefs: Sandypaper (Brightmaps), mattbratt11 (Coding)
+Sounds: Id Software
+Sprites: Id Software, WhoDaMan
+Sprite Edit: mattbratt11
+Idea Base: Arachnobaron and Hell Knight
+Code: Xaser, Quasar, Ghastly (ZScript conversion)
+GLDefs: Dreadopp
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Xaser, Quasar
+//Arachnophyte
+Creator: Quasar
+Source: Monster Resource Wad
+
+//Dark Arachnophyte
+Code: Xaser, Quasar, Ghastly Dragon
+GLDefs: Dreadopp
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Xaser, Quasar
+Decorate: Jimmy, Zdude (minor edits)
+Sounds: None added, uses stock Doom sounds
+GLDefs: Sandypaper (Brightmaps)
+Sprites: id Software
+Sprite Edit: Jimmy
+Idea Base: Upgraded version of the ArachnotronName: Aracnorb
+Difficulty: Easy
+Connection: none
+Summon: Aracnorb
+Melee: Yes
+Distance: Homing Projectile
+Type: Alien
+Brightmaps: Yes
+
+Submitted: Jimmy91
+Decorate: Jimmy91
+GLDEFs: Jimmy91, Sandypaper (Brightmaps)
+Sounds: Jimmy91 (edits), id Software, 3DRealms
+Sprites: id Software, 3DRealms
+Sprite Edit: Jimmy91 Pain Edit Yuraofthehairfan
+Idea Base: Duke Nukem 3D Octabrain
+
+Description: A floating oversized brain with a powerful continuous psionic stream attack. The stream of psi spirals
+             erratically and homes in on its target, making it a chore to evade. Luckily, these guys aren't
+			 terribly strong, and will go down in a single point-blank SSG shot, providing you can get up close
+			 enough without it microwaving your brain, or mauling you to death with its teeth.Submitted: Yuraofthehairfan
+Decorate: Yuraofthehairfan, MagicWazard
+GLDEFs: Dreadopp, MagicWazard, Graf Zahl
+Sounds: (edits), id Software, 3DRealms (Electro Gun sound), Monolith Producties
+Sprites: id Software, 3DRealms (Electro Gun sprite), Jimmy, Beaublen (Thamuz BFG Projectile), Jimmy91
+Idea Base: Duke Nukem 3D Octabrain, Jimmy91's AracnorbCode: Eriance, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software, Eriance
+Sprites: Id Software, Midway, Eriance
+Sprite Edit: Eriance
+Idea Base: Hellstorm Archon of Hell
+Code: scalliano, Popsoap, Ghastly_dragon (ZScript conversion)
+GLDefs: scalliano
+Sounds: Eriance
+Sprites: Id Software, Ghastly_dragon, Eriance, Xim
+Sprite Edit: scalliano
+Idea Base: Automatic Shotgun from Demon Eclipse & Stronghold
+Submitted: Yuraofthehairfan
+Decorate: Yuraofthehairfan, MagicWazard, IMX
+GLDefs: MagicWazard
+Sounds: Scroton, IMX, MagicWazard, id Software, Raven Software
+Sprites: id Software
+Sprite Edit: osjclatchford
+Idea Base: A baby version of the Cacodemon from the ZDoom forumsName: Bad
+Difficulty: Very Easy
+Summon: Bad
+Melee: No
+Distance: Projectile
+Type: Demon
+
+Submitted: Jaeden
+Decorate: Jaeden
+Sounds: ID Software
+Sprites: ID Software, Raven
+Sprite Edit: Jaeden
+Idea Base: Avenged Sevenfold Band Logo
+Decorate: Captain Ventris
+GLDEFs: Captain Ventris
+Sounds: Id Software
+Sprite Edit: Spectator
+Idea Base: ZDoom Wars required sprites to allow players to tell Rail and Normal Revenants apart.Code: Captain Toenail, Ghastly Dragon (ZScript conversion)
+GLDefs: Sandypaper (Brightmaps)
+Sounds: UT2K4, Quake2
+Sprites: Id Software
+Sprite Edit: Captain Toenail, Ghastly Dragon
+//Belphegor
+Code: Nanami, Ghastly Dragon
+GLDefs: Ghastly Dragon, Virtue (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Carnevil
+Idea Base: Skulltag
+
+//Belphegor Champion
+Code: Nanami, Ghastly Dragon, ScoreDoom Team (MelterAcid and DarkFlame), mattbratt11 (Edits)
+GLDefs: Ghastly Dragon, Virtue (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software, Carnevil
+Idea Base: The Champion version of Belphegor.
+
+Submitted: mattbratt11
+Decorate: BloodyAcid (Base), Quasar (Base), mattbratt11 (Edits)
+GLDEFs: N/A
+Sounds: Id Software
+Sprites: Id Software, Eriance, Gerolf, Quasar, BloodyAcid
+Sprite Edit: mattbratt11
+Idea Base: Quasar's Arachnophyte and BloodyAcid's BFG Spider Mastermind
+Name: BFG Arachnotron
+Difficulty: Hard
+Connection: None
+Summon: BFGArachnotron
+Melee: No
+Distance: Projectile
+Type: Demon, Cybernetic
+
+Submitted: mattbratt11
+Decorate: Tormentor667, Captain Toenail, mattbratt11
+Sounds: Id Software
+Sprites: Id Software 
+Sprite Edit: Tormentor667, Captain Toenail
+Sprite Recolor: mattbratt11
+Idea: mattbratt11Code: scalliano, Ghastly (ZScript conversion)
+Sprites: Id Software
+Sprite Edit: ItsNatureToDie, neoworm
+Idea Base: Lack of a decent BFG zombie
+Decorate: BloodyAcid
+GLDEFs: N/A
+Sounds: Id Software
+Sprites: Id Software, Eriance
+Sprite Edit: Gerolf
+Idea Base: Doom Spider Mastermind, Eriance DemolisherCode: DoomedArchvileDemon
+Sounds: Doom 64
+Sprites: HorrorMovieGuy
+Idea Base: Enemy that reacts to sound
+Code: Carnevil, Ghastly (ZScript conversion)
+GLDefs: Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Neoworm, Vader
+Idea Base: Skulltag's Blood Demon by Cyb
+Code: Eriance, Ghastly (ZScript conversion)
+Sounds: Id Software, Raven Software, Midway
+GLDefs: Sandypaper (Brightmaps)
+Sprites: Id Software
+Sprite Edit: Eriance
+Idea Base: Doom Demon
+Submitted: Ichor
+Decorate: Ichor
+GLDefs: Ichor
+Sounds: Raven Software
+Sprites: Raven Software
+Sprite Edit: Ichor
+Idea Base: Carnage Galore 3Submitted: Gothic
+Decorate: Gothic
+GLDefs: Gothic
+Sounds: 3DRealms, Rogue Entertainment
+Sprites: 3DRealms, Id Software, Monolith Productions
+Sprite Edit: GothicSubmitted: Captain Toenail
+Decorate: Captain Toenail
+Sounds: Raven
+Sprites: Raven, Id Software
+Sprite Edit: Captain Toenail
+Code: KILLA DIO
+GLDefs: none
+Sounds: Id Software (included in iwad)
+Sprites: Eriance, Id Software
+Sprite Edit: KILLA DIO
+Idea Base: stronger version of the Baron of hell/hell knight
+Code: Vader, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Keksdose, Sandypaper (Brightmaps)
+Sounds: Id Software, Blizzard
+Sprites: Id Software
+Sprite Edit: Vader
+Submitted: 00_Zombie_00
+Decorate: 00_Zombie_00
+GLDEFs: N/A
+Sounds: id Software
+Sprites: id SoftwareCode: Bouncy, TheDarkArchon, Ghastly (ZScript conversion)
+GLDefs: Ghastly
+Sounds: Raven Software
+Sprites: Vader
+Code: Tormentor667, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software (Quake 3 Arena)
+Sprites: Id Software, LucasArts
+Sprite Edit: Rottking
+Idea Base: Serious Sam Aliens
+//Art and general Labor by MarlboroMike2100(Michael Swaen)
+//Further Credits Coding by Captain Toenail's
+//Deployable Sentry Gun.Credits:
+Submitted: Yuzoo
+Decorate: Yuzoo
+GLDefs: Yuzoo
+Sounds: ID Software
+Sprites: Hexen, Wraith
+Sprite Edit: Yuzoo
+Idea Base: Wraith who has powers of fire.Submitted: WhiteMagicRaven
+Decorate: Reiko (Kenon)
+GLDEFs: ozymandias81
+Sounds: Raven Software
+Sprites: Raven Software
+Sprite Edit: No
+Idea Base: Monster from ShadowCaster
+Submitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Submitted: DeVloek
+Decorate: Carnevil, DeVloek
+GLDefs: Sandypaper, DeVloek
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Neoworm, Vader, DeVloek
+Idea Base: a Pinkie with a hitscan attack / Mauler DemonCode: Vader, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Vader
+Idea Base: Chaingunner from Doom 2
+Decorate: Captain Toenail
+Sounds: Croteam
+GLDefs: Sandypaper (Brightmaps)
+Sprites: Id software
+Sprite edit: Captain Toenail
+Idea base: Arachnids from Serious SamSubmitted: Jaeden
+Decorate: Jaeden
+GLDefs: Jaeden
+Sounds: Raven Software
+Sprites: Jaeden, Raven Software
+Sprite Edit: JaedenSubmitted: Callum Sanderson
+Decorate: Callum Sanderson
+GLDEFs: N/A
+Sounds: Monolith Productions
+Sprites: Monolith ProductionsCode: Stopsignal
+Sounds: Id Software, Freesounds.org, edited by Stopsignal
+Sprites: Stopsignal
+Idea Base: OriginalCode: Eriance, Blue Shadow (clean-up), Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon
+Sounds: id Software
+Sprites: Eriance
+Submitted: Mor'ladim
+Decorate: Mor'ladim
+Sounds: Mor'ladim, Jojikiba (Caw sound)
+Sprites: Konami (Contra: Hard Corps)
+Sprite Edit: Mor'ladim
+Idea Base: Saw the crow in a sprite sheet and wanted to make a 'prop' out of it.Name: Cyber Belphegor
+Difficulty: Hard
+Connection: Cyber Baron
+Summon: CyberBelphegor
+Melee: Yes
+Distance: Projectile
+Type: Demon, Cybernetic
+
+Submitted: mattbratt11
+Decorate: Ben2k9 (Base), mattbratt11 (Edits)
+GLDEFs: Ghastly Dragon (Base), mattbratt11 (Edits)
+Sounds: Id Software
+Sprites: Id Software, Ben2k9
+Sprite Edit: mattbratt11
+Idea Base: Cyber Baron and Belphegor
+Submitted: hnsolo77
+Decorate: Carnevil/hnsolo77
+GLDEFs: N/A
+Sounds: CyClones *Raven Software*, Shadow Caster
+Sprites: id Software
+Sprite Edit: Neoworm, Vader, Eriance, hnsolo77
+idea base: Baddies that puke as an attack.
+Name: Cyber HellKnight
+Difficulty: Hard
+Connection: Cyber Baron
+Summon: Cyberhellknight
+Melee: Yes
+Distance: Projectile
+Type: Demon, Cybernetic
+
+Submitted: mattbratt11
+Decorate: Ben2k9 (Base), mattbratt11 (Edits)
+GLDEFs: Ghastly Dragon (Base), mattbratt11 (Edits)
+Sounds: Id Software
+Sound Edits: mattbratt11 (Sight and Death sounds)
+Sprites: Id Software, Ben2k9
+Sprite Edit: mattbratt11
+Idea Base: Cyber Baron and Hell Knight
+Code: Eriance, Ghastly (ZScript conversion)
+GLDefs: Dreadopp, SandyPaper (Brightmaps)
+Sounds: id Software, Eriance
+Sprites: id Software, Raven Software, Wolfendoom
+Sprite Edit: Eriance
+Idea Base: Doom 2 Cyberdemon
+Submitted: Ghastly_dragon
+Decorate: Aerial
+GLDefs: Ghastly_dragon
+Sounds: Id Software, Ghastly_dragon
+Sprites: Id Software
+Sprite Edit: Vegeta, Aerial, Tormentor667
+Submitted: mattbratt11
+Decorate: DBThanatos, mattbratt11
+GLDEFs: Dreadopp, Sandypaper (Brightmaps), mattbratt11 (Coding)
+Sounds: Blizzard (Diablo)
+Sprites: Id Software, Raven Software, Wolfendoom, Amuscaria
+Sprite Edit: Agaures (Recolor)
+Idea Base: Annihilator and Thamuz
+Name: Dark Cyber Mastermind
+Difficulty: Very Hard
+Connection: none
+Summon: DarkCyberMastermind
+Melee: No
+Distance: Projectile, Tracer
+Type: Demon, Cybernetic
+Brightmaps: Yes
+
+Submitted: mattbratt11
+Decorate: DBThanatos (Thamuz Base), Nanami (Cyber Mastermind Base), mattbratt11 (Edits)
+GLDEFs: Dreadopp
+Brightmaps: N/A
+Sounds: ID Software, Blizzard (Diablo)
+Sprites: Id Software, Jimmy, Nanami
+Sprite Edit: mattbratt11
+Idea Base: Realm667's Cyber Mastermind and Thamuz
+Code: Eriance, Skelegant, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Skelegant
+Sounds: id Software, Midway, Eriance
+Sprites: id Software
+Sprite Edit: Eriance, ItsNatureToDie
+Name: Dark Flying Imp
+Difficulty: Easy
+Connection: Dark Imp variants
+Summon: DarkFlyingImp
+Melee: No
+Distance: Projectile
+Type: Demon
+
+Submitted: mattbratt11
+Decorate: Nanami; Maelstrom
+Sounds: ID Software
+Sprites: ID Software; Raven Software
+Sprite Edit: Maelstrom; Nanami (Projectile)
+Sprite Recolor: mattbratt11
+Idea Bases: A Hybrid of NamiDarkImp and FlyingImpSubmitted: Gez, Dreadopp
+Decorate: Dreadopp (Base), mattbratt11 (Edits)
+Sounds: ID Software
+Sprites: ID Software
+Sprite Edit: Damien Daurio (Base), mattbratt11 (Recolor)
+Idea Base: A cross between Imp Abomination and Dark Imp
+Code: Nanami, Itsnaturetodie, Ghastly (ZScript conversion)
+GLDefs: Ghastly
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Nanami, Itsnaturetodie
+Code: Jaeden, Ghastly (ZScript conversion)
+GLDefs: Jaeden
+Sounds: ID Software
+Sprites: ID Software
+Sprite Edit: Vader (Shape), Jaeden (Recolor)
+Code: Skulltag, Vader, Ghastly (ZScript conversion)
+GLDefs: Ghastly, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Vader
+Idea Base: Skulltag
+Code: Cyb, Vader, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Vader, Nanami (recolor)
+Idea Base: Cyb
+Code: Ghastly Dragon
+GLDefs: Ghastly Dragon
+Sounds: Warcraft 3
+Sprites: Raven Software
+Sprite Edit: Ghastly Dragon
+Idea Base: Doom novels
+Code: Eriance, Blue Shadow, MagicWazard, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Midway, Rogue Entertainment, Raven Software
+Sprites: Id Software, Midway, Raven Software (Monster); Nintendo (Puff)
+Sprite Edit: Eriance (Monster); MagicWazard (Puff)
+Idea Base: Hellstorm Death Incarnate
+Submitted: Dr. Doctor
+Decorate: Dr. Doctor
+Sounds: Shadowman (Acclaim Entertainment)
+Sprites: Id Software, Looking Glass Studios (fireballs)
+Sprite Edit: Dr. DoctorSubmitted: mattbratt11
+Decorate: Eriance (Base), Quasar (Base), mattbratt11 (Edit)
+GLDEFs: N/A
+Sounds: Id Software, Midway
+Sprites: Id Software, Quasar, Eriance
+Sprite Edit: mattbratt11
+Idea Base: Quasar's Arachnophyte and Eriance's Demolisher
+Decorate: Eriance
+GLDEFs: Ghastly Dragon, SandyPaper (Brightmaps)
+Sounds: Id Software, Midway
+Sprites: Id Software
+Sprite Edit: Eriance
+Idea Base: Doom Spider MastermindName: Devastator Arachnotron
+Difficulty: Hard
+Connection: None
+Summon: DevastatorArachnotron
+Melee: No
+Distance: Projectile
+Type: Demon, Cybernetic
+
+Submitted: mattbratt11
+Decorate: Tormentor667, Captain Toenail, scalliano, mattbratt11
+Sounds: Id Software
+Sprites: Id Software, Eriance, Tormentor667, Captain Toenail
+Sprite Edit: mattbratt11
+Idea: Devastator from Demon Eclipse, and Doom Arachnotron
+Code: scalliano, Ghastly_dragon (ZScript conversion)
+Sounds: Eriance (?)
+Sprites: Id Software, Eriance
+Sprite Edit: ItsNatureToDie, neoworm, Captain Toenail, Xim, Ghastly_dragon, scalliano
+Idea Base: Devastator from Demon Eclipse
+Submitted: Doomedarchviledemon
+Decorate: Captain Toenail, Doomedarchviledemon
+Sprites: Exhumed / Powerslave
+Sprite Edits: Doomedarchviledemon
+Sounds: Serious Sam, Freesounds
+Idea Base: TremorsCode: Eriance, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software, Raven Software, Rogue Entertainment, Eriance
+Sprites: Id Software, Raven Software
+Sprite Edit: Eriance
+Idea Base: Doom 2 Arch-Vile
+Submitted: ZZYZX
+Decorate: ZZYZX
+GLDefs: Nope
+Sounds: id software
+Sprites: id software
+Sprite Edit: ZZYZX
+Idea Base: BijuudamaCode: Eriance, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Midway
+Sprites: Id Software, Eriance
+Sprite Edit: Eriance
+Base Idea: Doom 2 Chaingunner
+ALL RESOURCES TAKEN FROM 'D'-RADYS CLASS MOD
+
+THE ORIGINAL MOD CAN BE FOUND HERE: https://forum.zdoom.org/viewtopic.php?f=19&t=48767
+
+ALL TEXT BELOW IS THE ORIGINAL TEXT FILE FOR 'D'-RADYS:
+--------------------------------------------------------------------------------
+Title		: Doom 'R'adys Class
+file		: DRCv62_gf.pk3, DRCv62_wt.wad, DRCv6_spray.wad
+Last UpLoad	: 2012/07/19
+Author		: SHOgun
+		(http://www.geocities.jp/doomer667shogun/index.html)
+------------------------------------
+Engine		: ZDOOM, GZDOOM
+New map		: No
+New sound	: Yes
+New music	: Yes
+New enemys	: -
+New weapons	: 35 + 52 + 11
+New item	: 13 + 11
+New class	: 6 + 3
+New Keys	: Inventry
+		  Store control
+------------------------------------
+Build Time	: So long
+Editor		: DeePsea, XWE, SLumpEd
+		  etr...
+Data from	: Heretic, Hexen, Duke3D, Blood, RoTT, 
+		  Realm667 (http://www.realm667.com/)
+		  Weapons Resource Wad, Arsenal, A.E.O.D, Imminent Firestorm,
+		  equinox, BatmanDoom, Bp2wm, D3mod, SPZDOOM2, WestanDoom, painkill,
+		  kisound4, bsswm, Le-guns2,  Le-guns3, GvH, brutaldoom
+		  etr....
+
+------------------------------------
+
+------------------------------------
+2012/07/19 v62	????????
+		???????, ?????????
+2012/05/25 v6	??? ??
+2011/12/10 v6	???????
+		??????
+		Ilis, Andlo, B.kid ??
+2008/11/25 v52	???
+2008/9/15 v52	???
+		???
+2008/9/8 v52ß	????????
+		????????
+		??????
+		CometStaff??
+		DeathBook??
+		??????
+		????
+2007/12/28 v51	???
+		????
+		????
+2007/11/15 v5	??????
+		Gore ??
+		Nagato ??
+2007/8/9 v41	???
+2007/8/2 v4	Patricia ??
+		Rena & Takako ??
+		??? ???
+2007/6/2 v31	Shotgun?????
+		Stuff of DO.KU.RO????????
+2007/5/21 v3	??&??????
+		?????????????
+2007/3/29	?????
+2007/3/26	??????????
+		??????CountItem??
+		GZDOOM?Lights????
+2007/2/25	FoolAngel??????
+2007/2/23	??Submitted: Shadesmaster(formerly known as CodenniumRed), Cryomundus
+Decorate: Shadesmaster, Cryomundus
+GLDefs: Dreadopp
+Sounds: Railbot,
+Sprites: Shadesmaster, Raven (modified from Ettin pauldrons, would you believe it!), 
+Sprite Edit: Shadesmaster, Dreadopp (projectile), Cryomundus (rotations)
+Idea Base: A slightly demonic machine with rending capabilitiesSubmitted: DBJ87
+Decorate: DBJ87, MagicWazard
+GLDefs: DBJ87, MagicWazard
+Sounds: id Software, IMX, Raven Software, DBT (Doom 4 Monster sounds Ripped by DBT)
+Sprites: id Software, Raven Software, IMX
+Sprite Edit: IMX, MagicWazard, DBJ87
+Brightmaps: DBJ87
+Idea Base: Own idea
+
+/*
+Converted to a Revenant based Monster by IMX, with permission to edit freely
+as long as credit is given.
+
+Thank you to MagicWazard for suggested changes to attacks & additional help.
+
+Doom 4 Monster sounds Ripped by DBT for D4D project, permission granted. Free to
+use & authors of D4D ask that credit is given where credit is due. If you re-use
+this, I ask that you please do the same.
+*/
+Decorate: Tormentor667
+GLDEFs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software, Vader
+Sprites: Id Software, Raven Software
+Sprite Edit: Neoworm, Tormentor667Submitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Submitted: Gothic, Tormentor667
+Decorate: Gothic
+GLDefs: Gzdoom
+Sounds: LucasArts, Epic games, Id Software
+Sprites: Apogee, Id Software, Rogue Entertainment
+Sprite Edit: Enjay, Globe, GothicDecorate: Tormentor667
+GLDefs: Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Tormentor667Code: Neoworm, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Neoworm, Vader (projectiles)
+Credits:
+Submitted: Yuzoo
+Decorate: Yuzoo
+GLDefs: Yuzoo
+Sounds: Id Software
+Sprites: Heretic wizard, black and blue.
+Sprite Edit: Yuzoo
+Idea Base: A sorcerer when have differents powers, fireballs.
+Description: 
+A sorcerer when could fly, have a Faster state, strong. A basic enemy for a wads.Submitted: TheMightyHeracross
+Decorate: TheMightyHeracross
+GLDefs: Graf Zhal (lights.pk3)
+Sounds: id (Knight Sounds, SMG shoot, and blade swing), Rogue (Blade hit)
+Sprites: The Innocent Crew (Head), osjclatchford (Pistol Zombie), Colin Portratz (SMG taken from G99 skin), Rogue (Blade from Reaver, edited), id ( base for gib Sprites), David G and Minigunner (Alternate death frame base)
+Sprite Edit: TheMightyHeracross
+Idea Base: Idea started as a humanoid form of a ReaverDecorate: Osiris, Espi, Supersonix07
+GLDEFs: Ghastly Dragon
+Sounds: Id Software, Raven Software, Monolith
+Sprites: Id Software, Raven Software
+Idea Base: Doom floating eye decorationCode: Eriance, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Herculine (Brightmaps)
+Sounds: Raven Software, Eriance
+Sprites: Eriance
+Base Idea: Hellstorm Fallen
+Submitted: DavidRaven
+Decorate: DavidRaven
+GLDefs: DavidRaven
+Sounds: DavidRaven, Id software
+Sprites: Id Software, the Skulltag Team, Tormentor667, Captain Toenail, Ghastly Dragon
+Sprite Edit: DavidRaven, ItsNatureToDie (altdeath)
+Idea Base: DavidRaven
+Submitted: DavidRaven
+Decorate: DavidRaven, Tormentor667
+GLDefs: DavidRaven
+Sounds: DavidRaven, Id software
+Sprites: Id Software, the Skulltag Team, Ghastly Dragon, Xim, Fuzzballfox, Tormentor667
+Sprite Edit: DavidRaven, ItsNatureToDie (altdeath)
+Idea Base: DavidRaven
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: DavidRaven, Id Software
+Sprites: Id Software (Zombieman), the Skulltag Team (Illucia, Player II), DavidRaven
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: DavidRaven, Id Software, Konami
+Sprites: Id Software (Zombieman), the Skulltag Team (Illucia, Player II), DavidRaven
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: DavidRaven, Id Software
+Sprites: Id Software (Zombieman), the Skulltag Team (Illucia, Player II), DavidRaven (Female Zombie), Marty Kirra (Diaz)
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: DavidRaven, Id Software, Konami
+Sprites: Id Software (Zombieman), the Skulltag Team (Illucia, Player II), DavidRaven, Mike12 (Revy Skin)
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Submitted: DavidRaven
+Decorate: DavidRaven
+GLDefs: DavidRaven
+Sounds: DavidRaven, Id software
+Sprites: Id Software, the Skulltag Team
+Sprite Edit: DavidRaven, ItsNatureToDie (altdeath)
+Idea Base: DavidRaven
+Submitted: DavidRaven
+Decorate: DavidRaven
+GLDefs: DavidRaven
+Sounds: DavidRaven, Id software
+Sprites: Id Software (Zombieman), the Skulltag Team (Illucia, Player II)
+Sprite Edit: DavidRaven, ItsNatureToDie (altdeath)
+Idea Base: DavidRaven
+Code: scalliano, GreyGhost, Ghastly (ZScript conversion)
+GLDefs: Tormentor667
+Sounds: Eriance (?)
+Sprites: Id Software, Xim, Eriance
+Sprite Edit: scalliano
+Idea Base: Flamethrower from Demon Eclipse
+Submitted: DeathEgg
+Decorate: DeathEgg, Strife, zeldavxa
+Sounds: Strife
+Sprites: Strife
+("Strife" is the user's name, no relation to the game of the same name)
+
+Description:
+Kamikaze Flemoid that explodes on impact. Easy to deal with on their own, a hassle in hordes.
+One of two Flemoids created for the classic Chex Quest mod "Strife's Level Packs". With Strife's permission, uploaded for others to use in their own Chex Quest mods.Submitted: DeathEgg
+Decorate: DeathEgg, Strife
+Sprites: Strife
+("Strife" is the user's name, no relation to the game of the same name)
+
+Description:
+Essentially the Cacodemon, but with a faster projectile.
+One of two Flemoids created for the classic Chex Quest mod "Strife's Level Packs". With Strife's permission, uploaded for others to use in their own Chex Quest mods.Code: Vader, Ghastly (ZScript conversion)
+GLDefs: Vader, Sandypaper (Brightmaps)
+Sounds: Blizzard (Starcraft), Vader
+Sprites: Vader
+Code: Melvin, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon
+Sounds: Raven Software
+Sprites: Freedoom
+Decorate: TheDoomedArchvile
+Sprites: Blood
+Sounds: FreeSounds
+Sprite Edits: TheDoomedArchvile
+Idea Base: Very weak animal variant of a Pain ElementalDecorate: Ghastly_dragon
+GLDefs: Ghastly_dragon
+Sprites: Id Software
+Sprite Edit: Captain Toenail
+Sounds: Id Software
+Idea Base: Forgotten One from Doom 3 - RoE
+Submitted: MagicWazard
+Decorate: MagicWazard (portions by Ghastly)
+GLDefs: MagicWazard
+Sounds: Midway Software
+Sprites: id Software
+Sprite Edit: MagicWazard
+Idea Base: Quake III's Phobos, Doomguy Sprite, ZSpecOps
+Submitted: MagicWazard
+Decorate: MagicWazard
+GLDefs: MagicWazard
+Sounds: Midway Software
+Sprites: id Software
+Sprite Edit: MagicWazard
+Idea Base: Replacement for the Wolfenstein SSSubmitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Code: Xim, Ghastly (ZScript conversion)
+GLDefs: Xim
+Sounds: Id Software, TheDarkArchon
+Sprites: Id Software
+Sprite Edit: Xim
+Code: Tormentor667, Ghastly (ZScript conversion)
+GLDefs: Dreadopp, Sandypaper (Brightmaps)
+Sounds: Id Software, Raven Software
+Sprites: Id Software
+Sprite Edit: InsanityBringer, Tormentor667
+Submitted: Ozymandias81
+Decorate: Ozymandias81
+GLDefs: Ozymandias81
+Sounds: 3d Realms
+Sprites: Lobotomy Software, 3d Realms
+Sprite Edit: Ozymandias81
+Idea Base: A giant boss from Powerslave (aka Exhumed)Submitted: zrrion the insect
+Decorate: zrrion the insect
+GLDefs: none
+Sounds: zrrion the insect(see sndinfo for details)
+Sprites: Daniel, ID Software, Zrrion, Skulltag, Cutmanmike
+Sprite Edit: zrrion the insect
+Idea Base: Moloch, Source Guardian
+Submitted: DBJ87
+Decorate: DBJ87
+GLDefs: DBJ87
+Brightmaps: DBJ87
+Sounds: id Software (PS1 Revenant)
+Sprites: id Software (Doom 2 and Doom 64), DBJ87
+Idea Base: Own idea
+
+
+//Author Notes 13/09/17
+I take credit for the Revenant Sprite edit & creating this monster's Brightmap,
+Decorate, Sound Info & GLDefs.
+
+I don't take credit for the Doom 64 Sprites used, they were taken from a sprite
+sheet (which I now cannot find online, to credit who made it) for a Doom 64
+Cacodemon based enemy.
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sounds: Raven, Monolith
+Sprites: 3DRealms
+Sprite Edit: Captain ToenailSubmitted: Kontra Kommando 
+Decorate: Kontra Kommando
+GLDEFs: None
+Sounds: Idsoftware
+Sprites: Kontra Kommando 
+Idea Base: Doom Imp-Sprites by Globe, huge, HUGE thanks to him
+ for spriting such a cool monster (Allow me to
+ apologize for making "Doom-palette raped" versions
+ of the monsters; but don't worry, that I 
+ included non-altered versions of your work too, 
+ so everyone shall feel free to use whatever they
+ like the most)
+-Sounds were created by me (IMX)
+-DECORATE by plums. I got stuck for a good while 
+ trying to make this monster to work as you
+ will see, and he helped me big time by 
+ showing me how to do it correctly. Once again,
+ thank you very much.
+ 
+ Additional note - Whoever may be reading this, 
+ please: we need more Splatterhouse-inspired
+ monsters in Doom! Code: Xaser, Ghastly (ZScript conversion)
+GLDefs: Eriance (from Vulgar), Sandypaper (brightmaps)
+Sounds: id Software (from Quake II)
+Sprites: NMN (enemy), Eriance (projectile)
+Idea Base: D&D's Grell enemy
+Gross Elemental Credits: 
+Sprites: ID Software, Craneo
+Sounds: Nintendo, DissyEx
+Decorate: Craneo
+Venom Maggot Credits: 
+Sprites: Freedoom (Fredrik Johanson), Craneo
+Sounds: Nintendo, DissyEx
+Decorate: Craneo
+
+Description: The Gross Elemental, also known as the Belzeb, are a breed of
+demons original to the "Rotten Warrens" area of Hell, these disgusting creatures
+attack by vomiting toxic puke at their prey on close range, they also give birth 
+mid-battle to Venom Maggots via Asexual reproduction, despite their name, their 
+Larvas have not yet developed the venom glands in their body, however, they still 
+can bite you with their mandible, which can be infectious if not threated properly, 
+it is said that a Gross Elemental can  give birth to up to 50+ Larvas in less 
+than an hour.Code: Eriance, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, SandyPaper (Brightmaps)
+Sounds: Raven Software
+Sprites: Id Software
+Sprite Edit: Eriance
+Idea Base: Strain TC Guardian
+Code: Eriance, Blue Shadow, MagicWazard, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon
+Sounds: Raven Software
+Sprites: Raven Software
+Sprite Edit: Eriance, Cryptic
+Idea Base: Hellstorm Hades Sphere
+Submitted: Ozymandias81
+Decorate: DeVloek, Ozymandias81
+GLDefs: Ozymandias81
+Sounds: 3DRealms, FreeRadical Design, Eriance
+Sprites: yuraofthehairfan, zrrion the insect, Eriance
+Sprite Edit: Ozymandias81
+Idea Base: An hellish simple variant Volacubi-like monster for DoomCode: Captain Toenail, Ghastly (ZScript conversion)
+GLDefs: Captain Toenail
+Sounds: Xatrix, Id Software
+Sprites: Captain Toenail
+Code: scalliano, Ghastly (ZScript conversion)
+GLDefs: scalliano
+Sounds: Id Software, Volition
+Sprites: Id Software (Zombieman), Enjay (Hazmat Head)
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Submitted: Captain Toenail
+Decorate: Captain Toenail, MagicWazard (projectile)
+GLDefs: Ghastly Dragon
+Sounds: Croteam, Midway Software
+Sprites: Mind Shear Software, Midway Software
+ Credits:
+Submitted: Skelegant
+Decorate: Skelegant
+Sounds: Id software, Skelegant, FatSoundEffects's (http://www.freesfx.co.uk/sfx/knife?p=2)
+Sprites: Id software
+Sprite Edit: Skelegant, David G.
+Idea Base: Skelegant's heavy carbineCode: AgentSpork, Carnevil, Ghastly
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Blizzard Entertainment, Vader, Id Software
+Sprites: Id Software, Midway
+Sprite Edit: AgentSpork
+Code: Eriance, Blue Shadow, MagicWazard, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Keksdose, Sandypaper (Brightmaps)
+Sounds: Banjo Software, Raven Software, Rogue Entertainment, Eriance
+Sprites: Eriance, Raven Software
+Idea Base: Cacodemon
+Decorate: Eriance
+GLDEFs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Monolith, Eriance
+Sprites: Monolith, Eriance
+Sprite Edit: Eriance
+Idea Base: Hellstorm HellhoundCode: Eriance, Ghastly (ZScript conversion)
+GLDefs: Keksdose, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Eriance
+Idea Base: Doom 2 Arch-Vile
+Submitted: JohnCook1994
+Code: Finalizer, Tormentor667, Vader, JohnCook1994
+GLDefs: JohnCook1994, Gothic
+Sounds: Id Software, Raven Software
+Sprites: Id Software, Raven Software, Wolfendoom, Amuscaria, Vader, HorrorMovieGuy, Finalizer
+Idea Base: Cybruiser/Hell Warrior hybridCode: Tormentor667, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Keksdose, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Tormentor667, Vader (skull death animation)
+Code: Vader, Tormentor667, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software, Vader
+Sprites: Id Software
+Sprite Edit: Vader
+Idea Base: Hell Warrior from Torment & Torture Episode 3
+Code: Eriance, Blue Shadow, Ghastly_dragon (ZScript conversion)
+GLDefs: Ghastly_dragon
+Sounds: Id Software, Eriance
+Sprites: Eriance
+Sprite Edit: None
+Idea Base: Doom 3 Helltime Hunter
+Code: Conejo
+Sounds: Id Software, Freesounds.org, edited by Stopsignal
+Sprites: Stopsignal
+Idea Base: Original
+Submitted: Numnzel
+Decorate: Numnzel
+GLDEFs: None
+Sounds: Id Software
+Sprites: Id Software (Doom), Raven software (Hexen)
+Sprite Edit: Numnzel
+Idea Base: I made this monster for the people who need "ice monsters" for snow maps.
+Decorate: Ghastly Dragon
+Sounds: Warcraft 3
+Sprites: Id Software
+Sprite Edit: Vader, Ghastly DragonSubmitted: Gez, Dreadopp
+Decorate: Dreadopp
+Sounds: ID Software
+Sprites: ID Software
+Sprite Edit: Damien Daurio
+Idea Base: A stronger Imp variant
+Submitted: ItsNatureToDie
+Decorate: ItsNatureToDie
+Sounds: ID Software
+Sprites: Vader(Skulltag Dark Imp),ID Software(Imp)
+Sprite Edit: ItsNatureToDie
+Idea Base: For the sake of variation.
+Submitted: ItsNatureToDie
+Decorate: ItsNatureToDie
+Sounds: ID Software
+Sprites: Vader(Void Dark Imp),ID Software(Imp)
+Sprite Edit: ItsNatureToDie
+Idea Base: For the sake of variation.
+Submitted: Icytux
+Decorate: Icytux, Blue Shadow (jumping code)
+ACS: Blue Shadow
+GLDefs: Ghastly Dragon
+Sounds: Croteam (Serious Sam), Monolith Games
+Sprites: Monolith
+Sprite Edit: Icytux, Tormentor667
+Idea Base: Icytux' spiderphobiaCode: Eriance, Ghastly (ZScript conversion)
+GLDefs: Dreadopp
+Sounds: id Software, Midway, Blizzard Entertainment, Eriance
+Sprites: id Software, Raven Software
+Sprite Edit: Eriance
+Idea Base: Doom 2 Pain Elemental and Cacodemon
+Submitted: mattbratt11
+Decorate: BloodyAcid (Base), TheDarkArchon (Base), scalliano (Base), mattbratt11 (Edits)
+GLDEFs: N/A
+Sounds: Id Software
+Sprites: Id Software, Eriance, Gerolf, TheDarkArchon, BloodyAcid
+Sprite Edit: mattbratt11
+Idea Base: TheDarkArchon's Insanity Arachnophyte, BloodyAcid's BFG Spider Mastermind and Eriance's Devastator
+Submitted: mattbratt11
+Decorate: Eriance (Base), TheDarkArchon (Base), mattbratt11 (Edit)
+GLDEFs: N/A
+Sounds: Id Software, Midway, Eriance (?)
+Sprites: Id Software, TheDarkArchon, Eriance
+Sprite Edit: mattbratt11
+Idea Base: TheDarkArchon's Insanity Arachnophyte and Eriance's Demolisher and Devastator
+Submitted: mattbratt11
+Decorate: Eriance, scalliano, mattbratt11
+GLDEFs: Ghastly Dragon, SandyPaper (Brightmaps), mattbratt11 (Coding)
+Sounds: Id Software, Midway, Eriance (?)
+Sprites: Id Software, Eriance (Projectiles)
+Sprite Edit: Eriance (Demolisher), mattbratt11 (Recolor)
+Idea Base: Xaser's Insanity Spider and Eriance's Demolisher
+Decorate: BloodyAcid (Base), scalliano (Base), mattbratt11 (Edits)
+GLDEFs: N/A
+Sounds: Id Software, Eriance (?)
+Sprites: Id Software, Eriance, BloodyAcid
+Sprite Edit: mattbratt11 (Recolor)
+Idea Base: Xaser's Insanity Spider, BloodyAcid's BFG Mastermind, and Eriance's Devastator
+Submitted: mattbratt11
+Decorate: Raz (Base), mattbratt11 (Code Edits)
+GLDEFs: Ghastly Dragon (Base), mattbratt11 (Code Edits)
+Sounds: Id Software, Midway, Eriance (?)
+Sprites: Id Software, Eriance (Projectiles)
+Sprite Edit: Raz (SupremeFiend), mattbratt11 (Recolor)
+Idea Base: Xaser's Insanity Spider and Raz's Supreme Fiend
+Creator: itsmeveronica
+Adapted to wad format: mridlen (TheGrandGumby)Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sounds: Unreal2K4, Quake, Hexen
+Sprites: Necrodome
+Sprite edit: Captain ToenailCode: scalliano, Mechadon, Ghastly_dragon (ZScript conversion)
+GLDefs: Ghastly_dragon, Sandypaper (brightmaps)
+Sounds: Unknown, Mechadon
+Sprites: Id Software, Ghastly_dragon, Eriance
+Sprite Edit: scalliano
+Idea Base: Karasawa from Armored Core
+Submitted: Krispy
+Decorate: Krispy, zrrion the insect, IOP team (gibs)
+GLDefs: Krispy
+Sounds: 3D Realms
+Sprites: 3D Realms
+Sprite Edit: Krispy
+Idea Base: This was a request after I submitted the regular shark.
+Submitted: Virtue
+Decorate: Virtue
+Sounds: Heretic and Hexen, Edited by Virtue
+Sprites: Heretic and Hexen
+Sprite Edit: Wendigo and lava based world objects, edited by Virtue, death by CodenniumRed
+Idea Base: A cool fire based monster
+
+Description: 
+A Terror from the deepest pits, a creature made from hellfire itself. The Lava demon spews forth fire from its hands, get too close though and it 
+will torch you alive with jets of flame. Totally impervious to fire damage, it's only main weakness is ice based weapons which deliver twice as 
+much damage.
+Name: Lizard Commander
+Difficulty: Medium/hard
+Connection: none
+Summon: LizardCommander
+Melee: no
+Distance: Projectile
+Type: Alien
+
+Submitted: Lolo_is_cool
+Decorate: Lolo_is_cool
+GLDEFs: N/A
+Sounds: Xatrix Entertainment
+Sprites: 3DRealms
+Sprite Edit: n/a
+Idea Base: Duke Nukem 3D Lizard Chaingunner
+Submitted: Undeadmonk354
+Code: Pierre Ramirez(DoomX)
+Sounds: Raven Software, ID Software, Rogue Entertainment
+Sprites: Pierre Ramirez (DoomX)
+Idea Base: The Loper from RtCWCode: Bouncy, Tormentor667, Ghastly (ZScript conversion)
+GLDefs: Sandypaper (Brightmaps)
+Sounds: Zippy
+Sprites: Id Software
+Sprite Edit: Vader, Tormentor667 (recolor)
+Submitted: DeVloek
+Decorate: DeVloek
+GLDefs: DeVloek
+Sounds: Wolfsinger, CosmicD, Robinhood76
+Sprites: Raven Software, id Software
+Sprite Edit: DeVloek
+Idea Base: Lost SoulCode: Skelegant, Ghastly (ZScript conversion)
+GLDefs: Skelegant
+Sounds: Id software, Skelegant
+Sprites: Id software
+Sprite Edit: Skelegant, David G.
+Idea Base: The alpha machinegun
+Submitted: Virtue
+Decorate: Virtue
+Sounds: Quake Scourge of Armagon, Sonic 3, Descent
+Sprites: Original, Strife, Duke3d, In Persuit of Greed, CyClones, Heretic, Hexen, Doom, Doom2
+Sprite Edit: Virtue
+Idea Base: A monster from when I was a kid
+
+Description:
+
+A cybernetic nightmare. The Maephisto Multiple Demon Weapons Platform is a culmination of Demon-tech and stolen Human-tech. It is a walking, living
+weapon. Used to assault dug-in humans, forts bastions, the Maephisto carries 3 different types of weaponry, Intelligence is scarce on the nature of its
+main weapon but reports can confirm it caries 2 fusion plasma cannons and a chaingun. A deadly foe, be sure to be armed with heavy weapons yourself.
+Code: KDiZD Team, Ghastly (ZScript conversion)
+GLDefs: Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Eriance
+Idea Base: Based on the Mauler Demon by Kristus
+Submitted: CARRiON
+Decorate: 00_Zombie_00
+Sounds: id Software
+Sprites: id Software
+Sprite Edit: 00_Zombie_00
+Idea Base: A naked revenant.
+Code: TheMightyHeracross, Ghastly (ZScript conversion)
+GLDefs: Graf Zhal (lights.pk3)
+Sounds: Skulltag
+Sprites: id Software, Skulltag
+Sprite Edit: ItsNatureToDie
+Idea Base: Minigunner's avatar, David G's sprites, lack of a minigunner on the Beastiary
+Submitted: ProjectAngel
+Decorate: ProjectAngel
+GLDefs: ProjectAngel, Sandypaper (Brightmaps)
+Sounds: id Software, Raven Software, Eriance, ProjectAngel
+Sprites: 3d Realms, Raven Software, Rogue Entertainment, Eriance, LilWhiteMouse
+Sprite Edit: Clebardman
+Idea Base: Duke Nukem 3D Cycloid Emperor
+Submitted: Mechadon
+Decorate: Mechadon
+GLDEFs: Dreadopp
+Sounds: Id Software (Quake)
+Sprites: Id Software, 3D Realms
+Sprite Edit: NeowormCode: Eriance, Ghastly (ZScript conversion)
+Sounds: Id Software, Raven Software, Midway, KDiZD Team
+Sprites: Id Software
+Sprite Edit: Eriance
+Idea Base: Hellstorm Nightmare
+Name: Nightmare Beast
+Difficulty: Medium
+Connection: none
+Summon: NightmareBeast
+Melee: Yes
+Distance: Projectile
+Type: Alien
+
+Submitted: Jimmy91
+Decorate: Jimmy91
+GLDEFs: N/A
+Sounds: Jimmy91 (edits), id Software, 3DRealms
+Sprites: 3DRealms, id Software
+Sprite Edit: Jimmy91
+Idea Base: Duke Nukem 3D Protector Drone
+Decorate: AgentSpork
+GLDEFs: Dreadopp, Sandypaper (Brightmaps), Virtue (Brightmaps)
+Sounds: Id Software, Midway
+Sprites: Id Software
+Sprite Edit: AgentSporkDecorate: Carnevil, mattbratt11
+GLDefs: Sandypaper (Brightmaps), mattbratt11 (Coding)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Neoworm, Vader, mattbratt11 (Recolor)
+Idea Base: BloodDemonClone and NightmareDemon
+WAD Created by: DBJ87
+Decorate Created by: DBJ87
+Palette: Doom
+Sprites: ID Software
+SFX: ID Software, Williams Entertainment, Midway (Doom64, Playstation & Dreamcast Doom)
+Idea Base: Nightmare Spectre from the PS1 & Dreamcast Version of Doom
+
+Credit & thank you to MagicWizard for help with:
+-Subtractive Blending
+-Blood Colour
+Submitted: Jaeden
+Decorate: Jaeden
+GLDefs: Jaeden
+Sounds: Raven, Blizzard, Jaeden
+Sprites: Jaeden, Raven
+Sprite Edit: JaedenCode: Eriance, Ghastly (ZScript conversion)
+Sounds: Eriance
+Sprites: Eriance
+Code: DummGui
+GLDEFS: DummGui
+Sounds: Midway
+Sprites: ID Software
+Sprite Edit: DummGuiSubmitted: mattbratt11
+Decorate: mattbratt11
+Sounds: ID Software
+Sprites: ID Software
+Sprite Edit: mattbratt11
+Idea Base: Outcast Levels from the Doom64 TC
+Submitted: mattbratt11
+Decorate: mattbratt11
+Sounds: ID Software
+Sprites: ID Software
+Sprite Edit: mattbratt11
+Idea Base: Outcast Levels from the Doom64 TC
+Code: Eriance, Blue Shadow, MagicWazard, Ghastly Dragon (ZScript conversion)
+GLDefs: Eriance, Dreadopp, Ghastly Dragon, Keksdose, MagicWazard
+Sounds: Eriance
+Sprites: Eriance
+Submitted: MagicWazard
+Decorate: MagicWazard
+GLDefs: MagicWazard
+Sounds: id Software, Midway Software
+Sprites: id Software
+Sprite Edit: MagicWazard
+Idea Base: Phantom from Doom RPG/Doom II RPG
+Submitted: MagicWazard
+Decorate: MagicWazard
+GLDefs: MagicWazard
+Sounds: id Software, Midway Software
+Sprites: id Software
+Sprite Edit: MagicWazard
+Idea Base: Phantom from Doom RPG/Doom II RPG
+Submitted: Ozymandias81
+Decorate: Ozymandias81
+Sounds: 3d Realms
+Sprites: Lobotomy Software, 3d Realms
+Sprite Edit: Ozymandias81
+Idea Base: The fast creeping fish from Powerslave (aka Exhumed), useful when underwater.Submitted: Afrit-X/Lord Afrit
+Decorate: Heretic++ Team, Nash, Afrit-X
+Sounds: FindSounds.Com, RavenSoftware, IDSoftware, Eriance, 3DRealms
+Sprites: 3DRealms, RavenSoftware, Hexx, NashGore
+Sprite Edit: Afrit-X
+Idea Base: Nagas from Warcraft, Sirens from Captain Claw.
+
+
+Sentient Energy Ball Pack:
+======================================================================================
+Name: Sentient Energy Ball Pack
+Difficulty: Easy to Medium
+Connection: Cacodemon, BFGBall, Devastator from Demon Eclipse, Avatar's Blue Ball Attack
+Summon: BFGSentient, BFGSuperSentient, DevastatorSentient, AvatarBallSentient
+Melee: Suicide
+Distance: Charge, Projectile
+Type: Projectile, Sentient
+
+Submitted: mattbratt11
+Decorate: Scalliano (Base), mattbratt11 (Edits)
+Sounds: ID Software, Eriance, ZDoom WRW
+Sprites: ID Software, Eriance
+Sprite Edit: mattbratt11
+======================================================================================
+
+Overall:
+ID Software for Doom
+Randy Heit for ZDoom
+Graf Zahl for GZDoom
+Code: Bouncy, Ghastly Dragon (ZScript conversion)
+GLDefs: Dreadopp
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Tormentor667, Captain Toenail, Ghastly Dragon
+Submitted: David Raven
+Decorate: David Raven
+GLDefs: David Raven, the Skulltag Team
+Sounds: freesounds.org, Midway
+Sprites: id Software
+Sprite Edit: Captain Toenail
+Idea Base: David Raven
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDefs: None
+Sounds: Half Life, Quake
+Sprites: Duke Nukem 3D
+Sprite Edit: Captain Toenail
+Idea Base: Slimers from Duke Nukem 3D/Doom's Hellish flesh texturesWAD Created by: DBJ87
+Decorate Created by: DBJ87
+Palette: Doom
+Sprites: ID Software, Xim, Tormentor667, Eriance, DBJ87
+SFX: ID Software, PS1 Version of Doom, Vader
+Idea Base: Own Idea
+
+I take no credit for creating the sprites* except for what I have edited.
+I have, created the Decorate, SoundInfo, recoloured the Fireballs & created a
+new set of sprites to show alternating fire.
+
+Special thanks:
+Xim & Eriance- alternative Mancubus sprites & Flamethrower's Fire Spray Sprites
+Tormentor667- Bruiser Demon's floor hugging attack set up & explosion Sprites
+Tormentor667, Epsi & Ebola- Afrit's Comet attack sprites & set up
+Vader- Hectebus Sounds used for "Active" state & Stomping Sounds
+
+*Sprites used are from a shared file/files which stated, they are free to use
+as long as credit is given.
+Decorate: Maelstrom
+GLDEFs: Dreadopp, Sandypaper (Brightmaps)
+Sounds: Id Software, Monolith Games
+Sprites: Id Software
+Sprite Edit: Eriance, Maelstrom
+Idea Base: Archon of Hell by Eriance Code: Conejo
+Sounds: Half-Life 1, DooM 2, Left4Dead 2
+Sprites: Stopsignal, ConejoCode: scalliano, Eriance, Ghastly_dragon (ZScript conversion)
+GLDefs: Keksdose
+Sounds: Eriance, Raven Software, 3d Realms
+Sprites: Id Software, Eriance, 3D Realms
+Sprite Edit: ItsNatureToDie, neoworm, Captain Toenail, Xim, Ghastly_dragon, scalliano
+Idea Base: Pyro Cannon from UTnT & Stronghold
+Submitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Code: Ghastly_dragon
+GLDefs: Ghastly_dragon
+Sounds: Id Software, Logan MTM
+Sprites: Id Software, Logan MTM
+Sprite Edit: Ghastly_dragon, Xim
+Idea Base: Legacy of Suffering's Quad-Shotgun
+Code: Tormentor667, Captain Toenail, Ghastly (ZScript conversion)
+GLDefs: Dreadopp
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Tormentor667, Captain Toenail
+Idea: Tormentor667
+Creator: itsmeveronica
+Converted to wad: mridlen aka TheGrandGumbyCode: Graf Zahl, Ghastly (ZScript conversion)
+GLDefs: Lights.pk3, Sandypaper (Brightmaps)
+Sounds: Id Software, Rogue Entertainment
+Sprites: Id Software
+Sprite Edit: NMN, Tormentor667
+Submitted: Ichor
+Decorate: Fury3
+Sounds: Raven Software
+Sprites: Raven Software
+Sprite Edit: Fury3
+Idea Base: Carnage Galore 3-Sprites by Globe, huge, HUGE thanks to him
+ for spriting such a cool monster (Allow me to
+ apologize for making "Doom-palette raped" versions
+ of the monsters; but don't worry, that I 
+ included non-altered versions of your work too, 
+ so everyone shall feel free to use whatever they
+ like the most)
+-Sounds were created by me (IMX)
+-DECORATE by plums. I got stuck for a good while 
+ trying to make this monster to work as you
+ will see, and he helped me big time by 
+ showing me how to do it correctly. Once again,
+ thank you very much.
+ 
+ Additional note - Whoever may be reading this, 
+ please: we need more Splatterhouse-inspired
+ monsters in Doom! Code: Ghastly_dragon, Tormentor667 (Steam)
+GLDefs: Ghastly_dragon
+Sounds: Id Software, Eriance
+Sprites: Id Software
+Sprite Edit: Eriance, Xim, Ghastly_dragon, Tormentor667, Captain Toenail
+Submitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Code: Captain Toenail, Ghastly (ZScript conversion)
+GLDefs: Dreadopp
+Sounds: Id Software, Raven Software
+Sprites: Id Software, Raven Software
+Sprite Edit: Captain Toenail
+Idea Base: Doom 3 Lost Souls
+Decorate: Xim
+GLDEFs: Xim
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: David G, XimSubmitted: Skelegant
+Decorate: Skelegant
+GLDefs: Skelegant
+Sounds: id Software, Skelegant, Valve Software
+Sprites: id Software, David G.
+Sprite Edit: Skelegant, David G.
+Idea Base: Alpha rifle (plus those armour bonuses had to have come from somewhere)
+Info:
+Name: Rlyeh Warrior
+Difficulty: Easy
+Connection: None
+Summon: RlyehWarrior
+Melee: No
+Distance: Projectile
+Type: Demon, Magical
+
+Credits:
+Submitted: Juan "JacKThERiPPeR
+Decorate: Juan "JacKThERiPPeR
+GLDEFs: Juan "JacKThERiPPeR
+Sounds: 3d Realms
+Sprites: Capstone
+Sprite Edit: Juan "JacKThERiPPeR
+Idea Base: Cthulhu MythosCode: Ghastly_dragon
+GLDefs: Ghastly_dragon, Sandypaper (Brightmaps)
+Sounds: Black Isle Studios, Blizzard Entertainment
+Sprites: Vader
+Sprite Edit: Ghastly_dragon, Mike12
+Submitted: Skelegant
+Decorate: Skelegant
+GLDefs: Skelegant
+Sounds: id Software
+Sprites: id Software
+Sprite Edit: Skelegant
+Code: Graf Zahl, Ghastly (ZScript conversion)
+GLDefs: Dreadopp, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: The Innocent Crew
+Code: Xim, Ghastly (ZScript conversion)
+GLDefs: Dreadopp
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Xim (weapon), Chain Mail (body)
+Code: Captain Toenail, Ghastly (ZScript conversion)
+Sounds: id Software
+Sprites: id Software
+Sprite Edit: Captain Toenail
+Idea Base: Quake
+Submitted: scalliano
+Decorate: scalliano
+GLDefs: scalliano
+Sounds: Id software, 3D Realms
+Sprites: Id Software, 3D Realms
+Sprite Edit: Dulle, scalliano
+Idea Base: Dulle's original work for Ghastly_dragon's Doom 3 monsters in Doom 2 project.
+Code: Vader, Ghastly (ZScript conversion)
+Sounds: Id Software, Vader
+Sprites: Id Software
+Sprite Edit: Vader
+Idea Base: Nanami
+Submitted: Xim
+Decorate: Xim
+GLDefs: Xim, MagicWazard (brightmaps)
+Sounds: id Software, Monolith Productions
+Sprites: id Software
+Sprite Edit: XimSubmitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Submitted: Gothic
+Decorate: Gothic
+GLDefs: Gothic
+Sounds: Raven Software, Monolith Productions
+Sprites: Raven Software
+Sprite Edit: Gothic
+
+What seems to be a regular decoration, is actually a dangerous creature that tosses
+poisonous gas around it to keep intruders out of its territory. If you hear a squeal,
+you better keep your distance.
+
+Includes a random spawner for the surprise factor on your maps.Submitted: Jaeden
+Decorate: Jaeden
+Sounds: ID Software
+Sprites: ID Software
+Sprite Edit: JaedenCode: Vader, Ghastly Dragon (ZScript conversion)
+GLDefs: Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Blizzard Entertainment, Vader
+Sprites: Vader
+Idea Base: Eternal Doom Fast Imp
+Submitted: DoomedArchvileDemon
+Decorate: DoomedArchvileDemon, TheMightyHeracross
+Sounds: Freesounds, SeriousSam
+Sprites: HorrorMovieGuy
+Idea Base: HorrorMovieGuy's sprite sheet on this enemyCredits:
+Submitted: Yuzoo
+Decorate: Yuzoo
+GLDefs: Yuzoo
+Sounds: Id Software
+Sprites: Doom 64 Imp
+Sprite Edit: Yuzoo
+Idea Base: An original imp.
+
+Description: 
+The Shadow imp is a simple monster: he throw blues fireballs, or he use
+a fire attack if you are too close. He have an special attack which teleport
+he and throw 3 fireballs in a little moment.
+Submitted: MagicWazard
+Decorate: MagicWazard
+GLDefs: MagicWazard
+Sounds: Midway Software
+Sprites: id Software
+Sprite Edit: MagicWazard
+Idea Base: Wanted a shadowy-type of zombie for low-light conditionsSubmitted: Krispy
+Decorate: Krispy, zrrion the insect, IOP team (gibs)
+GLDefs: none
+Sounds: 3D Realms
+Sprites: 3D Realms
+Sprite Edit: None
+Idea Base: I needed it.
+Submitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Credits:
+
+Submitted: Ravick
+Decorate: Ravick
+GLDefs: Ravick
+Sounds: Ben2k9 (Cyberbaron sounds), Enjay (Death explosion booms), Espi (ImpWarlor'd familiar stuff)
+Sprites: iD Software (Baron of Hell), Ben2k9 (Cyberbaron), Raven Software (Centaur Shield), Tormentor667 (HellWarrior Shield (monsters pack version)), Espi (ImpWarlor'd familiar stuff)
+Sprite Edit: Ravick
+Idea Base: The first version of Hell Warrior, Cyberbaron (ArmageDoom version) and Teufel's armor.Submitted: Doomedarchviledemon
+Decorate: Ghastly_dragon, Doomedarchviledemon
+Sounds: FreeSounds
+Sprites: Raven Software, Neoworm
+Sprite Edits: Doomedarchviledemon
+Idea Base: Hostile population animalCode: Woolie Wool, Ghastly (ZScript conversion)
+GLDefs: Woolie Wool
+Sounds: Rogue Entertainment
+Sprites: Id Software
+Sprite Edit: Xim, Woolie Wool, Toke
+Idea Base: Mutiny PDW Marine
+Submitted: Tormentor667
+Decorate: Cyb
+GLDEFs: Dreadopp
+Sounds: Id Software, Raven Software
+Sprites: Id Software, Raven Software
+Sprite Edit: Cyb, Vader, ItsNatureToDieCode: Xim, Ghastly (misc. improvements, ZScript conversion)
+GLDefs: Xim
+Sounds: Raven Software
+Sprites: Id Software
+Sprite Edit: Xim
+Code: Ghastly_dragon
+GLDefs: Ghastly_dragon, Sandypaper (Brightmaps)
+Sprites: Id Software
+Sprite Edit: Xim (Railgun), Ghastly_dragon (Recolor and set up), Captain Toenail (blood stains), Tormentor667 (Base (It used the Zombie Railgunner) ), Vader (Head)
+Sounds: Id Software
+Idea base: Aerial's Sonic Railgun
+Code: Vader, Tormentor667, Ghastly Dragon (ZScript conversion)
+GLDefs: Keksdose, Ghastly Dragon, Sandypaper (Brightmaps)
+Sounds: Id Software, Wildweasel, Vader
+Sprites: Vader
+Idea Base: Tormentor667
+Code: Ghastly Dragon, Tormentor667
+GLDefs: Ghastly Dragon, Keksdose
+Sounds: Id Software (edits)
+Sprites: Vader
+Sprite Edit: Tormentor667
+Submitted: scalliano, mattbratt11 (update)
+Decorate: scalliano, mattbratt11
+GLDefs: scalliano
+Sounds: Kaiser
+Sprites: Id Software
+Sprite Edit: scalliano, mattbratt11
+Idea Base: Outcast Levels from the Doom64 TCCode: Espi, Blue Shadow (stone bits SFX - based on Nash's nashgore code), Ghastly (ZScript conversion)
+Sounds: id Software, Raven Software (Hexen) for the attack, Bungie for hit sound
+Sprites: id Software, Blue Shadow (stone bits)
+Sprite Edit: Espi, Vader
+Code: Espi, Blue Shadow (stone bits SFX - based on Nash's nashgore code), TheMightyHeracross, Ghastly (ZScript conversion)
+Sounds: id Software, Raven Software (Hexen) for the attack, Bungie for hit sound
+Sprites: id Software, Blue Shadow (stone bits)
+Sprite Edit: Espi, Vader, MidoriMan
+Code: Tormentor667, Ghastly (ZScript conversion)
+GLDefs: Dreadopp, Sandypaper (Brightmaps)
+Sounds: Id Software, Croteam (Serious Sam)
+Sprites: Id Software, Mark Quinn, Anthony Cole
+Sprite Edit: Tormentor667
+Idea Base: Suicide Bomber from Serious Sam
+Submitted: NaturalTvventy
+Code: Amuscaria, NaturalTvventy
+Sounds: Id Software, Midway, Amuscaria
+Sprites: Id Software
+Sprite Edit: Amuscaria, The Innocent Crew, NaturalTvventy
+Idea Base: Hellstorm Imp, Devil, Super Imp
+
+Description:
+A melding of the Devil and the Super Imp. A more powerful imp who shoots double baron balls.Code: Rhoq, Aerial, Ghastly (ZScript conversion)
+GLDefs: Dreadopp, MagicWazard (brightmaps)
+Sounds: id Software
+Sprites: The Skulltag Team
+Idea Base: Skulltag's Super Shotgun Zombie
+Creator: itsmeveronica
+Converted to wad: mridlen aka TheGrandGumbySubmitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+SkeletronMK666Code: Karltroid51
+Sounds: id Software
+Sprites: id Software
+Sprite Edit: Captain J, Untrustable, Damson
+Idea Base: Doom 3's Tentacle and Chaingun Commandos
+Code: Vader, Ghastly (ZScript conversion)
+GLDefs: Dreadopp, Sandypaper (Brightmaps)
+Sounds: Id Software, Blizzard Entertainment, Vader
+Sprites: Vader, Eriance (cannon base)
+Decorate: DBThanatos
+GLDEFs: Dreadopp, Virtue (Brightmaps)
+Sounds: Blizzard (Diablo)
+Sprites: Id Software
+Sprite Edit: JimmySubmitted: Starscream/Pyroscourge
+Decorate: Starscream/Pyroscourge, MagicWazard
+GLDEFs: Dreadopp
+Sounds: Id Software, Monolith, Rogue Entertainment, Raven Software
+Sprites: Raven Software, Rogue Entertainment
+Sprite Edit: Starscream/Pyroscourge, MagicWazardCredits:
+Submitted: NovaKiller
+Decorate: NovaKiller
+GLDefs: NovaKiller
+Sounds: Doom ( ID Software ), Hexen ( Raven Software )
+Sprites: Doom ( ID Software )
+Sprite Edit: NovaKiller
+Idea Base: Making a monster that had a bit control over time.Submitted: mattbratt11
+Decorate: Nanami, Ghastly_dragon, mattbratt11
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Espi, Ebola, mattbratt11 (Recolor)
+Idea Base: Afrit from Realm667
+//Supremotaur, A Hell Apprentice Edit by MattBratt11
+//Info
+Name: Toxic Hellsmith
+Difficulty: Very Hard
+Connection:	Similar to Hell Apprentice but Colored his Skin Green.
+			Uses Archon Comets, Skulltag BFG10kShot and the sk_weaps.wad BFG10kAltShot. Actors Included.
+Summon: ToxicHellsmith
+Melee: Yes
+Distance: Projectile, Charge, HitScan
+Type: Demon, Magical
+Description:	A Heretic/Hexen styled Beastiary Thamuz has Hidden Powers to
+				Guard the UAC Facility Lab from letting Scientists
+				getting it back before deadly Environments Occur Globally,
+				doing so by Hell Spawn.
+
+//Credits
+Submitted: mattbratt11
+Decorate: Eriance
+Decorate Edit: mattbratt11 for Original, Untrustable for Code Fix
+GLDEFs: Ghastly Dragon
+Sounds: Raven Software
+Sprites: Raven Software
+Sprite Edit: Eriance, mattbratt11, Hectic
+Idea Base: Diablo 2 Hellforge Smith Demon, Heretic Maulotaur, Realm667 Beastiary ThamuzSubmitted: zrrion the insect
+Decorate: zrrion the insect
+GLDefs: N/A
+Sounds: zrrion the insect
+Sprites: Star Wars Dark Forces
+Sprite Edit: N/A
+Idea Base: Star Wars
+Decorate: Ghastly_dragon
+Sprites: Monolith, Id Software
+Sprite Edit: Captain Toenail
+Sounds: Id Software
+Idea Base: Trite from Doom 3
+Submitted: TheMonstrosity
+Decorate: TheMonstrosity
+Sprites: Id Software, Vader, Eriance
+Sounds: Id Software, Vader, Eriance, TheMonstrosity
+Sprite Edit: DoomNukem
+Idea Base: Eriance Archon of Hell, Vader Bruiserdemon, Doom Baron of HellSubmitted: Virtue
+Decorate: Virtue
+Sounds: Strife, Quake2, Skulltag, Doom
+Sprites: George Hamlin
+Sprite Edit: Virtue
+Idea Base: A Doom style Robot
+
+Description:
+
+A faceless, robotic nightmare. This titanium terror will cut you down with a high velocity chaingun, but watch out for the 
+hidden grenade launcher popping out and lobbing 3 grenades your way. Since it is a machine, it feels no pain therefore trying
+to outgun it and interupt its relentless fire is pointless.Code: TheDoomedArchvile
+GLDefs: TheDoomedArchvile
+Sounds: Doom, Bulletstorm
+Sprites: HorrorMovieGuy, Touhou Hisouten - Scarlet Weather Rhapsody
+Idea Base: More powerful Chaingunner
+Submitted: Icytux
+Decorate: Icytux
+GLDefs: Icytux
+Sounds: Icytux, Raven Software
+Sprites: Raven Software
+Sprite Edit: Icytux
+Idea Base: Undead priest
+Submitted: Ozymandias81
+Decorate: DeVloek, Ozymandias81
+GLDefs: Ozymandias81
+Sounds: 3DRealms, FreeRadical Design, Eriance
+Sprites: yuraofthehairfan, zrrion the insect, Eriance
+Sprite Edit: Ozymandias81
+Idea Base: An hellish simple variant Volacubi-like monster for DoomSubmitted: Jaeden
+Decorate: Jaeden
+GLDefs: Jaeden
+Sounds: Raven Software, ID Software, Jaeden
+Sprites: Jaeden, Raven Software
+Sprite Edit: JaedenSubmitted: EffinghamHuffnagel
+Decorate: HorrorMovieGuy (original concept), EffinghamHuffnagel
+GLDefs: Not yet
+Sounds: SigFloyd (Brutal Doom SE), Freesound.org (Creative Commons 0)
+Sprites: id, Lexus Alyus
+Sprite Edit: EffinghamHuffnagel
+Idea Base: A new Lost Soul variant
+Submitted: EffinghamHuffnagel
+Decorate: HorrorMovieGuy (original concept), EffinghamHuffnagel
+GLDefs: Not yet
+Sounds: SigFloyd (Brutal Doom SE), Freesound.org (Creative Commons 0)
+Sprites: id, zrrion the insect, EffinghamHuffnagel (projectile, implosion)
+Sprite Edit: EffinghamHuffnagel
+Idea Base: A new Lost Soul variant
+Submitted: DeVloek
+Decorate: DeVloek
+GLDefs: DeVloek
+Sounds: id Software, d3deville (jet engine), blastwave fx (slime)
+Sprites: id Software
+Sprite Edit: DeVloek
+Idea Base: ArachnophyteCode: Eriance, Ghastly (ZScript conversion)
+GLDefs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Submitted: Tormentor667
+Decorate: Eriance
+GLDEFs: Dreadopp
+Sounds: Raven Software, Blizzard Entertainment, Eriance
+Sprites: Eriance
+Idea Base: Doom 2 Imp, Doom 3 Vulgar
+Decorate: Tormentor667
+GLDEFs: Dreadopp, Virtue (Brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Tormentor667Code: Eriance, Ghastly (ZScript conversion)
+GLDefs: Dreadopp, Keksdose
+Sounds: Eriance, Blizzard Entertainment
+Sprites: Eriance
+Idea Base: Cacodemon, D&D Director Beholderkin
+Submitted: Infirnex
+Decorate: Enjay, Infirnex, Blue Shadow
+GLDefs: Infirnex
+Sounds: id Software
+Sprites: id Software
+Sprite Edit: Enjay
+Idea Base: The jar of urine in Team Fortress 2Code: Eriance, Blue Shadow (corpse behavior), Ghastly (ZScript conversion)
+GLDefs: Keksdose, Sandypaper (Brightmaps)
+Sounds: Id Software
+Sprites: Eriance
+Idea Base: Quake
+Submitted: Ghastly_dragon
+Decorate: Ghastly_dragon
+Sprites: Vader
+Sprite Edit: Captain Toenail
+Sounds: Id Software
+Idea Base: Doom 3's Wraith
+Submitted: Tormentor667, Mancubus
+Decorate: Tormentor667, Mancubus, Bouncy
+GLDEFs: Dreadopp
+Sounds: Id Software, 3DRealms
+Sprites: Id Software, 3DRealms
+Sprite Edit: Tormentor667
+Idea Base: Duke Nukem 3D Pig Cop FlyerCode: Horror Movie Guy, Ghastly (ZScript conversion)
+Sounds: id Software, Raven Software
+Sprites: Vader, Raven Software
+Sprite Edit: Finalizer, Horror Movie Guy
+Idea Base: Classic movie zombie, Doom 4's "possessed" enemy, Quake's Zombie
+Submitted: CthulhuCultist
+Decorate: CthulhuCultist
+GLDefs: CthulhuCultist
+Sounds: Monolith, Id software
+Sprites: Id Software, Captain Red's Zombieman with fixed left arm(unsure who did it), Xim's Jawless head, KDIZD
+Sprite Edit: CthulhuCultist
+Idea Base: Condemned and C&C 3 oddlyDecorate: Xim
+GLDEFs: Dreadopp, Ghastly Dragon, Xim (Brightmaps)
+Sounds: Id Software, 3DRealms
+Sprites: Id Software, 3DRealms, David G
+Sprite Edit: Xim
+Idea Base: Pig Tank from Duke Nukem 3DCode: Tormentor667, Ghastly Dragon (ZScript conversion)
+GLDefs: Dreadopp, MagicWazard (brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Ghastly Dragon, Xim, Fuzzballfox, Tormentor667, MagicWazard
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: Id Software
+Sprites: Id Software (Zombieman), Xim (Jawless Zombie Head), JoeyTD (Player 6, 7 & 8 frames)
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: Id Software, Valve
+Sprites: Id Software (Zombieman), Xim (Jawless Zombie Head), JoeyTD (Player 6, 7 & 8 frames)
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: Id Software
+Sprites: Id Software (Zombieman), Vader (Chaingun Major), JoeyTD (Player 6, 7 & 8 frames)
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: Id Software, Raven Software
+Sprites: Id Software (Zombieman), NMN, Tormentor667 (Rapid Fire Zombie), Woolie Wool (SMG Zombie), solarsnowfall (Steam sprites)
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Code: scalliano, Ghastly (ZScript conversion)
+Sounds: Id Software
+Sprites: Id Software (Zombieman), Xim (Jawless Zombie Head), JoeyTD (Player 6, 7 & 8 frames)
+Sprite Edit: scalliano
+Idea Base: The UAC's apparent lack of staff
+Code: DavidN, Ghastly (ZScript conversion)
+GLDefs: DavidN
+Sounds: id Software, DavidN
+Sprites: scalliano (base for zombie scientist)
+Sprite Edit: DavidN
+Idea Base: Needed a creatively inaccurate enemy
+Code: DavidN, Ghastly (ZScript conversion)
+GLDefs: DavidN
+Sounds: id Software (edited plasma sound)
+Sprites: scalliano (base for zombie scientist)
+Sprite Edit: DavidN
+Idea Base: Needed a ranged-weapon scientist.
+Decorate: Enjay
+GLDEFs: Dreadopp, Sandypaper (Brightmaps)
+Sounds: Id Software, 3DRealms
+Sprites: Id Software, 3DRealms
+Sprite Edit: Enjay
+Idea Base: Pig Tank from Duke Nukem 3DCode: Ghastly_dragon
+GLDefs: Ghastly_dragon, MagicWazard (brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Xim, Vegeta, Ghastly_dragon, MagicWazard
+Code: Ghastly_dragon
+GLDefs: Ghastly_dragon, MagicWazard (brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Xim, Vegeta, Ghastly_dragon, MagicWazard
+Code: Ghastly_dragon
+GLDefs: Ghastly_dragon, MagicWazard (brightmaps)
+Sounds: Id Software
+Sprites: Id Software
+Sprite Edit: Mark Quinn, Vegeta, Ghastly_dragon, MagicWazard
+Submitted: 00_Zombie_00
+Decorate: 00_Zombie_00
+GLDEFs: N/A
+Sounds: id Software
+Sprites: id Software
+----------------------------------------------------------------------------------
+
+
+Weapons:
+----------------------------------------------------------------------------------
+Submitted: ProjectAngel
+Updated: Ozymandias81, BadMojo
+Decorate: ProjectAngel
+GLDefs: BadMojo
+Sounds: Raven Software, id Software
+Sprites: Marty Kirra, 3d Realms, id Software, Midway Entertainment
+Sprite Edit: Marty Kirra
+Idea Base: Shadow Warrior Grenade Launcher, Militek MGL from 007: NightFire
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Id Software, Infinity Ward
+SpriteEdit: Captain Toenail
+Sounds: mateomateo002Submitted: Xim
+Decorate: Xim
+Sprites: ScubaSteve
+Sounds: ScubaSteve
+Idea Base: Action Doom MachinegunSubmitted: JoeyTD
+Decorate: JoeyTD
+Sounds: ???
+Sprites: Terminator Rampage
+Sprites Edit: JoeyTD, WildWeaselDecorate: JoeyTD, Ghastly_dragon
+Sprites: JoeyTD, Id Software, 3D Realms
+Sounds: Id Software
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDefs: none
+Sounds: Teh strelok, anders
+Sprites: Kuju, 3D Realms, Captain Toenail
+Sprite Edit: Captain Toenail
+Idea Base: Warhammer 40KSubmitted: TheMightyHeracross
+Decorate: TheMightyHeracross, Blue Shadow
+ACS: Blue Shadow
+Sounds: Rogue, 3D Realms
+Sprites: Mike12, scalliano
+Sprite Edit: idgamer
+Idea Base: scalliano's axe zombieCode: Quantum_Dranger
+Sounds: Freesound.org, SoundBible
+Sprites: Id Software
+Idea Base: Id Software
+Submitted: Ghastly_dragon
+Decorate: The Skulltag Team
+GLDefs: The Skulltag Team
+Sounds: The Skulltag Team
+Sprites: Eriance
+Idea Base: Quake 3's BFG10k
+Submitted: Gothic
+Decorate: Gothic
+GLDefs: Gothic
+Sounds: id Software, Midway
+Sprites: Zrrion the Insect, id Software
+Sprite Edit: Gothic
+Idea Base: Chronoseth, BFG from Doom press release betaSubmitted: ThatOneZDoomer
+Decorate: ThatOneZDoomer
+DecalDef: ThatOneZDoomer
+GLDefs: ThatOneZDoomer
+Sprites: Skulltag, Raven Software, Captain Toenail Daniel
+Sounds: Heretic, Captain ToenailSubmitted: Gothic
+Decorate: Gothic
+GLDefs: Gothic
+Sounds: Raven Software (Quake 4), Epic Games (UT 2004)
+Sprites: NMN, Zero Prophet, Reactor, Kronos, Midway
+Sprite Edit: Gothic
+Idea Base: Dark Matter Gun from Quake 4, Borsch from Russian OverkillSubmitted: Robot J
+Decorate: Robot J
+Sounds: Doom 64, Doom 3
+Sprites: Doom 64, Doom
+Sprite Edit: Robot J
+GLDEFS: Robot J
+Idea Base: Doom 64 + Doom Plasma Rifle CombonationSubmitted: PillowBlaster
+Decorate: PillowBlaster
+GLDefs: None
+Sounds: Epic Games, Id Software
+Sprites: JoeyTD, Id Software
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Id Software, TNTTeam
+SpriteEdit: Captain Toenail
+Sounds: 3D Realms
+Inspiration: Call of Duty and NAM
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDefs: N/A
+Sprites: Doom64, KDiZD, Captain Toenail
+Sprite Edit: Captain Toenail
+Sounds: CroteamSubmitted: JoeyTD
+Decorate: JoeyTD, SuperSonix07
+Sounds: Wolfenstein
+Sprites: 3D realm's rise of the triad: Dark war
+Sprite Edit: JoeyTD
+Idea Base: ID software's pistolSubmitted: ProjectAngel
+Updated: Ozymandias81, BadMojo
+Decorate: ProjectAngel
+GLDefs: BadMojo
+Sounds: Raven Software, id Software
+Sprites: Marty Kirra, 3d Realms, id Software, Midway Entertainment
+Sprite Edit: Marty Kirra
+Idea Base: Shadow Warrior Grenade Launcher, Militek MGL from 007: NightFire
+ZZrionTheInsect - Base Sprite/Design/Idea, Final Crossbow head Design/Animation, cool "string" frames, being a pretty cool guy.
+		Implementation tweaks that I may not know of, came up with a way to shatter frozen corpses with a freezing weapon.
+
+Bloax - Shading tweaks, firing animation/design (this took some serious thinking), Additional firing animation tweak(, apparently made this thing go out of control)
+		Impact animation, Small implementation modifications. (Why is my list this big?)
+		
+Xaser - Implementation, Palette modifications (see: CryoPal.wad), Smoke (And probably more but Bloax is ignorant yes.)
+		Sound effects.
+		
+Ethril - Coming up with the insane idea that is called a "railgun crossbow", he should be put into a mental institution or somethin-
+		 OH WAIT NO THAT'S COMPLETELY AWESOME YESCode: TheDoomedArchvile, Blue Shadow
+Sounds: TheDoomedArchvile, FreeSounds
+Sprites: HorrorMovieGuy
+Sprite Edits: TheDoomedArchvile
+Idea Base: Weak melee health drainer with damaging alternate attack
+Submitted: XLightningStormL
+Decorate: XLightningStormL
+Sprites: ID Software, JoeyTD
+Sprite Edits: XLightningStormL
+Sounds: Generic Sound from somewhere, (taken from DooMRL Arsenal)
+Idea Base: Lack of a faithful Desert Eagle for DoomSubmitted: Xim
+Decorate: Xim
+Sprites: id Software
+Sounds: id SoftwareSubmitted: Ghastly_dragon
+Decorate: Ghastly_dragon
+GLDEFs: Ghastly_dragon
+Sprites: Eriance, Mechadon/KDiZD Team (projectile)
+Sounds: Id Software, Ghastly_dragon
+Submitted: Xim
+Decorate: Xim
+GLDefs: Xim
+Sounds: Monolith Productions
+Sprites: Jimmy Beaubien
+Sprite Edit: RavageSubmitted: BadMojo
+Decorate: BadMojo
+ZScript: Ed the Bat, Blue Shadow, BadMojo
+Sounds: BadMojo
+Sprites: BadMojo, Midway (ammo)
+Sprite Edit: BadMojo
+Submitted: That_One_Doom_Mod
+Decorate: That_One_Doom_Mod, Wh1teFang
+Sounds: Unknown
+Sprites: ID Software, Banjo Software
+Sprite Edit: That_One_Doom_Mod
+Idea Base: The Horrible Doom Punch, Its Pathetic for a Marine!Code: Gothic
+Sounds: id Software (Doom 3 & D3 alpha), 3DRealms (Shadow Warrior)
+Sprites: 3DRealms (Shadow Warrior & SW prototype), id Software (Doom)
+Sprite Edit: Gothic
+Idea Base: Fists from Shadow Warrior
+
+How's that for kung-fu fighting you chicken shit?!Submitted: DavidN
+Decorate: DavidN
+ZScript: Blue Shadow
+GLDefs: DavidN
+Sounds: id Software, DavidN
+Sprites: DavidN, PillowBlaster
+Sprite Edit: BadMojo
+Idea Base: Unreal Tournament's Flak Cannon
+Submitted: MasterOFMorag
+Decorate: Eriance
+GLDefs: Keksdose
+Sprites: Eriance, 3d Realms
+Sounds: Eriance, Raven SoftwareSubmitted: idGamer
+Decorate: Alando1, idGamer
+GLDefs: Alando1
+Sounds: Unreal Tournament
+Sprites: Alando1, osjclatchford, Eriance, id Software, 3D Realms
+Sprite Edit: MagicWazard (angled)Submitted: DBJ87
+Decorate: DBJ87
+Sounds: id Software (Doom 3), Froon
+Sprites: Kronos (Doom 2.5), BloodyAcid (ClipBox Variant used for GrenadeBox)
+Sprite Edit: Kronos, DBJ87
+Idea Base: Doom 3; extra grenades or mines thrown by hand instead of fired from a gun.
+
+I only take credit for:
+-Weapon's Decorate
+-Additional Ammo created & Dropped Weapon as Ammo set up.
+
+Thank you to Skelegant for Additional Sprite Resources.
+Thank you to Wild Weasel for helping me find the right people to credit for
+Sprites.
+Thank you to Blue Shadow, DreadOpp, MagicWazard & NourPrince for Feedback.
+
+Cooking Grenade set-up based off of the Hand Grenades submitted to Realm667
+Decorate created by Froon & submitted by Xim.Submitted: JoeyTD
+Decorate: JoeyTD
+Sounds: [Unknown]
+Sprites: id Software, JoeyTD, MinigunnerSubmitted: Ghastly_dragon
+Decorate: The Skulltag Team
+GLDefs: The Skulltag Team
+Sprites: The Skulltag Team
+Sounds: The Skulltag Team
+Idea Base: Quake series' Grenade Launcher
+Submitted: Ghastly_dragon
+Decorate: TheDarkArchon
+GLDefs: Ghastly_dragon
+Sprites: Nmn
+Sounds: Valve Software, FreeDoom
+Submitted: Z86
+Decorate: Z86
+Sounds: Raven Software (Quake 4)
+Sprites: Eriance
+Sprite Edit: Z86 (In-between frames)
+Idea Base: Quake 2 and Unreal Tournament Chaingun
+ACS: No
+Submitted: Skelegant
+Decorate: Skelegant, ozymandias81
+Gldefs: Skelegant
+Sprites: Id Software, Uboa, Wildweasel (puff sprites), David G.
+Sprites Edit: Skelegant
+Sounds: Id Software, FatSoundEffects's (http://www.freesfx.co.uk/sfx/knife?p=2)
+Submitted: Ghastly_dragon
+Decorate: Ghastly_dragon
+GLDefs: Ghastly_dragon
+Sprites: Eriance, KDiZD Team (Projectile)
+Sprite Edit: Ghastly_dragon, Infernus, Xaser
+Sounds: Epic Games, The Funktasm
+Idea Base: Fallout 3's Experimental MIRV.
+Submitted: Ghastly_dragon
+Decorate: Ghastly_dragon, dolores49
+GLDefs: Ghastly_dragon
+Sprites: Id Software, Apogee, Xaser, Vader
+Sounds: Id Software
+Decorate: Mechadon
+Sprites: Eriance, Mechadon (Pickup sprite base)
+Sounds: Unknown, Mechadon
+Idea Base: Karasawa from Armored Core
+Submitted: Gothic
+Decorate: Gothic
+GLDefs: Gothic
+Sprites: LucasArts, ID Software, Blox, Uboa
+Sounds: LucasArts, ID Software
+Sprite Edit: Gothic
+Idea Base: Land mines from Dark Forces and StrongholdCode: Karltroid51
+Sounds: id Software (Quake)
+Sprites: Captain J
+Idea Base: Scourge of Armagon's Laser Cannon
+Submitted: JoeyTD
+Decorate: Xim
+Sprites: Terminator Rampage
+Sounds: Unknown
+Sprite Edit: JoeyTD, XimSubmitted: TODM
+Decorate: TODM
+Sounds: VALVe
+Sprites: HL:OpFor, TODM
+Sprite Edit: Cory Whittle, TheDarkArchon, TODM
+Idea Base: Left 4 Dead 2/CS:S/HL:OpFor "AWP"Submitted: TODM
+Decorate: TODM
+Sounds: Valve
+Sprites: 'Nam
+Sprite Edit: TODM
+Idea Base: "Thumper" From MW2, GL from Left 4 Dead, An Arched Grenade Luancher that Explodes On ImpactName: Machinegun
+Class: Level 4
+Type: Hitscan
+Palette: Doom
+Summon: Machinegun
+Ammotype: Clip
+AltFire: No
+
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Id Software
+Sprites Edit: Captain Toenail
+Sounds: Id Software
+Idea Base: Quake 2 Machinegun
+Submitted: ProjectAngel
+Decorate: ProjectAngel
+Sprites: 3d Realms
+Sprite Edit: Zero Prophet
+Sounds: id Software
+Idea Base: Mag .60 pistol from the Turok games
+Submitted: Xim
+Decorate: Xim
+Sprites: Scuba Steve, ID Software
+GLDefs: Xim
+Sounds: id Software
+Idea Base: Mancubus from DooM IISubmitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Doom, Hacx, ShadowWarrior
+SpriteEdit: Captain Toenail
+Sounds: ShadowWarrior Beta
+Submitted: JoeyTD
+Decorate: JoeyTD
+Sprites:id software, JoeyTD
+Sprite Edit: Nope
+Sounds: CoD: MW2
+Idea Base: N/A
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Apogee Software, Id Software
+SpriteEdit: Captain Toenail
+Sounds: Id SoftwareSubmitted: JoeyTD
+Decorate: JoeyTD, Ghastly
+Sounds: Urban Terror
+Sprites: JoeyTD, NeuralStunnerDecorate: TheShooter7, Mechadon
+Sprites: Lazureus, Mechadon (edited nails), Idgames (base sprite)
+Sounds: Raven Software, Id Software
+Idea Base: Quake Nailgun, Doom 64 Nail traps
+Decorate: Mechadon, TheShooter7
+Sprites: Id Software, RoTT, Midway
+Sprite Edit: Mechadon, TheShooter7
+Sounds: Id Software
+Idea Base: Quake 3 Team Arena Nailgun
+Submitted: Deathknight
+Decorate: Deathknight, MagicWazard, idGamer
+Sounds: 3D Realms, Raven Software, ID Games
+Sprites: 3D Realms, Raven Software, ID Games, Deathknight
+Sprite Edit: Deathknight
+Idea Base: Shadow warrior Gas Grenade, and the idea of a half damage/half suppression weapon.
+Submitted: Xim
+Decorate: Daniel
+Sprites: Daniel, 3D Realms
+Sounds: Epic Megagames (UT)Additional Plasma Ballista credits:
+
+Ghastly/_Dragon - Implementation (coolbeans bro)
+Zzriontheinsect - Strife-inspirated recolorName: PlasmaBeam
+Class: Level 6
+Type: Projectile
+Palette: Doom
+Summon: PlasmaBeam
+Ammotype: Cell
+AltFire: No
+
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Id Software
+Sprites Edit: Captain Toenail
+Sounds: UT2K4
+Idea Base: Unreal Tournament LinkGun
+Credits:
+Submitted: MasterOFMorag
+Decorate: MasterOFMorag
+Sounds: Id Software
+Sprites: HacX Id Software
+Sprite Edit: MasterOFMorag
+Submitted: Unknown
+Decorate: Unknown
+Sprites: FreeDoom
+Sounds: Unknown
+Sprite Edit: PostCode: Robot J, Project Brutality
+GLDefs: Robot J
+Sounds: Half Life, Doom 3
+Sprites: Id Software, Skulltag Team
+Sprite Edit: Robot J
+Idea Base: Project Brutality's BFG 11k Beam thingySubmitted: zrrion the insect
+Decorate: zrrion the insect
+Sounds: id Software, Raven Software, Astro Rock
+Sprites: id Software, Midway, Eriance, Logan MTM, Lazureus, Scuba Steve, Paul_NMN
+Sprite Edit: zrrion the insect
+Idea Base: The bullet effect from The MatrixSubmitted: scalliano
+Decorate: scalliano
+GLDefs: N/A
+Sprites: Justin Fisher
+Sounds: Aliens TC, Quake III
+Idea Base: Pulse Rifle from the Aliens TC
+Submitted: Xim
+Decorate: Xim
+Sprites: 3D Realms
+Sprite Edit: Xim
+Sounds: Unknown
+Idea Base: Shotgun from Doom, Shotgun from Duke Nukem 64
+Submitted: DBJ87
+Decorate: DBJ87
+Sounds: Id Software (Doom 3 Fire & Reload), Bad Mojo (Quad Fire)
+Sprites: Id Software, 1337spy, Bgraybr, Warhawk
+Sprite Edit: 1337spy (Idle Sprites), Bgraybr, Warhawk
+Idea Base: Based on the QuadShotgun Zombie's Weapon by Ghastly_dragon
+
+Thanks to MagicWazard, Blue Shadow, Bad Mojo for your feedback and input.
+Thank you to Yholl. For giving me the permission to use the sprite set now in
+use. Quad Shotgun's sprites taken, with permission, from DRLA.
+
+I only take credit for creating this variant's decorate as any sprites or sounds
+I had created or edited in earlier (pre-December 2016) versions are now not
+included or in use.
+Submitted: Ghastly_dragon
+Decorate: The Skulltag Team
+Sprites: The Skulltag Team
+Idea Base: Quake series' Railgun
+--Credits--
+Submitted: Mor'ladim
+Decorate: Mor'ladim
+Sounds: Mor'ladim
+Sprites: Mor'ladim, Biomechanical Toy (Hitscan)
+Idea Base: Gemini Handgun (Borderlands)
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Doom, Hexen, Strife, CyClones
+SpriteEdit: Captain Toenail
+Sounds: TimeSplitters
+Idea Base: Cod W@W/Fallout 3 raygunsSubmitted: Trooper 077
+Decorate: Trooper 077
+Sounds: Call of Duty 2
+Sprites: 3D Realms
+Sprite Edit: Trooper 077, Pillowblaster
+
+I would also like to thank Pillowblaster for replacing the hands,If it wasn't for him taking the effort to do that,This weapon 
+would have ended up rejected for some timeSubmitted: Ghastly_dragon
+Decorate: Eriance
+GLDefs: Ghastly_dragon
+Sprites: Eriance
+Sounds: Eriance, Raven Software
+Submitted: Ghastly_dragon
+Decorate: TheDarkArchon
+Sprites: Id Software
+Sprite Edit: TheDarkArchon
+Sounds: Valve Software
+--Credits--
+Submitted: Mor'ladim
+Decorate: Mor'ladim
+Sounds: Mor'ladim, Fate, Phantasy Star Online
+Sprites: Mor'ladim, Legend of the Monster Hunter (Impact FX), Gradius Rebirth (Alt Fire FX)
+Idea Base: Dead Space 2/Bioshock 2 rivet gun weapons.
+Submitted: Mor'ladim
+Decorate: Mor'ladim
+Sounds: Painkiller, Bulletstorm, Omega Boost
+Sprites: Mor'ladim, id Software, Legend of the Monster Hunter
+Idea Base: Borderlands 2 BUL Loader projectile.Submitted: Ghastly_dragon
+Decorate: The Skulltag Team
+Sprites: The Skulltag Team
+Idea Base: Quake series' Railgun
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDefs: N/A
+Sprites: Doom64, KDiZD, Captain Toenail, coop, Id software
+Sprite Edit: Captain Toenail, coop
+Sounds: coopSubmitted: JoeyTD
+Decorate: JoeyTD
+Sounds: Silenced 9MM handgun
+Sprites: ID Software
+Sprite Edit: JoeyTD
+Idea Base: ID software's pistol but only silentCode: Quantum_Dranger, BadMojo
+Sounds: Id Software
+Sprites: Id Software, BadMojo
+Sprite Edit: Quantum_Dranger
+Idea Base: Quantum_Dranger
+Code: Doomedarchviledemon, PillowBlaster
+Sounds: Valve Software, FreeDoom, Lobotomy Software
+Sprites: Doom, Blood, Touhou Hisouten, Simpletonnn, Eriance
+Sprite Edits: Doomedarchviledemon
+Idea Base: The utilizing of demon parts to make new weapons
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Doom, Blood, JoeyTD
+SpriteEdit: Captain Toenail
+Sounds: Quake2
+Idea Base: Striker shotgunSubmitted: Alexander, Xim
+Decorate: Alexander, Xim
+Sprites: Paul
+Sounds: Raven SoftwareSubmitted: Gothic
+Decorate: Gothic
+GLDefs: Gothic
+Sounds: [Unknown] (ARSENAL.wad), id Software
+Sprites: [Unknown] (ARSENAL.wad), id Software
+Sprite Edit: Gothic
+Idea Base: Plasma Rifle from Doom press release betaSubmitted: Gothic
+Decorate: Gothic
+GLDefs: Gothic
+Sprites: LucasArts, Rogue Entertainment
+Sounds: LucasArts, ID Software
+Sprite Edit: Gothic
+Idea Base: Land mines from Dark Forces and Stronghold
+Decorate: Ghastly
+Sounds: BouncyTEM
+Sprites: Eriance
+Sprite Edit: Gothic, BloxSubmitted: Ghastly_dragon
+Decorate: Tormentor667
+GLDefs: Keksdose
+Sprites: Eriance, Raven Software
+Sounds: Raven Software
+Credits: TDRR, Dean "deathz0r" Joseph
+
+https://forum.zdoom.org/viewtopic.php?f=43&t=63388Submitted: Ghastly_dragon
+Decorate: TheDarkArchon
+Sprites: Nmn
+Sounds: Freedoom
+Submitted: MagicWazard
+Decorate: MagicWazard
+Sounds: Call of Duty
+Sprites: JoeyTD, NeuralStunner
+Sprite Edit: MagicWazard
+Idea Base: Far Cry 2, GoldenEye 007Code: hannsg
+Sounds: Id Software
+Sprites: Id Software
+Idea Base: Doom 2 beta ssgCode: XLightningStormL
+Sounds: Infinity Ward
+Sprites: Captain Toenail, Chronoteeth, GAA1992, Bourbon Cowboy, Monolith, Id Software, YukesVonFaust, edgymemester
+Sprites Edit: XLightningStormL, TheMightyHeracross (empty space removal)
+Idea Base: WW2-era Thompson M1A1
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+GLDEFs: None
+Sprites: Explosion Generator, IPoG, Id Software
+Sprite Edit: Captain Toenail
+Sounds: FreeRadical, CroteamSubmitted: Fuzzyblaze, Infirnex
+Decorate: Fuzzyblaze, Infirnex
+GLDefs: Infirnex
+Sounds: Fuzzyblaze
+Sprites: Fuzzyblaze, id Software, FreeDoom Team
+Sprite Edit: Infirnex
+Idea Base: Doom 3 Plasma Rifle**********************************UBERMINIGUN**********************************
+Info:
+Name: Uber minigun
+Class: Level 4
+Type: Hitscan
+Palette: Doom
+Summon: UberMinigun
+Ammotype: clip
+AltFire: no
+
+Credits:
+Submitted: lolo_is_cool
+Decorate: lolo_is_cool
+Sprites: lolo_is_cool
+Sounds: Croteam
+Idea Base: n/a
+Submitted: Blue Shadow
+Decorate: TheDarkArchon, Xim, Blue Shadow(Edit)
+Sounds: Raven
+Sprites: Scuba Steve
+Idea Base: Unmaker from the Doom Bible
+ACS: NoSubmitted: Blue Shadow, Infirnex
+Decorate: TheDarkArchon, Xim, Blue Shadow(Edit)
+Sounds: Raven
+Sprites: Scuba Steve, JoeyTD, David G.
+Idea Base: Unmaker from the Doom Bible
+ACS: NoDecorate: Eriance
+GLDefs: Keksdose
+Sounds: Eriance, Raven Software, 3d Realms
+Sprites: Eriance, 3d Realms
+Submitted: Batandy
+Decorate: Shotgun edit
+Sounds: reload took from FINDSOUNDS.com / firing sound took from Ubisoft's Call of Juarez Bound in Blood
+Sprites: Doom
+Sprite Edit: Sprites made by joining parts of the double barrel shotgun with parts of the normal shotgun. Pickup sprites by That_One_Doom_Mod 
+Idea Base: Western movies
+ACS: No
+-----------------------------------------------------------------------------------------------------------------------
+
+
+List of Monster Wads:
+------------------------------------------------------------------------------------------------------------------------
+Abbadon.wad
+Afrit.wad
+AgathoDemon.wad
+Agaures.wad
+'Allied Marines.wad'
+Annihilator.wad
+Annolisher.wad
+Antithesis.wad
+Arachnobaron.wad
+Arachnobelphegor.wad
+Arachnocubus.wad
+Arachnohellknight.wad
+Arachnophyte.wad
+ArachnophytePack.wad
+ArachnotronMK2.wad
+Aracnorb.wad
+AracnorbQueen.wad
+ArchdukeChocula.wad
+ArchonOfHell.wad
+ArchvileVariants.wad
+AssaultTrooperDN.wad
+AutoShotgunGuy.wad
+Azazel.wad
+BabyCaco.wad
+Bad.wad
+BaronChampion.wad
+Bastet.wad
+BattleRifleZombie.wad
+BeamRevenant.wad
+BeamZombie.wad
+BeheadedKamikazi.wad
+BelphegorChampion.wad
+BetaSoul.wad
+BFGArachnophyte.wad
+BFGArachnotron.wad
+BFGCommando.wad
+BFGSpiderMastermind.wad
+BiotechGunguy.wad
+Birdimp.wad
+BlackDragonImp.wad
+BlindPinky.wad
+BloodCultist.wad
+BloodDemon.wad
+BloodFiend.wad
+BloodLich.wad
+BloodSkull.wad
+Blot.wad
+'Bruiser and Brute.wad'
+BruiserDemon.wad
+BullShotgunner.wad
+BULLTUBUS.wad
+BUNNY.wad
+Cacobald.wad
+CacodemonElemental.wad
+CacodemonRailgun.wad
+CacodemonShockRifle.wad
+CACOEYE.wad
+Cacolantern.wad
+CacoLich.wad
+Catharsi.wad
+CeilingTurret.wad
+Cendros.wad
+Ceratopsilisk.wad
+Cerberus.wad
+ChaingunDemon.wad
+ChaingunMajor.wad
+ChaingunSpider.wad
+ChainsawZombie.wad
+chaosreaver.wad
+Charlie.wad
+Cheogh.wad
+Chubbs.wad
+CiraeArgoth.wad
+Clown.wad
+Cordie_v8.wad
+CoreTentacles.wad
+CrackoDemon.wad
+crash.wad
+crimsonsoul.wad
+Crow.wad
+Cryocubus.wad
+CyberBaron.wad
+CyberBelphegor.wad
+CyberFiend.wad
+Cyberhellknight.wad
+cyberimp.wad
+CyberMastermind.wad
+Cybruiser.wad
+D3Cacodemon.wad
+D3Imp.wad
+D3Mancubus.wad
+D64PainElemental.wad
+D64PainElemental2.wad
+Daedabus.wad
+DagfallSkeleton.wad
+DarkAnnihilator.wad
+DarkCardinal.wad
+DarkCyberMastermind.wad
+DarkDevil.wad
+DarkFlyingImp.wad
+DarkHarbinger.wad
+DarkImpAbomination.wad
+DarkImpNami.wad
+DarkImpNether.wad
+DarkImpST.wad
+DarkImpVoid.wad
+DarkInciter.wad
+DarknessRift.wad
+DeathIncarnate.wad
+DeepOne.wad
+Defiler.wad
+Demoliphyte.wad
+Demolisher.wad
+DemonDaddy.wad
+DevastatorArachnotron.wad
+DevastatorZombie.wad
+Devil.wad
+Devilman.wad
+Devilworms.wad
+Diabolist.wad
+divshadw.wad
+DoubleChaingunner.wad
+DRadysAllies.wad
+'Dragon Imp.wad'
+Drone.wad
+DRPGGhoul.wad
+DuneWarrior.wad
+ElementalCherub.wad
+Elephanto.wad
+EliteGuard.wad
+EnhancedCaco.wad
+EtherealSoul.wad
+EvilEntity.wad
+EvilKnight.wad
+Exterminator.wad
+Eyes.wad
+Fallen.wad
+FatRocketeerDN.wad
+FattieZombie.wad
+femaleplasma.wad
+femalerail.wad
+FemaleScientist.wad
+FemaleScientist2.wad
+FemaleScientist3.wad
+FemaleScientist4.wad
+femalesergeant.wad
+femalezombie.wad
+FishThingy.wad
+FlailDemon.wad
+FlamerZombie.wad
+'Flare Zombie Man.wad'
+FlemoidusArachnus.wad
+FlemoidusTenacious.wad
+Fleshspawn.wad
+FleshWizard.wad
+FlyingImp.wad
+FlyKing.wad
+ForgottenOne.wad
+FormerCommander.wad
+FormerRanger.wad
+FormerSoldier01.wad
+FreezerZombie.wad
+FusionSpider.wad
+GargantuanHorror.wad
+Gatekeeper.wad
+Ghast.wad
+GhostRevenant.wad
+GiantBat.wad
+GiantRat.wad
+Goblin.wad
+Gonome.wad
+greatermancubus.wad
+GreenSwampZombie.wad
+Grell.wad
+GreyAlien.wad
+GrossElemental.wad
+'GRUNT and GRUNT SARGEANT.wad'
+GuardianCube.wad
+GutlessOne.wad
+HadesSphere.wad
+HAEDEX.wad
+Hangman.wad
+HazmatZombie.wad
+HeadMonster.wad
+HeavenGuard.wad
+HeavyCarbineGuy.wad
+HeavyGuard.wad
+Hectebus.wad
+Helemental.wad
+'Hell Paladin.wad'
+HellHound.wad
+Hellion.wad
+HellRose.wad
+HellsFury.wad
+HellstormArchon.wad
+HellWarrior.wad
+Hierophant.wad
+HopperClown.wad
+HornedImp.wad
+Hornet.wad
+IceImp.wad
+Illus.wad
+ImpAbomination.wad
+ImpSkulltag.wad
+ImpTrite.wad
+ImpVoid.wad
+Incubus.wad
+'InfernalSpider (Jumping).wad'
+Inferno.wad
+InsanityArachnophyteV2.wad
+InsanityDemoliphyte.wad
+InsanityDemolisher.wad
+InsanitySpiderV2.wad
+InsanitySupremeFiend.wad
+Isabelle.wad
+JetpackZombie.wad
+Juggernaut.wad
+KarasawaGuy.wad
+Laser-Scout.wad
+lasershark.wad
+Lavademon.wad
+LesserMutant.wad
+LizardCommander.wad
+LizardEnforcer.wad
+Loper.wad
+LordOfHeresy.wad
+LostSpirit.wad
+machinegunzombie.wad
+Maephisto.wad
+MaulerDemon.wad
+MegaBaron.wad
+MeleeRevenant.wad
+Minigunner.wad
+Moloch.wad
+Naberios.wad
+NagaGoddess.wad
+NailBorg.wad
+NailBorgCommando.wad
+NetherworldDrone.wad
+NetherworldQueen.wad
+'Nightmare Spectre.wad'
+Nightmare.wad
+nightmarebeast.wad
+NightmareDemon.wad
+NightmareMechDemon.wad
+nightmarewitch.wad
+Nightshade.wad
+NoirCacodemon.wad
+ObsidianStatue.wad
+Otent.wad
+OutcastAcidDemon.wad
+OutcastNightcrawler.wad
+Overlord.wad
+PainElementalElemental.wad
+PainGasm.wad
+Pancakubus.wad
+ParasitePatient.wad
+'Phantasm (Classic).wad'
+Phantasm.wad
+Phantom.wad
+PhaseImp.wad
+piranha.wad
+PisciumAnguisRealm.wad
+PissedOffImp.wad
+PlasmaDemon.wad
+PlasmaElemental.wad
+PlasmaSentient.wad
+PlasmaZombie.wad
+Poe.wad
+'Poison Baron.wad'
+PoisonSoul.wad
+Poltergeist.wad
+Predator.wad
+ProfaneOne.wad
+PrototypeContainer.wad
+PsychicSoul.wad
+PulseNailgunZombie.wad
+Pustule.wad
+PyrobusBeta.wad
+PyroDemon.wad
+PyroImp.wad
+Pyropork.wad
+PyroZombie.wad
+Q1Spawn.wad
+Q2IronMaiden.wad
+Q4TeleportDropBeast.wad
+QuadShotgunZombie.wad
+RailArachnotron.wad
+RailBot.wad
+Ralsei.wad
+RandomElemental.wad
+RapidFireTrooper.wad
+Reaperman.wad
+RedDemon.wad
+RedSwampZombie.wad
+RepeaterZombie.wad
+RexFiend.wad
+Rictus.wad
+RifleCommando.wad
+RifleZombieman.wad
+rlyehwarrior.wad
+Roach.wad
+'Robodude Buddy.wad'
+RocketCyberSpectre.wad
+RocketImp.wad
+RocketZombie.wad
+RocketZombie2.wad
+Rottweiler.wad
+Sabaoth.wad
+Satyr.wad
+SawedOffZombie.wad
+SegwayZombie.wad
+SelkisMinion.wad
+SentientMushroom.wad
+SerpentDemigod.wad
+SetMinion.wad
+Shade.wad
+ShadeElemental.wad
+Shadow.wad
+ShadowHunter.wad
+ShadowImp.wad
+ShadowTrooper.wad
+shark.wad
+ShieldSentinel.wad
+ShockTrooperAlien.wad
+ShotgunVariants.wad
+Sikkibus.wad
+Skeleton.wad
+SkullPriestess.wad
+Slaughterous.wad
+SlimeImp.wad
+SlimeWorm.wad
+SlipgateZombie.wad
+SmallRat.wad
+SMGZombie.wad
+SmokeMonster.wad
+SnakeImp.wad
+SniperZombie.wad
+SonicRailgunZombie.wad
+SoulHarvester.wad
+SourceGuardian.wad
+SpaceMine.wad
+SpaceVixen.wad
+SpiritImp.wad
+Squire.wad
+Stalker.wad
+StealthFighter.wad
+StoneDemon.wad
+StoneImp.wad
+StoneImpHidden.wad
+SuicideBomber.wad
+SumoWrestler.wad
+Superdemon.wad
+SuperDevil.wad
+SuperFlyingImp.wad
+SuperImp.wad
+SuperShotgunZombie.wad
+SupremeFiend.wad
+Susie.wad
+Swarm.wad
+SWRipper.wad
+'t800 terminator.wad'
+TechnoPhythe.wad
+TentacledCommando.wad
+TentaclePriest.wad
+Terminator.wad
+Terror.wad
+TeslaCoil.wad
+Thamuz.wad
+Thor.wad
+TimeImp.wad
+TornadoDemon.wad
+TorturedSoul.wad
+TouhouDoomAllies_r11.wad
+ToxicAfrit.wad
+ToxicHellsmith.wad
+TrashMonster.wad
+Trite.wad
+Tyrant.wad
+UACBot.wad
+UberChaingunner.wad
+UndeadHunter.wad
+UndeadPriest.wad
+UnMakerZombie.wad
+UnMancubus.wad
+venommaiden3.wad
+VileSoul.wad
+Vivian_v2.wad
+VoidSoul.wad
+Volacubi.wad
+Vulgar.wad
+WarlordDN.wad
+WarlordOfHell.wad
+Watcher.wad
+Weakener.wad
+Wicked.wad
+WraithD3.wad
+Yeti.wad
+'Zombie Flyer.wad'
+ZombieFodder.wad
+ZombieHenchman.wad
+ZombieMarine.wad
+ZombieMissileTank.wad
+ZombiePipebomber.wad
+ZombiePlasmaTank.wad
+ZombieRailgunner.wad
+ZombieScientist.wad
+ZombieScientist2.wad
+ZombieScientist3.wad
+ZombieScientist4.wad
+ZombieScientist5.wad
+ZombieScientistHeadless.wad
+ZombieScientistPlasma.wad
+ZombieTank.wad
+ZombieVariants.wad
+ZSec.wad
+ZSpecOpsMachinegun.wad
+ZSpecOpsRailgun.wad
+ZSpecOpsShotgun.wad
+Zyberdemon.wad
+------------------------------------------------------------------------------------------------------------------------
+
+List of Weapon Wads:
+------------------------------------------------------------------------------------------------------------------------
+40mmGrenadeLauncher.wad
+AA12Shotgun.wad
+ActionMachineGun.wad
+AK47.wad
+Ammo satchels.wad
+AngledPistol.wad
+Autogun.wad
+AUTOSHOT.wad
+Axe.wad
+BayonetRifle.wad
+BFG10k.wad
+BFG2704.wad
+BioPipebombLauncher.wad
+BlackHoleGenerator.wad
+Bolter.wad
+Bratwurst Weapons.wad
+BRPS.wad
+Butcher.wad
+Channeler.wad
+ClaymoreMine.wad
+Coachgun.wad
+Colt45.wad
+CryoBow.wad
+DemonicLeech.wad
+DesertEagle.wad
+Doom3SSG.wad
+DoubleBladedChainsaw.wad
+DoubleGrenadeLauncher.wad
+DUALLASER.wad
+DukePistol.wad
+DukeShotgun.wad
+EgoSmasher.wad
+ElectroGun.wad
+EMSRifle.wad
+FistRedux.wad
+FistsOfFury.wad
+FlakCannon.wad
+Flamethrower.wad
+Flashlight.wad
+FragGrenade.wad
+FreezeRifle.wad
+GATLASER.wad
+Glock18.wad
+GrenadeLauncher(KDiZD).wad
+GrenadeLauncher.wad
+HandGrenade.wad
+HChaingun.wad
+Heavy Machinegun.wad
+HeavyCarbine_updated.wad
+HeavyRifle.wad
+HellstormCannon.wad
+Hunting Rifle.wad
+iGun.wad
+Ionspray.wad
+Karasawa.wad
+Knife.wad
+LandMineLayer.wad
+LaserCannon.wad
+Light Machinegun.wad
+M16.wad
+M40A1SniperRifle.wad
+M79.wad
+Machete.wad
+Machinegun.wad
+Mag60.wad
+MancubusArm.wad
+MicroUzi.wad
+Minigun.wad
+Model1887.wad
+MP40.wad
+MP5.wad
+Nailgun(MG).wad
+Nailgun(SG).wad
+NerveGasLauncher.wad
+NuclearMissile.wad
+Pipebombs.wad
+Plasma Quad Shotgun v3.wad
+Plasma Rocket Launcher.wad
+PlasmaBallista.wad
+PlasmaBeam.wad
+PlasmaBolter.wad
+PlasmaPistol.wad
+PlasmaShotgun.wad
+PlasmaSplitter.wad
+PLASREP.wad
+PulseNailgun.wad
+PulseRifle.wad
+PumpActionShotgun.wad
+QuadShotgun.wad
+Railgun.wad
+RaptorHG.wad
+Raygun.wad
+Reaper.wad
+Repeater.wad
+Rifle.wad
+RivetGun.wad
+RocketLauncherMkII.wad
+ScatterPistol.wad
+ShieldGun.wad
+ShockRifle.wad
+SideBySideShotgun.wad
+SilencedPistol.wad
+SingleShot.wad
+SkeletalRevenge.wad
+Slug Shotgun.wad
+SmartGun.wad
+Smasher.wad
+SniperRifle.wad
+SPAS-12.wad
+SprayCannon.wad
+StrifeLandMine.wad
+StrifePistol.wad
+StunnerRifle.wad
+SuperMiniMissileLauncher.wad
+SuperShotgun(KDiZD).wad
+SuppressedMP5.wad
+SwatShotgun.wad
+tacshotgun.wad
+ThompsonSMG.wad
+Toaster.wad
+UACPlasmaticRifle.wad
+UberMinigun.wad
+Unmaker.wad
+UnmakerCentered.wad
+UTNTPyroCannon.wad
+Uzi.wad
+WesternShotgun.wad
+Yellowboy.wad
+ZombiemanRifle.wad
+------------------------------------------------------------------------------------------------------------------------ 

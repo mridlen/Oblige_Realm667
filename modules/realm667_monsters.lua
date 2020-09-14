@@ -833,6 +833,140 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	--Bosses.wad
+	Hectebus =
+	{
+	 id = 25123
+	 r = 96
+	 h = 112
+	 prob = 30
+	 health = 1000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
+	}
+	SuperCyber =
+	{
+	 id = 100
+	 r = 40
+	 h = 110
+	 prob = 30
+	 health = 4000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	InsanitySpider =
+	{
+	 id = 9600
+	 r = 96
+	 h = 5000
+	 prob = 30
+	 health = 20
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	Erkki =
+	{
+	 id = 20604
+	 r = 24
+	 h = 64
+	 prob = 30
+	 health = 4000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	Aldhivas =
+	{
+	 id = 5785
+	 r = 22
+	 h = 64
+	 prob = 30
+	 health = 2700
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	Uberzombie =
+	{
+	 id = 15810
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 1800
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	EvilDoomguy =
+	{
+	 id = 17448
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 1900
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	Deathknight =
+	{
+	 id = 27686
+	 r = 25
+	 h = 75
+	 prob = 30
+	 health = 975
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "tough"
+	}
+	HammerHound =
+	{
+	 id = 30006
+	 r = 48
+	 h = 64
+	 prob = 30
+	 health = 3500
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	HellsBattery =
+	{
+	 id = 22448
+	 r = 48
+	 h = 128
+	 prob = 30
+	 health = 4000
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	InsanityArachnophyte =
+	{
+	 id = 22446
+	 r = 64
+	 h = 100
+	 prob = 30
+	 health = 1250
+	 damage = 16
+	 attack = "missile"
+	 density = 0.9
+	 boss_type = "nasty"
+	}
+	--End Bosses.wad
 	Bruiser =
 	{
 	 id = 17385
@@ -4499,6 +4633,17 @@ REALM667.MONSTERS =
 	 attack = "missile"
 	 density = 0.9
 	}
+	RobodudeBuddy =
+	{
+	 id = 17447
+	 r = 20
+	 h = 56
+	 prob = 30
+	 health = 200
+	 damage = 16
+	 attack = "hitscan"
+	 density = 0.9
+	}
 	RocketCyberSpectre =
 	{
 	 id = 16309
@@ -6188,6 +6333,7 @@ OB_MODULES["REALM667_Allies"] =
 	MarineAllySSG 				= { label=_("MarineAllySSG"),			choices=REALM667.MON_CHOICES  }
 	MarineAllyRailgun 			= { label=_("MarineAllyRailgun"),		choices=REALM667.MON_CHOICES  }
 	MarineAllyHSMissile 		= { label=_("MarineAllyHSMissile"),		choices=REALM667.MON_CHOICES  }
+	RobodudeBuddy 			= { label=_("RobodudeBuddy"),			choices=REALM667.MON_CHOICES  }
 	Susie 							= { label=_("Susie"),							choices=REALM667.MON_CHOICES  }
 	TouhouAlice           		= { label=_("TohouAlice"),             		choices=REALM667.MON_CHOICES  }
 	TouhouCirno             		= { label=_("TouhouCirno"),             	choices=REALM667.MON_CHOICES  }
@@ -6306,6 +6452,20 @@ OB_MODULES["REALM667"] =
 	BloodLich               =  {  label=_("BloodLich"),               choices=REALM667.MON_CHOICES  }
 	BloodSkull               =  {  label=_("BloodSkull"),               choices=REALM667.MON_CHOICES  }
 	Blot                     =  {  label=_("Blot"),                     choices=REALM667.MON_CHOICES  }
+	--Bosses.wad
+	Hectebus                     =  {  label=_("Hectebus"),                     choices=REALM667.MON_CHOICES  }
+	SuperCyber                     =  {  label=_("SuperCyber"),                     choices=REALM667.MON_CHOICES  }
+	Hectebus                     =  {  label=_("Hectebus"),                     choices=REALM667.MON_CHOICES  }
+	InsanitySpider                     =  {  label=_("InsanitySpider"),                     choices=REALM667.MON_CHOICES  }
+	Erkki                     =  {  label=_("Erkki"),                     choices=REALM667.MON_CHOICES  }
+	Aldhivas                     =  {  label=_("Aldhivas"),                     choices=REALM667.MON_CHOICES  }
+	Uberzombie                     =  {  label=_("Uberzombie"),                     choices=REALM667.MON_CHOICES  }
+	EvilDoomguy                     =  {  label=_("EvilDoomguy"),                     choices=REALM667.MON_CHOICES  }
+	Deathknight                     =  {  label=_("Deathknight"),                     choices=REALM667.MON_CHOICES  }
+	HammerHound                     =  {  label=_("HammerHound"),                     choices=REALM667.MON_CHOICES  }
+	HellsBattery                     =  {  label=_("HellsBattery"),                     choices=REALM667.MON_CHOICES  }
+	InsanityArachnophyte                     =  {  label=_("InsanityArachnophyte"),                     choices=REALM667.MON_CHOICES  }
+	--End Bosses.wad
 	Bruiser             =  {  label=_("Bruiser"),             choices=REALM667.MON_CHOICES  }
 	BruiserDemon             =  {  label=_("BruiserDemon"),             choices=REALM667.MON_CHOICES  }
 	Brute             =  {  label=_("Brute"),             choices=REALM667.MON_CHOICES  }
