@@ -1532,7 +1532,7 @@ REALM667W.WEAPONS =
 	StunnerRifle =
 	{
 		id = 29256
-		level = 3
+		level = 10
 		pref = 5
 		add_prob = 1
 		hide_prob = 80

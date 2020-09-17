@@ -22,9 +22,6 @@ addon = Urban_Alleyway_Unclogger.pk3
 
 ---- Recent Files ----
 
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-7-2021_swarm_in_the_chambers.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-8-1758_burning_cruelty.wad
-recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-8-2222_fiery_watch.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-9-0934_this_wad_has_insanity.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-9-1133_the_devil_lurks_below.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-10-0951_exterminator_in_the_realm.wad
@@ -32,4 +29,7 @@ recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-10-1148_caverns_of
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-11-0922_fields_of_the_executioner.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-11-1450_sin_city_the_heroes.wad
 recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-12-1519_vacation_in_the_affliction_paradise.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-14-1534_ossuary_of_voraciousness.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-15-1000_megannum_of_the_minotaurs.wad
+recent_wad = C:\Users\mridlen\Dropbox\Apps\Oblige-7.70\2020-9-16-1909_doom_conviction_on_earth.wad
 
