@@ -76,6 +76,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
      Acolyte =
 	{
@@ -647,6 +648,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "nasty"
 	}
 	BaronChampion =
 	{
@@ -1393,6 +1395,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "nasty"
 	}
 	Charlie =
 	{
@@ -3590,6 +3593,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "minor"
 	}
 	HornedDemon =
 	{
@@ -6578,6 +6582,7 @@ REALM667.MONSTERS =
 	 damage = 16
 	 attack = "missile"
 	 density = 0.9
+	 boss_type = "tough"
 	}
 	ZombieFlyer =
 	{
