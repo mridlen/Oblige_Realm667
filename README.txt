@@ -23,7 +23,7 @@ Options -> HUD Options -> Display Nametags -> Weapons
 
 # Installation - Linux (or other)
 1) Don't clone/download this one. Go to the Oblige home and download the "source" package (you'll need to compile it... good luck). http://oblige.sourceforge.net/ 
-2) Just grab the following files:
+2) Just grab the following files from the zip on Dropbox ( https://www.dropbox.com/sh/qienjlrbamj3kzx/AADYxFW1hpjgMvCNXM2LizPla?dl=0 ):
 modules/realm667_monsters.lua
 modules/realm667_weapons.lua
 scripts/defs.lua
