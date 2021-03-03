@@ -12,7 +12,7 @@ Also included:
   https://github.com/caligari87/ObAddon
 
 # Installation - Windows
-1) Download the files and run the oblige.exe
+1) Download the files (from the Dropbox link https://www.dropbox.com/sh/qienjlrbamj3kzx/AADYxFW1hpjgMvCNXM2LizPla?dl=0 ) and run the oblige.exe
 2) Verify the REALM667 box is checked (there are 2 of them now)
 3) Generate your level(s)
 4) Run the generated wad and Realm667.pk3 and/or Realm667_weapons.pk3 with your desired sourceport (only GZDoom was tested)
